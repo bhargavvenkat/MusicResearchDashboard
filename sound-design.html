@@ -1,0 +1,114 @@
+<div class="modular-rack" id="modular-rack">
+    <!-- The SVG layer for drawing patch cables -->
+    <svg class="cable-layer" id="cable-layer"></svg>
+
+    <!-- MODULE 1: OSCILLATOR (VCO) -->
+    <div class="module" id="module-osc">
+        <h2 class="module-title">VCO</h2>
+        <div class="module-controls">
+            <div class="control-group">
+                <div class="label-group"><label>Waveform</label></div>
+                <div class="control-group buttons">
+                    <button class="control-button active" data-wave="sine">SIN</button>
+                    <button class="control-button" data-wave="square">SQR</button>
+                    <button class="control-button" data-wave="sawtooth">SAW</button>
+                </div>
+            </div>
+             <div class="module-controls knob-layout">
+                <div class="knob-group">
+                    <div class="knob" id="osc-freq-knob" data-min="20" data-max="2000" data-value="261.6">
+                        <div class="knob-dial"></div>
+                    </div>
+                    <label class="knob-label">FREQUENCY</label>
+                </div>
+            </div>
+        </div>
+        <div class="module-jacks">
+            <div class="jack-group">
+                <label>FM IN</label>
+                <div class="jack input" data-jack-id="osc-fm-in"></div>
+            </div>
+            <div class="jack-group">
+                <label>OUT</label>
+                <div class="jack output" data-jack-id="osc-out"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODULE 2: LFO -->
+    <div class="module" id="module-lfo">
+        <h2 class="module-title">LFO</h2>
+        <div class="module-controls">
+            <div class="led-display">
+                <div class="led-light" id="lfo-led"></div>
+                <span class="led-label" id="lfo-rate-value">5.0 Hz</span>
+            </div>
+            <div class="module-controls knob-layout">
+                <div class="knob-group">
+                    <div class="knob" id="lfo-rate-knob" data-min="0.1" data-max="30" data-value="5">
+                        <div class="knob-dial"></div>
+                    </div>
+                    <label class="knob-label">RATE</label>
+                </div>
+            </div>
+        </div>
+        <div class="module-jacks">
+            <div class="jack-group">
+                <label>OUT</label>
+                <div class="jack output" data-jack-id="lfo-out"></div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- MODULE 3: FILTER (VCF) -->
+    <div class="module" id="module-filter">
+        <h2 class="module-title">VCF</h2>
+        <div class="module-controls knob-layout">
+            <div class="knob-group">
+                <div class="knob" id="filter-cutoff-knob" data-min="20" data-max="15000" data-value="1000">
+                    <div class="knob-dial"></div>
+                </div>
+                <label class="knob-label">CUTOFF</label>
+            </div>
+            <div class="knob-group">
+                <div class="knob" id="filter-q-knob" data-min="0.1" data-max="30" data-value="1">
+                    <div class="knob-dial"></div>
+                </div>
+                <label class="knob-label">RESONANCE</label>
+            </div>
+        </div>
+        <div class="module-jacks">
+            <div class="jack-group">
+                <label>IN</label>
+                <div class="jack input" data-jack-id="filter-in"></div>
+            </div>
+            <div class="jack-group">
+                <label>FREQ IN</label>
+                <div class="jack input" data-jack-id="filter-freq-in"></div>
+            </div>
+            <div class="jack-group">
+                <label>OUT</label>
+                <div class="jack output" data-jack-id="filter-out"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODULE 4: VCA, ADSR & MASTER -->
+    <div class="module" id="module-vca">
+        <h2 class="module-title">AMP & MASTER</h2>
+        <div class="module-controls">
+            <button id="trigger-gate-btn" class="control-button" style="background-color: var(--accent-primary); color: #0D1117; font-weight:700;">TRIGGER ENVELOPE</button>
+            <div class="master-out-logo">🔊</div>
+            <div class="control-group buttons">
+                <button id="record-btn" class="control-button">Record</button>
+                <a id="download-link" class="control-button" style="display:none; text-align:center; text-decoration:none;">Download</a>
+            </div>
+        </div>
+        <div class="module-jacks">
+            <div class="jack-group"><label>IN</label><div class="jack input" data-jack-id="vca-in"></div></div>
+            <div class="jack-group"><label>GAIN IN</label><div class="jack input" data-jack-id="vca-gain-in"></div></div>
+            <div class="jack-group"><label>OUT</label><div class="jack output" data-jack-id="vca-out"></div></div>
+            <div class="jack-group"><label>MASTER IN</label><div class="jack input" data-jack-id="master-in"></div></div>
+        </div>
+    </div>
+</div>

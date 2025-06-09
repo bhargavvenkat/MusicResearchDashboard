@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard | Sound & Music Research</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-aurora"></div>
+
+    <main class="dashboard">
+
+    
+
+<header class="main-header">
+    <h1>Sound & Music Dashboard</h1>
+    <p>An interactive resource for audio concepts and production.</p>
+    
+    <!-- PASTE THE THEME SWITCHER HERE -->
+<div class="theme-switch-wrapper">
+    <label class="theme-switch" for="theme-checkbox">
+        <input type="checkbox" id="theme-checkbox" />
+        <div class="slider round">
+            <!-- Elegant Sun Icon for Light Mode -->
+            <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+            <!-- Elegant Moon Icon for Dark Mode -->
+            <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        </div>
+    </label>
+</div>
+
+
+        </header>
+
+        <!-- The rest of the HTML content remains the same. -->
+        <section class="card-grid">
+            <div class="card">
+                <h2>Sound</h2>
+                <ul>
+                    <li><a href="physics-of-sound.html">Physics of Sound</a></li>
+                    <li><a href="https://youtube.com/playlist?list=PLSRaENHDLwpg_orLO_QIlphIHPj4wv77p&feature=shared">Audio Signals & Advance Tech</a></li>
+                    <li><a href="https://youtube.com/playlist?list=PLSRaENHDLwphwc_-KolqTIxkzbreNgSaO&feature=shared">Frequency Spectrum & Instrument Ranges</a></li>
+                    <li><a href="https://youtube.com/playlist?list=PLSRaENHDLwpgBSUShVpPVPc9z87mV7bRq&feature=shared">Acoustics & Psycho Acoustics</a></li>
+                    <li><a href="https://youtube.com/playlist?list=PLSRaENHDLwpjdVXeB2nqOgiNL7uFqlEly&feature=shared">Recording & Live Sound</a></li>
+                    <li><a href="sound-design.html">Sound Design</a></li>
+                    <li><a href="https://youtube.com/playlist?list=PLSRaENHDLwpgMeKHNYRgzJCfAUE_1679c&feature=shared">Audio Gears</a></li>
+                </ul>
+            </div>
+            <div class="card">
+                <h2>Music</h2>
+                <ul>
+                    <li><a href="scales.html">Scale Explorer</a></li>
+                    <li><a href="https://youtube.com/playlist?list=PLSRaENHDLwpjTJdsjxyf3PB4RrVZO0aha&feature=shared">Music Theory & Composition</a></li>
+                    <li><a href="https://youtube.com/playlist?list=PLSRaENHDLwpiREpvg--vEBsVFhzpaT-VL&feature=shared">DAW (Logic Pro X)</a></li>
+                    <li><a href="https://youtube.com/playlist?list=PLSRaENHDLwpip33Gsa1getrV0Bq_3I-F8&feature=shared">Music Technology</a></li>
+                    <li><a href="https://youtube.com/playlist?list=PLSRaENHDLwpgWo3VmxtGxbSs3sLw8bnVQ&feature=shared">Mixing & Mastering - An Overview</a></li>
+                    <li><a href="metronome.html">Metronome</a></li>
+                    <li><a href="composer.html">Composer - Case Study</a></li>
+                    <li><a href="https://youtube.com/playlist?list=PLSRaENHDLwpjHBHINsK4rhTu-v9iKFyvF&feature=shared">Film Scoring</a></li>
+                    <li><a href="https://youtube.com/playlist?list=PLSRaENHDLwpgiZh-p2bbHs1dBPtUzRna9&feature=shared">DJ Lessons</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="card card-full-width">
+            <h2>Note Frequency Chart</h2>
+            <p class="hint">Click a frequency to hear it</p>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Note</th>
+                            <th>Octave 0</th>
+                            <th>Octave 1</th>
+                            <th>Octave 2</th>
+                            <th>Octave 3</th>
+                            <th>Octave 4</th>
+                            <th>Octave 5</th>
+                            <th>Octave 6</th>
+                            <th>Octave 7</th>
+                            <th>Octave 8</th>
+                        </tr>
+                    </thead>
+                   
+                    <!-- PASTE THIS NEW, COMPLETE BLOCK IN ITS PLACE -->
+
+                    <tbody>
+                <tr><td>C</td><td>16.35 Hz</td><td>32.70 Hz</td><td>65.41 Hz</td><td>130.81 Hz</td><td>261.63 Hz</td><td>523.25 Hz</td><td>1046.50 Hz</td><td>2093.00 Hz</td><td>4186.01 Hz</td></tr>
+                <tr><td>C#/Db</td><td>17.32 Hz</td><td>34.65 Hz</td><td>69.30 Hz</td><td>138.59 Hz</td><td>277.18 Hz</td><td>554.37 Hz</td><td>1108.73 Hz</td><td>2217.46 Hz</td><td>4434.92 Hz</td></tr>
+                <tr><td>D</td><td>18.35 Hz</td><td>36.71 Hz</td><td>73.42 Hz</td><td>146.83 Hz</td><td>293.66 Hz</td><td>587.33 Hz</td><td>1174.66 Hz</td><td>2349.32 Hz</td><td>4698.63 Hz</td></tr>
+                <tr><td>D#/Eb</td><td>19.45 Hz</td><td>38.89 Hz</td><td>77.78 Hz</td><td>155.56 Hz</td><td>311.13 Hz</td><td>622.25 Hz</td><td>1244.51 Hz</td><td>2489.02 Hz</td><td>4978.03 Hz</td></tr>
+                <tr><td>E</td><td>20.60 Hz</td><td>41.20 Hz</td><td>82.41 Hz</td><td>164.81 Hz</td><td>329.63 Hz</td><td>659.25 Hz</td><td>1318.51 Hz</td><td>2637.02 Hz</td><td>5274.04 Hz</td></tr>
+                <tr><td>F</td><td>21.83 Hz</td><td>43.65 Hz</td><td>87.31 Hz</td><td>174.61 Hz</td><td>349.23 Hz</td><td>698.46 Hz</td><td>1396.91 Hz</td><td>2793.83 Hz</td><td>5587.65 Hz</td></tr>
+                <tr><td>F#/Gb</td><td>23.12 Hz</td><td>46.25 Hz</td><td>92.50 Hz</td><td>185 Hz</td><td>369.99 Hz</td><td>739.99 Hz</td><td>1479.98 Hz</td><td>2959.96 Hz</td><td>5919.91 Hz</td></tr>
+                <tr><td>G</td><td>24.50 Hz</td><td>49 Hz</td><td>98 Hz</td><td>196 Hz</td><td>392 Hz</td><td>783.99 Hz</td><td>1567.98 Hz</td><td>3135.96 Hz</td><td>6271.93 Hz</td></tr>
+                <tr><td>G#/Ab</td><td>25.96 Hz</td><td>51.91 Hz</td><td>103.83 Hz</td><td>207.65 Hz</td><td>415.30 Hz</td><td>830.61 Hz</td><td>1661.22 Hz</td><td>3322.44 Hz</td><td>6644.88 Hz</td></tr>
+                <tr><td>A</td><td>27.50 Hz</td><td>55 Hz</td><td>110 Hz</td><td>220 Hz</td><td>440 Hz</td><td>880 Hz</td><td>1760 Hz</td><td>3520 Hz</td><td>7040 Hz</td></tr>
+                <tr><td>A#/Bb</td><td>29.14 Hz</td><td>58.27 Hz</td><td>116.54 Hz</td><td>233.08 Hz</td><td>466.16 Hz</td><td>932.33 Hz</td><td>1864.66 Hz</td><td>3729.31 Hz</td><td>7458.62 Hz</td></tr>
+                <tr><td>B</td><td>30.87 Hz</td><td>61.74 Hz</td><td>123.47 Hz</td><td>246.94 Hz</td><td>493.88 Hz</td><td>987.77 Hz</td><td>1975.53 Hz</td><td>3951.07 Hz</td><td>7902.13 Hz</td></tr>
+                </tbody>
+                    
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
