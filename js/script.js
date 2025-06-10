@@ -111,42 +111,7 @@ function initializeFrequencyPlayer() {
 }
 
 
-    // --- COMPOSER ARCHIVES PAGE LOGIC ---
-    function initializeComposerPage() {
-        const searchInput = document.getElementById('composer-search');
-        const filterButtons = document.querySelectorAll('.filter-btn');
-        const composerCards = document.querySelectorAll('.composer-card');
-        const composerGrid = document.getElementById('composer-grid');
-
-        if (!searchInput || !composerGrid) return; // Only run on composer page
-        
-        function filterComposers() {
-            const searchValue = searchInput.value.toLowerCase();
-            const activeFilter = document.querySelector('.filter-btn.active').dataset.filter;
-
-            composerCards.forEach(card => {
-                const name = card.dataset.name.toLowerCase();
-                const category = card.dataset.category;
-                const nameMatch = name.includes(searchValue);
-                const categoryMatch = (activeFilter === 'all' || category === activeFilter);
-                
-                if (nameMatch && categoryMatch) {
-                    card.style.display = 'flex';
-                } else {
-                    card.style.display = 'none';
-                }
-            });
-        }
-        
-        searchInput.addEventListener('input', filterComposers);
-        filterButtons.forEach(button => {
-            button.addEventListener('click', () => {
-                document.querySelector('.filter-btn.active').classList.remove('active');
-                button.classList.add('active');
-                filterComposers();
-            });
-        });
-    }
+    
 
     // --- INITIALIZE EVERYTHING ---
     initializeThemeSwitcher();
