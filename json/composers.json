@@ -1,0 +1,1958 @@
+[
+  {
+    "name": "Johann Sebastian Bach",
+    "categories": ["baroque"],
+    "period": "Baroque",
+    "country": "Germany",
+    "contribution": "Master of counterpoint and sacred music, foundational figure of Western classical music",
+    "works": [
+      "Brandenburg Concertos",
+      "Mass in B minor",
+      "The Well-Tempered Clavier"
+    ],
+    "youtube_query": "Johann Sebastian Bach music"
+  },
+  {
+    "name": "Wolfgang Amadeus Mozart",
+    "categories": ["classical"],
+    "period": "Classical",
+    "country": "Austria",
+    "contribution": "Prolific genius across all genres, perfected the classical style",
+    "works": [
+      "Don Giovanni",
+      "Symphony No. 41 Jupiter"
+    ],
+    "youtube_query": "Wolfgang Amadeus Mozart music"
+  },
+  {
+    "name": "Ludwig van Beethoven",
+    "categories": ["classical", "romantic"],
+    "period": "Classical/Romantic",
+    "country": "Germany",
+    "contribution": "Bridged Classical and Romantic eras, revolutionized symphonic form",
+    "works": [
+      "Symphony No. 5",
+      "Symphony No. 9 Choral"
+    ],
+    "youtube_query": "Ludwig van Beethoven music"
+  },
+  {
+    "name": "Pyotr Ilyich Tchaikovsky",
+    "categories": ["romantic"],
+    "period": "Romantic",
+    "country": "Russia",
+    "contribution": "Master of melody and ballet music, infused Russian spirit into Western forms",
+    "works": [
+      "Swan Lake",
+      "The Nutcracker",
+      "Symphony No. 6 Pathétique"
+    ],
+    "youtube_query": "Pyotr Ilyich Tchaikovsky music"
+  },
+  {
+    "name": "Frédéric Chopin",
+    "categories": ["romantic"],
+    "period": "Romantic",
+    "country": "Poland/France",
+    "contribution": "Virtuoso pianist and poet of the piano, elevated the solo piano repertoire",
+    "works": [
+      "Nocturnes",
+      "Polonaises",
+      "Piano Concertos"
+    ],
+    "youtube_query": "Frédéric Chopin music"
+  },
+  {
+    "name": "Claude Debussy",
+    "categories": ["modern", "romantic"],
+    "period": "Impressionist",
+    "country": "France",
+    "contribution": "Pioneer of Impressionism, explored new harmonies and tonal colors",
+    "works": [
+      "Prélude à l'après-midi d'un faune",
+      "La mer",
+      "Clair de lune"
+    ],
+    "youtube_query": "Claude Debussy music"
+  },
+  {
+    "name": "Igor Stravinsky",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "Russia/France/USA",
+    "contribution": "Revolutionary figure in 20th-century music, pioneered rhythmic complexity and neo-classicism",
+    "works": [
+      "The Rite of Spring",
+      "The Firebird",
+      "Petrushka"
+    ],
+    "youtube_query": "Igor Stravinsky music"
+  },
+  {
+    "name": "Richard Wagner",
+    "categories": ["romantic"],
+    "period": "Romantic",
+    "country": "Germany",
+    "contribution": "Revolutionized opera with Gesamtkunstwerk (total work of art), leitmotifs",
+    "works": [
+      "Tristan und Isolde",
+      "The Ring Cycle",
+      "Parsifal"
+    ],
+    "youtube_query": "Richard Wagner music"
+  },
+  {
+    "name": "George Frideric Handel",
+    "categories": ["baroque"],
+    "period": "Baroque",
+    "country": "Germany/England",
+    "contribution": "Master of oratorio and opera, known for dramatic and grand compositions",
+    "works": [
+      "Messiah",
+      "Water Music",
+      "Music for the Royal Fireworks"
+    ],
+    "youtube_query": "George Frideric Handel music"
+  },
+  {
+    "name": "Joseph Haydn",
+    "categories": ["classical"],
+    "period": "Classical",
+    "country": "Austria",
+    "contribution": "Father of the Symphony and Father of the String Quartet, established classical forms",
+    "works": [
+      "Symphony No. 94 Surprise"
+    ],
+    "youtube_query": "Joseph Haydn music"
+  },
+  {
+    "name": "Johannes Brahms",
+    "categories": ["romantic"],
+    "period": "Romantic",
+    "country": "Germany",
+    "contribution": "Master of absolute music, continued classical traditions with Romantic depth",
+    "works": [
+      "Symphony No. 1",
+      "German Requiem",
+      "Violin Concerto"
+    ],
+    "youtube_query": "Johannes Brahms music"
+  },
+  {
+    "name": "Giacomo Puccini",
+    "categories": ["romantic"],
+    "period": "Romantic/Verismo",
+    "country": "Italy",
+    "contribution": "Master of Italian opera, known for his beautiful melodies and dramatic flair",
+    "works": [
+      "La bohème",
+      "Tosca",
+      "Madama Butterfly"
+    ],
+    "youtube_query": "Giacomo Puccini music"
+  },
+  {
+    "name": "Giuseppe Verdi",
+    "categories": ["romantic"],
+    "period": "Romantic",
+    "country": "Italy",
+    "contribution": "Dominant figure in Italian opera, known for powerful dramatic works",
+    "works": [
+      "Aida",
+      "La traviata",
+      "Rigoletto"
+    ],
+    "youtube_query": "Giuseppe Verdi music"
+  },
+  {
+    "name": "Arnold Schoenberg",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "Austria/USA",
+    "contribution": "Developed twelve-tone technique, influential in atonality and serialism",
+    "works": [
+      "Pierrot Lunaire",
+      "Erwartung",
+      "Variations for Orchestra"
+    ],
+    "youtube_query": "Arnold Schoenberg music"
+  },
+  {
+    "name": "Béla Bartók",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "Hungary",
+    "contribution": "Ethnomusicologist and composer, incorporated folk elements into modernist works",
+    "works": [
+      "Concerto for Orchestra",
+      "String Quartets",
+      "Mikrokosmos"
+    ],
+    "youtube_query": "Béla Bartók music"
+  },
+  {
+    "name": "Dmitri Shostakovich",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "Russia (Soviet Union)",
+    "contribution": "Major Soviet composer, known for his powerful symphonies and chamber music",
+    "works": [
+      "Symphony No. 5",
+      "Symphony No. 7 Leningrad"
+    ],
+    "youtube_query": "Dmitri Shostakovich music"
+  },
+  {
+    "name": "Sergei Rachmaninoff",
+    "categories": ["romantic", "modern"],
+    "period": "Romantic/20th Century",
+    "country": "Russia/USA",
+    "contribution": "Virtuoso pianist and composer, known for lush melodies and dramatic works",
+    "works": [
+      "Piano Concerto No. 2",
+      "Rhapsody on a Theme of Paganini",
+      "Vocalise"
+    ],
+    "youtube_query": "Sergei Rachmaninoff music"
+  },
+  {
+    "name": "Gustav Mahler",
+    "categories": ["romantic", "modern"],
+    "period": "Romantic/20th Century",
+    "country": "Austria",
+    "contribution": "Bridge figure, expanded symphonic form, explored existential themes",
+    "works": [
+      "Symphony No. 2 Resurrection"
+    ],
+    "youtube_query": "Gustav Mahler music"
+  },
+  {
+    "name": "Antonio Vivaldi",
+    "categories": ["baroque"],
+    "period": "Baroque",
+    "country": "Italy",
+    "contribution": "Master of the concerto, known for his programmatic and vivid compositions",
+    "works": [
+      "The Four Seasons",
+      "Gloria",
+      "Stabat Mater"
+    ],
+    "youtube_query": "Antonio Vivaldi music"
+  },
+  {
+    "name": "Jean Sibelius",
+    "categories": ["romantic", "modern"],
+    "period": "Romantic/20th Century",
+    "country": "Finland",
+    "contribution": "Nationalist composer, known for his powerful symphonies inspired by nature and Finnish mythology",
+    "works": [
+      "Finlandia",
+      "Symphony No. 2",
+      "Violin Concerto"
+    ],
+    "youtube_query": "Jean Sibelius music"
+  },
+  {
+    "name": "Hector Berlioz",
+    "categories": ["romantic"],
+    "period": "Romantic",
+    "country": "France",
+    "contribution": "Pioneer of program music, expanded orchestral colors and techniques",
+    "works": [
+      "Symphonie fantastique",
+      "Requiem",
+      "Les Troyens"
+    ],
+    "youtube_query": "Hector Berlioz music"
+  },
+  {
+    "name": "Franz Schubert",
+    "categories": ["classical", "romantic"],
+    "period": "Classical/Romantic",
+    "country": "Austria",
+    "contribution": "Master of the Lied (song), prolific composer of symphonies and chamber music",
+    "works": [
+      "Symphony No. 8 Unfinished"
+    ],
+    "youtube_query": "Franz Schubert music"
+  },
+  {
+    "name": "Antonín Dvořák",
+    "categories": ["romantic"],
+    "period": "Romantic",
+    "country": "Bohemia (Czech Republic)",
+    "contribution": "Incorporated folk melodies into classical forms, known for rich orchestral works",
+    "works": [
+      "Symphony No. 9 From the New World"
+    ],
+    "youtube_query": "Antonín Dvořák music"
+  },
+  {
+    "name": "Maurice Ravel",
+    "categories": ["modern"],
+    "period": "Impressionist/20th Century",
+    "country": "France",
+    "contribution": "Master orchestrator, known for refined harmonies and vibrant textures",
+    "works": [
+      "Boléro",
+      "Daphnis et Chloé",
+      "Piano Concerto in G"
+    ],
+    "youtube_query": "Maurice Ravel music"
+  },
+  {
+    "name": "Benjamin Britten",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "England",
+    "contribution": "Leading figure in 20th-century opera, known for his dramatic and accessible works",
+    "works": [
+      "Peter Grimes",
+      "War Requiem",
+      "The Young Person's Guide to the Orchestra"
+    ],
+    "youtube_query": "Benjamin Britten music"
+  },
+  {
+    "name": "Samuel Barber",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "USA",
+    "contribution": "Neo-Romantic composer, known for his lyrical and expressive music",
+    "works": [
+      "Adagio for Strings",
+      "Violin Concerto",
+      "Knoxville: Summer of 1915"
+    ],
+    "youtube_query": "Samuel Barber music"
+  },
+  {
+    "name": "Philip Glass",
+    "categories": ["modern"],
+    "period": "Minimalist",
+    "country": "USA",
+    "contribution": "Leading minimalist composer, known for repetitive structures and hypnotic rhythms",
+    "works": [
+      "Einstein on the Beach",
+      "Koyaanisqatsi",
+      "The Hours"
+    ],
+    "youtube_query": "Philip Glass music"
+  },
+  {
+    "name": "John Cage",
+    "categories": ["modern"],
+    "period": "20th Century (Avant-garde)",
+    "country": "USA",
+    "contribution": "Pioneer of aleatoric music and prepared piano, challenged traditional musical concepts",
+    "works": [
+      "4'33"
+    ],
+    "youtube_query": "John Cage music"
+  },
+  {
+    "name": "Olivier Messiaen",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "France",
+    "contribution": "Religious mystic and composer, known for his unique harmonic language, bird song integration",
+    "works": [
+      "Quartet for the End of Time",
+      "Turangalîla-Symphonie",
+      "Vingt regards sur l'Enfant-Jésus"
+    ],
+    "youtube_query": "Olivier Messiaen music"
+  },
+  {
+    "name": "Aaron Copland",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "USA",
+    "contribution": "Quintessential American composer, known for his open, expansive soundscapes",
+    "works": [
+      "Appalachian Spring",
+      "Fanfare for the Common Man",
+      "Billy the Kid"
+    ],
+    "youtube_query": "Aaron Copland music"
+  },
+  {
+    "name": "Heitor Villa-Lobos",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "Brazil",
+    "contribution": "Foremost Latin American composer, integrated Brazilian folk and popular music with classical forms",
+    "works": [
+      "Bachianas Brasileiras",
+      "Chôros",
+      "Etudes for Guitar"
+    ],
+    "youtube_query": "Heitor Villa-Lobos music"
+  },
+  {
+    "name": "Manuel de Falla",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "Spain",
+    "contribution": "Nationalist composer, integrated Spanish folk music and flamenco into his works",
+    "works": [
+      "El amor brujo",
+      "Nights in the Gardens of Spain",
+      "The Three-Cornered Hat"
+    ],
+    "youtube_query": "Manuel de Falla music"
+  },
+  {
+    "name": "Sofia Gubaidulina",
+    "categories": ["modern"],
+    "period": "20th/21st Century",
+    "country": "Russia",
+    "contribution": "Contemporary composer, known for spiritual and avant-garde works, often with unusual instrumentation",
+    "works": [
+      "Offertorium",
+      "The Canticle of the Sun",
+      "In tempus praesens"
+    ],
+    "youtube_query": "Sofia Gubaidulina music"
+  },
+  {
+    "name": "Toru Takemitsu",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "Japan",
+    "contribution": "Blended Western classical, traditional Japanese music, and electronic sounds, known for evocative and subtle textures",
+    "works": [
+      "November Steps",
+      "Requiem for String Orchestra",
+      "Spirit Garden"
+    ],
+    "youtube_query": "Toru Takemitsu music"
+  },
+  {
+    "name": "Chen Yi",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "China/USA",
+    "contribution": "Blends Chinese traditional music with Western compositional techniques",
+    "works": [
+      "Ge Xu (Antiphony)",
+      "The Golden Flute",
+      "Sparkle"
+    ],
+    "youtube_query": "Chen Yi music"
+  },
+  {
+    "name": "Kaija Saariaho",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "Finland",
+    "contribution": "Leading contemporary composer, known for spectral music and exploration of timbre",
+    "works": [
+      "L'Amour de loin",
+      "Du Cristal",
+      "Orion"
+    ],
+    "youtube_query": "Kaija Saariaho music"
+  },
+  {
+    "name": "Unsuk Chin",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "South Korea/Germany",
+    "contribution": "Known for complex, virtuosic, and often fantastical orchestral and chamber works",
+    "works": [
+      "Violin Concerto",
+      "Alice in Wonderland (opera)",
+      "Gougalōn"
+    ],
+    "youtube_query": "Unsuk Chin music"
+  },
+  {
+    "name": "Alberto Ginastera",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "Argentina",
+    "contribution": "Leading Latin American composer, incorporated Argentine folk elements with modernist techniques",
+    "works": [
+      "Estancia",
+      "Harp Concerto",
+      "Piano Sonata No. 1"
+    ],
+    "youtube_query": "Alberto Ginastera music"
+  },
+  {
+    "name": "José Maurício Nunes Garcia",
+    "categories": ["classical"],
+    "period": "Classical",
+    "country": "Brazil",
+    "contribution": "Important early Brazilian composer, a priest who wrote sacred and secular music",
+    "works": [
+      "Requiem Mass",
+      "Missa de Nossa Senhora do Carmo"
+    ],
+    "youtube_query": "José Maurício Nunes Garcia music"
+  },
+  {
+    "name": "Florence Price",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "USA",
+    "contribution": "First African American woman to have a symphony performed by a major American orchestra",
+    "works": [
+      "Symphony No. 1 in E minor",
+      "Piano Concerto in One Movement"
+    ],
+    "youtube_query": "Florence Price music"
+  },
+  {
+    "name": "William Grant Still",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "USA",
+    "contribution": "Dean of African-American Composers, incorporated African American spirituals and jazz into classical forms",
+    "works": [
+      "Afro-American Symphony",
+      "Troubled Island"
+    ],
+    "youtube_query": "William Grant Still music"
+  },
+  {
+    "name": "Julius Eastman",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "USA",
+    "contribution": "Post-minimalist, avant-garde composer, known for his bold and provocative works",
+    "works": [
+      "Gay Guerrilla",
+      "Evil N*****"
+    ],
+    "youtube_query": "Julius Eastman music"
+  },
+  {
+    "name": "Hildegard von Bingen",
+    "categories": ["medieval"],
+    "period": "Medieval",
+    "country": "Holy Roman Empire (Germany)",
+    "contribution": "Visionary mystic, abbess, and composer, wrote liturgical dramas and monophonic chants",
+    "works": [
+      "Ordo Virtutum",
+      "Symphonia armoniae celestium revelationum"
+    ],
+    "youtube_query": "Hildegard von Bingen music"
+  },
+  {
+    "name": "Giovanni Pierluigi da Palestrina",
+    "categories": ["renaissance"],
+    "period": "Renaissance",
+    "country": "Italy",
+    "contribution": "Master of Renaissance polyphony, known for his serene and pure choral music",
+    "works": [
+      "Missa Papae Marcelli",
+      "Sicut cervus"
+    ],
+    "youtube_query": "Giovanni Pierluigi da Palestrina music"
+  },
+  {
+    "name": "Claudio Monteverdi",
+    "categories": ["renaissance", "baroque"],
+    "period": "Renaissance/Baroque",
+    "country": "Italy",
+    "contribution": "Pioneer of opera, bridged Renaissance and Baroque styles, developed the madrigal",
+    "works": [
+      "L'Orfeo",
+      "L'incoronazione di Poppea",
+      "Madrigals"
+    ],
+    "youtube_query": "Claudio Monteverdi music"
+  },
+  {
+    "name": "Henry Purcell",
+    "categories": ["baroque"],
+    "period": "Baroque",
+    "country": "England",
+    "contribution": "Leading English Baroque composer, known for his operas, semi-operas, and incidental music",
+    "works": [
+      "Dido and Aeneas",
+      "The Fairy-Queen",
+      "Fantasias for Viols"
+    ],
+    "youtube_query": "Henry Purcell music"
+  },
+  {
+    "name": "Domenico Scarlatti",
+    "categories": ["baroque"],
+    "period": "Baroque",
+    "country": "Italy",
+    "contribution": "Master of keyboard sonatas, known for their virtuosity and inventiveness",
+    "works": [
+      "Over 550 keyboard sonatas"
+    ],
+    "youtube_query": "Domenico Scarlatti music"
+  },
+  {
+    "name": "Jean-Philippe Rameau",
+    "categories": ["baroque"],
+    "period": "Baroque",
+    "country": "France",
+    "contribution": "Leading French Baroque composer, influential in opera and music theory",
+    "works": [
+      "Castor et Pollux",
+      "Les Indes galantes",
+      "Traité de l'harmonie"
+    ],
+    "youtube_query": "Jean-Philippe Rameau music"
+  },
+  {
+    "name": "Carl Philipp Emanuel Bach",
+    "categories": ["classical"],
+    "period": "Classical",
+    "country": "Germany",
+    "contribution": "Important bridge figure from Baroque to Classical, known for Empfindsamkeit (sensibility)",
+    "works": [
+      "Hamburg Symphonies",
+      "Keyboard Sonatas"
+    ],
+    "youtube_query": "Carl Philipp Emanuel Bach music"
+  },
+  {
+    "name": "Christoph Willibald Gluck",
+    "categories": ["classical"],
+    "period": "Classical",
+    "country": "Germany",
+    "contribution": "Reformed opera, emphasizing dramatic integrity and simplification",
+    "works": [
+      "Orfeo ed Euridice",
+      "Alceste"
+    ],
+    "youtube_query": "Christoph Willibald Gluck music"
+  },
+  {
+    "name": "Giovanni Battista Pergolesi",
+    "categories": ["baroque", "classical"],
+    "period": "Baroque/Classical",
+    "country": "Italy",
+    "contribution": "Known for his sacred music and opera buffa (comic opera)",
+    "works": [
+      "Stabat Mater",
+      "La serva padrona"
+    ],
+    "youtube_query": "Giovanni Battista Pergolesi music"
+  },
+  {
+    "name": "Franz Liszt",
+    "categories": ["romantic"],
+    "period": "Romantic",
+    "country": "Hungary",
+    "contribution": "Virtuoso pianist and innovator of the symphonic poem, expanded piano technique",
+    "works": [
+      "Hungarian Rhapsodies",
+      "Piano Sonata in B minor",
+      "Les préludes"
+    ],
+    "youtube_query": "Franz Liszt music"
+  },
+  {
+    "name": "Robert Schumann",
+    "categories": ["romantic"],
+    "period": "Romantic",
+    "country": "Germany",
+    "contribution": "Leading Romantic composer, known for his lyrical piano music, Lieder, and symphonies",
+    "works": [
+      "Carnaval",
+      "Dichterliebe",
+      "Piano Concerto in A minor"
+    ],
+    "youtube_query": "Robert Schumann music"
+  },
+  {
+    "name": "Felix Mendelssohn",
+    "categories": ["romantic"],
+    "period": "Romantic",
+    "country": "Germany",
+    "contribution": "Prodigious talent, blended classical form with Romantic lyricism",
+    "works": [
+      "Violin Concerto in E minor",
+      "Midsummer Night's Dream Overture",
+      "Scottish Symphony"
+    ],
+    "youtube_query": "Felix Mendelssohn music"
+  },
+  {
+    "name": "Richard Strauss",
+    "categories": ["modern", "romantic"],
+    "period": "Late Romantic/Early 20th Century",
+    "country": "Germany",
+    "contribution": "Master of the tone poem and opera, known for his rich orchestration",
+    "works": [
+      "Also sprach Zarathustra",
+      "Der Rosenkavalier",
+      "Salome"
+    ],
+    "youtube_query": "Richard Strauss music"
+  },
+  {
+    "name": "Sergei Prokofiev",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "Russia (Soviet Union)",
+    "contribution": "Distinctive modernist voice, known for his diverse and often dissonant works",
+    "works": [
+      "Peter and the Wolf",
+      "Romeo and Juliet",
+      "Piano Concerto No. 3"
+    ],
+    "youtube_query": "Sergei Prokofiev music"
+  },
+  {
+    "name": "Alban Berg",
+    "categories": ["modern"],
+    "period": "20th Century (Second Viennese School)",
+    "country": "Austria",
+    "contribution": "Combined Romantic expression with atonality and twelve-tone technique",
+    "works": [
+      "Wozzeck",
+      "Violin Concerto",
+      "Lulu"
+    ],
+    "youtube_query": "Alban Berg music"
+  },
+  {
+    "name": "Anton Webern",
+    "categories": ["modern"],
+    "period": "20th Century (Second Viennese School)",
+    "country": "Austria",
+    "contribution": "Pioneered serialism and Klangfarbenmelodie, known for highly concentrated works",
+    "works": [
+      "Five Pieces for Orchestra",
+      "Symphony Op. 21"
+    ],
+    "youtube_query": "Anton Webern music"
+  },
+  {
+    "name": "Karlheinz Stockhausen",
+    "categories": ["modern"],
+    "period": "20th/21st Century",
+    "country": "Germany",
+    "contribution": "Pioneer of electronic music, integral serialism, and spatial music",
+    "works": [
+      "Gesang der Jünglinge",
+      "Gruppen",
+      "Kontakte"
+    ],
+    "youtube_query": "Karlheinz Stockhausen music"
+  },
+  {
+    "name": "Pierre Boulez",
+    "categories": ["modern"],
+    "period": "20th/21st Century",
+    "country": "France",
+    "contribution": "Leading figure in post-WWII avant-garde, integral serialism, conductor",
+    "works": [
+      "Le Marteau sans maître",
+      "Notations",
+      "Répons"
+    ],
+    "youtube_query": "Pierre Boulez music"
+  },
+  {
+    "name": "Luciano Berio",
+    "categories": ["modern"],
+    "period": "20th/21st Century",
+    "country": "Italy",
+    "contribution": "Known for his experimental and avant-garde works, often exploring vocal techniques",
+    "works": [
+      "Sequenzas",
+      "Sinfonia",
+      "Folk Songs"
+    ],
+    "youtube_query": "Luciano Berio music"
+  },
+  {
+    "name": "György Ligeti",
+    "categories": ["modern"],
+    "period": "20th/21st Century",
+    "country": "Hungary/Austria",
+    "contribution": "Known for micropolyphony, intricate textures, and atmospheric compositions",
+    "works": [
+      "Lux Aeterna",
+      "Atmosphères",
+      "Etudes for Piano"
+    ],
+    "youtube_query": "György Ligeti music"
+  },
+  {
+    "name": "Krzysztof Penderecki",
+    "categories": ["modern"],
+    "period": "20th/21st Century",
+    "country": "Poland",
+    "contribution": "Avant-garde composer, known for sonoristic and textural approaches, often with dramatic intensity",
+    "works": [
+      "Threnody to the Victims of Hiroshima",
+      "St. Luke Passion"
+    ],
+    "youtube_query": "Krzysztof Penderecki music"
+  },
+  {
+    "name": "Arvo Pärt",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "Estonia",
+    "contribution": "Pioneer of tintinnabuli style, known for minimalist and spiritual works",
+    "works": [
+      "Spiegel im Spiegel",
+      "Fratres",
+      "Tabula Rasa"
+    ],
+    "youtube_query": "Arvo Pärt music"
+  },
+  {
+    "name": "John Adams",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "USA",
+    "contribution": "Post-minimalist composer, known for his energetic and often politically charged operas and orchestral works",
+    "works": [
+      "Nixon in China",
+      "Short Ride in a Fast Machine",
+      "Harmonielehre"
+    ],
+    "youtube_query": "John Adams music"
+  },
+  {
+    "name": "Witold Lutosławski",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "Poland",
+    "contribution": "Leading Polish composer, known for aleatoric techniques and rich harmonies",
+    "works": [
+      "Concerto for Orchestra",
+      "Cello Concerto",
+      "Symphony No. 3"
+    ],
+    "youtube_query": "Witold Lutosławski music"
+  },
+  {
+    "name": "György Kurtág",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "Hungary",
+    "contribution": "Known for his aphoristic and highly concentrated chamber works",
+    "works": [
+      "Messages of the late Miss R.V. Troussova",
+      "Játékok"
+    ],
+    "youtube_query": "György Kurtág music"
+  },
+  {
+    "name": "Tan Dun",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "China/USA",
+    "contribution": "Blends Chinese folk traditions with Western avant-garde techniques, known for multimedia works",
+    "works": [
+      "Crouching Tiger, Hidden Dragon (film score)",
+      "Water Passion After St. Matthew",
+      "Pipa Concerto"
+    ],
+    "youtube_query": "Tan Dun music"
+  },
+  {
+    "name": "Osvaldo Golijov",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "Argentina/USA",
+    "contribution": "Integrates various musical traditions, including klezmer, tango, and classical",
+    "works": [
+      "La Pasión según San Marcos",
+      "Ayre",
+      "The Dreams and Prayers of Isaac the Blind"
+    ],
+    "youtube_query": "Osvaldo Golijov music"
+  },
+  {
+    "name": "Gabriela Lena Frank",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "USA",
+    "contribution": "Blends Latin American folk traditions with classical forms",
+    "works": [
+      "Leyendas: An Andean Walkabout",
+      "Conquest Requiem"
+    ],
+    "youtube_query": "Gabriela Lena Frank music"
+  },
+  {
+    "name": "Steve Reich",
+    "categories": ["modern"],
+    "period": "Minimalist",
+    "country": "USA",
+    "contribution": "Pioneer of minimalism, known for phase music and rhythmic patterns",
+    "works": [
+      "Music for 18 Musicians",
+      "Different Trains",
+      "Drumming"
+    ],
+    "youtube_query": "Steve Reich music"
+  },
+  {
+    "name": "Terry Riley",
+    "categories": ["modern"],
+    "period": "Minimalist",
+    "country": "USA",
+    "contribution": "Early pioneer of minimalism, known for his influential work In C",
+    "works": [
+      "In C",
+      "A Rainbow in Curved Air"
+    ],
+    "youtube_query": "Terry Riley music"
+  },
+  {
+    "name": "La Monte Young",
+    "categories": ["modern"],
+    "period": "Minimalist/Avant-garde",
+    "country": "USA",
+    "contribution": "Early minimalist and drone music pioneer, highly influential in avant-garde circles",
+    "works": [
+      "The Well-Tuned Piano",
+      "Composition 1960 #7"
+    ],
+    "youtube_query": "La Monte Young music"
+  },
+  {
+    "name": "George Crumb",
+    "categories": ["modern"],
+    "period": "20th/21st Century",
+    "country": "USA",
+    "contribution": "Known for his avant-garde and experimental approach, often employing extended techniques and unusual scoring",
+    "works": [
+      "Black Angels",
+      "Ancient Voices of Children",
+      "Makrokosmos"
+    ],
+    "youtube_query": "George Crumb music"
+  },
+  {
+    "name": "Alfred Schnittke",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "Russia",
+    "contribution": "Developed polystylism, blending diverse musical styles and historical periods",
+    "works": [
+      "Concerto Grosso No. 1",
+      "Piano Concerto",
+      "Symphony No. 1"
+    ],
+    "youtube_query": "Alfred Schnittke music"
+  },
+  {
+    "name": "Lou Harrison",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "USA",
+    "contribution": "Championed global music, integrating Asian and Western elements, and microtonality",
+    "works": [
+      "Concerto for Pipa and String Orchestra",
+      "Suite for Violin and American Gamelan"
+    ],
+    "youtube_query": "Lou Harrison music"
+  },
+  {
+    "name": "Henry Cowell",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "USA",
+    "contribution": "Pioneering modernist, explored tone clusters, prepared piano, and non-Western scales",
+    "works": [
+      "The Banshee",
+      "Aeolian Harp",
+      "Persian Set"
+    ],
+    "youtube_query": "Henry Cowell music"
+  },
+  {
+    "name": "Charles Ives",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "USA",
+    "contribution": "American modernist, known for his experimental and often polytonal works, foresight",
+    "works": [
+      "Symphony No. 3 The Camp Meeting"
+    ],
+    "youtube_query": "Charles Ives music"
+  },
+  {
+    "name": "Ruth Crawford Seeger",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "USA",
+    "contribution": "Modernist composer, pioneer in dissonant counterpoint and serialism",
+    "works": [
+      "String Quartet 1931",
+      "Preludes for Piano"
+    ],
+    "youtube_query": "Ruth Crawford Seeger music"
+  },
+  {
+    "name": "Nadia Boulanger",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "France",
+    "contribution": "Influential composition teacher, also a composer and conductor",
+    "works": [
+      "Fantaisie variée pour piano et orchestre"
+    ],
+    "youtube_query": "Nadia Boulanger music"
+  },
+  {
+    "name": "Germaine Tailleferre",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "France",
+    "contribution": "Member of Les Six, known for her charming and often neoclassical style",
+    "works": [
+      "Concertino for Harp and Orchestra",
+      "Ballade for Piano and Orchestra"
+    ],
+    "youtube_query": "Germaine Tailleferre music"
+  },
+  {
+    "name": "Ethel Smyth",
+    "categories": ["modern", "romantic"],
+    "period": "Late Romantic/Early 20th Century",
+    "country": "England",
+    "contribution": "Composer and suffragette, known for her operas and orchestral works",
+    "works": [
+      "The Wreckers",
+      "Mass in D",
+      "March of the Women"
+    ],
+    "youtube_query": "Ethel Smyth music"
+  },
+  {
+    "name": "Amy Beach",
+    "categories": ["romantic"],
+    "period": "Late Romantic",
+    "country": "USA",
+    "contribution": "First American woman to achieve widespread recognition as a composer of large-scale works",
+    "works": [
+      "Gaelic Symphony",
+      "Piano Concerto"
+    ],
+    "youtube_query": "Amy Beach music"
+  },
+  {
+    "name": "Clara Schumann",
+    "categories": ["romantic"],
+    "period": "Romantic",
+    "country": "Germany",
+    "contribution": "Renowned pianist and composer, known for her lyrical piano works and songs",
+    "works": [
+      "Piano Concerto in A minor",
+      "Piano Trio in G minor",
+      "Romances"
+    ],
+    "youtube_query": "Clara Schumann music"
+  },
+  {
+    "name": "Fanny Mendelssohn",
+    "categories": ["romantic"],
+    "period": "Romantic",
+    "country": "Germany",
+    "contribution": "Gifted composer and pianist, older sister of Felix Mendelssohn",
+    "works": [
+      "Das Jahr",
+      "Lieder",
+      "Piano Trio in D minor"
+    ],
+    "youtube_query": "Fanny Mendelssohn music"
+  },
+  {
+    "name": "Alma Mahler",
+    "categories": ["modern", "romantic"],
+    "period": "Late Romantic/Early 20th Century",
+    "country": "Austria",
+    "contribution": "Composer and muse, known for her poignant songs",
+    "works": [
+      "Fünf Lieder"
+    ],
+    "youtube_query": "Alma Mahler music"
+  },
+  {
+    "name": "Elisabeth Lutyens",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "England",
+    "contribution": "Pioneer of twelve-tone music in Britain, known for her challenging and inventive works",
+    "works": [
+      "O Saisons",
+      "ô Châteaux!",
+      "Quincunx"
+    ],
+    "youtube_query": "Elisabeth Lutyens music"
+  },
+  {
+    "name": "Grazyna Bacewicz",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "Poland",
+    "contribution": "Versatile composer and violinist, known for her energetic and lyrical works",
+    "works": [
+      "Concerto for String Orchestra",
+      "Violin Concertos",
+      "Quartets"
+    ],
+    "youtube_query": "Grazyna Bacewicz music"
+  },
+  {
+    "name": "Astor Piazzolla",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "Argentina",
+    "contribution": "Revitalized tango with elements of classical and jazz, created nuevo tango",
+    "works": [
+      "Libertango",
+      "Oblivion",
+      "Four Seasons of Buenos Aires"
+    ],
+    "youtube_query": "Astor Piazzolla music"
+  },
+  {
+    "name": "Silvestre Revueltas",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "Mexico",
+    "contribution": "Influential Mexican nationalist composer, known for his vibrant and rhythmically complex music",
+    "works": [
+      "Sensemayá",
+      "Homenaje a Federico García Lorca"
+    ],
+    "youtube_query": "Silvestre Revueltas music"
+  },
+  {
+    "name": "Carlos Chávez",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "Mexico",
+    "contribution": "Leading Mexican nationalist composer, integrated indigenous Mexican elements",
+    "works": [
+      "Sinfonía India",
+      "Xochipilli"
+    ],
+    "youtube_query": "Carlos Chávez music"
+  },
+  {
+    "name": "Einojuhani Rautavaara",
+    "categories": ["modern"],
+    "period": "20th/21st Century",
+    "country": "Finland",
+    "contribution": "Neo-Romantic and mystical composer, known for his rich orchestral textures",
+    "works": [
+      "Cantus Arcticus",
+      "Angel of Light",
+      "Symphony No. 7"
+    ],
+    "youtube_query": "Einojuhani Rautavaara music"
+  },
+  {
+    "name": "Peter Sculthorpe",
+    "categories": ["modern"],
+    "period": "20th/21st Century",
+    "country": "Australia",
+    "contribution": "Incorporated Aboriginal and Indonesian musical traditions into his works",
+    "works": [
+      "Earth Cry",
+      "Kakadu",
+      "String Quartet No. 8"
+    ],
+    "youtube_query": "Peter Sculthorpe music"
+  },
+  {
+    "name": "Zhou Long",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "China/USA",
+    "contribution": "Blends Chinese folk traditions with Western compositional techniques, Pulitzer Prize winner",
+    "works": [
+      "Madame White Snake (opera)",
+      "Rhymes of Taigu"
+    ],
+    "youtube_query": "Zhou Long music"
+  },
+  {
+    "name": "Bright Sheng",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "China/USA",
+    "contribution": "Blends Chinese and Western influences, known for his dramatic operas and orchestral works",
+    "works": [
+      "H'un (Lacerations): In Memoriam 1966-1976",
+      "The Song of Majnun"
+    ],
+    "youtube_query": "Bright Sheng music"
+  },
+  {
+    "name": "Tania León",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "Cuba/USA",
+    "contribution": "Blends various cultural influences, known for her vibrant and rhythmically complex works",
+    "works": [
+      "Indígena",
+      "Inura"
+    ],
+    "youtube_query": "Tania León music"
+  },
+  {
+    "name": "Chen Gang",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "China",
+    "contribution": "Co-composed Butterfly Lovers' Violin Concerto, a fusion of Western and Chinese traditions",
+    "works": [
+      "Butterfly Lovers' Violin Concerto"
+    ],
+    "youtube_query": "Chen Gang music"
+  },
+  {
+    "name": "Xian Xinghai",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "China",
+    "contribution": "Revolutionary composer, known for his patriotic and epic works during the Sino-Japanese War",
+    "works": [
+      "Yellow River Cantata"
+    ],
+    "youtube_query": "Xian Xinghai music"
+  },
+  {
+    "name": "Qigang Chen",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "China/France",
+    "contribution": "Blends traditional Chinese music with Western classical techniques, known for lush orchestrations",
+    "works": [
+      "Instants d'un Opéra de Pékin",
+      "L'éloignement"
+    ],
+    "youtube_query": "Qigang Chen music"
+  },
+  {
+    "name": "Joe Hisaishi",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "Japan",
+    "contribution": "Master of film scores for Studio Ghibli, known for beautiful melodies and rich orchestrations",
+    "works": [
+      "Spirited Away",
+      "My Neighbor Totoro",
+      "Princess Mononoke"
+    ],
+    "youtube_query": "Joe Hisaishi music"
+  },
+  {
+    "name": "Ryuichi Sakamoto",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "Japan",
+    "contribution": "Pioneer of electronic music and film scoring, known for ambient and experimental works",
+    "works": [
+      "Merry Christmas, Mr. Lawrence",
+      "The Last Emperor",
+      "The Revenant"
+    ],
+    "youtube_query": "Ryuichi Sakamoto music"
+  },
+  {
+    "name": "John Luther Adams",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "USA",
+    "contribution": "Explores the relationship between nature and music, known for environmental soundscapes",
+    "works": [
+      "Become Ocean",
+      "The Wind in High Places"
+    ],
+    "youtube_query": "John Luther Adams music"
+  },
+  {
+    "name": "Michael Nyman",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "England",
+    "contribution": "Minimalist composer, known for his film scores and repetitive rhythmic patterns",
+    "works": [
+      "The Piano",
+      "The Draughtsman's Contract"
+    ],
+    "youtube_query": "Michael Nyman music"
+  },
+  {
+    "name": "Ennio Morricone",
+    "categories": ["modern"],
+    "period": "20th/21st Century",
+    "country": "Italy",
+    "contribution": "Legendary film composer, known for his innovative and iconic Spaghetti Western scores",
+    "works": [
+      "The Good, the Bad and the Ugly",
+      "Cinema Paradiso",
+      "The Mission"
+    ],
+    "youtube_query": "Ennio Morricone music"
+  },
+  {
+    "name": "Hans Zimmer",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "Germany",
+    "contribution": "Prolific and influential film composer, known for combining orchestral and electronic sounds",
+    "works": [
+      "The Lion King",
+      "Gladiator",
+      "Inception"
+    ],
+    "youtube_query": "Hans Zimmer music"
+  },
+  {
+    "name": "John Williams",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "USA",
+    "contribution": "Iconic film composer, known for his sweeping orchestral scores and memorable themes",
+    "works": [
+      "Star Wars",
+      "Jaws",
+      "E.T. the Extra-Terrestrial"
+    ],
+    "youtube_query": "John Williams music"
+  },
+  {
+    "name": "Bernard Herrmann",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "USA",
+    "contribution": "Pioneer of modern film scoring, known for his psychological and suspenseful scores",
+    "works": [
+      "Psycho",
+      "Vertigo",
+      "Citizen Kane"
+    ],
+    "youtube_query": "Bernard Herrmann music"
+  },
+  {
+    "name": "Max Steiner",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "Austria/USA",
+    "contribution": "Father of Film Music, established the full orchestral score in Hollywood",
+    "works": [
+      "Gone with the Wind",
+      "Casablanca",
+      "King Kong"
+    ],
+    "youtube_query": "Max Steiner music"
+  },
+  {
+    "name": "Jerry Goldsmith",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "USA",
+    "contribution": "Versatile film composer, known for his inventive and dramatic scores across genres",
+    "works": [
+      "Alien",
+      "Planet of the Apes",
+      "Mulan"
+    ],
+    "youtube_query": "Jerry Goldsmith music"
+  },
+  {
+    "name": "Elmer Bernstein",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "USA",
+    "contribution": "Diverse film composer, known for his memorable themes and broad stylistic range",
+    "works": [
+      "The Magnificent Seven",
+      "The Great Escape",
+      "Ghostbusters"
+    ],
+    "youtube_query": "Elmer Bernstein music"
+  },
+  {
+    "name": "Maurice Jarre",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "France",
+    "contribution": "Known for his epic and exotic film scores, often incorporating world music elements",
+    "works": [
+      "Lawrence of Arabia",
+      "Doctor Zhivago",
+      "Ghost"
+    ],
+    "youtube_query": "Maurice Jarre music"
+  },
+  {
+    "name": "Nino Rota",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "Italy",
+    "contribution": "Prolific film composer, known for his melodic and often melancholic scores",
+    "works": [
+      "The Godfather",
+      "La Dolce Vita",
+      "Amarcord"
+    ],
+    "youtube_query": "Nino Rota music"
+  },
+  {
+    "name": "James Horner",
+    "categories": ["modern"],
+    "period": "20th/21st Century",
+    "country": "USA",
+    "contribution": "Known for his emotionally resonant and often Celtic-influenced film scores",
+    "works": [
+      "Titanic",
+      "Braveheart",
+      "Avatar"
+    ],
+    "youtube_query": "James Horner music"
+  },
+  {
+    "name": "Howard Shore",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "Canada",
+    "contribution": "Celebrated for his epic and richly thematic scores, particularly for fantasy films",
+    "works": [
+      "The Lord of the Rings trilogy",
+      "The Silence of the Lambs",
+      "The Aviator"
+    ],
+    "youtube_query": "Howard Shore music"
+  },
+  {
+    "name": "Alan Silvestri",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "USA",
+    "contribution": "Known for his action-packed and adventurous scores, often with strong heroic themes",
+    "works": [
+      "Back to the Future",
+      "Forrest Gump",
+      "The Avengers"
+    ],
+    "youtube_query": "Alan Silvestri music"
+  },
+  {
+    "name": "Alexandre Desplat",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "France",
+    "contribution": "Prolific and versatile, known for his elegant and sophisticated scores across genres",
+    "works": [
+      "The Grand Budapest Hotel",
+      "The Shape of Water",
+      "The King's Speech"
+    ],
+    "youtube_query": "Alexandre Desplat music"
+  },
+  {
+    "name": "Thomas Newman",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "USA",
+    "contribution": "Known for his distinctive and often minimalist scores, incorporating unique textures and percussion",
+    "works": [
+      "The Shawshank Redemption",
+      "American Beauty",
+      "WALL-E"
+    ],
+    "youtube_query": "Thomas Newman music"
+  },
+  {
+    "name": "Danny Elfman",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "USA",
+    "contribution": "Known for his quirky, gothic, and often fantastical scores, particularly for Tim Burton films",
+    "works": [
+      "Batman",
+      "Edward Scissorhands",
+      "The Nightmare Before Christmas"
+    ],
+    "youtube_query": "Danny Elfman music"
+  },
+  {
+    "name": "A.R. Rahman",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "Prolific Indian composer, known for blending Indian classical music with Western contemporary styles in film",
+    "works": [
+      "Slumdog Millionaire",
+      "Lagaan",
+      "Roja"
+    ],
+    "youtube_query": "A.R. Rahman music"
+  },
+  {
+    "name": "Vangelis",
+    "categories": ["modern"],
+    "period": "20th/21st Century",
+    "country": "Greece",
+    "contribution": "Pioneer of electronic film scores, known for his atmospheric and futuristic soundscapes",
+    "works": [
+      "Chariots of Fire",
+      "Blade Runner",
+      "1492: Conquest of Paradise"
+    ],
+    "youtube_query": "Vangelis music"
+  },
+  {
+    "name": "Rachel Portman",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "England",
+    "contribution": "First female composer to win an Oscar for Best Original Score, known for her lyrical and sensitive scores",
+    "works": [
+      "Emma",
+      "Chocolat",
+      "The Cider House Rules"
+    ],
+    "youtube_query": "Rachel Portman music"
+  },
+  {
+    "name": "Michael Giacchino",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "USA",
+    "contribution": "Known for his dynamic and character-driven scores, often with a jazz influence",
+    "works": [
+      "Up",
+      "The Incredibles",
+      "Lost (TV series)"
+    ],
+    "youtube_query": "Michael Giacchino music"
+  },
+  {
+    "name": "Clint Mansell",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "England",
+    "contribution": "Known for his distinctive and often minimalist, dark, and intense film scores",
+    "works": [
+      "Requiem for a Dream",
+      "Black Swan",
+      "The Fountain"
+    ],
+    "youtube_query": "Clint Mansell music"
+  },
+  {
+    "name": "Gustavo Santaolalla",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "Argentina",
+    "contribution": "Composer and producer, known for his distinctive use of traditional instruments and folk-inspired film scores",
+    "works": [
+      "Brokeback Mountain",
+      "Babel",
+      "The Last of Us (video game)"
+    ],
+    "youtube_query": "Gustavo Santaolalla music"
+  },
+  {
+    "name": "Shigeru Umebayashi",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "Japan",
+    "contribution": "Known for his evocative and often melancholic scores, blending traditional Asian and Western elements",
+    "works": [
+      "In the Mood for Love",
+      "House of Flying Daggers"
+    ],
+    "youtube_query": "Shigeru Umebayashi music"
+  },
+  {
+    "name": "Hildur Guðnadóttir",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "Iceland",
+    "contribution": "Award-winning composer, known for her dark, atmospheric, and emotionally resonant scores",
+    "works": [
+      "Joker",
+      "Chernobyl (TV series)"
+    ],
+    "youtube_query": "Hildur Guðnadóttir music"
+  },
+  {
+    "name": "Jonny Greenwood",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "England",
+    "contribution": "Member of Radiohead, known for his experimental and often dissonant film scores",
+    "works": [
+      "There Will Be Blood",
+      "The Master",
+      "Phantom Thread"
+    ],
+    "youtube_query": "Jonny Greenwood music"
+  },
+  {
+    "name": "Mica Levi",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "England",
+    "contribution": "Known for her unconventional, unsettling, and experimental film scores",
+    "works": [
+      "Under the Skin",
+      "Jackie"
+    ],
+    "youtube_query": "Mica Levi music"
+  },
+  {
+    "name": "Trent Reznor & Atticus Ross",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "USA",
+    "contribution": "Collaborators, known for their industrial, electronic, and often abrasive film scores",
+    "works": [
+      "The Social Network",
+      "Gone Girl",
+      "Soul"
+    ],
+    "youtube_query": "Trent Reznor & Atticus Ross music"
+  },
+  {
+    "name": "Johann Johannsson",
+    "categories": ["modern"],
+    "period": "20th/21st Century",
+    "country": "Iceland",
+    "contribution": "Known for his atmospheric and often minimalist scores, blending orchestral and electronic elements",
+    "works": [
+      "Arrival",
+      "Sicario",
+      "The Theory of Everything"
+    ],
+    "youtube_query": "Johann Johannsson music"
+  },
+  {
+    "name": "Carter Burwell",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "USA",
+    "contribution": "Known for his distinctive and often quirky scores, frequently collaborates with the Coen Brothers",
+    "works": [
+      "Fargo",
+      "True Grit",
+      "Carol"
+    ],
+    "youtube_query": "Carter Burwell music"
+  },
+  {
+    "name": "Cliff Martinez",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "USA",
+    "contribution": "Known for his unique and atmospheric electronic scores, often with a minimalist approach",
+    "works": [
+      "Drive",
+      "Solaris",
+      "The Neon Demon"
+    ],
+    "youtube_query": "Cliff Martinez music"
+  },
+  {
+    "name": "Angelo Badalamenti",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "USA",
+    "contribution": "Known for his distinctive and often dreamlike scores, famously for David Lynch films",
+    "works": [
+      "Twin Peaks",
+      "Blue Velvet",
+      "Mulholland Drive"
+    ],
+    "youtube_query": "Angelo Badalamenti music"
+  },
+  {
+    "name": "Lalo Schifrin",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "Argentina/USA",
+    "contribution": "Jazz pianist and composer, known for his iconic and funky film and TV scores",
+    "works": [
+      "Mission: Impossible",
+      "Dirty Harry",
+      "Enter the Dragon"
+    ],
+    "youtube_query": "Lalo Schifrin music"
+  },
+  {
+    "name": "Quincy Jones",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "USA",
+    "contribution": "Legendary musician, producer, and composer, pioneered jazz and R&B in film scores",
+    "works": [
+      "The Color Purple",
+      "In the Heat of the Night"
+    ],
+    "youtube_query": "Quincy Jones music"
+  },
+  {
+    "name": "Henry Mancini",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "USA",
+    "contribution": "Known for his elegant and popular film and TV themes, often with a jazz influence",
+    "works": [
+      "The Pink Panther",
+      "Breakfast at Tiffany's",
+      "Moon River"
+    ],
+    "youtube_query": "Henry Mancini music"
+  },
+  {
+    "name": "Dimitri Tiomkin",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "Russia/USA",
+    "contribution": "Known for his dramatic and adventurous scores for Westerns and epics",
+    "works": [
+      "High Noon",
+      "The Guns of Navarone",
+      "It's a Wonderful Life"
+    ],
+    "youtube_query": "Dimitri Tiomkin music"
+  },
+  {
+    "name": "Erich Wolfgang Korngold",
+    "categories": ["modern", "romantic"],
+    "period": "20th Century",
+    "country": "Austria/USA",
+    "contribution": "Pioneer of the Hollywood sound, known for his lush, Romantic scores",
+    "works": [
+      "The Adventures of Robin Hood",
+      "Captain Blood"
+    ],
+    "youtube_query": "Erich Wolfgang Korngold music"
+  },
+  {
+    "name": "Alfred Newman",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "USA",
+    "contribution": "Legendary conductor and composer, one of the most prolific in Hollywood's Golden Age",
+    "works": [
+      "Wuthering Heights",
+      "All About Eve",
+      "The Hunchback of Notre Dame"
+    ],
+    "youtube_query": "Alfred Newman music"
+  },
+  {
+    "name": "Miklós Rózsa",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "Hungary/USA",
+    "contribution": "Known for his epic and historical film scores, often with a dark and psychological edge",
+    "works": [
+      "Ben-Hur",
+      "Spellbound",
+      "Quo Vadis"
+    ],
+    "youtube_query": "Miklós Rózsa music"
+  },
+  {
+    "name": "Franz Waxman",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "Germany/USA",
+    "contribution": "Versatile composer, known for his dramatic and often suspenseful film scores",
+    "works": [
+      "Sunset Boulevard",
+      "Rebecca",
+      "Rear Window"
+    ],
+    "youtube_query": "Franz Waxman music"
+  },
+  {
+    "name": "Victor Young",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "USA",
+    "contribution": "Prolific composer, known for his melodious and romantic film scores",
+    "works": [
+      "Around the World in 80 Days",
+      "Shane",
+      "For Whom the Bell Tolls"
+    ],
+    "youtube_query": "Victor Young music"
+  },
+  {
+    "name": "P. Ramlee",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "Malaysia",
+    "contribution": "Iconic Malaysian artist, known for his prolific work as a film director, actor, and composer",
+    "works": [
+      "Bujang Lapok series",
+      "Seniman Bujang Lapok"
+    ],
+    "youtube_query": "P. Ramlee music"
+  },
+  {
+    "name": "S.D. Burman",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "India",
+    "contribution": "Legendary Indian film composer, known for his soulful melodies and fusion of folk and classical",
+    "works": [
+      "Pyaasa",
+      "Guide",
+      "Aradhana"
+    ],
+    "youtube_query": "S.D. Burman music"
+  },
+  {
+    "name": "Ilaiyaraaja",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "Prolific Indian film composer, known for his innovative fusion of various genres and extensive output",
+    "works": [
+      "Nayagan",
+      "Thalapathi",
+      "Muthu"
+    ],
+    "youtube_query": "Ilaiyaraaja music"
+  },
+  {
+    "name": "M.M. Keeravani",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "Indian film composer, known for his melodious and impactful scores, including for RRR",
+    "works": [
+      "RRR",
+      "Baahubali series",
+      "Eega"
+    ],
+    "youtube_query": "M.M. Keeravani music"
+  },
+  {
+    "name": "H. S. Andy Anand",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "India/USA",
+    "contribution": "Indian-American composer known for fusing Indian classical and contemporary styles in his film scores",
+    "works": [
+      "The Curse of the Panther",
+      "Beyond the Realm of Time"
+    ],
+    "youtube_query": "H. S. Andy Anand music"
+  },
+  {
+    "name": "Santhosh Narayanan",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "Composer, known for melodies and fusion works",
+    "works": [
+      "Mahaan",
+      "Madras",
+      "Kalki 2898 AD"
+    ],
+    "youtube_query": "santhosh narayanan"
+  },
+  {
+    "name": "Sean Roldan",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "Known for blending Carnatic, folk, and Western styles",
+    "works": [
+      "Jai Bhim",
+      "Mundaasupatti",
+      "Joker"
+    ],
+    "youtube_query": "sean roldan"
+  },
+  {
+    "name": "Harris Jayaraj",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "Master of melodies and stylish, synth-heavy soundtracks",
+    "works": [
+      "Kaakha Kaakha",
+      "Ghajini",
+      "Vaaranam Aayiram"
+    ],
+    "youtube_query": "harris jayaraj"
+  },
+  {
+    "name": "Deva",
+    "categories": ["modern"],
+    "period": "90s Gaana",
+    "country": "India",
+    "contribution": "Pioneer of \"Gaana\" music in mainstream Tamil cinema",
+    "works": [
+      "Baashha",
+      "Kadhal Kottai",
+      "Annamalai"
+    ],
+    "youtube_query": "composer deva songs"
+  },
+  {
+    "name": "Vidyasagar",
+    "categories": ["modern"],
+    "period": "90s/2000s Melodist",
+    "country": "India",
+    "contribution": "Renowned for rich melodies and orchestration across languages",
+    "works": [
+      "Ghilli",
+      "Dhool",
+      "Chandramukhi"
+    ],
+    "youtube_query": "vidyasagar music director"
+  },
+  {
+    "name": "Anirudh Ravichander",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "Known for viral, high-energy soundtracks and modern electronic fusion",
+    "works": [
+      "Vikram",
+      "Jawan",
+      "Leo"
+    ],
+    "youtube_query": "anirudh ravichander"
+  },
+  {
+    "name": "GV Prakash Kumar",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "Known for his unique melodic style and successful career as both composer and actor",
+    "works": [
+      "Aadukalam",
+      "Asuran",
+      "Soorarai Pottru"
+    ],
+    "youtube_query": "g.v. prakash kumar"
+  },
+  {
+    "name": "R.D. Burman",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "India",
+    "contribution": "Revolutionized Hindi film music with his fusion of Western genres and innovative sound",
+    "works": [
+      "Sholay",
+      "Teesri Manzil",
+      "Amar Prem"
+    ],
+    "youtube_query": "r.d. burman"
+  }
+]

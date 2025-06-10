@@ -2,40 +2,6 @@
 
 /* --- THEME VARIABLES --- */
 
-:root {
-    /* Light Theme (Default) */
-    --color-background: #f4f7fa;
-    --color-text-primary: #1a1a1a;
-    --color-text-secondary: #5c677a;
-    --color-card-background: rgba(255, 255, 255, 0.6);
-    --color-card-border: rgba(0, 0, 0, 0.08);
-    --color-card-shadow: rgba(0, 0, 0, 0.05);
-    --color-button-bg: #e9edf2;
-    --color-button-text: #3d3d3d;
-    --color-button-active-bg: #007bff;
-    --color-button-active-text: #ffffff;
-    --color-aurora-1: #5b92e5;
-    --color-aurora-2: #8963c3;
-    --color-aurora-3: #ffc400;
-}
-
-html[data-theme="dark"] {
-    /* Dark Theme */
-    --color-background: #121212;
-    --color-text-primary: #e0e0e0;
-    --color-text-secondary: #8899a6;
-    --color-card-background: rgba(28, 28, 30, 0.7);
-    --color-card-border: rgba(255, 255, 255, 0.1);
-    --color-card-shadow: rgba(0, 0, 0, 0.2);
-    --color-button-bg: #2c2c2e;
-    --color-button-text: #e0e0e0;
-    --color-button-active-bg: #007bff;
-    --color-button-active-text: #ffffff;
-    --color-aurora-1: #0a2f6c;
-    --color-aurora-2: #341a4e;
-    --color-aurora-3: #b36b00;
-}
-
 /* --------------------------------------------- */
 
 :root {
@@ -63,6 +29,25 @@ html[data-theme="dark"] {
 }
 
 /* --- Base Styles --- */
+
+/* --- Composer Archives --- */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+body {
+    /* ... */
+}
+
+
+
 body {
     background-color: var(--bg-color);
     color: var(--text-color);
@@ -1444,121 +1429,3 @@ input[type="range"]:hover::-webkit-slider-thumb {
 /****************************************/
 
 
-
-
-/* ================================================== */
-/* === VISUAL UPGRADE & KNOB STYLES === */
-/* ================================================== */
-
-/* --- Module Redesign --- */
-.module {
-    background: linear-gradient(165deg, #3c444f 0%, #2a3038 10%, #21262d 100%);
-    box-shadow: inset 0 1px 1px rgba(255,255,255,0.07), 
-                0 5px 15px rgba(0,0,0,0.3), 
-                0 2px 3px rgba(0,0,0,0.4);
-    border: 1px solid #1a1e23;
-}
-
-.module-title {
-    font-family: var(--font-primary);
-    font-weight: 700;
-    color: var(--text-muted);
-    letter-spacing: 1px;
-}
-
-/* --- Interactive Knob Component --- */
-.knob-group {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.75rem;
-}
-.knob {
-    position: relative;
-    width: 60px;
-    height: 60px;
-    background: linear-gradient(to top, #d3dce6, #f0f3f6);
-    border-radius: 50%;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.3), 
-                inset 0 3px 3px #fff, 
-                inset 0 -3px 3px rgba(0,0,0,0.2);
-    cursor: ns-resize;
-    -webkit-user-select: none; /* Safari */
-    -ms-user-select: none; /* IE 10+ */
-    user-select: none;
-}
-.knob-dial {
-    position: absolute;
-    top: 50%; left: 50%;
-    width: 8px; height: 8px;
-    background-color: var(--accent-primary);
-    border-radius: 50%;
-    transform: translate(-50%, -150%); /* Start at 12 o'clock */
-    box-shadow: 0 0 10px var(--accent-primary);
-    pointer-events: none; /* So it doesn't interfere with the knob's drag event */
-}
-.knob-label {
-    font-family: var(--font-mono);
-    font-size: 0.7rem;
-    color: var(--text-muted);
-    text-transform: uppercase;
-}
-
-/* --- LFO LED Display --- */
-.led-display {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
-    background-color: #161b22;
-    padding: 0.5rem;
-    border-radius: 4px;
-    border: 1px solid #111;
-}
-.led-light {
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    background-color: #e74c3c; /* Red for 'off' state */
-    box-shadow: inset 0 1px 2px rgba(0,0,0,0.5);
-    transition: background-color 0.05s ease, box-shadow 0.05s ease;
-}
-.led-light.on {
-    background-color: #f1c40f; /* Yellow for 'on' state */
-    box-shadow: 0 0 10px #f1c40f, inset 0 1px 2px rgba(0,0,0,0.2);
-}
-.led-label {
-    font-family: var(--font-mono);
-    font-size: 0.8rem;
-    color: var(--text-muted);
-}
-
-/* --- Control Group Enhancements --- */
-.module-controls.knob-layout {
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    flex-grow: 1;
-}
-
-/* --- Jack Glow Effect --- */
-@keyframes jack-glow {
-    0% { box-shadow: 0 0 10px var(--accent-secondary); }
-    50% { box-shadow: 0 0 20px var(--accent-secondary), 0 0 10px #fff; }
-    100% { box-shadow: 0 0 10px var(--accent-secondary); }
-}
-.jack.cabling {
-    border-color: #fff;
-    animation: jack-glow 1.5s infinite;
-}
-
-/* Override for Trigger button to make it stand out */
-#trigger-gate-btn {
-    padding: 1rem 0.75rem;
-    transition: all 0.2s ease;
-}
-#trigger-gate-btn:active {
-    background-color: #fff !important;
-    transform: scale(0.95);
-    box-shadow: 0 0 15px #fff;
-}

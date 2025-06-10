@@ -37,7 +37,7 @@
         </section>
 
         <section id="scale-list-container" class="composer-grid">
-            <div class="card-placeholder">Loading scales...</div>
+            <p class="card-placeholder">Loading scales...</p>
         </section>
 
         <footer class="main-footer">
@@ -46,7 +46,9 @@
 
     </main>
     
-    <script src="js/scales.js"></script>
+    <!-- The main script MUST come first -->
     <script src="js/script.js"></script>
+    <!-- The page-specific scales script comes second -->
+    <script src="js/scales.js"></script>
 </body>
 </html>
