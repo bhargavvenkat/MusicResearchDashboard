@@ -950,6 +950,10 @@ body.light-mode .wave-label { color: #fff; }
     display: flex;
     justify-content: flex-start;
     padding: 2rem 0;
+
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap; /* Allows buttons to wrap on smaller screens */
 }
 .search-bar-wrapper {
     position: relative;
@@ -1428,4 +1432,30 @@ input[type="range"]:hover::-webkit-slider-thumb {
 
 /****************************************/
 
+/* --- Light Mode Keyboard Inversion (Expert Colors) --- */
+/* This block inverts the piano key colors ONLY in light mode with improved contrast and harmony. */
 
+/* 1. Make the white keys look like a stylish, dark slate-gray. (This is good, no change) */
+body.light-mode .mini-white {
+    background-color: #4B5563;
+    border-color: #2b333d;
+}
+
+/* 2. Make the black keys look like a light, harmonious lavender-gray. */
+body.light-mode .mini-black {
+    background-color: #E0D9F7; /* NEW: A beautiful light lavender tint */
+    border-color: #9CA3AF;
+}
+
+/* 3. Invert the dot colors to maintain contrast. (This is good, no change) */
+/* The dot on the new dark keys should be bright (cyan). */
+body.light-mode .mini-white.has-dot::after {
+    background-color: var(--accent-secondary);
+    box-shadow: 0 0 8px -2px var(--accent-secondary);
+}
+
+/* The dot on the new light keys should be vibrant (purple). */
+body.light-mode .mini-black.has-dot::after {
+    background-color: var(--accent-primary);
+    box-shadow: 0 0 8px -2px var(--accent-primary);
+}
