@@ -68,7 +68,7 @@ body {
     color: var(--text-color);
     font-family: var(--font-primary);
     margin: 0;
-    padding: 2rem;
+    padding: 0 2rem;
     overflow-x: hidden;
 }
 
