@@ -1954,5 +1954,652 @@
       "Amar Prem"
     ],
     "youtube_query": "r.d. burman"
+  },
+  {
+    "name": "Lili Boulanger",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "France",
+    "contribution": "First female winner of the Prix de Rome, known for her tragically short but brilliant career and harmonically advanced works.",
+    "works": [
+      "Faust et Hélène",
+      "D'un matin de printemps",
+      "Vieille prière bouddhique"
+    ],
+    "youtube_query": "Lili Boulanger music"
+  },
+  {
+    "name": "George Gershwin",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "USA",
+    "contribution": "Fused classical with jazz and popular music, creating a uniquely American sound.",
+    "works": [
+      "Rhapsody in Blue",
+      "An American in Paris",
+      "Porgy and Bess"
+    ],
+    "youtube_query": "George Gershwin music"
+  },
+  {
+    "name": "Edvard Grieg",
+    "categories": ["romantic"],
+    "period": "Romantic",
+    "country": "Norway",
+    "contribution": "Foremost Norwegian composer, incorporated national folk tunes and idioms into his works.",
+    "works": [
+      "Peer Gynt Suite",
+      "Piano Concerto in A minor",
+      "Holberg Suite"
+    ],
+    "youtube_query": "Edvard Grieg music"
+  },
+  {
+    "name": "Camille Saint-Saëns",
+    "categories": ["romantic"],
+    "period": "Romantic",
+    "country": "France",
+    "contribution": "Prolific and versatile composer, known for his elegant and well-crafted works.",
+    "works": [
+      "The Carnival of the Animals",
+      "Danse Macabre",
+      "Symphony No. 3 'Organ'"
+    ],
+    "youtube_query": "Camille Saint-Saëns music"
+  },
+  {
+    "name": "Gabriel Fauré",
+    "categories": ["romantic", "modern"],
+    "period": "Late Romantic/Early 20th Century",
+    "country": "France",
+    "contribution": "Influential composer and teacher, known for his refined and harmonically sophisticated music.",
+    "works": [
+      "Requiem",
+      "Pavane",
+      "Clair de lune (song)"
+    ],
+    "youtube_query": "Gabriel Fauré music"
+  },
+  {
+    "name": "Leoš Janáček",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "Czech Republic",
+    "contribution": "Distinctive composer who incorporated the rhythms and inflections of Czech speech and folk music into his works.",
+    "works": [
+      "Sinfonietta",
+      "Glagolitic Mass",
+      "Jenůfa"
+    ],
+    "youtube_query": "Leoš Janáček music"
+  },
+  {
+    "name": "Ralph Vaughan Williams",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "England",
+    "contribution": "Leading figure of the English musical renaissance, deeply influenced by Tudor music and English folk song.",
+    "works": [
+      "The Lark Ascending",
+      "Fantasia on a Theme by Thomas Tallis",
+      "A London Symphony"
+    ],
+    "youtube_query": "Ralph Vaughan Williams music"
+  },
+  {
+    "name": "Gustav Holst",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "England",
+    "contribution": "Known for his orchestral suite 'The Planets,' and his interest in Hindu mysticism and English folk music.",
+    "works": [
+      "The Planets",
+      "St. Paul's Suite",
+      "First Suite in E-flat for Military Band"
+    ],
+    "youtube_query": "Gustav Holst music"
+  },
+  {
+    "name": "Edward Elgar",
+    "categories": ["romantic"],
+    "period": "Late Romantic",
+    "country": "England",
+    "contribution": "One of the most important English composers, known for his noble and quintessentially English style.",
+    "works": [
+      "Enigma Variations",
+      "Pomp and Circumstance Marches",
+      "Cello Concerto"
+    ],
+    "youtube_query": "Edward Elgar music"
+  },
+  {
+    "name": "Alexander Scriabin",
+    "categories": ["romantic", "modern"],
+    "period": "Late Romantic/Early 20th Century",
+    "country": "Russia",
+    "contribution": "Mystic and symbolist composer, known for his highly chromatic and harmonically adventurous music.",
+    "works": [
+      "Vers la flamme",
+      "The Divine Poem",
+      "Piano Sonatas"
+    ],
+    "youtube_query": "Alexander Scriabin music"
+  },
+  {
+    "name": "Modest Mussorgsky",
+    "categories": ["romantic"],
+    "period": "Romantic",
+    "country": "Russia",
+    "contribution": "Member of 'The Five,' known for his raw and nationalistic style, and his innovative approach to harmony and orchestration.",
+    "works": [
+      "Pictures at an Exhibition",
+      "Night on Bald Mountain",
+      "Boris Godunov"
+    ],
+    "youtube_query": "Modest Mussorgsky music"
+  },
+  {
+    "name": "Nikolai Rimsky-Korsakov",
+    "categories": ["romantic"],
+    "period": "Romantic",
+    "country": "Russia",
+    "contribution": "Master of orchestration and member of 'The Five,' known for his colorful and programmatic works.",
+    "works": [
+      "Scheherazade",
+      "Capriccio Espagnol",
+      "The Flight of the Bumblebee"
+    ],
+    "youtube_query": "Nikolai Rimsky-Korsakov music"
+  },
+  {
+    "name": "Alexander Borodin",
+    "categories": ["romantic"],
+    "period": "Romantic",
+    "country": "Russia",
+    "contribution": "Member of 'The Five' and a notable chemist, known for his lyrical melodies and epic works.",
+    "works": [
+      "Prince Igor (including the 'Polovtsian Dances')",
+      "In the Steppes of Central Asia",
+      "Symphony No. 2"
+    ],
+    "youtube_query": "Alexander Borodin music"
+  },
+  {
+    "name": "Bedřich Smetana",
+    "categories": ["romantic"],
+    "period": "Romantic",
+    "country": "Bohemia (Czech Republic)",
+    "contribution": "Father of Czech music, known for his nationalistic operas and symphonic poems.",
+    "works": [
+      "Má vlast (My Fatherland)",
+      "The Bartered Bride",
+      "String Quartet No. 1 'From My Life'"
+    ],
+    "youtube_query": "Bedřich Smetana music"
+  },
+  {
+    "name": "Georg Philipp Telemann",
+    "categories": ["baroque"],
+    "period": "Baroque",
+    "country": "Germany",
+    "contribution": "One of the most prolific composers in history, a key figure of the late Baroque.",
+    "works": [
+      "Tafelmusik",
+      "Viola Concerto in G Major",
+      "Paris Quartets"
+    ],
+    "youtube_query": "Georg Philipp Telemann music"
+  },
+  {
+    "name": "Arcangelo Corelli",
+    "categories": ["baroque"],
+    "period": "Baroque",
+    "country": "Italy",
+    "contribution": "Influential violinist and composer, pivotal in the development of the concerto grosso and the sonata.",
+    "works": [
+      "12 Concerti Grossi, Op. 6",
+      "Violin Sonatas, Op. 5",
+      "Christmas Concerto"
+    ],
+    "youtube_query": "Arcangelo Corelli music"
+  },
+  {
+    "name": "Josquin des Prez",
+    "categories": ["renaissance"],
+    "period": "Renaissance",
+    "country": "Franco-Flemish",
+    "contribution": "Leading composer of the High Renaissance, renowned for his motets and masses.",
+    "works": [
+      "Mille regretz",
+      "Ave Maria... virgo serena",
+      "Missa Pange lingua"
+    ],
+    "youtube_query": "Josquin des Prez music"
+  },
+  {
+    "name": "Guillaume de Machaut",
+    "categories": ["medieval"],
+    "period": "Medieval (Ars Nova)",
+    "country": "France",
+    "contribution": "Leading composer and poet of the Ars Nova, known for his secular songs and the first complete setting of the Mass Ordinary.",
+    "works": [
+      "Messe de Nostre Dame",
+      "Je vivroie liement",
+      "Douce dame jolie"
+    ],
+    "youtube_query": "Guillaume de Machaut music"
+  },
+  {
+    "name": "Perotin",
+    "categories": ["medieval"],
+    "period": "Medieval (Notre Dame school)",
+    "country": "France",
+    "contribution": "Central figure of the Notre Dame school of polyphony, known for his organum.",
+    "works": [
+      "Viderunt omnes",
+      "Sederunt principes"
+    ],
+    "youtube_query": "Perotin music"
+  },
+  {
+    "name": "Leonin",
+    "categories": ["medieval"],
+    "period": "Medieval (Notre Dame school)",
+    "country": "France",
+    "contribution": "Earlier central figure of the Notre Dame school of polyphony, a pioneer of organum.",
+    "works": [
+      "Magnus Liber Organi (Great Book of Organum)"
+    ],
+    "youtube_query": "Leonin music"
+  },
+  {
+    "name": "Guillaume Dufay",
+    "categories": ["renaissance"],
+    "period": "Renaissance",
+    "country": "Franco-Flemish",
+    "contribution": "Leading composer of the early Renaissance, known for his sacred and secular works.",
+    "works": [
+      "Nuper rosarum flores",
+      "Se la face ay pale",
+      "Missa L'homme armé"
+    ],
+    "youtube_query": "Guillaume Dufay music"
+  },
+  {
+    "name": "Orlando di Lasso",
+    "categories": ["renaissance"],
+    "period": "Renaissance",
+    "country": "Franco-Flemish",
+    "contribution": "Prolific and versatile composer of the late Renaissance, known for his motets and chansons.",
+    "works": [
+      "Lagrime di San Pietro",
+      "Matona, mia cara",
+      "Missa super Bell' Amfitrit' altera"
+    ],
+    "youtube_query": "Orlando di Lasso music"
+  },
+  {
+    "name": "William Byrd",
+    "categories": ["renaissance"],
+    "period": "Renaissance",
+    "country": "England",
+    "contribution": "Leading English composer of the Renaissance, known for his sacred and secular vocal and keyboard music.",
+    "works": [
+      "Mass for Four Voices",
+      "Ave verum corpus",
+      "My Ladye Nevells Booke"
+    ],
+    "youtube_query": "William Byrd music"
+  },
+  {
+    "name": "Thomas Tallis",
+    "categories": ["renaissance"],
+    "period": "Renaissance",
+    "country": "England",
+    "contribution": "One of England's greatest composers, known for his choral works spanning the turbulent religious changes of the 16th century.",
+    "works": [
+      "Spem in alium",
+      "If Ye Love Me",
+      "Lamentations of Jeremiah"
+    ],
+    "youtube_query": "Thomas Tallis music"
+  },
+  {
+    "name": "John Dowland",
+    "categories": ["renaissance"],
+    "period": "Renaissance",
+    "country": "England",
+    "contribution": "Virtuoso lutenist and composer, known for his melancholic ayres (songs).",
+    "works": [
+      "Flow, my tears",
+      "Come, heavy sleep",
+      "Lachrimae, or Seaven Teares"
+    ],
+    "youtube_query": "John Dowland music"
+  },
+  {
+    "name": "Heinrich Schütz",
+    "categories": ["baroque"],
+    "period": "Baroque",
+    "country": "Germany",
+    "contribution": "Most important German composer before Bach, known for his sacred choral music.",
+    "works": [
+      "Musikalische Exequien",
+      "Symphoniae sacrae",
+      "Psalmen Davids"
+    ],
+    "youtube_query": "Heinrich Schütz music"
+  },
+  {
+    "name": "Jean-Baptiste Lully",
+    "categories": ["baroque"],
+    "period": "Baroque",
+    "country": "Italy/France",
+    "contribution": "Dominant figure in French Baroque music, established the form of French opera.",
+    "works": [
+      "Armide",
+      "Atys",
+      "Te Deum"
+    ],
+    "youtube_query": "Jean-Baptiste Lully music"
+  },
+  {
+    "name": "François Couperin",
+    "categories": ["baroque"],
+    "period": "Baroque",
+    "country": "France",
+    "contribution": "Master of the French keyboard school, known for his elegant and programmatic harpsichord pieces.",
+    "works": [
+      "Les barricades mystérieuses",
+      "L'art de toucher le clavecin",
+      "Leçons de ténèbres"
+    ],
+    "youtube_query": "François Couperin music"
+  },
+  {
+    "name": "Élisabeth Jacquet de La Guerre",
+    "categories": ["baroque"],
+    "period": "Baroque",
+    "country": "France",
+    "contribution": "One of the most prominent female composers of the Baroque, a virtuoso harpsichordist and composer of operas and chamber music.",
+    "works": [
+      "Céphale et Procris",
+      "Pièces de clavecin",
+      "Sonates pour le viollon et pour le clavecin"
+    ],
+    "youtube_query": "Élisabeth Jacquet de La Guerre music"
+  },
+  {
+    "name": "Barbara Strozzi",
+    "categories": ["baroque"],
+    "period": "Baroque",
+    "country": "Italy",
+    "contribution": "Prolific and influential composer of secular vocal music in the Baroque period.",
+    "works": [
+      "Lagrime mie",
+      "Che si può fare",
+      "Diporti di Euterpe"
+    ],
+    "youtube_query": "Barbara Strozzi music"
+  },
+  {
+    "name": "Carl Maria von Weber",
+    "categories": ["romantic"],
+    "period": "Romantic",
+    "country": "Germany",
+    "contribution": "Pioneer of German Romantic opera, known for his dramatic and colorful works.",
+    "works": [
+      "Der Freischütz",
+      "Oberon",
+      "Invitation to the Dance"
+    ],
+    "youtube_query": "Carl Maria von Weber music"
+  },
+  {
+    "name": "Giacomo Meyerbeer",
+    "categories": ["romantic"],
+    "period": "Romantic",
+    "country": "Germany/France",
+    "contribution": "Leading composer of French grand opera, known for his spectacular and influential works.",
+    "works": [
+      "Les Huguenots",
+      "Le prophète",
+      "Robert le diable"
+    ],
+    "youtube_query": "Giacomo Meyerbeer music"
+  },
+  {
+    "name": "Gaetano Donizetti",
+    "categories": ["romantic"],
+    "period": "Romantic (Bel canto)",
+    "country": "Italy",
+    "contribution": "Leading composer of bel canto opera, known for his prolific output and memorable melodies.",
+    "works": [
+      "Lucia di Lammermoor",
+      "L'elisir d'amore",
+      "Don Pasquale"
+    ],
+    "youtube_query": "Gaetano Donizetti music"
+  },
+  {
+    "name": "Vincenzo Bellini",
+    "categories": ["romantic"],
+    "period": "Romantic (Bel canto)",
+    "country": "Italy",
+    "contribution": "Master of bel canto opera, known for his long, flowing melodic lines.",
+    "works": [
+      "Norma",
+      "I puritani",
+      "La sonnambula"
+    ],
+    "youtube_query": "Vincenzo Bellini music"
+  },
+  {
+    "name": "Gioachino Rossini",
+    "categories": ["classical", "romantic"],
+    "period": "Classical/Romantic (Bel canto)",
+    "country": "Italy",
+    "contribution": "Master of Italian opera, known for his witty and brilliant comic operas and his grand serious operas.",
+    "works": [
+      "The Barber of Seville",
+      "William Tell",
+      "Stabat Mater"
+    ],
+    "youtube_query": "Gioachino Rossini music"
+  },
+  {
+    "name": "Anton Bruckner",
+    "categories": ["romantic"],
+    "period": "Romantic",
+    "country": "Austria",
+    "contribution": "Known for his large-scale symphonies and sacred music, characterized by their rich harmonies and grand structures.",
+    "works": [
+      "Symphony No. 4 'Romantic'",
+      "Symphony No. 7",
+      "Symphony No. 8"
+    ],
+    "youtube_query": "Anton Bruckner music"
+  },
+  {
+    "name": "César Franck",
+    "categories": ["romantic"],
+    "period": "Romantic",
+    "country": "Belgium/France",
+    "contribution": "Influential composer and organist, known for his cyclical form and rich harmonies.",
+    "works": [
+      "Symphony in D minor",
+      "Violin Sonata in A major",
+      "Prélude, Choral et Fugue"
+    ],
+    "youtube_query": "César Franck music"
+  },
+  {
+    "name": "Erik Satie",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "France",
+    "contribution": "Eccentric and influential composer, known for his minimalist and often humorous works.",
+    "works": [
+      "Gymnopédies",
+      "Gnossiennes",
+      "Parade"
+    ],
+    "youtube_query": "Erik Satie music"
+  },
+  {
+    "name": "Francis Poulenc",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "France",
+    "contribution": "Member of Les Six, known for his charming and witty style, as well as his deeply felt sacred music.",
+    "works": [
+      "Gloria",
+      "Dialogues des Carmélites",
+      "Sextet for piano and winds"
+    ],
+    "youtube_query": "Francis Poulenc music"
+  },
+  {
+    "name": "Darius Milhaud",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "France",
+    "contribution": "Prolific member of Les Six, known for his use of polytonality and his incorporation of jazz and folk music.",
+    "works": [
+      "Le bœuf sur le toit",
+      "La création du monde",
+      "Scaramouche"
+    ],
+    "youtube_query": "Darius Milhaud music"
+  },
+  {
+    "name": "Arthur Honegger",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "Switzerland/France",
+    "contribution": "Member of Les Six, known for his dramatic and powerful works.",
+    "works": [
+      "Pacific 231",
+      "Symphony No. 3 'Liturgique'",
+      "Le roi David"
+    ],
+    "youtube_query": "Arthur Honegger music"
+  },
+  {
+    "name": "Kurt Weill",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "Germany/USA",
+    "contribution": "Known for his collaborations with Bertolt Brecht and his influential works for the stage.",
+    "works": [
+      "The Threepenny Opera",
+      "Rise and Fall of the City of Mahagonny",
+      "Mack the Knife"
+    ],
+    "youtube_query": "Kurt Weill music"
+  },
+  {
+    "name": "Paul Hindemith",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "Germany",
+    "contribution": "Prolific composer, violist, and theorist, a leading figure of neoclassicism.",
+    "works": [
+      "Symphonic Metamorphosis of Themes by Carl Maria von Weber",
+      "Mathis der Maler (symphony)",
+      "Ludus Tonalis"
+    ],
+    "youtube_query": "Paul Hindemith music"
+  },
+  {
+    "name": "Carl Orff",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "Germany",
+    "contribution": "Known for his scenic cantata 'Carmina Burana' and his influential approach to music education.",
+    "works": [
+      "Carmina Burana",
+      "Catulli Carmina",
+      "Trionfo di Afrodite"
+    ],
+    "youtube_query": "Carl Orff music"
+  },
+  {
+    "name": "Zoltán Kodály",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "Hungary",
+    "contribution": "Composer, ethnomusicologist, and educator, known for his development of the Kodály method and his use of Hungarian folk music.",
+    "works": [
+      "Háry János Suite",
+      "Dances of Galánta",
+      "Psalmus Hungaricus"
+    ],
+    "youtube_query": "Zoltán Kodály music"
+  },
+  {
+    "name": "Karol Szymanowski",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "Poland",
+    "contribution": "Leading Polish composer of the early 20th century, known for his rich and complex style.",
+    "works": [
+      "King Roger",
+      "Stabat Mater",
+      "Myths for violin and piano"
+    ],
+    "youtube_query": "Karol Szymanowski music"
+  },
+  {
+    "name": "George Enescu",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "Romania",
+    "contribution": "Renowned violinist, conductor, and composer, a key figure in Romanian music.",
+    "works": [
+      "Romanian Rhapsodies",
+      "Oedipe",
+      "Violin Sonata No. 3"
+    ],
+    "youtube_query": "George Enescu music"
+  },
+  {
+    "name": "Isaac Albéniz",
+    "categories": ["romantic", "modern"],
+    "period": "Late Romantic/Nationalist",
+    "country": "Spain",
+    "contribution": "Leading figure of the Spanish nationalist school, known for his piano music inspired by Spanish folk traditions.",
+    "works": [
+      "Iberia",
+      "Suite Española",
+      "Asturias (Leyenda)"
+    ],
+    "youtube_query": "Isaac Albéniz music"
+  },
+  {
+    "name": "Enrique Granados",
+    "categories": ["romantic", "modern"],
+    "period": "Late Romantic/Nationalist",
+    "country": "Spain",
+    "contribution": "Composer and pianist, known for his quintessentially Spanish piano music.",
+    "works": [
+      "Goyescas",
+      "Danzas Españolas",
+      "El pelele"
+    ],
+    "youtube_query": "Enrique Granados music"
+  },
+  {
+    "name": "Ottorino Respighi",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "Italy",
+    "contribution": "Known for his richly orchestrated symphonic poems depicting scenes of Rome.",
+    "works": [
+      "Pines of Rome",
+      "Fountains of Rome",
+      "Roman Festivals"
+    ],
+    "youtube_query": "Ottorino Respighi music"
   }
 ]
