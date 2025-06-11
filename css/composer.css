@@ -1,0 +1,178 @@
+/* --- Composer Archive Page Styles --- */
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+/* Filter Controls */
+.filter-controls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+    animation: card-fade-in 0.6s 0.8s ease-out forwards;
+    opacity: 0;
+}
+
+#composer-search {
+    background-color: var(--card-bg-color);
+    border: 1px solid var(--border-color);
+    color: var(--text-color);
+    font-family: var(--font-primary);
+    font-size: 1rem;
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    width: 280px;
+    transition: all 0.3s ease;
+}
+
+#composer-search:focus {
+    outline: none;
+    border-color: var(--accent-secondary);
+    box-shadow: 0 0 15px -5px rgba(125, 211, 252, 0.4);
+}
+
+.filter-buttons {
+    display: flex;
+    gap: 0.5rem;
+    background-color: var(--card-bg-color);
+    padding: 0.5rem;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+}
+
+.filter-btn {
+    background-color: transparent;
+    border: none;
+    color: var(--text-muted);
+    font-family: var(--font-primary);
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.filter-btn:hover {
+    color: var(--text-color);
+    background-color: rgba(139, 148, 158, 0.1);
+}
+
+.filter-btn.active {
+    background-color: var(--accent-secondary);
+    color: var(--bg-color);
+    font-weight: 700;
+}
+
+/* Composer Grid & Cards */
+.composer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 1.5rem;
+}
+
+.composer-card {
+    background: var(--card-bg-color);
+    border: 1px solid var(--border-color);
+    backdrop-filter: blur(12px);
+    border-radius: 12px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: card-fade-in 0.5s ease;
+}
+
+.composer-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 35px -10px rgba(167, 139, 250, 0.2);
+}
+
+.composer-card h2 {
+    color: var(--accent-primary); /* Purple for composer names */
+    margin: 0 0 0.5rem 0;
+    font-size: 1.5rem;
+    border-bottom: none;
+    padding-bottom: 0;
+    /* Reset any inherited gradient styles */
+    background: none;
+    -webkit-background-clip: initial;
+    background-clip: initial;
+    -webkit-text-fill-color: initial;
+    text-fill-color: initial;
+}
+
+.composer-meta {
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--font-mono);
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.composer-bio {
+    flex-grow: 1;
+}
+
+.composer-bio p, .composer-works ul {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin: 0 0 1rem 0;
+}
+
+.composer-works h3 {
+    margin: 1rem 0 0.5rem 0;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--text-muted);
+}
+
+.composer-works ul {
+    list-style: none;
+    padding: 0;
+}
+
+.composer-works li {
+    background-color: rgba(125, 211, 252, 0.05);
+    padding: 0.5rem 0.75rem;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+    border-left: 3px solid var(--accent-secondary);
+}
+
+.listen-btn {
+    display: block;
+    text-align: center;
+    background: linear-gradient(90deg, var(--accent-secondary), var(--accent-primary));
+    color: #0D1117;
+    font-weight: 700;
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 1.5rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.listen-btn:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 20px -5px rgba(167, 139, 250, 0.5);
+}
+
+/* Light Mode Overrides for Composer Page */
+body.light-mode #composer-search { background-color: #fff; }
+body.light-mode .filter-buttons { background-color: #fff; }
+body.light-mode .filter-btn.active { color: #fff; background-color: var(--accent-primary); }
+body.light-mode .listen-btn { color: #fff; }

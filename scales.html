@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Scale Explorer | Sound & Music Research</title>
+
+    <!-- Global styles first -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- Page-specific styles second -->
+    <link rel="stylesheet" href="css/scales.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -29,13 +34,12 @@
             <p>An interactive library of Carnatic Ragas and Western scales.</p>
         </header>
         
-               <section class="scale-controls-top">
+        <section class="scale-controls-top">
              <div class="search-bar-wrapper">
                 <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
                 <input type="text" id="scale-search" placeholder="Search scales by name...">
             </div>
 
-            <!-- NEW: Key Selector Buttons -->
             <div class="filter-buttons" id="key-selector">
                 <button class="filter-btn active" data-key="C">C</button>
                 <button class="filter-btn" data-key="C#">C#</button>
@@ -52,7 +56,7 @@
             </div>
         </section>
 
-        <section id="scale-list-container" class="composer-grid">
+        <section id="scale-list-container">
             <p class="card-placeholder">Loading scales...</p>
         </section>
 
@@ -62,9 +66,7 @@
 
     </main>
     
-    <!-- The main script MUST come first -->
     <script src="js/script.js"></script>
-    <!-- The page-specific scales script comes second -->
     <script src="js/scales.js"></script>
 </body>
 </html>

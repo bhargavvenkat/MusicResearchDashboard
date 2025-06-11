@@ -1,0 +1,222 @@
+/* --- Physics of Sound Page Styles --- */
+.interactive-section, .interactive-section-full {
+    display: grid;
+    gap: 3rem;
+    align-items: center;
+    padding: 4rem 0;
+    border-bottom: 1px solid var(--border-color);
+    animation: card-fade-in 0.6s ease-out forwards;
+    opacity: 0;
+}
+.interactive-section:nth-of-type(1) { animation-delay: 0.4s; }
+.interactive-section:nth-of-type(2) { animation-delay: 0.6s; }
+.interactive-section-full { animation-delay: 0.8s; }
+
+.interactive-section {
+    grid-template-columns: 1fr 1.5fr;
+}
+.interactive-section.reverse {
+    grid-template-columns: 1.5fr 1fr;
+}
+.interactive-section.reverse .interactive-text {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+@media (max-width: 900px) {
+    .interactive-section, .interactive-section.reverse {
+        grid-template-columns: 1fr;
+    }
+    .interactive-section.reverse .interactive-text {
+        grid-column: 1;
+    }
+}
+
+.interactive-text h2 {
+    font-size: 2rem;
+    background: linear-gradient(90deg, var(--accent-secondary), var(--accent-primary));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    display: inline-block;
+    margin-top: 0;
+}
+
+.interactive-text p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: var(--text-muted);
+    max-width: 55ch;
+}
+
+.interactive-visual {
+    background: var(--card-bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    height: 300px;
+    padding: 1rem;
+}
+
+.interactive-visual canvas {
+    width: 100%;
+    height: 100%;
+}
+
+.controls-group {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.controls-group label {
+    font-family: var(--font-mono);
+    color: var(--text-color);
+}
+
+.controls-group input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 4px;
+    background: var(--border-color);
+    outline: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.controls-group input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: var(--accent-primary);
+    border-radius: 50%;
+    transition: background-color 0.2s;
+}
+.controls-group input[type="range"]::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: var(--accent-primary);
+    border-radius: 50%;
+    border: none;
+    transition: background-color 0.2s;
+}
+.controls-group input[type="range"]:hover::-webkit-slider-thumb {
+    background: var(--accent-secondary);
+}
+.controls-group input[type="range"]:hover::-moz-range-thumb {
+    background: var(--accent-secondary);
+}
+
+.filter-buttons {
+    display: flex;
+    gap: 0.5rem;
+    background-color: var(--card-bg-color);
+    padding: 0.5rem;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+}
+
+.filter-btn {
+    background-color: transparent;
+    border: none;
+    color: var(--text-muted);
+    font-family: var(--font-primary);
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.filter-btn:hover {
+    color: var(--text-color);
+    background-color: rgba(139, 148, 158, 0.1);
+}
+
+.filter-btn.active {
+    background-color: var(--accent-secondary);
+    color: var(--bg-color);
+    font-weight: 700;
+}
+
+
+/* Interference Section */
+.interactive-section-full { display: block; }
+
+.interactive-text-full {
+    text-align: center;
+    max-width: 70ch;
+    margin: 0 auto 3rem auto;
+}
+.interactive-text-full h2 {
+    font-size: 2rem;
+    background: linear-gradient(90deg, var(--accent-secondary), var(--accent-primary));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    display: inline-block;
+    margin-top: 0;
+}
+.interactive-text-full p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: var(--text-muted);
+}
+
+.interference-module {
+    background: var(--card-bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.interference-row {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    border: 1px solid var(--border-color);
+    padding: 1rem;
+    border-radius: 8px;
+}
+.interference-row.result { border-style: dashed; }
+.interference-row canvas { flex-grow: 1; height: 100px; }
+.wave-label {
+    font-family: var(--font-mono);
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    color: var(--bg-color);
+}
+.interference-row:nth-child(1) .wave-label { background-color: #A78BFA; } /* Purple */
+.interference-row:nth-child(2) .wave-label { background-color: #7DD3FC; } /* Cyan */
+.interference-row:nth-child(3) .wave-label { background-color: var(--text-muted); }
+
+.phase-control {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    min-width: 200px;
+}
+.phase-control label {
+    font-family: var(--font-mono);
+    font-size: 0.9rem;
+}
+
+/* Light Mode Overrides for Physics Page */
+body.light-mode .interactive-text h2,
+body.light-mode .interactive-text-full h2 {
+    background: none;
+    -webkit-background-clip: initial;
+    background-clip: initial;
+    -webkit-text-fill-color: initial;
+    text-fill-color: initial;
+    color: var(--title-color);
+}
+body.light-mode .wave-label { color: #fff; }
+body.light-mode .filter-btn.active { color: #fff; background-color: var(--accent-primary); }

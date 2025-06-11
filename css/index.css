@@ -1,0 +1,228 @@
+/* --- Card Grid Layout (Index Page) --- */
+.card-grid { 
+    display: grid; 
+    grid-template-columns: 1fr; 
+    gap: 2rem; 
+    margin-bottom: 4rem; 
+}
+@media (min-width: 768px) { .card-grid { grid-template-columns: 1fr 1fr; } }
+
+/* Animation delays for index page cards */
+.card:nth-child(1) { animation-delay: 0.6s; }
+.card:nth-child(2) { animation-delay: 0.7s; }
+.card-full-width { animation-delay: 0.8s; }
+
+/* === VIBE UPGRADE: UNIFIED MAIN DASHBOARD HEADERS === */
+.card-grid .card h2,
+.card-full-width.card h2 {
+    background: linear-gradient(90deg, var(--accent-secondary), var(--accent-primary));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    display: inline-block;
+    margin-top: 0;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 0.75rem;
+    font-size: 1.25rem;
+    position: relative;
+    z-index: 1;
+}
+
+.card ul { list-style: none; padding: 0; margin: 0; position: relative; z-index: 1; }
+
+.card li { 
+    border-bottom: 1px solid var(--border-color); 
+    transition: background-color 0.3s ease;
+    border-radius: 6px;
+    margin: 2px 0;
+}
+
+.card li:hover {
+    background-color: rgba(125, 211, 252, 0.1); /* Cool cyan glow */
+}
+
+.card li:last-child { border-bottom: none; }
+
+.card ul li a {
+    color: var(--text-color);
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 0.6rem;
+    transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.card ul li a::after {
+    content: '→';
+    font-size: 1.2rem;
+    color: var(--accent-secondary); 
+    opacity: 0;
+    transform: translateX(-10px);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.card li:hover a {
+    color: #fff;
+    transform: translateX(4px);
+}
+
+.card li:hover a::after {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* --- Table & Interactivity Styles --- */
+@keyframes shimmer {
+    100% { transform: translateX(100%); }
+}
+
+.hint {
+    color: var(--text-muted);
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+    margin: -0.5rem 0 1.5rem 2px;
+    opacity: 0;
+    animation: text-slide-up 0.8s 0.9s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+    position: relative;
+    overflow: hidden;
+}
+
+.hint::after {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 200%; height: 100%;
+    transform: translateX(-100%);
+    background: linear-gradient( 100deg, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0) 80% );
+    animation: shimmer 5s infinite 2s;
+}
+
+.table-container {
+    overflow-x: auto;
+    position: relative;
+    z-index: 1;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    padding: 2px;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    font-family: var(--font-mono);
+    font-size: 0.95em;
+    min-width: 800px;
+}
+
+th, td {
+    padding: 0.85rem 1.25rem;
+    text-align: left;
+    white-space: nowrap;
+    border-bottom: 1px solid var(--border-color);
+}
+
+th:first-child {
+    font-weight: 700;
+    color: var(--accent-primary);
+    position: sticky;
+    left: 0;
+    background-color: var(--bg-color);
+    text-align: center;
+}
+
+td:first-child {
+    font-weight: 700;
+    color: var(--accent-primary);
+    position: sticky;
+    left: 0;
+    background-color: var(--bg-color);
+    text-align: center;
+}
+
+thead th {
+    color: var(--text-color);
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 0.85em;
+    background-color: rgba(22, 27, 34, 0.7);
+    border-bottom: 2px solid var(--accent-secondary);
+}
+
+tbody tr:last-child td { border-bottom: none; }
+tbody tr:nth-child(even) { background-color: var(--card-bg-color); }
+
+tbody tr { transition: transform 0.2s ease, background-color 0.2s ease; }
+
+tbody tr:hover {
+    background-color: rgba(125, 211, 252, 0.1);
+    transform: scale(1.015);
+    box-shadow: 0 0 20px -5px rgba(125, 211, 252, 0.3);
+    z-index: 10;
+    position: relative;
+}
+
+/* --- Interactive Frequency Cell --- */
+.interactive-freq { 
+    cursor: pointer; 
+    transition: color 0.3s ease, font-weight 0.3s ease, background-image 0.4s ease, background-color 0.4s ease;
+}
+.interactive-freq:hover { 
+    color: var(--accent-secondary); 
+    font-weight: 700; 
+}
+
+.interactive-freq.playing {
+    background-image: linear-gradient(90deg, var(--accent-secondary), var(--accent-primary));
+    color: #0D1117;
+    font-weight: 700;
+}
+
+/* --- Light Mode Overrides for Index Page --- */
+body.light-mode .hint::after {
+    background: linear-gradient(100deg, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.08) 50%, rgba(0, 0, 0, 0) 80%);
+}
+
+body.light-mode .card-grid .card h2,
+body.light-mode .card-full-width.card h2 {
+    background: none;
+    -webkit-background-clip: initial;
+    background-clip: initial;
+    -webkit-text-fill-color: initial;
+    text-fill-color: initial;
+    color: var(--title-color);
+}
+
+body.light-mode .card li:hover {
+    background-color: rgba(167, 139, 250, 0.1);
+}
+
+body.light-mode .interactive-freq.playing {
+    color: #F3F4F6;
+}
+
+body.light-mode th:first-child,
+body.light-mode td:first-child {
+    background-color: var(--bg-color);
+}
+
+body.light-mode td:first-child {
+    color: #6D28D9;
+}
+
+body.light-mode thead th {
+    background-color: var(--bg-color); 
+    color: #4B5563;
+    border-bottom: 2px solid #E5E7EB;
+}
+
+body.light-mode thead tr:first-child th:first-child {
+    border-top-left-radius: 8px;
+}
+body.light-mode thead tr:first-child th:last-child {
+    border-top-right-radius: 8px;
+}

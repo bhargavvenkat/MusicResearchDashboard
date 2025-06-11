@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Composer Archives | Sound & Music Research</title>
+
+    <!-- Global styles first -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- Page-specific styles second -->
+    <link rel="stylesheet" href="css/composer.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -44,11 +49,6 @@
         </header>
 
         <section id="composer-grid" class="composer-grid">
-            <!-- 
-              This entire section used to contain over 100 composer cards.
-              Now, it's a single, clean container. The JavaScript will
-              fetch the data from `composers.json` and build the cards here.
-            -->
             <p class="card-placeholder">Loading composers...</p>
         </section>
 
@@ -58,9 +58,7 @@
 
     </main>
     
-    <!-- The main script for theme/aurora functionality MUST come first -->
     <script src="js/script.js"></script>
-    <!-- The page-specific script for fetching and displaying composers comes second -->
     <script src="js/composer.js"></script>
 </body>
 </html>
