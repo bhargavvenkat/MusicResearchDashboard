@@ -1,18 +1,43 @@
+/* --- General Enhancements --- */
+/* Increased vertical rhythm and breathing room for a less crowded feel. */
+.main-header {
+    margin-bottom: 5rem; /* Increased spacing */
+}
+
 /* --- Card Grid Layout (Index Page) --- */
-.card-grid { 
-    display: grid; 
-    grid-template-columns: 1fr; 
-    gap: 2rem; 
-    margin-bottom: 4rem; 
+/* Added more space between cards to let each element breathe. */
+.card-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2.5rem; /* Increased from 2rem */
+    margin-bottom: 5rem; /* Increased from 4rem */
 }
 @media (min-width: 768px) { .card-grid { grid-template-columns: 1fr 1fr; } }
 
-/* Animation delays for index page cards */
+/* --- Card Styling & Aesthetics --- */
+/* Added depth with a modern shadow and a subtle hover effect to make cards feel like they're lifting off the page. */
+.card {
+    background-color: var(--card-bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 12px; /* Softer, more modern rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 1.5rem; /* Added internal padding to prevent content from touching the edges. */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Adds a subtle "lift" on hover */
+    box-shadow: 0 8px 25px rgba(125, 211, 252, 0.15); /* Enhances the glow effect */
+}
+
+/* Animation delays for index page cards (unchanged) */
 .card:nth-child(1) { animation-delay: 0.6s; }
 .card:nth-child(2) { animation-delay: 0.7s; }
 .card-full-width { animation-delay: 0.8s; }
 
+
 /* === VIBE UPGRADE: UNIFIED MAIN DASHBOARD HEADERS === */
+/* Increased contrast and readability of card headers to improve visual hierarchy. */
 .card-grid .card h2,
 .card-full-width.card h2 {
     background: linear-gradient(90deg, var(--accent-secondary), var(--accent-primary));
@@ -22,27 +47,28 @@
     text-fill-color: transparent;
     display: inline-block;
     margin-top: 0;
-    border-bottom: 1px solid var(--border-color);
-    padding-bottom: 0.75rem;
-    font-size: 1.25rem;
+    border-bottom: 2px solid var(--border-color); /* Thicker border for more separation */
+    padding-bottom: 1rem;
+    margin-bottom: 1rem; /* Added space below the header */
+    font-size: 1.5rem; /* Larger font size for better hierarchy */
+    font-weight: 700;
     position: relative;
     z-index: 1;
 }
 
 .card ul { list-style: none; padding: 0; margin: 0; position: relative; z-index: 1; }
 
-.card li { 
-    border-bottom: 1px solid var(--border-color); 
+/* Refined List Item Styling */
+.card li {
     transition: background-color 0.3s ease;
-    border-radius: 6px;
-    margin: 2px 0;
+    border-radius: 8px; /* Rounded corners for the hover background */
+    margin: 4px 0;
 }
 
+/* More prominent hover state for better interactive feedback */
 .card li:hover {
-    background-color: rgba(125, 211, 252, 0.1); /* Cool cyan glow */
+    background-color: rgba(125, 211, 252, 0.1);
 }
-
-.card li:last-child { border-bottom: none; }
 
 .card ul li a {
     color: var(--text-color);
@@ -50,22 +76,29 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.8rem 0.6rem;
+    padding: 1rem 0.75rem; /* Increased padding for a larger click target */
+    border-bottom: 1px solid var(--border-color);
     transition: color 0.2s ease, transform 0.2s ease;
+}
+
+/* Remove border from the last item for a cleaner look */
+.card li:last-child a {
+    border-bottom: none;
 }
 
 .card ul li a::after {
     content: '→';
-    font-size: 1.2rem;
-    color: var(--accent-secondary); 
+    font-size: 1.5rem; /* Larger arrow for a bolder look */
+    color: var(--accent-secondary);
     opacity: 0;
-    transform: translateX(-10px);
-    transition: opacity 0.2s ease, transform 0.2s ease;
+    transform: translateX(-15px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
+/* Stronger hover effect on the link text and arrow for better contrast */
 .card li:hover a {
-    color: #fff;
-    transform: translateX(4px);
+    color: #fff; /* High-contrast white text on hover */
+    transform: translateX(5px);
 }
 
 .card li:hover a::after {
@@ -73,38 +106,14 @@
     transform: translateX(0);
 }
 
+
 /* --- Table & Interactivity Styles --- */
-@keyframes shimmer {
-    100% { transform: translateX(100%); }
-}
-
-.hint {
-    color: var(--text-muted);
-    font-size: 1rem;
-    font-weight: 400;
-    text-align: left;
-    margin: -0.5rem 0 1.5rem 2px;
-    opacity: 0;
-    animation: text-slide-up 0.8s 0.9s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
-    position: relative;
-    overflow: hidden;
-}
-
-.hint::after {
-    content: '';
-    position: absolute;
-    top: 0; left: 0;
-    width: 200%; height: 100%;
-    transform: translateX(-100%);
-    background: linear-gradient( 100deg, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0) 80% );
-    animation: shimmer 5s infinite 2s;
-}
-
+/* Minor tweaks to the table for better integration with the new card style. */
 .table-container {
     overflow-x: auto;
     position: relative;
     z-index: 1;
-    border: 1px solid var(--border-color);
+    border: none; /* Removed the container border, as the parent card now has one */
     border-radius: 10px;
     padding: 2px;
 }
@@ -119,42 +128,35 @@ table {
 }
 
 th, td {
-    padding: 0.85rem 1.25rem;
+    padding: 1rem 1.25rem; /* Slightly more padding for readability */
     text-align: left;
     white-space: nowrap;
     border-bottom: 1px solid var(--border-color);
 }
 
-th:first-child {
+th:first-child, td:first-child {
     font-weight: 700;
     color: var(--accent-primary);
     position: sticky;
     left: 0;
-    background-color: var(--bg-color);
+    background-color: var(--card-bg-color); /* Ensures sticky column matches the card background */
     text-align: center;
 }
 
-td:first-child {
-    font-weight: 700;
-    color: var(--accent-primary);
-    position: sticky;
-    left: 0;
-    background-color: var(--bg-color);
-    text-align: center;
-}
-
+/* Increased contrast for the table header */
 thead th {
-    color: var(--text-color);
+    color: var(--text-muted);
     font-weight: 500;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
-    font-size: 0.85em;
-    background-color: rgba(22, 27, 34, 0.7);
+    letter-spacing: 0.8px; /* Wider spacing for a more refined look */
+    font-size: 0.8rem;
+    background-color: rgba(30, 41, 59, 0.7); /* Darker, distinct header background */
     border-bottom: 2px solid var(--accent-secondary);
 }
 
-tbody tr:last-child td { border-bottom: none; }
-tbody tr:nth-child(even) { background-color: var(--card-bg-color); }
+tbody tr:last-child td, tbody tr:last-child th { border-bottom: none; }
+/* Removed zebra striping for a cleaner, more modern look. The hover effect provides enough distinction. */
+tbody tr:nth-child(even) { background-color: transparent; }
 
 tbody tr { transition: transform 0.2s ease, background-color 0.2s ease; }
 
@@ -165,64 +167,190 @@ tbody tr:hover {
     z-index: 10;
     position: relative;
 }
-
-/* --- Interactive Frequency Cell --- */
-.interactive-freq { 
-    cursor: pointer; 
-    transition: color 0.3s ease, font-weight 0.3s ease, background-image 0.4s ease, background-color 0.4s ease;
+/* Ensure the sticky column also gets the hover background */
+tbody tr:hover th:first-child, tbody tr:hover td:first-child {
+    background-color: rgba(125, 211, 252, 0.1);
 }
-.interactive-freq:hover { 
-    color: var(--accent-secondary); 
-    font-weight: 700; 
+
+/* --- Unchanged sections --- */
+@keyframes shimmer { 100% { transform: translateX(100%); } }
+.hint { color: var(--text-muted); font-size: 1rem; font-weight: 400; text-align: left; margin: -0.5rem 0 1.5rem 2px; opacity: 0; animation: text-slide-up 0.8s 0.9s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards; position: relative; overflow: hidden; }
+.hint::after { content: ''; position: absolute; top: 0; left: 0; width: 200%; height: 100%; transform: translateX(-100%); background: linear-gradient( 100deg, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0) 80% ); animation: shimmer 5s infinite 2s; }
+.interactive-freq { cursor: pointer; transition: color 0.3s ease, font-weight 0.3s ease, background-image 0.4s ease, background-color 0.4s ease; }
+.interactive-freq:hover { color: var(--accent-secondary); font-weight: 700; }
+.interactive-freq.playing { background-image: linear-gradient(90deg, var(--accent-secondary), var(--accent-primary)); color: #0D1117; font-weight: 700; }
+
+/* --- Light Mode Overrides for Index Page --- */
+/* You may want to refine these colors further to match the new aesthetic */
+body.light-mode .hint::after { background: linear-gradient(100deg, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.08) 50%, rgba(0, 0, 0, 0) 80%); }
+body.light-mode .card { box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); }
+body.light-mode .card:hover { box-shadow: 0 6px 20px rgba(167, 139, 250, 0.15); }
+body.light-mode .card-grid .card h2, body.light-mode .card-full-width.card h2 { background: none; -webkit-background-clip: initial; background-clip: initial; -webkit-text-fill-color: initial; text-fill-color: initial; color: var(--title-color); }
+body.light-mode .card li:hover { background-color: rgba(167, 139, 250, 0.3); }
+body.light-mode .card li:hover a { color: #4C1D95; }
+body.light-mode .interactive-freq.playing { color: #F3F4F6; }
+body.light-mode th:first-child, body.light-mode td:first-child { background-color: var(--bg-color); }
+body.light-mode td:first-child { color: #6D28D9; }
+body.light-mode thead th { background-color: var(--bg-color); color: #4B5563; border-bottom: 2px solid #E5E7EB; }
+body.light-mode tbody tr:hover { background-color: rgba(167, 139, 250, 0.1); }
+body.light-mode tbody tr:hover th:first-child, body.light-mode tbody tr:hover td:first-child { background-color: rgba(167, 139, 250, 0.1); }
+
+.quick-actions {
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+}
+.btn-primary, .btn-secondary {
+    padding: 0.8rem 1.2rem;
+    border-radius: 10px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+.btn-primary {
+    background-color: var(--accent-primary);
+    color: #fff;
+}
+.btn-secondary {
+    background-color: var(--accent-secondary);
+    color: #fff;
+}
+.btn-primary:hover, .btn-secondary:hover {
+    opacity: 0.9;
+}
+
+@keyframes buttonPulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+body.light-mode .btn-primary:hover,
+body.light-mode .btn-secondary:hover {
+  animation: buttonPulse 0.6s ease-in-out;
+}
+
+
+@keyframes fadeSlideUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.card {
+    animation: fadeSlideUp 0.8s ease-out both;
+}
+
+.card:nth-child(1) { animation-delay: 0.2s; }
+.card:nth-child(2) { animation-delay: 0.4s; }
+.card-full-width { animation-delay: 0.6s; }
+
+
+@keyframes pulseGlow {
+    0% {
+        box-shadow: 0 0 0 rgba(125, 211, 252, 0.3);
+    }
+    50% {
+        box-shadow: 0 0 15px rgba(125, 211, 252, 0.6);
+    }
+    100% {
+        box-shadow: 0 0 0 rgba(125, 211, 252, 0.3);
+    }
 }
 
 .interactive-freq.playing {
-    background-image: linear-gradient(90deg, var(--accent-secondary), var(--accent-primary));
-    color: #0D1117;
-    font-weight: 700;
+    animation: pulseGlow 1.5s infinite;
+    border-radius: 6px;
+    padding: 4px 6px;
 }
 
-/* --- Light Mode Overrides for Index Page --- */
-body.light-mode .hint::after {
-    background: linear-gradient(100deg, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.08) 50%, rgba(0, 0, 0, 0) 80%);
+
+/* --- Aurora Background Animation --- */
+
+.background-aurora {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background: radial-gradient(circle at 30% 30%, rgba(99, 102, 241, 0.3), transparent),
+                radial-gradient(circle at 70% 70%, rgba(236, 72, 153, 0.2), transparent);
+    background-size: 200% 200%;
+    animation: auroraShift 12s ease-in-out infinite;
+    pointer-events: none;
 }
 
-body.light-mode .card-grid .card h2,
-body.light-mode .card-full-width.card h2 {
-    background: none;
-    -webkit-background-clip: initial;
-    background-clip: initial;
-    -webkit-text-fill-color: initial;
-    text-fill-color: initial;
-    color: var(--title-color);
+@keyframes auroraShift {
+    0% { background-position: 0% 0%; }
+    50% { background-position: 100% 100%; }
+    100% { background-position: 0% 0%; }
 }
 
-body.light-mode .card li:hover {
-    background-color: rgba(167, 139, 250, 0.1);
+
+body.light-mode .card {
+  animation: fadeInUp 0.6s ease forwards;
+  opacity: 0;
 }
 
-body.light-mode .interactive-freq.playing {
-    color: #F3F4F6;
+@keyframes fadeInUp {
+  from {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
-body.light-mode th:first-child,
-body.light-mode td:first-child {
-    background-color: var(--bg-color);
+body.light-mode .card:nth-child(1) { animation-delay: 0.2s; }
+body.light-mode .card:nth-child(2) { animation-delay: 0.4s; }
+body.light-mode .card.card-full-width { animation-delay: 0.6s; }
+
+body.light-mode .main-header h1 {
+  position: relative;
+  overflow: hidden;
 }
 
-body.light-mode td:first-child {
-    color: #6D28D9;
+body.light-mode .main-header h1::before {
+  content: '';
+  position: absolute;
+  top: 0; left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(120deg, transparent, rgba(255,255,255,0.4), transparent);
+  animation: sparkleSwipe 2.5s ease-in-out infinite;
 }
 
-body.light-mode thead th {
-    background-color: var(--bg-color); 
-    color: #4B5563;
-    border-bottom: 2px solid #E5E7EB;
+@keyframes sparkleSwipe {
+  0% { left: -100%; }
+  50% { left: 100%; }
+  100% { left: 100%; }
 }
 
-body.light-mode thead tr:first-child th:first-child {
-    border-top-left-radius: 8px;
+/* Base Body Font */
+body {
+  font-family: var(--font-primary);
 }
-body.light-mode thead tr:first-child th:last-child {
-    border-top-right-radius: 8px;
+
+/* Headings */
+h1, h2, h3, h4 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+/* Monospaced sections (like table data or code blocks) */
+code, pre, td:first-child {
+  font-family: var(--font-mono);
+}
+
+
+body.light-mode {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
