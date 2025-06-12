@@ -134,8 +134,17 @@
 }
 
 
+.scale-card {
+    background: var(--card-bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 1.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
 .scale-card:hover {
     box-shadow: 0 10px 30px -5px rgba(167, 139, 250, 0.2);
+    transform: translateY(-5px);
 }
 
 .scale-card.active {
@@ -206,24 +215,13 @@
     line-height: 1.6;
     margin: 0;
     word-wrap: break-word;
-    /* REFINEMENT: Changed color to white for dark mode */
     color: #FFFFFF; 
     font-weight: 500;
 }
 
-/* By default (Western mode), hide Carnatic notation */
-.carnatic-notation {
-    display: none;
-}
-
-/* When the body has the .carnatic-mode class... */
-body.carnatic-mode .western-notation {
-    display: none; /* ...hide the western notation... */
-}
-
-body.carnatic-mode .carnatic-notation {
-    display: block; /* ...and show the carnatic notation. */
-}
+.carnatic-notation { display: none; }
+body.carnatic-mode .western-notation { display: none; }
+body.carnatic-mode .carnatic-notation { display: block; }
 
 
 .scale-button-container .listen-btn {
@@ -255,20 +253,17 @@ body.carnatic-mode .carnatic-notation {
     fill: #0D1117;
 }
 
-/* Hide note labels by default */
+/* --- Keyboard Styles --- */
 .key span {
     opacity: 0;
     transition: opacity 0.2s ease-in-out;
 }
 
-/* Show label only when the key is highlighted */
 .key.is-in-scale span,
 .key.is-root span {
     opacity: 1;
 }
 
-
-/* --- REFINED Global Keyboard Styles --- */
 .global-keyboard-section {
     padding: 2rem;
     margin-bottom: 3rem;
@@ -278,6 +273,7 @@ body.carnatic-mode .carnatic-notation {
     box-shadow: 0 8px 30px -15px rgba(0,0,0,0.3);
     margin-left: -2rem;
     margin-right: -2rem;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 
 .global-keyboard-container {
@@ -327,7 +323,6 @@ body.carnatic-mode .carnatic-notation {
     padding-bottom: 6px;
 }
 
-/* Positioning for black keys (for 14 white keys) */
 .key[data-note="C#4"] { left: calc((100% / 14) * 1); }
 .key[data-note="D#4"] { left: calc((100% / 14) * 2); }
 .key[data-note="F#4"] { left: calc((100% / 14) * 4); }
@@ -340,50 +335,97 @@ body.carnatic-mode .carnatic-notation {
 .key[data-note="A#5"] { left: calc((100% / 14) * 13); }
 
 
-.key:hover {
-    background-color: #e9ecef;
-}
-.key.black:hover {
-    background-color: #343a40;
-}
+.key:hover { background-color: #e9ecef; }
+.key.black:hover { background-color: #343a40; }
+.key:active { transform: scale(0.98); }
+.key.black:active { transform: translateX(-50%) scale(0.98); }
 
-.key:active {
-    transform: scale(0.98);
-}
-.key.black:active {
-    transform: translateX(-50%) scale(0.98);
-}
-
-.key.is-in-scale:not(.is-root) {
-    background-color: #d8cffc; /* Light purple for white keys */
-}
-
-.key.black.is-in-scale:not(.is-root) {
-    background-color: #8b5cf6; /* A brighter purple for black keys */
-}
-
+.key.is-in-scale:not(.is-root) { background-color: #d8cffc; }
+.key.black.is-in-scale:not(.is-root) { background-color: #8b5cf6; }
 .key.is-root {
-    background-color: #d8cffc !important; /* Light purple for root, overrides scale highlight */
-    color: #333; /* Darker text color for better contrast */
+    background-color: #d8cffc !important;
+    color: #333;
     box-shadow: 0 0 10px rgba(91, 58, 154, 0.15);
     z-index: 3;
 }
-
 .key.is-playing {
-    background-color: var(--accent-secondary) !important; /* Play highlight overrides everything */
+    background-color: var(--accent-secondary) !important;
     color: #000;
     transition-duration: 0s;
 }
 
-/* Light Mode Overrides */
-body.light-mode .scale-button-container .listen-btn {
+/* --- Light Mode Refinements (Inspired by Composer Theme) --- */
+body.light-mode {
+    background-color: #F9FAFB;
+}
+
+body.light-mode #scale-search {
+    background-color: #fff;
+    color: #11182C;
+    border-color: #E5E7EB;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+}
+body.light-mode #scale-search:focus {
+    border-color: var(--accent-primary);
+    box-shadow: 0 0 0 3px rgba(167, 139, 250, 0.2);
+}
+
+body.light-mode .filter-buttons {
+    background-color: #fff;
+    border-color: #E5E7EB;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+}
+body.light-mode .filter-btn { color: #4B5563; }
+body.light-mode .filter-btn:hover:not(.active) {
+    color: #11182C;
+    background-color: #F3F4F6;
+}
+body.light-mode .filter-btn.active {
     color: #fff;
 }
-body.light-mode .scale-button-container .listen-btn svg {
-    fill: #fff;
+
+body.light-mode .scale-card {
+    background-color: #1E1B4B; /* Dark Indigo */
+    border-color: #312E81; /* Lighter Indigo */
+    box-shadow: 0 6px 20px rgba(30, 27, 75, 0.3);
 }
-/* REFINEMENT: Changed color for light mode to ensure contrast */
+body.light-mode .scale-card:hover {
+    box-shadow: 0 8px 30px rgba(30, 27, 75, 0.4);
+}
+body.light-mode .scale-card.active {
+    border-color: var(--accent-primary);
+    box-shadow: 0 0 25px -5px rgba(167, 139, 250, 0.5);
+}
+
+body.light-mode .card-title h2 { color: #FFFFFF; }
+body.light-mode .card-title .scale-meta { color: rgba(255, 255, 255, 0.6); }
+body.light-mode .raga-number { color: rgba(255, 255, 255, 0.6); }
+body.light-mode .scale-group h3 {
+    color: rgba(255, 255, 255, 0.7);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+}
+
 body.light-mode .carnatic-notation,
 body.light-mode .western-notation {
-    color: var(--text-color);
+    color: #FFFFFF;
+}
+
+body.light-mode .listen-btn { color: #FFFFFF; }
+body.light-mode .listen-btn svg { fill: #FFFFFF; }
+
+body.light-mode .global-keyboard-section {
+    background: #1E1B4B;
+    border-color: #312E81;
+    box-shadow: 0 8px 30px rgba(30, 27, 75, 0.4);
+}
+
+/* REFINEMENT: Dark Purple highlights for keyboard in light mode */
+body.light-mode .key.is-root,
+body.light-mode .key.white.is-in-scale {
+    background-color: #6D28D9 !important; /* Dark Purple */
+    color: #FFFFFF; /* White text for contrast */
+}
+
+body.light-mode .key.black.is-in-scale {
+    background-color: #8b5cf6; /* Keep vibrant purple for black keys */
 }
