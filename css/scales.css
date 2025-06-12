@@ -11,23 +11,21 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
     gap: 1.5rem;
-    /* This forces all grid items (the cards) in a single row to be the same height. */
     align-items: stretch; 
 }
 
 /* 2. THE CARD ITSELF */
 .scale-card {
-    /* This turns the card into a vertical flex container, allowing us to align its contents. */
     display: flex;
     flex-direction: column;
 }
 
 /* 3. THE BUTTON CONTAINER */
 .scale-button-container {
-    /* This is the magic. It pushes this element to the very bottom of the flex container (the card). */
     margin-top: auto; 
-    /* This adds space between the keyboard and the buttons. */
     padding-top: 1.5rem; 
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -89,8 +87,9 @@
     gap: 0.5rem;
     background-color: var(--card-bg-color);
     padding: 0.5rem;
-    border-radius: 8px;
+    border-radius: 12px;
     border: 1px solid var(--border-color);
+    box-shadow: 0 4px 15px -5px rgba(0,0,0,0.2);
 }
 
 .filter-btn {
@@ -101,23 +100,33 @@
     font-weight: 500;
     padding: 0.5rem 1rem;
     cursor: pointer;
-    border-radius: 6px;
+    border-radius: 8px;
     transition: all 0.3s ease;
 }
 
-.filter-btn:hover {
+.filter-btn:hover:not(.active) {
     color: var(--text-color);
     background-color: rgba(139, 148, 158, 0.1);
+    transform: scale(1.05);
 }
 
 .filter-btn.active {
-    background-color: var(--accent-secondary);
-    color: var(--bg-color);
+    background: linear-gradient(45deg, var(--accent-secondary), var(--accent-primary));
+    color: #fff;
     font-weight: 700;
+    box-shadow: 0 2px 8px -2px var(--accent-primary);
+    transform: scale(1.05);
 }
+
 
 .scale-card:hover {
     box-shadow: 0 10px 30px -5px rgba(167, 139, 250, 0.2);
+}
+
+.scale-card.active {
+    border-color: var(--accent-primary);
+    box-shadow: 0 0 25px -8px rgba(167, 139, 250, 0.6);
+    transform: scale(1.02);
 }
 
 .card-header {
@@ -155,11 +164,15 @@
 .note-display-section {
     display: flex;
     justify-content: space-between;
+    flex-direction: column; /* Arrange scale groups vertically */
     gap: 1.5rem;
     margin-bottom: 1.5rem;
 }
 
-.scale-group { flex: 1; min-width: 0; }
+.scale-group { 
+    flex: 1; 
+    min-width: 0;
+}
 
 .scale-group h3 {
     margin: 0 0 0.75rem 0;
@@ -185,14 +198,7 @@ p.western-notes-display {
     font-weight: 500;
 }
 
-.scale-button-container {
-    display: flex;
-    gap: 1rem;
-}
-
-.scale-button-container .listen-btn,
-.scale-button-container .play-scale-btn {
-    flex-grow: 1;
+.scale-button-container .listen-btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -200,7 +206,7 @@ p.western-notes-display {
     background: linear-gradient(90deg, var(--accent-secondary), var(--accent-primary));
     color: #0D1117;
     font-weight: 700;
-    padding: 0.75rem 1rem;
+    padding: 0.75rem 1.5rem;
     border-radius: 8px;
     text-decoration: none;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -210,8 +216,7 @@ p.western-notes-display {
     font-size: 1rem;
 }
 
-.scale-button-container .listen-btn:hover,
-.scale-button-container .play-scale-btn:hover {
+.scale-button-container .listen-btn:hover {
     transform: scale(1.03);
     box-shadow: 0 0 20px -5px rgba(167, 139, 250, 0.5);
 }
@@ -222,66 +227,6 @@ p.western-notes-display {
     fill: #0D1117;
 }
 
-.mini-keyboard-wrapper {
-    position: relative;
-    margin: auto 0;
-    margin-bottom: 1.5rem; 
-}
-.mini-keyboard-container {
-    position: relative;
-    width: 100%;
-    padding-top: 35%;
-}
-.mini-key {
-    position: absolute;
-    box-sizing: border-box;
-    border-radius: 3px;
-}
-.mini-white {
-    width: 14.28%; height: 100%;
-    background-color: #a9b1ba;
-    border: 1px solid #333;
-    z-index: 1;
-}
-.mini-white[data-note="C"] { left: 0; }
-.mini-white[data-note="D"] { left: 14.28%; }
-.mini-white[data-note="E"] { left: 28.56%; }
-.mini-white[data-note="F"] { left: 42.84%; }
-.mini-white[data-note="G"] { left: 57.12%; }
-.mini-white[data-note="A"] { left: 71.4%; }
-.mini-white[data-note="B"] { left: 85.68%; }
-
-.mini-black {
-    width: 9%; height: 60%;
-    background-color: #2b333d;
-    z-index: 2;
-}
-.mini-black[data-note="C#"] { left: 9.7%; }
-.mini-black[data-note="D#"] { left: 24.0%; }
-.mini-black[data-note="F#"] { left: 52.6%; }
-.mini-black[data-note="G#"] { left: 67.0%; }
-.mini-black[data-note="A#"] { left: 81.3%; }
-
-.mini-key.has-dot::after {
-    content: '';
-    display: block;
-    position: absolute;
-    top: 75%; left: 50%;
-    width: 40%;
-    padding-top: 40%;
-    border-radius: 50%;
-    background-color: var(--accent-primary);
-    border: 1px solid rgba(0,0,0,0.2);
-    box-shadow: 0 0 8px -2px var(--accent-primary);
-    transform: translate(-50%, -50%);
-}
-.mini-black.has-dot::after {
-    width: 60%;
-    padding-top: 60%;
-    top: 70%;
-    background-color: var(--accent-secondary);
-    box-shadow: 0 0 8px -2px var(--accent-secondary);
-}
 
 /* Light Mode Overrides */
 body.light-mode #scale-search {
@@ -298,28 +243,120 @@ body.light-mode #scale-search:focus + .search-icon {
     color: var(--accent-primary);
 }
 body.light-mode .filter-buttons { background-color: #fff; }
-body.light-mode .filter-btn.active { color: #fff; background-color: var(--accent-primary); }
+
 body.light-mode p.western-notes-display { color: #6D28D9; }
-body.light-mode .scale-button-container .listen-btn,
-body.light-mode .scale-button-container .play-scale-btn {
+body.light-mode .scale-button-container .listen-btn {
     color: #fff;
 }
 body.light-mode .scale-button-container .listen-btn svg {
     fill: #fff;
 }
-body.light-mode .mini-white {
-    background-color: #4B5563;
-    border-color: #2b333d;
+
+
+/* --- REFINED Global Keyboard Styles --- */
+.global-keyboard-section {
+    padding: 2rem;
+    margin-bottom: 3rem;
+    background: var(--card-bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    box-shadow: 0 8px 30px -15px rgba(0,0,0,0.3);
+    margin-left: -2rem;
+    margin-right: -2rem;
 }
-body.light-mode .mini-black {
-    background-color: #E0D9F7;
-    border-color: #9CA3AF;
+
+.global-keyboard-container {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 90px;
 }
-body.light-mode .mini-white.has-dot::after {
-    background-color: var(--accent-secondary);
-    box-shadow: 0 0 8px -2px var(--accent-secondary);
+
+.key {
+    position: relative;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: background-color 0.1s ease, transform 0.1s ease;
 }
-body.light-mode .mini-black.has-dot::after {
-    background-color: var(--accent-primary);
-    box-shadow: 0 0 8px -2px var(--accent-primary);
+
+.key.white {
+    flex: 1;
+    background-color: #f8f9fa;
+    color: #333;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 8px;
+    font-family: var(--font-primary);
+    font-weight: 500;
+    font-size: 0.9rem;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.key.black {
+    position: absolute;
+    width: calc((100% / 14) * 0.58);
+    height: 60%;
+    background-color: #212529;
+    z-index: 4;
+    transform: translateX(-50%);
+    border-radius: 4px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: #e9ecef;
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding-bottom: 6px;
+}
+
+/* Positioning for black keys (for 14 white keys) */
+.key[data-note="C#4"] { left: calc((100% / 14) * 1); }
+.key[data-note="D#4"] { left: calc((100% / 14) * 2); }
+.key[data-note="F#4"] { left: calc((100% / 14) * 4); }
+.key[data-note="G#4"] { left: calc((100% / 14) * 5); }
+.key[data-note="A#4"] { left: calc((100% / 14) * 6); }
+.key[data-note="C#5"] { left: calc((100% / 14) * 8); }
+.key[data-note="D#5"] { left: calc((100% / 14) * 9); }
+.key[data-note="F#5"] { left: calc((100% / 14) * 11); }
+.key[data-note="G#5"] { left: calc((100% / 14) * 12); }
+.key[data-note="A#5"] { left: calc((100% / 14) * 13); }
+
+
+.key:hover {
+    background-color: #e9ecef;
+}
+.key.black:hover {
+    background-color: #343a40;
+}
+
+.key:active {
+    transform: scale(0.98);
+}
+.key.black:active {
+    transform: translateX(-50%) scale(0.98);
+}
+
+/* --- REFINEMENT: Highlight entire key instead of dot --- */
+.key.is-in-scale:not(.is-root) {
+    background-color: #d8cffc; /* Light purple for white keys */
+}
+
+.key.black.is-in-scale:not(.is-root) {
+    background-color: #8b5cf6; /* A brighter purple for black keys */
+}
+
+.key.is-root {
+    background-color: #d8cffc !important; /* Light purple for root, overrides scale highlight */
+    color: #333; /* Darker text color for better contrast */
+    box-shadow: 0 0 10px rgba(91, 58, 154, 0.15);
+    z-index: 3;
+}
+
+.key.is-playing {
+    background-color: var(--accent-secondary) !important; /* Play highlight overrides everything */
+    color: #000;
+    transition-duration: 0s;
 }
