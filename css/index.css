@@ -195,6 +195,7 @@ body.light-mode thead th { background-color: var(--bg-color); color: #4B5563; bo
 body.light-mode tbody tr:hover { background-color: rgba(167, 139, 250, 0.1); }
 body.light-mode tbody tr:hover th:first-child, body.light-mode tbody tr:hover td:first-child { background-color: rgba(167, 139, 250, 0.1); }
 
+/* Quick Actions Button Styling */
 .quick-actions {
     margin-top: 2rem;
     display: flex;
@@ -219,6 +220,57 @@ body.light-mode tbody tr:hover th:first-child, body.light-mode tbody tr:hover td
     opacity: 0.9;
 }
 
+/* REWRITTEN: Styles for the new Feedback Card */
+.quick-actions-card {
+    padding: 0; /* Remove padding from the card itself, will be handled by inner elements */
+    text-align: center;
+    animation-delay: 0.9s;
+    margin-top: 4rem;
+    /* Ensure the card itself is a stacking context to contain its children */
+    position: relative;
+    z-index: 1;
+    overflow: hidden; /* Prevents any weird bleed-over from child elements */
+}
+
+.feedback-header {
+    padding: 2rem 2rem 1.5rem; /* Add padding here */
+}
+
+.feedback-header h2 {
+    /* Style the header text */
+    background: linear-gradient(90deg, var(--accent-secondary), var(--accent-primary));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.feedback-body {
+    /* This container holds the interactive content */
+    padding: 0 2rem 2rem; /* Add padding here */
+    position: relative; /* Ensure it can be layered */
+    z-index: 2; /* Lift this section above any other card content */
+}
+
+.feedback-body p {
+    margin: 0 0 1.5rem 0; /* Standard spacing */
+    font-size: 1.1rem;
+    color: var(--text-color);
+}
+
+.feedback-body .quick-actions {
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+
+/* Animations */
 @keyframes buttonPulse {
   0%, 100% { transform: scale(1); }
   50% { transform: scale(1.05); }
@@ -245,9 +297,10 @@ body.light-mode .btn-secondary:hover {
     animation: fadeSlideUp 0.8s ease-out both;
 }
 
+/* Specific card animation delays - re-ordered for new feedback card */
 .card:nth-child(1) { animation-delay: 0.2s; }
 .card:nth-child(2) { animation-delay: 0.4s; }
-.card-full-width { animation-delay: 0.6s; }
+.card-full-width:not(.quick-actions-card) { animation-delay: 0.6s; } /* Exclude the new feedback card here */
 
 
 @keyframes pulseGlow {
@@ -309,7 +362,8 @@ body.light-mode .card {
 
 body.light-mode .card:nth-child(1) { animation-delay: 0.2s; }
 body.light-mode .card:nth-child(2) { animation-delay: 0.4s; }
-body.light-mode .card.card-full-width { animation-delay: 0.6s; }
+body.light-mode .card.card-full-width:not(.quick-actions-card) { animation-delay: 0.6s; } /* Exclude the new feedback card here */
+body.light-mode .quick-actions-card { animation-delay: 0.9s; } /* Match the delay for light mode */
 
 body.light-mode .main-header h1 {
   position: relative;
