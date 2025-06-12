@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     async function initializePage() {
         try {
-            const response = await fetch('json/scales.json');
+            const response = await fetch('../json/scales.json');
             if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
             allScales = await response.json();
             renderScales();

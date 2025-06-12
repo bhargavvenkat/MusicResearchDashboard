@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
         try {
             // 1. FETCH THE DATA
             // Use the `fetch` API to get the JSON file from our new 'json' folder.
-            const response = await fetch('json/composers.json');
+            const response = await fetch('../json/composers.json');
             
             // Check if the file was found and the request was successful.
             if (!response.ok) {
