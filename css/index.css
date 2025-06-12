@@ -30,6 +30,77 @@
     box-shadow: 0 8px 25px rgba(125, 211, 252, 0.15); /* Enhances the glow effect */
 }
 
+/* === DARK MODE STYLES === */
+/*
+  By default (without .light-mode class):
+  - Sound Card: Default dark theme
+  - Music Card: Off-white
+  - Note Freq Chart: Default dark theme
+  - Feedback Card: Default dark theme
+*/
+
+/* Music Card (Off-White) */
+.card-grid .card:nth-child(2) {
+    background-color: #FDFDFD; /* Off-white as requested */
+    border-color: #E5E7EB;
+}
+.card-grid .card:nth-child(2):hover {
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Invert header & link text color for the light Music card */
+.card-grid .card:nth-child(2) h2 {
+    background: none;
+    -webkit-background-clip: initial;
+    background-clip: initial;
+    -webkit-text-fill-color: initial;
+    text-fill-color: initial;
+    color: #11182C;
+    border-bottom-color: #E5E7EB;
+}
+.card-grid .card:nth-child(2) ul li a {
+    color: #1F2937;
+    border-bottom-color: #E5E7EB;
+}
+.card-grid .card:nth-child(2) ul li:hover {
+    background-color: #EAEAEA;
+}
+.card-grid .card:nth-child(2) ul li a:hover {
+    color: #000;
+}
+.card-grid .card:nth-child(2) ul li a::after {
+    color: #4C1D95; /* Keep a touch of purple */
+}
+
+/* Note Frequency Chart (Default Dark Theme) */
+/* Text inside needs to be light */
+.card-full-width:not(.quick-actions-card) h2,
+.card-full-width:not(.quick-actions-card) .hint,
+.card-full-width:not(.quick-actions-card) td {
+    color: #E5E7EB;
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+}
+/* Table-specific styles for the default dark background */
+.card-full-width:not(.quick-actions-card) th:first-child,
+.card-full-width:not(.quick-actions-card) td:first-child,
+.card-full-width:not(.quick-actions-card) thead th {
+    background-color: var(--card-bg-color); /* Match card background */
+}
+.card-full-width:not(.quick-actions-card) thead th {
+    color: #E5E7EB;
+    border-bottom-color: var(--accent-primary);
+}
+.card-full-width:not(.quick-actions-card) td:first-child {
+    color: var(--accent-primary);
+}
+.card-full-width:not(.quick-actions-card) tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.05); /* Subtle hover for dark theme */
+}
+.card-full-width:not(.quick-actions-card) tbody tr:hover th:first-child,
+.card-full-width:not(.quick-actions-card) tbody tr:hover td:first-child {
+    background-color: rgba(255, 255, 255, 0.05); /* Subtle hover for dark theme */
+}
+
 /* Animation delays for index page cards (unchanged) */
 .card:nth-child(1) { animation-delay: 0.6s; }
 .card:nth-child(2) { animation-delay: 0.7s; }
@@ -37,23 +108,13 @@
 
 
 /* === VIBE UPGRADE: UNIFIED MAIN DASHBOARD HEADERS === */
-/* Increased contrast and readability of card headers to improve visual hierarchy. */
-.card-grid .card h2,
-.card-full-width.card h2 {
+.card-grid .card:nth-child(1) h2,
+.quick-actions-card h2 {
     background: linear-gradient(90deg, var(--accent-secondary), var(--accent-primary));
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     text-fill-color: transparent;
-    display: inline-block;
-    margin-top: 0;
-    border-bottom: 2px solid var(--border-color); /* Thicker border for more separation */
-    padding-bottom: 1rem;
-    margin-bottom: 1rem; /* Added space below the header */
-    font-size: 1.75rem; /* UPDATED: Larger font size for better hierarchy */
-    font-weight: 700;
-    position: relative;
-    z-index: 1;
 }
 
 .card ul { list-style: none; padding: 0; margin: 0; position: relative; z-index: 1; }
@@ -66,7 +127,7 @@
 }
 
 /* More prominent hover state for better interactive feedback */
-.card li:hover {
+.card:not(:nth-child(2)) li:hover {
     background-color: rgba(125, 211, 252, 0.1);
 }
 
@@ -97,12 +158,11 @@
 }
 
 /* Stronger hover effect on the link text and arrow for better contrast */
-.card li:hover a {
+.card:not(:nth-child(2)) li:hover a {
     color: #fff; /* High-contrast white text on hover */
     transform: translateX(5px);
 }
-
-.card li:hover a::after {
+.card:not(:nth-child(2)) li:hover a::after {
     opacity: 1;
     transform: translateX(0);
 }
@@ -132,30 +192,29 @@ th, td {
     padding: 1rem 1.25rem; /* Slightly more padding for readability */
     text-align: left;
     white-space: nowrap;
-    border-bottom: 1px solid var(--border-color);
 }
 
+/* REFINED: Change cursor to pointer on frequency cells */
+.card-full-width:not(.quick-actions-card) tbody td {
+    cursor: pointer;
+}
+
+/* Sticky Column Default (for any potential future dark tables) */
 th:first-child, td:first-child {
     font-weight: 700;
     color: var(--accent-primary);
     position: sticky;
     left: 0;
-    /* FINAL FIX: Use a solid color that visually matches the card's semi-transparent bg to prevent overlap. */
-    background-color: #161B22; 
     text-align: center;
     z-index: 3;
 }
 
-/* Increased contrast for the table header */
+/* Table Header Default (for any potential future dark tables) */
 thead th {
-    color: var(--text-muted);
     font-weight: 700; /* UPDATED: Made header text bold */
     text-transform: uppercase;
-    letter-spacing: 0.8px; /* Wider spacing for a more refined look */
+    letter-spacing: 0.8px;
     font-size: 0.8rem;
-    /* FINAL FIX: Use a solid color to prevent content from showing through on vertical scroll. */
-    background-color: #1A202C; 
-    border-bottom: 2px solid var(--accent-secondary);
     position: sticky;
     top: 0;
     z-index: 4;
@@ -171,36 +230,25 @@ tbody tr:nth-child(even) { background-color: transparent; }
 
 tbody tr { transition: background-color 0.2s ease; }
 
-/* DARK MODE FIX: Use a solid (opaque) color for hover to prevent content from showing through the sticky column. */
-tbody tr:hover {
-    background-color: #22272E; /* Opaque dark hover color */
-}
-
-/* Ensure the sticky column also gets the opaque hover background */
-tbody tr:hover th:first-child, tbody tr:hover td:first-child {
-    background-color: #22272E;
-}
-
-/* --- Unchanged sections --- */
-@keyframes shimmer { 100% { transform: translateX(100%); } }
-.hint { color: var(--text-muted); font-size: 1rem; font-weight: 400; text-align: left; margin: -0.5rem 0 1.5rem 2px; opacity: 0; animation: text-slide-up 0.8s 0.9s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards; position: relative; overflow: hidden; }
-.hint::after { content: ''; position: absolute; top: 0; left: 0; width: 200%; height: 100%; transform: translateX(-100%); background: linear-gradient( 100deg, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0) 80% ); animation: shimmer 5s infinite 2s; }
-.interactive-freq { cursor: pointer; transition: color 0.3s ease, font-weight 0.3s ease, background-image 0.4s ease, background-color 0.4s ease; }
-.interactive-freq:hover { color: var(--accent-secondary); font-weight: 700; }
-.interactive-freq.playing { background-image: linear-gradient(90deg, var(--accent-secondary), var(--accent-primary)); color: #0D1117; font-weight: 700; }
 
 /* --- Light Mode Overrides for Index Page --- */
-/* Default card style for light mode (Sound & Music cards) */
-body.light-mode .card {
-    background-color: #4C1D95; /* The original purple */
-    border-color: #6D28D9;
-    box-shadow: 0 6px 20px rgba(76, 29, 149, 0.4);
+/*
+  With .light-mode class:
+  - Sound, Note Freq, & Feedback Cards: Unified Dark Purple
+  - Music Card: Off-white
+*/
+
+/* Sound Card (Unified Dark Purple) */
+body.light-mode .card-grid .card:nth-child(1) {
+    background-color: #2A1A4E;
+    border-color: #4C1D95;
+    box-shadow: 0 6px 20px rgba(42, 26, 78, 0.4);
 }
-body.light-mode .card:hover {
-    box-shadow: 0 8px 30px rgba(76, 29, 149, 0.6);
+body.light-mode .card-grid .card:nth-child(1):hover {
+    box-shadow: 0 8px 30px rgba(42, 26, 78, 0.6);
     transform: translateY(-5px);
 }
-body.light-mode .card h2 {
+body.light-mode .card-grid .card:nth-child(1) h2 {
     background: none;
     -webkit-background-clip: initial;
     background-clip: initial;
@@ -209,18 +257,52 @@ body.light-mode .card h2 {
     color: #fff;
     border-bottom-color: rgba(255, 255, 255, 0.2);
 }
-body.light-mode .card ul li a {
+body.light-mode .card-grid .card:nth-child(1) ul li a {
     color: #fff;
     border-bottom-color: rgba(255, 255, 255, 0.2);
 }
-body.light-mode .card li:hover {
-    background-color: rgba(255, 255, 255, 0.1);
+body.light-mode .card-grid .card:nth-child(1) li:hover {
+    background-color: #3C2A6B; /* Lighter purple hover for consistency */
 }
-body.light-mode .card li:hover a {
+body.light-mode .card-grid .card:nth-child(1) li:hover a {
     color: #fff;
 }
 
-/* === ENHANCEMENT: Unified deep purple for Note Chart and Feedback Form === */
+
+/* Music Card (Off-White) */
+body.light-mode .card-grid .card:nth-child(2) {
+    background-color: #FDFDFD;
+    border-color: #E5E7EB;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+body.light-mode .card-grid .card:nth-child(2):hover {
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+body.light-mode .card-grid .card:nth-child(2) h2 {
+    color: #11182C;
+    border-bottom-color: #E5E7EB;
+    background: none;
+    -webkit-background-clip: initial;
+    background-clip: initial;
+    -webkit-text-fill-color: initial;
+    text-fill-color: initial;
+}
+body.light-mode .card-grid .card:nth-child(2) ul li a {
+    color: #1F2937;
+    border-bottom-color: #E5E7EB;
+}
+body.light-mode .card-grid .card:nth-child(2) li:hover {
+    background-color: #EAEAEA;
+}
+body.light-mode .card-grid .card:nth-child(2) li a:hover {
+    color: #000;
+}
+body.light-mode .card-grid .card:nth-child(2) li a::after {
+    color: #4C1D95; /* Keep a touch of purple */
+}
+
+
+/* Note Frequency & Feedback Cards (Unified Dark Purple) */
 body.light-mode .card-full-width { /* This targets BOTH full-width cards */
     background-color: #2A1A4E;
     border-color: #4C1D95;
@@ -229,7 +311,7 @@ body.light-mode .card-full-width { /* This targets BOTH full-width cards */
 body.light-mode .card-full-width:hover {
     box-shadow: 0 8px 30px rgba(42, 26, 78, 0.6);
 }
-/* General styles for text inside these cards */
+/* General text styles for these cards */
 body.light-mode .card-full-width h2,
 body.light-mode .card-full-width .hint,
 body.light-mode .card-full-width .feedback-body p,
@@ -238,7 +320,7 @@ body.light-mode .card-full-width td {
     border-bottom-color: rgba(255, 255, 255, 0.2);
 }
 
-/* Table specific styles for the new background */
+/* Table specific styles for the new background (applies to Note Freq card) */
 body.light-mode .card-full-width:not(.quick-actions-card) th:first-child,
 body.light-mode .card-full-width:not(.quick-actions-card) td:first-child,
 body.light-mode .card-full-width:not(.quick-actions-card) thead th {
@@ -261,7 +343,6 @@ body.light-mode .card-full-width:not(.quick-actions-card) tbody tr:hover td:firs
 
 /* Feedback card specific styles for the new background */
 body.light-mode .quick-actions-card .feedback-header h2 {
-    /* The default animated gradient now works perfectly on the dark background */
     border: none;
 }
 body.light-mode .quick-actions-card .btn-primary:hover {
@@ -311,11 +392,6 @@ body.light-mode .quick-actions-card .btn-primary:hover {
 
 .feedback-header h2 {
     /* Style the header text */
-    background: linear-gradient(90deg, var(--accent-secondary), var(--accent-primary));
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-fill-color: transparent;
     display: inline-block;
     font-size: 1.5rem;
     font-weight: 700;
