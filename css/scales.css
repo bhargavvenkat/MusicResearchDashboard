@@ -206,7 +206,8 @@
     line-height: 1.6;
     margin: 0;
     word-wrap: break-word;
-    color: var(--accent-secondary);
+    /* REFINEMENT: Changed color to white for dark mode */
+    color: #FFFFFF; 
     font-weight: 500;
 }
 
@@ -254,13 +255,13 @@ body.carnatic-mode .carnatic-notation {
     fill: #0D1117;
 }
 
-/* --- NEW: Hide note labels by default --- */
+/* Hide note labels by default */
 .key span {
     opacity: 0;
     transition: opacity 0.2s ease-in-out;
 }
 
-/* NEW: Show label only when the key is highlighted */
+/* Show label only when the key is highlighted */
 .key.is-in-scale span,
 .key.is-root span {
     opacity: 1;
@@ -381,7 +382,8 @@ body.light-mode .scale-button-container .listen-btn {
 body.light-mode .scale-button-container .listen-btn svg {
     fill: #fff;
 }
+/* REFINEMENT: Changed color for light mode to ensure contrast */
 body.light-mode .carnatic-notation,
 body.light-mode .western-notation {
-    color: #6D28D9;
+    color: var(--text-color);
 }

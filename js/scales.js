@@ -84,6 +84,9 @@ document.addEventListener('DOMContentLoaded', () => {
             scaleListContainer.innerHTML = '<p class="card-placeholder">No scales found.</p>';
             return;
         }
+        
+        const ascLabel = activeNotation === 'carnatic' ? 'Aroh' : 'Ascending';
+        const descLabel = activeNotation === 'carnatic' ? 'Avroh' : 'Descending';
 
         const cardsHtml = filteredScales.map(scale => {
             const transposedAsc = transposeScale(scale.westernAsc.split(' '), activeKey);
@@ -100,12 +103,12 @@ document.addEventListener('DOMContentLoaded', () => {
                     <div class="card-header"><div class="card-title"><h2>${ragaName}</h2>${westernName}</div>${ragaNumberHTML}</div>
                     <div class="note-display-section">
                         <div class="scale-group">
-                            <h3>Ascending</h3>
+                            <h3>${ascLabel}</h3>
                             <p class="carnatic-notation">${scale.carnaticAsc}</p>
                             <p class="western-notation">${transposedAsc.join(' ')}</p>
                         </div>
                         <div class="scale-group">
-                            <h3>Descending</h3>
+                            <h3>${descLabel}</h3>
                             <p class="carnatic-notation">${scale.carnaticDesc}</p>
                             <p class="western-notation">${transposedDesc.join(' ')}</p>
                         </div>
@@ -129,13 +132,13 @@ document.addEventListener('DOMContentLoaded', () => {
             k.classList.remove('is-root', 'is-in-scale');
         });
 
-        const rootNoteName = activeKey;
-        const rootKey = globalKeyboard.querySelector(`.key[data-note="${rootNoteName}4"]`);
-        if (rootKey) {
-            rootKey.classList.add('is-root');
-        }
-
         if (selectedScale) {
+            const rootNoteName = activeKey;
+            const rootKey = globalKeyboard.querySelector(`.key[data-note="${rootNoteName}4"]`);
+            if (rootKey) {
+                rootKey.classList.add('is-root');
+            }
+
             const scaleNotesRaw = selectedScale.westernAsc.split(' ');
             const transposedNotes = transposeScale(scaleNotesRaw, rootNoteName);
             const rootNoteIndex = allNotes.indexOf(rootNoteName);
@@ -185,6 +188,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 activeNotation = notationSwitch.checked ? 'carnatic' : 'western';
                 document.body.classList.toggle('carnatic-mode', notationSwitch.checked);
                 updateKeyboardDisplay();
+                renderScales();
             });
         }
 
@@ -215,6 +219,12 @@ document.addEventListener('DOMContentLoaded', () => {
                     selectedScale = clickedScale;
                     renderScales();
                     updateKeyboardHighlights();
+                    
+                    // REFINEMENT: Scroll the keyboard into view on new selection
+                    globalKeyboard.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'center'
+                    });
                 }
             }
         });
