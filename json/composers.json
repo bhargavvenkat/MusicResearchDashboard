@@ -2601,5 +2601,1850 @@
       "Roman Festivals"
     ],
     "youtube_query": "Ottorino Respighi music"
+  },
+
+  {
+    "name": "Leonard Bernstein",
+    "categories": [
+      "modern"
+    ],
+    "period": "20th Century",
+    "country": "USA",
+    "contribution": "Celebrated conductor, composer, and pianist; masterfully blended classical, jazz, and musical theater.",
+    "works": [
+      "West Side Story",
+      "Candide",
+      "On the Town"
+    ],
+    "youtube_query": "Leonard Bernstein music"
+  },
+  {
+    "name": "Ludovico Einaudi",
+    "categories": [
+      "modern"
+    ],
+    "period": "Minimalist/Contemporary",
+    "country": "Italy",
+    "contribution": "Leading figure in post-minimalist music, known for highly popular and accessible piano and orchestral works.",
+    "works": [
+      "Nuvole Bianche",
+      "Experience",
+      "Divenire"
+    ],
+    "youtube_query": "Ludovico Einaudi music"
+  },
+  {
+    "name": "Samuel Coleridge-Taylor",
+    "categories": [
+      "romantic"
+    ],
+    "period": "Late Romantic",
+    "country": "England",
+    "contribution": "Afro-British composer, celebrated for his cantatas on the theme of Longfellow's 'The Song of Hiawatha'.",
+    "works": [
+      "Hiawatha's Wedding Feast",
+      "The Death of Minnehaha",
+      "Othello Suite"
+    ],
+    "youtube_query": "Samuel Coleridge-Taylor music"
+  },
+  {
+    "name": "John Barry",
+    "categories": [
+      "modern"
+    ],
+    "period": "Film Composer",
+    "country": "England",
+    "contribution": "Iconic film composer, defined the sound of the James Bond franchise and created lush, romantic scores.",
+    "works": [
+      "James Bond Theme",
+      "Goldfinger",
+      "Dances with Wolves"
+    ],
+    "youtube_query": "John Barry music"
+  },
+  {
+    "name": "John Powell",
+    "categories": [
+      "modern"
+    ],
+    "period": "Film Composer",
+    "country": "England",
+    "contribution": "Known for his energetic and rhythmically complex scores, particularly for animated films.",
+    "works": [
+      "How to Train Your Dragon",
+      "The Bourne Identity",
+      "Shrek"
+    ],
+    "youtube_query": "John Powell music"
+  },
+  {
+    "name": "Alan Menken",
+    "categories": [
+      "modern"
+    ],
+    "period": "Film & Stage Composer",
+    "country": "USA",
+    "contribution": "Legendary composer for Disney animated films, a master of the musical theater style.",
+    "works": [
+      "The Little Mermaid",
+      "Beauty and the Beast",
+      "Aladdin"
+    ],
+    "youtube_query": "Alan Menken music"
+  },
+  {
+    "name": "Randy Newman",
+    "categories": [
+      "modern"
+    ],
+    "period": "Film Composer/Singer-Songwriter",
+    "country": "USA",
+    "contribution": "Acclaimed for his witty, Americana-infused film scores and satirical songwriting.",
+    "works": [
+      "Toy Story (You've Got a Friend in Me)",
+      "Monsters, Inc.",
+      "The Natural"
+    ],
+    "youtube_query": "Randy Newman music"
+  },
+  {
+    "name": "James Newton Howard",
+    "categories": [
+      "modern"
+    ],
+    "period": "Film Composer",
+    "country": "USA",
+    "contribution": "Versatile and prolific composer known for his emotionally resonant and action-packed scores.",
+    "works": [
+      "The Dark Knight (with Hans Zimmer)",
+      "The Hunger Games",
+      "The Sixth Sense"
+    ],
+    "youtube_query": "James Newton Howard music"
+  },
+  {
+    "name": "Patrick Doyle",
+    "categories": [
+      "modern"
+    ],
+    "period": "Film Composer",
+    "country": "Scotland",
+    "contribution": "Known for his classically-trained, romantic, and often Shakespearean-inspired film scores.",
+    "works": [
+      "Henry V",
+      "Sense and Sensibility",
+      "Harry Potter and the Goblet of Fire"
+    ],
+    "youtube_query": "Patrick Doyle music"
+  },
+  {
+    "name": "Marc Shaiman",
+    "categories": [
+      "modern"
+    ],
+    "period": "Film & Stage Composer",
+    "country": "USA",
+    "contribution": "Composer for film and Broadway, known for his work on 'Hairspray' and numerous comedy films.",
+    "works": [
+      "Hairspray",
+      "Sister Act",
+      "Mary Poppins Returns"
+    ],
+    "youtube_query": "Marc Shaiman music"
+  },
+  {
+    "name": "David Arnold",
+    "categories": [
+      "modern"
+    ],
+    "period": "Film Composer",
+    "country": "England",
+    "contribution": "Known for his work on James Bond films and collaborations with Roland Emmerich.",
+    "works": [
+      "Casino Royale",
+      "Independence Day",
+      "Stargate"
+    ],
+    "youtube_query": "David Arnold music"
+  },
+  {
+    "name": "Harry Gregson-Williams",
+    "categories": [
+      "modern"
+    ],
+    "period": "Film Composer",
+    "country": "England",
+    "contribution": "Composer for film and video games, known for blending electronic and orchestral elements.",
+    "works": [
+      "The Chronicles of Narnia",
+      "Shrek",
+      "Metal Gear Solid series"
+    ],
+    "youtube_query": "Harry Gregson-Williams music"
+  },
+  {
+    "name": "Mychael Danna",
+    "categories": [
+      "modern"
+    ],
+    "period": "Film Composer",
+    "country": "Canada",
+    "contribution": "Oscar-winning composer known for his use of world music and minimalist techniques.",
+    "works": [
+      "Life of Pi",
+      "Little Miss Sunshine",
+      "Moneyball"
+    ],
+    "youtube_query": "Mychael Danna music"
+  },
+  {
+    "name": "Dario Marianelli",
+    "categories": [
+      "modern"
+    ],
+    "period": "Film Composer",
+    "country": "Italy",
+    "contribution": "Known for his elegant, piano-centric scores, especially for period dramas.",
+    "works": [
+      "Atonement",
+      "Pride & Prejudice",
+      "Darkest Hour"
+    ],
+    "youtube_query": "Dario Marianelli music"
+  },
+  {
+    "name": "Jan A.P. Kaczmarek",
+    "categories": [
+      "modern"
+    ],
+    "period": "Film Composer",
+    "country": "Poland",
+    "contribution": "Oscar-winning composer known for his emotionally rich and melodic scores.",
+    "works": [
+      "Finding Neverland",
+      "Unfaithful",
+      "Hachi: A Dog's Tale"
+    ],
+    "youtube_query": "Jan A.P. Kaczmarek music"
+  },
+  {
+    "name": "Gabriel Yared",
+    "categories": [
+      "modern"
+    ],
+    "period": "Film Composer",
+    "country": "Lebanon/France",
+    "contribution": "Known for his romantic and often melancholic scores, with a background in classical and world music.",
+    "works": [
+      "The English Patient",
+      "The Talented Mr. Ripley",
+      "City of Angels"
+    ],
+    "youtube_query": "Gabriel Yared music"
+  },
+  {
+    "name": "Elliot Goldenthal",
+    "categories": [
+      "modern"
+    ],
+    "period": "Film Composer",
+    "country": "USA",
+    "contribution": "Known for his eclectic and often avant-garde style, blending various genres.",
+    "works": [
+      "Frida",
+      "Interview with the Vampire",
+      "Batman Forever"
+    ],
+    "youtube_query": "Elliot Goldenthal music"
+  },
+  {
+    "name": "Georges Delerue",
+    "categories": [
+      "modern"
+    ],
+    "period": "Film Composer",
+    "country": "France",
+    "contribution": "A key figure of the French New Wave, known for his lyrical and melodic film scores.",
+    "works": [
+      "Jules and Jim",
+      "Contempt",
+      "Platoon"
+    ],
+    "youtube_query": "Georges Delerue music"
+  },
+  {
+    "name": "John Corigliano",
+    "categories": [
+      "modern"
+    ],
+    "period": "Contemporary Classical/Film",
+    "country": "USA",
+    "contribution": "Pulitzer Prize-winning composer known for his diverse and dramatic works, including film scores.",
+    "works": [
+      "The Red Violin",
+      "Symphony No. 1",
+      "The Ghosts of Versailles"
+    ],
+    "youtube_query": "John Corigliano music"
+  },
+  {
+    "name": "David Raksin",
+    "categories": [
+      "modern"
+    ],
+    "period": "Golden Age Film Composer",
+    "country": "USA",
+    "contribution": "Known for composing the iconic theme for the film 'Laura' and over 100 other film scores.",
+    "works": [
+      "Laura",
+      "The Bad and the Beautiful",
+      "Forever Amber"
+    ],
+    "youtube_query": "David Raksin music"
+  },
+  {
+    "name": "Alex North",
+    "categories": [
+      "modern"
+    ],
+    "period": "Film Composer",
+    "country": "USA",
+    "contribution": "Pioneered the use of jazz in film scores and known for his work on 'A Streetcar Named Desire'.",
+    "works": [
+      "A Streetcar Named Desire",
+      "Spartacus",
+      "Unchained Melody"
+    ],
+    "youtube_query": "Alex North music"
+  },
+  {
+    "name": "Mikis Theodorakis",
+    "categories": [
+      "modern"
+    ],
+    "period": "20th Century",
+    "country": "Greece",
+    "contribution": "Renowned for his film scores, particularly 'Zorba the Greek,' and his extensive body of concert music.",
+    "works": [
+      "Zorba the Greek",
+      "Serpico",
+      "Z"
+    ],
+    "youtube_query": "Mikis Theodorakis music"
+  },
+  {
+    "name": "Justin Hurwitz",
+    "categories": [
+      "modern"
+    ],
+    "period": "Contemporary Film Composer",
+    "country": "USA",
+    "contribution": "Oscar-winning composer known for his collaboration with director Damien Chazelle on jazz-infused films.",
+    "works": [
+      "La La Land",
+      "Whiplash",
+      "First Man"
+    ],
+    "youtube_query": "Justin Hurwitz music"
+  },
+  {
+    "name": "Nicholas Britell",
+    "categories": [
+      "modern"
+    ],
+    "period": "Contemporary Film Composer",
+    "country": "USA",
+    "contribution": "Known for his innovative and critically acclaimed scores for film and television.",
+    "works": [
+      "Moonlight",
+      "If Beale Street Could Talk",
+      "Succession (TV series)"
+    ],
+    "youtube_query": "Nicholas Britell music"
+  },
+  {
+    "name": "Daniel Pemberton",
+    "categories": [
+      "modern"
+    ],
+    "period": "Contemporary Film Composer",
+    "country": "England",
+    "contribution": "Versatile composer known for his eclectic and energetic scores across various genres.",
+    "works": [
+      "Spider-Man: Into the Spider-Verse",
+      "The Man from U.N.C.L.E.",
+      "Steve Jobs"
+    ],
+    "youtube_query": "Daniel Pemberton music"
+  },
+  {
+    "name": "Ludwig Göransson",
+    "categories": [
+      "modern"
+    ],
+    "period": "Contemporary Film Composer",
+    "country": "Sweden",
+    "contribution": "Oscar-winning composer known for his genre-blending scores and collaborations with Donald Glover and Ryan Coogler.",
+    "works": [
+      "Black Panther",
+      "Tenet",
+      "The Mandalorian (TV series)"
+    ],
+    "youtube_query": "Ludwig Göransson music"
+  },
+  {
+    "name": "Natalie Holt",
+    "categories": [
+      "modern"
+    ],
+    "period": "Contemporary Film Composer",
+    "country": "England",
+    "contribution": "Known for her innovative scores for television, including the Marvel series 'Loki'.",
+    "works": [
+      "Loki (TV series)",
+      "Knightfall (TV series)",
+      "Paddington"
+    ],
+    "youtube_query": "Natalie Holt music"
+  },
+  {
+    "name": "Bear McCreary",
+    "categories": [
+      "modern"
+    ],
+    "period": "Contemporary Film/TV Composer",
+    "country": "USA",
+    "contribution": "Known for his epic and thematically rich scores for television and video games.",
+    "works": [
+      "Battlestar Galactica (TV series)",
+      "The Walking Dead (TV series)",
+      "God of War (video game)"
+    ],
+    "youtube_query": "Bear McCreary music"
+  },
+  {
+    "name": "Ramin Djawadi",
+    "categories": [
+      "modern"
+    ],
+    "period": "Contemporary Film/TV Composer",
+    "country": "Germany",
+    "contribution": "Known for creating iconic themes and scores for major television series.",
+    "works": [
+      "Game of Thrones (TV series)",
+      "Westworld (TV series)",
+      "Iron Man"
+    ],
+    "youtube_query": "Ramin Djawadi music"
+  },
+  {
+    "name": "Jeff Beal",
+    "categories": [
+      "modern"
+    ],
+    "period": "Contemporary Film/TV Composer",
+    "country": "USA",
+    "contribution": "Emmy-winning composer known for his jazz-inflected scores, particularly for 'House of Cards'.",
+    "works": [
+      "House of Cards (TV series)",
+      "Monk (TV series)",
+      "Pollock"
+    ],
+    "youtube_query": "Jeff Beal music"
+  },
+  {
+    "name": "Abel Korzeniowski",
+    "categories": [
+      "modern"
+    ],
+    "period": "Contemporary Film Composer",
+    "country": "Poland",
+    "contribution": "Known for his lush, romantic, and emotionally intense scores.",
+    "works": [
+      "A Single Man",
+      "Penny Dreadful (TV series)",
+      "Nocturnal Animals"
+    ],
+    "youtube_query": "Abel Korzeniowski music"
+  },
+  {
+    "name": "Max Richter",
+    "categories": [
+      "modern"
+    ],
+    "period": "Post-Minimalist/Contemporary",
+    "country": "Germany/UK",
+    "contribution": "Influential composer blending minimalist and classical traditions with electronic elements.",
+    "works": [
+      "On the Nature of Daylight",
+      "The Blue Notebooks",
+      "Sleep"
+    ],
+    "youtube_query": "Max Richter music"
+  },
+  {
+    "name": "Dustin O'Halloran",
+    "categories": [
+      "modern"
+    ],
+    "period": "Post-Minimalist/Contemporary",
+    "country": "USA",
+    "contribution": "Known for his emotive piano compositions and film scores, often in collaboration with Hauschka.",
+    "works": [
+      "Lion (with Hauschka)",
+      "Transparent (TV series)",
+      "Piano Solos Vol. 1 & 2"
+    ],
+    "youtube_query": "Dustin O'Halloran music"
+  },
+  {
+    "name": "Hauschka",
+    "categories": [
+      "modern"
+    ],
+    "period": "Contemporary/Experimental",
+    "country": "Germany",
+    "contribution": "Known for his experimental use of prepared piano and his film score collaborations.",
+    "works": [
+      "Lion (with Dustin O'Halloran)",
+      "Adrift",
+      "The Prepared Piano"
+    ],
+    "youtube_query": "Hauschka music"
+  },
+  {
+    "name": "Yann Tiersen",
+    "categories": [
+      "modern"
+    ],
+    "period": "Minimalist/Contemporary",
+    "country": "France",
+    "contribution": "Multi-instrumentalist known for his minimalist and melodic compositions, especially the 'Amélie' soundtrack.",
+    "works": [
+      "Amélie (film score)",
+      "Good Bye, Lenin! (film score)",
+      "Comptine d'un autre été, l'après-midi"
+    ],
+    "youtube_query": "Yann Tiersen music"
+  },
+  {
+    "name": "Ólafur Arnalds",
+    "categories": [
+      "modern"
+    ],
+    "period": "Post-Minimalist/Contemporary",
+    "country": "Iceland",
+    "contribution": "Known for blending ambient, electronic, and classical elements in his emotive compositions.",
+    "works": [
+      "re:member",
+      "Broadchurch (TV series)",
+      "Living Room Songs"
+    ],
+    "youtube_query": "Ólafur Arnalds music"
+  },
+  {
+    "name": "Nils Frahm",
+    "categories": [
+      "modern"
+    ],
+    "period": "Contemporary/Experimental",
+    "country": "Germany",
+    "contribution": "Known for his unconventional approach to the piano and his blend of classical and electronic music.",
+    "works": [
+      "Spaces",
+      "All Melody",
+      "Says"
+    ],
+    "youtube_query": "Nils Frahm music"
+  },
+  {
+    "name": "George Fenton",
+    "categories": [
+      "modern"
+    ],
+    "period": "Film/TV Composer",
+    "country": "England",
+    "contribution": "Acclaimed composer for film and television, particularly known for his work on nature documentaries.",
+    "works": [
+      "Planet Earth (TV series)",
+      "Gandhi",
+      "The Blue Planet (TV series)"
+    ],
+    "youtube_query": "George Fenton music"
+  },
+  {
+    "name": "Patrick Gowers",
+    "categories": [
+      "modern"
+    ],
+    "period": "20th Century",
+    "country": "England",
+    "contribution": "Composer known for his film and television scores, including the iconic 'Sherlock Holmes' theme.",
+    "works": [
+      "Sherlock Holmes (TV series theme)",
+      "The Virgin and the Gypsy",
+      "Stevie"
+    ],
+    "youtube_query": "Patrick Gowers music"
+  },
+  {
+    "name": "Carl Davis",
+    "categories": [
+      "modern"
+    ],
+    "period": "Contemporary",
+    "country": "USA/UK",
+    "contribution": "Conductor and composer, especially known for creating new scores for silent films.",
+    "works": [
+      "The World at War (TV series)",
+      "Pride and Prejudice (1995 TV series)",
+      "Napoléon (1927 film score)"
+    ],
+    "youtube_query": "Carl Davis music"
+  },
+  {
+    "name": "Nigel Hess",
+    "categories": [
+      "modern"
+    ],
+    "period": "Contemporary",
+    "country": "England",
+    "contribution": "Composer for television, film, and theatre, known for his memorable and melodic themes.",
+    "works": [
+      "Ladies in Lavender",
+      "Hetty Wainthropp Investigates (TV series)",
+      "A Christmas Carol: The Musical"
+    ],
+    "youtube_query": "Nigel Hess music"
+  },
+  {
+    "name": "Debbie Wiseman",
+    "categories": [
+      "modern"
+    ],
+    "period": "Contemporary",
+    "country": "England",
+    "contribution": "Prolific composer for film and television, known for her lyrical and emotionally engaging scores.",
+    "works": [
+      "Wilde",
+      "Wolf Hall (TV series)",
+      "The Proms"
+    ],
+    "youtube_query": "Debbie Wiseman music"
+  },
+  {
+    "name": "Anne Dudley",
+    "categories": [
+      "modern"
+    ],
+    "period": "Contemporary",
+    "country": "England",
+    "contribution": "Oscar-winning composer and a founding member of the synth-pop group Art of Noise.",
+    "works": [
+      "The Full Monty",
+      "Poldark (TV series)",
+      "American History X"
+    ],
+    "youtube_query": "Anne Dudley music"
+  },
+  {
+    "name": "Ilan Eshkeri",
+    "categories": [
+      "modern"
+    ],
+    "period": "Contemporary Film Composer",
+    "country": "England",
+    "contribution": "Known for his diverse scores for film, television, and video games.",
+    "works": [
+      "Stardust",
+      "The Young Victoria",
+      "Ghost of Tsushima (video game)"
+    ],
+    "youtube_query": "Ilan Eshkeri music"
+  },
+  {
+    "name": "Lorne Balfe",
+    "categories": [
+      "modern"
+    ],
+    "period": "Contemporary Film Composer",
+    "country": "Scotland",
+    "contribution": "Prolific composer for film, television, and video games, often collaborating with Hans Zimmer.",
+    "works": [
+      "Mission: Impossible – Fallout",
+      "His Dark Materials (TV series)",
+      "Assassin's Creed III (video game)"
+    ],
+    "youtube_query": "Lorne Balfe music"
+  },
+  {
+    "name": "Steven Price",
+    "categories": [
+      "modern"
+    ],
+    "period": "Contemporary Film Composer",
+    "country": "England",
+    "contribution": "Oscar-winning composer known for his innovative and immersive scores.",
+    "works": [
+      "Gravity",
+      "Baby Driver",
+      "Fury"
+    ],
+    "youtube_query": "Steven Price music"
+  },
+  {
+    "name": "Benjamin Wallfisch",
+    "categories": [
+      "modern"
+    ],
+    "period": "Contemporary Film Composer",
+    "country": "England",
+    "contribution": "Known for his work on major blockbusters, often collaborating with Hans Zimmer.",
+    "works": [
+      "Blade Runner 2049 (with Hans Zimmer)",
+      "It",
+      "Shazam!"
+    ],
+    "youtube_query": "Benjamin Wallfisch music"
+  },
+  {
+    "name": "Rupert Gregson-Williams",
+    "categories": [
+      "modern"
+    ],
+    "period": "Contemporary Film Composer",
+    "country": "England",
+    "contribution": "Known for his scores for comedies and action films, brother of Harry Gregson-Williams.",
+    "works": [
+      "Wonder Woman",
+      "Aquaman",
+      "The Crown (TV series)"
+    ],
+    "youtube_query": "Rupert Gregson-Williams music"
+  },
+  {
+    "name": "Fil Eisler",
+    "categories": [
+      "modern"
+    ],
+    "period": "Contemporary Film/TV Composer",
+    "country": "Czech Republic/UK",
+    "contribution": "Known for his work on television series like 'Empire' and 'Revenge'.",
+    "works": [
+      "Empire (TV series)",
+      "Revenge (TV series)",
+      "How to Be a Latin Lover"
+    ],
+    "youtube_query": "Fil Eisler music"
+  },
+  {
+    "name": "Kris Bowers",
+    "categories": [
+      "modern"
+    ],
+    "period": "Contemporary Film/TV Composer",
+    "country": "USA",
+    "contribution": "Emmy-winning composer and pianist known for his work on 'Green Book' and 'Bridgerton'.",
+    "works": [
+      "Green Book",
+      "Bridgerton (TV series)",
+      "When They See Us (TV series)"
+    ],
+    "youtube_query": "Kris Bowers music"
+  },
+  {
+    "name": "Michael Abels",
+    "categories": [
+      "modern"
+    ],
+    "period": "Contemporary Film Composer",
+    "country": "USA",
+    "contribution": "Known for his collaboration with director Jordan Peele on his horror films.",
+    "works": [
+      "Get Out",
+      "Us",
+      "Nope"
+    ],
+    "youtube_query": "Michael Abels music"
+  },
+  {
+    "name": "Terence Blanchard",
+    "categories": [
+      "modern"
+    ],
+    "period": "Contemporary Jazz/Film Composer",
+    "country": "USA",
+    "contribution": "Renowned jazz trumpeter and composer, known for his long collaboration with director Spike Lee.",
+    "works": [
+      "BlacKkKlansman",
+      "Malcolm X",
+      "Da 5 Bloods"
+    ],
+    "youtube_query": "Terence Blanchard music"
+  },
+  {
+    "name": "Mark Isham",
+    "categories": [
+      "modern"
+    ],
+    "period": "Contemporary Jazz/Film Composer",
+    "country": "USA",
+    "contribution": "Jazz trumpeter and prolific film composer known for his atmospheric and electronic scores.",
+    "works": [
+      "Crash",
+      "A River Runs Through It",
+      "Once Upon a Time (TV series)"
+    ],
+    "youtube_query": "Mark Isham music"
+  },
+  {
+    "name": "Rolfe Kent",
+    "categories": [
+      "modern"
+    ],
+    "period": "Contemporary Film Composer",
+    "country": "England",
+    "contribution": "Known for his quirky and distinctive scores, particularly for Alexander Payne's films.",
+    "works": [
+      "Sideways",
+      "Election",
+      "Up in the Air"
+    ],
+    "youtube_query": "Rolfe Kent music"
+  },
+  {
+    "name": "Theodore Shapiro",
+    "categories": [
+      "modern"
+    ],
+    "period": "Contemporary Film Composer",
+    "country": "USA",
+    "contribution": "Known for his work on major comedy films.",
+    "works": [
+      "The Devil Wears Prada",
+      "Tropic Thunder",
+      "Severance (TV series)"
+    ],
+    "youtube_query": "Theodore Shapiro music"
+  },
+  {
+    "name": "Christophe Beck",
+    "categories": [
+      "modern"
+    ],
+    "period": "Contemporary Film Composer",
+    "country": "Canada",
+    "contribution": "Emmy-winning composer known for his work on 'Frozen' and the 'Ant-Man' films.",
+    "works": [
+      "Frozen",
+      "Ant-Man",
+      "WandaVision (TV series)"
+    ],
+    "youtube_query": "Christophe Beck music"
+  },
+  {
+    "name": "Mark Mothersbaugh",
+    "categories": [
+      "modern"
+    ],
+    "period": "Contemporary Film Composer",
+    "country": "USA",
+    "contribution": "Co-founder of the band Devo and a prolific, quirky composer for film and television.",
+    "works": [
+      "The Royal Tenenbaums",
+      "Thor: Ragnarok",
+      "Rugrats (TV series)"
+    ],
+    "youtube_query": "Mark Mothersbaugh music"
+  },
+  {
+    "name": "Atli Örvarsson",
+    "categories": [
+      "modern"
+    ],
+    "period": "Contemporary Film Composer",
+    "country": "Iceland",
+    "contribution": "Known for his work on television series and collaborations with Hans Zimmer.",
+    "works": [
+      "Chicago Fire (TV series)",
+      "Hansel & Gretel: Witch Hunters",
+      "The Hitman's Bodyguard"
+    ],
+    "youtube_query": "Atli Örvarsson music"
+  },
+  {
+    "name": "Henry Jackman",
+    "categories": [
+      "modern"
+    ],
+    "period": "Contemporary Film Composer",
+    "country": "England",
+    "contribution": "Known for his scores for superhero films and animated features.",
+    "works": [
+      "Captain America: The Winter Soldier",
+      "X-Men: First Class",
+      "Wreck-It Ralph"
+    ],
+    "youtube_query": "Henry Jackman music"
+  },
+  {
+    "name": "Heitor Pereira",
+    "categories": [
+      "modern"
+    ],
+    "period": "Contemporary Film Composer",
+    "country": "Brazil",
+    "contribution": "Former member of Simply Red, known for his scores for animated films, especially the 'Despicable Me' series.",
+    "works": [
+      "Despicable Me",
+      "The Angry Birds Movie",
+      "Minions"
+    ],
+    "youtube_query": "Heitor Pereira music"
+  },
+  {
+    "name": "John Debney",
+    "categories": [
+      "modern"
+    ],
+    "period": "Contemporary Film Composer",
+    "country": "USA",
+    "contribution": "Versatile and prolific composer for film and television across many genres.",
+    "works": [
+      "The Passion of the Christ",
+      "Elf",
+      "The Jungle Book (2016)"
+    ],
+    "youtube_query": "John Debney music"
+  },
+  {
+    "name": "Christopher Young",
+    "categories": [
+      "modern"
+    ],
+    "period": "Contemporary Film Composer",
+    "country": "USA",
+    "contribution": "Known for his work in the horror and thriller genres.",
+    "works": [
+      "Hellraiser",
+      "Spider-Man 3",
+      "Sinister"
+    ],
+    "youtube_query": "Christopher Young music"
+  },
+  {
+    "name": "Marco Beltrami",
+    "categories": [
+      "modern"
+    ],
+    "period": "Contemporary Film Composer",
+    "country": "USA",
+    "contribution": "Known for his work on horror films and action movies.",
+    "works": [
+      "Scream",
+      "A Quiet Place",
+      "Logan"
+    ],
+    "youtube_query": "Marco Beltrami music"
+  },
+  {
+    "name": "Brian Tyler",
+    "categories": [
+      "modern"
+    ],
+    "period": "Contemporary Film Composer",
+    "country": "USA",
+    "contribution": "Prolific composer for major action films and video games.",
+    "works": [
+      "Fast & Furious series",
+      "Iron Man 3",
+      "Avengers: Age of Ultron"
+    ],
+    "youtube_query": "Brian Tyler music"
+  },
+  {
+    "name": "Tyler Bates",
+    "categories": [
+      "modern"
+    ],
+    "period": "Contemporary Film Composer",
+    "country": "USA",
+    "contribution": "Known for his rock-infused scores and collaborations with Zack Snyder and James Gunn.",
+    "works": [
+      "300",
+      "Guardians of the Galaxy",
+      "John Wick"
+    ],
+    "youtube_query": "Tyler Bates music"
+  },
+  {
+    "name": "David Buckley",
+    "categories": [
+      "modern"
+    ],
+    "period": "Contemporary Film/TV Composer",
+    "country": "England",
+    "contribution": "Known for his work on television series and video games.",
+    "works": [
+      "The Good Wife (TV series)",
+      "Jason Bourne",
+      "Batman: Arkham Knight (video game)"
+    ],
+    "youtube_query": "David Buckley music"
+  },
+  {
+    "name": "Harry Escott",
+    "categories": [
+      "modern"
+    ],
+    "period": "Contemporary Film Composer",
+    "country": "England",
+    "contribution": "Known for his atmospheric and emotionally intense scores.",
+    "works": [
+      "Shame",
+      "Hard Candy",
+      "Roadkill (TV series)"
+    ],
+    "youtube_query": "Harry Escott music"
+  },
+  {
+    "name": "Jed Kurzel",
+    "categories": [
+      "modern"
+    ],
+    "period": "Contemporary Film Composer",
+    "country": "Australia",
+    "contribution": "Known for his intense and often unsettling scores for dramatic films.",
+    "works": [
+      "The Babadook",
+      "Macbeth (2015)",
+      "Alien: Covenant"
+    ],
+    "youtube_query": "Jed Kurzel music"
+  },
+  {
+    "name": "Daniel Hart",
+    "categories": [
+      "modern"
+    ],
+    "period": "Contemporary Film Composer",
+    "country": "USA",
+    "contribution": "Known for his collaboration with director David Lowery.",
+    "works": [
+      "The Green Knight",
+      "A Ghost Story",
+      "Pete's Dragon (2016)"
+    ],
+    "youtube_query": "Daniel Hart music"
+  },
+  {
+    "name": "Rob Simonsen",
+    "categories": [
+      "modern"
+    ],
+    "period": "Contemporary Film Composer",
+    "country": "USA",
+    "contribution": "Known for his work on independent films and major studio pictures.",
+    "works": [
+      "The Way, Way Back",
+      "Foxcatcher",
+      "Ghostbusters: Afterlife"
+    ],
+    "youtube_query": "Rob Simonsen music"
+  },
+  {
+    "name": "Matthew Margeson",
+    "categories": [
+      "modern"
+    ],
+    "period": "Contemporary Film Composer",
+    "country": "USA",
+    "contribution": "Known for his work on action and comedy films, often collaborating with Henry Jackman.",
+    "works": [
+      "Kingsman: The Secret Service",
+      "Eddie the Eagle",
+      "Miss Peregrine's Home for Peculiar Children"
+    ],
+    "youtube_query": "Matthew Margeson music"
+  },
+  {
+    "name": "Joseph Trapanese",
+    "categories": [
+      "modern"
+    ],
+    "period": "Contemporary Film Composer",
+    "country": "USA",
+    "contribution": "Known for his electronic and orchestral scores, and collaborations with Daft Punk and M83.",
+    "works": [
+      "Tron: Legacy (with Daft Punk)",
+      "Oblivion (with M83)",
+      "The Greatest Showman"
+    ],
+    "youtube_query": "Joseph Trapanese music"
+  },
+  {
+    "name": "Guillaume Roussel",
+    "categories": [
+      "modern"
+    ],
+    "period": "Contemporary Film Composer",
+    "country": "France",
+    "contribution": "Known for his work on French and international films.",
+    "works": [
+      "3 Days to Kill",
+      "The Man with the Iron Heart",
+      "Black Beauty (2020)"
+    ],
+    "youtube_query": "Guillaume Roussel music"
+  },
+  {
+    "name": "Pinar Toprak",
+    "categories": [
+      "modern"
+    ],
+    "period": "Contemporary Film Composer",
+    "country": "Turkey/USA",
+    "contribution": "Known for being the first woman to score a major superhero film.",
+    "works": [
+      "Captain Marvel",
+      "Fortnite (video game)",
+      "Stargirl (TV series)"
+    ],
+    "youtube_query": "Pinar Toprak music"
+  },
+  {
+    "name": "Gordy Haab",
+    "categories": [
+      "modern"
+    ],
+    "period": "Video Game Composer",
+    "country": "USA",
+    "contribution": "Known for his epic orchestral scores for 'Star Wars' video games.",
+    "works": [
+      "Star Wars: Battlefront",
+      "Star Wars: The Old Republic",
+      "Star Wars Jedi: Fallen Order"
+    ],
+    "youtube_query": "Gordy Haab music"
+  },
+  {
+    "name": "Stephen Barton",
+    "categories": [
+      "modern"
+    ],
+    "period": "Video Game/Film Composer",
+    "country": "England",
+    "contribution": "Known for his work on major video game franchises.",
+    "works": [
+      "Titanfall",
+      "Call of Duty: Modern Warfare",
+      "Star Wars Jedi: Survivor"
+    ],
+    "youtube_query": "Stephen Barton music"
+  },
+  {
+    "name": "Frederik Wiedmann",
+    "categories": [
+      "modern"
+    ],
+    "period": "Film/TV Composer",
+    "country": "Germany",
+    "contribution": "Emmy-winning composer known for his work on animated series.",
+    "works": [
+      "The Dragon Prince (TV series)",
+      "Green Lantern: The Animated Series",
+      "Justice League: The Flashpoint Paradox"
+    ],
+    "youtube_query": "Frederik Wiedmann music"
+  },
+  {
+    "name": "Kevin Kiner",
+    "categories": [
+      "modern"
+    ],
+    "period": "TV/Film Composer",
+    "country": "USA",
+    "contribution": "Known for his extensive work on the 'Star Wars' animated series.",
+    "works": [
+      "Star Wars: The Clone Wars (TV series)",
+      "Star Wars Rebels (TV series)",
+      "Peacemaker (TV series)"
+    ],
+    "youtube_query": "Kevin Kiner music"
+  },
+  {
+    "name": "Ryan Shore",
+    "categories": [
+      "modern"
+    ],
+    "period": "Film/TV Composer",
+    "country": "Canada",
+    "contribution": "Grammy-nominated composer known for his work on comedies and animated films.",
+    "works": [
+      "Star Wars: Forces of Destiny (TV series)",
+      "Go! Go! Cory Carson (TV series)",
+      "The Giver"
+    ],
+    "youtube_query": "Ryan Shore music"
+  },
+  {
+    "name": "Austin Wintory",
+    "categories": [
+      "modern"
+    ],
+    "period": "Video Game Composer",
+    "country": "USA",
+    "contribution": "Grammy-nominated composer, the first to be nominated for a video game score.",
+    "works": [
+      "Journey",
+      "The Banner Saga",
+      "Abzû"
+    ],
+    "youtube_query": "Austin Wintory music"
+  },
+  {
+    "name": "Jessica Curry",
+    "categories": [
+      "modern"
+    ],
+    "period": "Video Game Composer",
+    "country": "England",
+    "contribution": "BAFTA-winning composer known for her emotionally rich and atmospheric game scores.",
+    "works": [
+      "Everybody's Gone to the Rapture",
+      "Dear Esther",
+      "Amnesia: A Machine for Pigs"
+    ],
+    "youtube_query": "Jessica Curry music"
+  },
+  {
+    "name": "Olivier Deriviere",
+    "categories": [
+      "modern"
+    ],
+    "period": "Video Game Composer",
+    "country": "France",
+    "contribution": "Known for his innovative and interactive scores for video games.",
+    "works": [
+      "A Plague Tale: Innocence",
+      "Streets of Rage 4",
+      "Remember Me"
+    ],
+    "youtube_query": "Olivier Deriviere music"
+  },
+  {
+    "name": "Winifred Phillips",
+    "categories": [
+      "modern"
+    ],
+    "period": "Video Game Composer",
+    "country": "USA",
+    "contribution": "Award-winning composer for video games, known for her work on the 'LittleBigPlanet' series.",
+    "works": [
+      "LittleBigPlanet 2",
+      "Assassin's Creed III: Liberation",
+      "God of War"
+    ],
+    "youtube_query": "Winifred Phillips music"
+  },
+  {
+    "name": "Lena Raine",
+    "categories": [
+      "modern"
+    ],
+    "period": "Video Game Composer",
+    "country": "USA",
+    "contribution": "Known for her acclaimed electronic scores for independent video games.",
+    "works": [
+      "Celeste",
+      "Guild Wars 2",
+      "Minecraft"
+    ],
+    "youtube_query": "Lena Raine music"
+  },
+  {
+    "name": "Darren Korb",
+    "categories": [
+      "modern"
+    ],
+    "period": "Video Game Composer",
+    "country": "USA",
+    "contribution": "Known for his genre-blending scores for the games by Supergiant Games.",
+    "works": [
+      "Bastion",
+      "Transistor",
+      "Hades"
+    ],
+    "youtube_query": "Darren Korb music"
+  },
+  {
+    "name": "Koji Kondo",
+    "categories": [
+      "modern"
+    ],
+    "period": "Video Game Composer",
+    "country": "Japan",
+    "contribution": "Legendary video game composer, created some of the most iconic and recognizable themes in gaming history for Nintendo.",
+    "works": [
+      "Super Mario Bros. Theme",
+      "The Legend of Zelda Theme",
+      "Ocarina of Time Soundtrack"
+    ],
+    "youtube_query": "Koji Kondo music"
+  },
+  {
+    "name": "Nobuo Uematsu",
+    "categories": [
+      "modern"
+    ],
+    "period": "Video Game Composer",
+    "country": "Japan",
+    "contribution": "Renowned for his extensive work on the 'Final Fantasy' video game series.",
+    "works": [
+      "Final Fantasy series",
+      "One-Winged Angel",
+      "Aerith's Theme"
+    ],
+    "youtube_query": "Nobuo Uematsu music"
+  },
+  {
+    "name": "Yoko Shimomura",
+    "categories": [
+      "modern"
+    ],
+    "period": "Video Game Composer",
+    "country": "Japan",
+    "contribution": "One of the most prominent female video game composers, known for her work on 'Kingdom Hearts' and 'Street Fighter II'.",
+    "works": [
+      "Kingdom Hearts series",
+      "Street Fighter II",
+      "Final Fantasy XV"
+    ],
+    "youtube_query": "Yoko Shimomura music"
+  },
+  {
+    "name": "Keiichi Okabe",
+    "categories": [
+      "modern"
+    ],
+    "period": "Video Game Composer",
+    "country": "Japan",
+    "contribution": "Known for his critically acclaimed and emotionally resonant scores for the 'Nier' series.",
+    "works": [
+      "Nier: Automata",
+      "Nier Replicant",
+      "Tekken series"
+    ],
+    "youtube_query": "Keiichi Okabe music"
+  },
+  {
+    "name": "Yasunori Mitsuda",
+    "categories": [
+      "modern"
+    ],
+    "period": "Video Game Composer",
+    "country": "Japan",
+    "contribution": "Acclaimed composer for video games, known for his Celtic-influenced and epic scores.",
+    "works": [
+      "Chrono Trigger",
+      "Xenogears",
+      "Chrono Cross"
+    ],
+    "youtube_query": "Yasunori Mitsuda music"
+  },
+  {
+    "name": "Duke Ellington",
+    "categories": ["jazz", "modern"],
+    "period": "20th Century",
+    "country": "USA",
+    "contribution": "One of the most important figures in jazz, a masterful composer, pianist, and bandleader whose orchestra was a laboratory for his innovative sounds.",
+    "works": [
+      "Take the 'A' Train",
+      "It Don't Mean a Thing (If it Ain't Got That Swing)",
+      "In a Sentimental Mood"
+    ],
+    "youtube_query": "Duke Ellington music"
+  },
+  {
+    "name": "Thelonious Monk",
+    "categories": ["jazz", "modern"],
+    "period": "20th Century",
+    "country": "USA",
+    "contribution": "A unique pianist and composer who was a key architect of bebop, known for his dissonant harmonies and angular melodic twists.",
+    "works": [
+      "'Round Midnight",
+      "Straight, No Chaser",
+      "Blue Monk"
+    ],
+    "youtube_query": "Thelonious Monk music"
+  },
+  {
+    "name": "Charles Mingus",
+    "categories": ["jazz", "modern"],
+    "period": "20th Century",
+    "country": "USA",
+    "contribution": "Virtuosic bassist, composer, and bandleader, known for his ambitious works that blended hard bop with gospel, blues, and classical music.",
+    "works": [
+      "Mingus Ah Um (album)",
+      "Goodbye Pork Pie Hat",
+      "Better Git It in Your Soul"
+    ],
+    "youtube_query": "Charles Mingus music"
+  },
+  {
+    "name": "Mary Lou Williams",
+    "categories": ["jazz", "modern"],
+    "period": "20th Century",
+    "country": "USA",
+    "contribution": "A highly influential pianist and composer who shaped the sound of jazz through the swing, bebop, and avant-garde eras.",
+    "works": [
+      "Zodiac Suite",
+      "Mary Lou's Mass",
+      "Roll 'Em"
+    ],
+    "youtube_query": "Mary Lou Williams music"
+  },
+  {
+    "name": "Wayne Shorter",
+    "categories": ["jazz", "modern"],
+    "period": "20th/21st Century",
+    "country": "USA",
+    "contribution": "A legendary saxophonist and composer, pivotal in the development of post-bop jazz with Art Blakey, Miles Davis, and Weather Report.",
+    "works": [
+      "Footprints",
+      "Speak No Evil",
+      "Nefertiti"
+    ],
+    "youtube_query": "Wayne Shorter music"
+  },
+  {
+    "name": "Herbie Hancock",
+    "categories": ["jazz", "modern", "funk"],
+    "period": "Contemporary",
+    "country": "USA",
+    "contribution": "Pioneering jazz pianist and composer who has explored post-bop, fusion, and electronic music, constantly innovating.",
+    "works": [
+      "Cantaloupe Island",
+      "Watermelon Man",
+      "Chameleon"
+    ],
+    "youtube_query": "Herbie Hancock music"
+  },
+  {
+    "name": "Chick Corea",
+    "categories": ["jazz", "modern", "fusion"],
+    "period": "20th/21st Century",
+    "country": "USA",
+    "contribution": "A virtuoso pianist and composer at the forefront of jazz fusion with his band Return to Forever.",
+    "works": [
+      "Spain",
+      "500 Miles High",
+      "Windows"
+    ],
+    "youtube_query": "Chick Corea music"
+  },
+  {
+    "name": "John Coltrane",
+    "categories": ["jazz", "modern"],
+    "period": "20th Century",
+    "country": "USA",
+    "contribution": "A revolutionary saxophonist and composer whose work in modal and free jazz had a profound impact on music.",
+    "works": [
+      "A Love Supreme (album)",
+      "Giant Steps",
+      "Naima"
+    ],
+    "youtube_query": "John Coltrane music"
+  },
+  {
+    "name": "Miles Davis",
+    "categories": ["jazz", "modern", "fusion"],
+    "period": "20th Century",
+    "country": "USA",
+    "contribution": "One of the most influential and acclaimed figures in the history of jazz, a trumpeter, bandleader, and composer who was central to multiple major developments.",
+    "works": [
+      "Kind of Blue (album)",
+      "So What",
+      "Bitches Brew (album)"
+    ],
+    "youtube_query": "Miles Davis music"
+  },
+  {
+    "name": "Bill Evans",
+    "categories": ["jazz", "modern"],
+    "period": "20th Century",
+    "country": "USA",
+    "contribution": "A highly influential jazz pianist known for his introspective and lyrical style, and his use of impressionistic harmony.",
+    "works": [
+      "Waltz for Debby",
+      "Peace Piece",
+      "Blue in Green"
+    ],
+    "youtube_query": "Bill Evans music"
+  },
+  {
+    "name": "Jelly Roll Morton",
+    "categories": ["jazz", "ragtime"],
+    "period": "Early 20th Century",
+    "country": "USA",
+    "contribution": "A pivotal figure in early jazz, a pianist and composer who claimed to have invented the genre.",
+    "works": [
+      "King Porter Stomp",
+      "Black Bottom Stomp",
+      "Wolverine Blues"
+    ],
+    "youtube_query": "Jelly Roll Morton music"
+  },
+  {
+    "name": "Scott Joplin",
+    "categories": ["ragtime", "modern"],
+    "period": "Early 20th Century",
+    "country": "USA",
+    "contribution": "The 'King of Ragtime', known for his classic piano rags and his ambitious opera 'Treemonisha'.",
+    "works": [
+      "Maple Leaf Rag",
+      "The Entertainer",
+      "Treemonisha"
+    ],
+    "youtube_query": "Scott Joplin music"
+  },
+  {
+    "name": "William Walton",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "England",
+    "contribution": "A leading British composer known for his dramatic orchestral works, concertos, and film scores.",
+    "works": [
+      "Belshazzar's Feast",
+      "Cello Concerto",
+      "Symphony No. 1"
+    ],
+    "youtube_query": "William Walton music"
+  },
+  {
+    "name": "Michael Tippett",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "England",
+    "contribution": "An English composer whose work often explored pacifist and humanist themes, known for his oratorio 'A Child of Our Time'.",
+    "works": [
+      "A Child of Our Time",
+      "Fantasia Concertante on a Theme of Corelli",
+      "The Midsummer Marriage"
+    ],
+    "youtube_query": "Michael Tippett music"
+  },
+  {
+    "name": "Tōru Takemitsu",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "Japan",
+    "contribution": "The foremost Japanese composer of the 20th century, known for his subtle and evocative works that blend Western and Eastern aesthetics.",
+    "works": [
+      "November Steps",
+      "Requiem for String Orchestra",
+      "From me flows what you call Time"
+    ],
+    "youtube_query": "Toru Takemitsu music"
+  },
+  {
+    "name": "John Tavener",
+    "categories": ["modern", "minimalist"],
+    "period": "20th/21st Century",
+    "country": "England",
+    "contribution": "A leading composer of spiritual minimalist music, deeply influenced by the Orthodox Christian faith.",
+    "works": [
+      "The Protecting Veil",
+      "Song for Athene",
+      "The Lamb"
+    ],
+    "youtube_query": "John Tavener music"
+  },
+  {
+    "name": "Thomas Adès",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "England",
+    "contribution": "One of the most acclaimed contemporary composers, known for his brilliant and complex operas and orchestral works.",
+    "works": [
+      "The Tempest (opera)",
+      "Asyla",
+      "Powder Her Face"
+    ],
+    "youtube_query": "Thomas Adès music"
+  },
+  {
+    "name": "George Benjamin",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "England",
+    "contribution": "A leading contemporary composer, particularly acclaimed for his meticulously crafted and dramatically potent operas.",
+    "works": [
+      "Written on Skin",
+      "Lessons in Love and Violence",
+      "At First Light"
+    ],
+    "youtube_query": "George Benjamin music"
+  },
+  {
+    "name": "Harrison Birtwistle",
+    "categories": ["modern"],
+    "period": "20th/21st Century",
+    "country": "England",
+    "contribution": "A major figure in British modernism, known for his uncompromisingly complex and ritualistic works.",
+    "works": [
+      "The Mask of Orpheus",
+      "Gawain",
+      "Earth Dances"
+    ],
+    "youtube_query": "Harrison Birtwistle music"
+  },
+  {
+    "name": "Peter Maxwell Davies",
+    "categories": ["modern"],
+    "period": "20th/21st Century",
+    "country": "England",
+    "contribution": "A leading post-war British composer and former Master of the Queen's Music, known for his dramatic and often theatrical works.",
+    "works": [
+      "Eight Songs for a Mad King",
+      "An Orkney Wedding, with Sunrise",
+      "Symphony No. 1"
+    ],
+    "youtube_query": "Peter Maxwell Davies music"
+  },
+  {
+    "name": "Elliott Carter",
+    "categories": ["modern"],
+    "period": "20th/21st Century",
+    "country": "USA",
+    "contribution": "A titan of American modernism, known for his complex and rhythmically intricate works, composing prolifically into his 100s.",
+    "works": [
+      "String Quartet No. 2",
+      "Concerto for Orchestra",
+      "Variations for Orchestra"
+    ],
+    "youtube_query": "Elliott Carter music"
+  },
+  {
+    "name": "Morton Feldman",
+    "categories": ["modern", "minimalist"],
+    "period": "20th Century",
+    "country": "USA",
+    "contribution": "A pioneer of indeterminate music, known for his exceptionally quiet, sparse, and often very long compositions.",
+    "works": [
+      "Rothko Chapel",
+      "String Quartet No. 2",
+      "Piano and String Quartet"
+    ],
+    "youtube_query": "Morton Feldman music"
+  },
+  {
+    "name": "Iannis Xenakis",
+    "categories": ["modern", "electronic"],
+    "period": "20th Century",
+    "country": "Greece/France",
+    "contribution": "An architect and composer who pioneered stochastic music, using mathematical probability systems to create powerful, visceral sound masses.",
+    "works": [
+      "Metastaseis",
+      "Pithoprakta",
+      "Persephassa"
+    ],
+    "youtube_query": "Iannis Xenakis music"
+  },
+  {
+    "name": "Edgard Varèse",
+    "categories": ["modern", "electronic"],
+    "period": "20th Century",
+    "country": "France/USA",
+    "contribution": "A visionary composer who emphasized timbre and rhythm, conceiving of music as 'organized sound' and pioneering electronic music.",
+    "works": [
+      "Ionisation",
+      "Amériques",
+      "Poème électronique"
+    ],
+    "youtube_query": "Edgard Varèse music"
+  },
+  {
+    "name": "Conlon Nancarrow",
+    "categories": ["modern", "experimental"],
+    "period": "20th Century",
+    "country": "USA/Mexico",
+    "contribution": "Known for his complex and rhythmically intricate studies for player piano, exploring tempos and textures impossible for human hands.",
+    "works": [
+      "Studies for Player Piano",
+      "Tango?",
+      "String Quartet No. 1"
+    ],
+    "youtube_query": "Conlon Nancarrow music"
+  },
+  {
+    "name": "Harry Partch",
+    "categories": ["modern", "experimental"],
+    "period": "20th Century",
+    "country": "USA",
+    "contribution": "An iconoclastic American composer who created his own system of microtonal tuning (43-tone scale) and built custom instruments to play his music.",
+    "works": [
+      "Delusion of the Fury",
+      "The Bewitched",
+      "Barstow: Eight Hitchhiker Inscriptions"
+    ],
+    "youtube_query": "Harry Partch music"
+  },
+  {
+    "name": "Moondog",
+    "categories": ["modern", "minimalist", "outsider"],
+    "period": "20th Century",
+    "country": "USA",
+    "contribution": "A blind street musician and composer in New York, known as 'the Viking of 6th Avenue', who created complex, rhythmic, and often beautiful music.",
+    "works": [
+      "Bird's Lament",
+      "Moondog Symphony",
+      "All Is Loneliness"
+    ],
+    "youtube_query": "Moondog music"
+  },
+  {
+    "name": "Pauline Oliveros",
+    "categories": ["modern", "experimental", "electronic"],
+    "period": "20th/21st Century",
+    "country": "USA",
+    "contribution": "A central figure in post-war electronic music, known for her concept of 'Deep Listening' and her work with improvisation and meditation.",
+    "works": [
+      "Deep Listening",
+      "Bye Bye Butterfly",
+      "Sonic Meditations"
+    ],
+    "youtube_query": "Pauline Oliveros music"
+  },
+  {
+    "name": "Terry Jennings",
+    "categories": ["modern", "minimalist"],
+    "period": "20th Century",
+    "country": "USA",
+    "contribution": "An early minimalist composer associated with La Monte Young, known for his quiet and contemplative pieces.",
+    "works": [
+      "Piece for Cello and Saxophone",
+      "Piano Piece 1960",
+      "Terry's G Dorian Blues"
+    ],
+    "youtube_query": "Terry Jennings music"
+  },
+  {
+    "name": "Meredith Monk",
+    "categories": ["modern", "experimental"],
+    "period": "Contemporary",
+    "country": "USA",
+    "contribution": "A composer, singer, and director known for her unique and highly extended vocal techniques.",
+    "works": [
+      "Dolmen Music",
+      "Atlas (opera)",
+      "Book of Days"
+    ],
+    "youtube_query": "Meredith Monk music"
+  },
+  {
+    "name": "Frederic Rzewski",
+    "categories": ["modern", "experimental"],
+    "period": "20th/21st Century",
+    "country": "USA",
+    "contribution": "A virtuoso pianist and composer known for his politically charged and technically demanding works, especially 'The People United Will Never Be Defeated!'.",
+    "works": [
+      "The People United Will Never Be Defeated!",
+      "Coming Together",
+      "North American Ballads"
+    ],
+    "youtube_query": "Frederic Rzewski music"
+  },
+  {
+    "name": "Galina Ustvolskaya",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "Russia",
+    "contribution": "A reclusive and intensely spiritual Russian composer, known for her raw, powerful, and uncompromisingly dissonant music.",
+    "works": [
+      "Composition No. 2, 'Dies Irae'",
+      "Piano Sonata No. 6",
+      "Symphony No. 3, 'Jesus Messiah, Save Us!'"
+    ],
+    "youtube_query": "Galina Ustvolskaya music"
+  },
+  {
+    "name": "Valentin Silvestrov",
+    "categories": ["modern", "minimalist"],
+    "period": "Contemporary",
+    "country": "Ukraine",
+    "contribution": "A leading Ukrainian composer, known for his 'meta-music' style which creates nostalgic and atmospheric echoes of past musical eras.",
+    "works": [
+      "Silent Songs",
+      "Symphony No. 5",
+      "Bagatellen"
+    ],
+    "youtube_query": "Valentin Silvestrov music"
+  },
+  {
+    "name": "Giya Kancheli",
+    "categories": ["modern", "minimalist"],
+    "period": "20th/21st Century",
+    "country": "Georgia",
+    "contribution": "A leading Georgian composer known for his deeply spiritual and often static music, marked by stark contrasts between silence and powerful outbursts.",
+    "works": [
+      "Styx",
+      "Abii ne viderem",
+      "Symphony No. 3"
+    ],
+    "youtube_query": "Giya Kancheli music"
+  },
+  {
+    "name": "Alfredo Casella",
+    "categories": ["modern"],
+    "period": "20th Century",
+    "country": "Italy",
+    "contribution": "An influential Italian composer, conductor, and pianist who was a key figure in the generation that followed Puccini.",
+    "works": [
+      "Paganiniana",
+      "Symphony No. 3 'Sinfonia'",
+      "La Giara"
+    ],
+    "youtube_query": "Alfredo Casella music"
+  },
+  {
+    "name": "Ferruccio Busoni",
+    "categories": ["modern", "romantic"],
+    "period": "Late Romantic/Early 20th Century",
+    "country": "Italy/Germany",
+    "contribution": "A visionary pianist, composer, and theorist who championed a 'New Classicality' and wrote the monumental Piano Concerto.",
+    "works": [
+      "Piano Concerto",
+      "Doktor Faust (opera)",
+      "Fantasia contrappuntistica"
+    ],
+    "youtube_query": "Ferruccio Busoni music"
+  },
+  {
+    "name": "Luigi Nono",
+    "categories": ["modern", "electronic"],
+    "period": "20th Century",
+    "country": "Italy",
+    "contribution": "A leading figure of the post-war avant-garde, known for his politically charged works and pioneering use of electronics.",
+    "works": [
+      "Prometeo, tragedia dell'ascolto",
+      "Il canto sospeso",
+      "La fabbrica illuminata"
+    ],
+    "youtube_query": "Luigi Nono music"
+  },
+  {
+    "name": "Giacinto Scelsi",
+    "categories": ["modern", "experimental"],
+    "period": "20th Century",
+    "country": "Italy",
+    "contribution": "An eccentric and mystical composer known for his microtonal works that focus on single pitches, exploring their inner life.",
+    "works": [
+      "Quattro Pezzi su una nota sola",
+      "Anahit",
+      "Konx-Om-Pax"
+    ],
+    "youtube_query": "Giacinto Scelsi music"
   }
 ]
