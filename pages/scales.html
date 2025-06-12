@@ -36,6 +36,16 @@
         <header class="main-header">
             <h1>The Scale Explorer</h1>
             <p>An interactive library of Carnatic Ragas and Western scales.</p>
+            
+            <!-- THIS IS THE NEW SWITCH -->
+            <div class="notation-switch-container">
+                <span class="notation-label">Western</span>
+                <label class="theme-switch" for="notation-checkbox">
+                    <input type="checkbox" id="notation-checkbox" />
+                    <div class="slider round"></div>
+                </label>
+                <span class="notation-label">Carnatic</span>
+            </div>
         </header>
         
         <!-- Controls -->
@@ -77,10 +87,6 @@
             </div>
         </section>
         <!-- ===================================== -->
-
-        <!-- Loading/Error States -->
-        <div id="loading-state" class="loading-container" style="display: none;"><div class="loading-spinner"></div><p>Loading scales...</p></div>
-        <div id="error-state" class="error-container" style="display: none;"><div class="error-icon">⚠️</div><h3>Unable to Load Scale Data</h3><p id="error-message">Please check your connection and try refreshing the page.</p><button id="retry-button" class="retry-btn">Try Again</button></div>
 
         <!-- Scale List Container -->
         <section id="scale-list-container">

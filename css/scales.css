@@ -28,6 +28,21 @@
     justify-content: center;
 }
 
+/* --- Notation Switch Styles --- */
+.notation-switch-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.notation-label {
+    font-family: var(--font-primary);
+    color: var(--text-muted);
+    font-weight: 500;
+    font-size: 0.9rem;
+}
 
 /* --- Other Card and Control Styles --- */
 
@@ -164,7 +179,7 @@
 .note-display-section {
     display: flex;
     justify-content: space-between;
-    flex-direction: column; /* Arrange scale groups vertically */
+    flex-direction: column;
     gap: 1.5rem;
     margin-bottom: 1.5rem;
 }
@@ -184,19 +199,31 @@
     padding-bottom: 0.5rem;
 }
 
-p.carnatic-notes, p.western-notes-display {
+/* --- Note Display Toggling --- */
+.carnatic-notation, .western-notation {
     font-family: var(--font-mono);
     font-size: 0.95rem;
     line-height: 1.6;
     margin: 0;
     word-wrap: break-word;
-}
-
-p.western-notes-display {
-    margin-top: 0.75rem;
     color: var(--accent-secondary);
     font-weight: 500;
 }
+
+/* By default (Western mode), hide Carnatic notation */
+.carnatic-notation {
+    display: none;
+}
+
+/* When the body has the .carnatic-mode class... */
+body.carnatic-mode .western-notation {
+    display: none; /* ...hide the western notation... */
+}
+
+body.carnatic-mode .carnatic-notation {
+    display: block; /* ...and show the carnatic notation. */
+}
+
 
 .scale-button-container .listen-btn {
     display: flex;
@@ -225,31 +252,6 @@ p.western-notes-display {
     width: 20px;
     height: 20px;
     fill: #0D1117;
-}
-
-
-/* Light Mode Overrides */
-body.light-mode #scale-search {
-    background-color: #fff;
-    box-shadow: 0 2px 10px -2px rgba(0,0,0,0.05);
-}
-body.light-mode #scale-search:focus,
-body.light-mode .search-bar-wrapper:hover #scale-search {
-    border-color: var(--accent-primary);
-    box-shadow: 0 0 20px -5px rgba(167, 139, 250, 0.4);
-}
-body.light-mode .search-bar-wrapper:hover .search-icon,
-body.light-mode #scale-search:focus + .search-icon {
-    color: var(--accent-primary);
-}
-body.light-mode .filter-buttons { background-color: #fff; }
-
-body.light-mode p.western-notes-display { color: #6D28D9; }
-body.light-mode .scale-button-container .listen-btn {
-    color: #fff;
-}
-body.light-mode .scale-button-container .listen-btn svg {
-    fill: #fff;
 }
 
 
@@ -339,7 +341,6 @@ body.light-mode .scale-button-container .listen-btn svg {
     transform: translateX(-50%) scale(0.98);
 }
 
-/* --- REFINEMENT: Highlight entire key instead of dot --- */
 .key.is-in-scale:not(.is-root) {
     background-color: #d8cffc; /* Light purple for white keys */
 }
@@ -359,4 +360,16 @@ body.light-mode .scale-button-container .listen-btn svg {
     background-color: var(--accent-secondary) !important; /* Play highlight overrides everything */
     color: #000;
     transition-duration: 0s;
+}
+
+/* Light Mode Overrides */
+body.light-mode .scale-button-container .listen-btn {
+    color: #fff;
+}
+body.light-mode .scale-button-container .listen-btn svg {
+    fill: #fff;
+}
+body.light-mode .carnatic-notation,
+body.light-mode .western-notation {
+    color: #6D28D9;
 }

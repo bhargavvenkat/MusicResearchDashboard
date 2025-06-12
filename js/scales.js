@@ -6,53 +6,44 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (!scaleListContainer) return;
 
+    // --- State Variables ---
     let allScales = [];
     let activeKey = 'C';
     let selectedScale = null;
+    let activeNotation = 'western'; // 'western' or 'carnatic'
+    
+    // --- Constants ---
     const allNotes = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'];
     const noteAliasMap = { 'Db': 'C#', 'Eb': 'D#', 'Gb': 'F#', 'Ab': 'G#', 'Bb': 'A#' };
-    
-    // --- REFINEMENT: Piano Sample Logic ---
+    const carnaticDisplayMap = ['S', 'R₁', 'R₂', 'G₂', 'G₃', 'M₁', 'M₂', 'P', 'D₁', 'D₂', 'N₂', 'N₃'];
     const AudioContext = window.AudioContext || window.webkitAudioContext;
     const audioCtx = AudioContext ? new AudioContext() : null;
     const pianoSamples = {};
     const SAMPLES_PATH = '../assets/audio/midi-audio/';
     const SAMPLES_EXTENSION = '.wav';
-    // --- END REFINEMENT ---
+
+    // --- Core Functions ---
 
     async function loadPianoSamples() {
         if (!audioCtx) return;
-
-        // --- REFINEMENT: Load notes from C3-B4 as specified ---
         const notesToLoad = [];
         for (const octave of [3, 4]) {
             for (const note of allNotes) {
                 notesToLoad.push(`${note}${octave}`);
             }
         }
-        // Result: ['C3', 'C#3', ..., 'B3', 'C4', 'C#4', ..., 'B4']
-
         const promises = notesToLoad.map(async (noteToLoad) => {
-            // The file path uses the actual note name (e.g., "C#3.wav")
             const fileName = encodeURIComponent(noteToLoad) + SAMPLES_EXTENSION;
             const filePath = SAMPLES_PATH + fileName;
-            
             try {
                 const response = await fetch(filePath);
                 if (!response.ok) throw new Error(`Could not fetch sample: ${response.statusText}`);
                 const arrayBuffer = await response.arrayBuffer();
                 const audioBuffer = await audioCtx.decodeAudioData(arrayBuffer);
-                
-                // --- MAP to the keyboard ---
-                // We map the loaded sound to the key one octave higher.
-                // e.g., The sound from C3.wav is assigned to the C4 key.
-                //       The sound from C4.wav is assigned to the C5 key.
                 const baseNote = noteToLoad.slice(0, -1);
                 const originalOctave = parseInt(noteToLoad.slice(-1), 10);
                 const keyboardNote = `${baseNote}${originalOctave + 1}`;
-
                 pianoSamples[keyboardNote] = audioBuffer;
-
             } catch (error) {
                 console.warn(`Could not load or decode piano sample for ${noteToLoad} from ${filePath}:`, error);
             }
@@ -72,13 +63,15 @@ document.addEventListener('DOMContentLoaded', () => {
             
             renderScales();
             setupEventListeners();
+            updateKeyboardDisplay();
             updateKeyboardHighlights();
-        } catch (error)
-        {
+        } catch (error) {
             console.error("Could not initialize page:", error);
-            scaleListContainer.innerHTML = `<p class="card-placeholder" style="color:#ff8b8b;">Error: Could not load scale data. Please check the console for details.</p>`;
+            scaleListContainer.innerHTML = `<p class="card-placeholder" style="color:#ff8b8b;">Error: Could not load scale data.</p>`;
         }
     }
+
+    // --- UI Rendering Functions ---
 
     function renderScales() {
         const searchTerm = searchInput.value.toLowerCase().trim();
@@ -106,8 +99,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="card scale-card ${activeClass}" data-no="${scale.no}">
                     <div class="card-header"><div class="card-title"><h2>${ragaName}</h2>${westernName}</div>${ragaNumberHTML}</div>
                     <div class="note-display-section">
-                        <div class="scale-group"><h3>Ascending</h3><p class="carnatic-notes">${scale.carnaticAsc}</p><p class="western-notes-display">${transposedAsc.join(' ')}</p></div>
-                        <div class="scale-group"><h3>Descending</h3><p class="carnatic-notes">${scale.carnaticDesc}</p><p class="western-notes-display">${transposedDesc.join(' ')}</p></div>
+                        <div class="scale-group">
+                            <h3>Ascending</h3>
+                            <p class="carnatic-notation">${scale.carnaticAsc}</p>
+                            <p class="western-notation">${transposedAsc.join(' ')}</p>
+                        </div>
+                        <div class="scale-group">
+                            <h3>Descending</h3>
+                            <p class="carnatic-notation">${scale.carnaticDesc}</p>
+                            <p class="western-notation">${transposedDesc.join(' ')}</p>
+                        </div>
                     </div>
                     ${buttonsHTML}
                 </div>`;
@@ -121,18 +122,6 @@ document.addEventListener('DOMContentLoaded', () => {
             return `<div class="scale-button-container">${youtubeButtonHTML}</div>`;
         }
         return '';
-    }
-
-    // This function doesn't need to change. It plays whatever sample is mapped to the noteName.
-    function playNote(noteName) {
-        if (!audioCtx || !pianoSamples[noteName]) {
-            console.warn(`Piano sample for ${noteName} not loaded or AudioContext not ready.`);
-            return;
-        }
-        const source = audioCtx.createBufferSource();
-        source.buffer = pianoSamples[noteName];
-        source.connect(audioCtx.destination);
-        source.start(0);
     }
 
     function updateKeyboardHighlights() {
@@ -164,7 +153,41 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+    function updateKeyboardDisplay() {
+        const rootIndex = allNotes.indexOf(activeKey);
+        if (rootIndex === -1) return;
+
+        const westernToCarnaticMap = {};
+        allNotes.forEach((note, index) => {
+            const interval = (index - rootIndex + 12) % 12;
+            westernToCarnaticMap[note] = carnaticDisplayMap[interval];
+        });
+
+        document.querySelectorAll('.key').forEach(key => {
+            const noteName = key.dataset.note.slice(0, -1);
+            const span = key.querySelector('span');
+            if (!span) return;
+
+            if (activeNotation === 'carnatic') {
+                span.textContent = westernToCarnaticMap[noteName];
+            } else {
+                span.textContent = noteName;
+            }
+        });
+    }
+
+    // --- Event Handling ---
+
     function setupEventListeners() {
+        const notationSwitch = document.getElementById('notation-checkbox');
+        if (notationSwitch) {
+            notationSwitch.addEventListener('change', () => {
+                activeNotation = notationSwitch.checked ? 'carnatic' : 'western';
+                document.body.classList.toggle('carnatic-mode', notationSwitch.checked);
+                updateKeyboardDisplay();
+            });
+        }
+
         searchInput.addEventListener('input', renderScales);
         
         keySelector.addEventListener('click', e => {
@@ -173,6 +196,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 keySelector.querySelector('.active').classList.remove('active');
                 e.target.classList.add('active');
                 renderScales();
+                updateKeyboardDisplay();
                 updateKeyboardHighlights();
             }
         });
@@ -181,16 +205,12 @@ document.addEventListener('DOMContentLoaded', () => {
             const card = e.target.closest('.scale-card');
             if (!card) return;
 
-            if (e.target.closest('.listen-btn')) {
-                return;
-            }
+            if (e.target.closest('.listen-btn')) return;
 
             const scaleId = card.dataset.no;
             const clickedScale = allScales.find(s => s.no === scaleId);
 
             if (clickedScale) {
-                // REFINEMENT: A click on a card now selects it. Clicking the same card does nothing.
-                // Deselection is handled by the new global "click away" listener.
                 if (selectedScale?.no !== scaleId) {
                     selectedScale = clickedScale;
                     renderScales();
@@ -199,7 +219,6 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
 
-        
         globalKeyboard.addEventListener('click', e => {
             const key = e.target.closest('.key');
             if (key && key.dataset.note) {
@@ -212,26 +231,34 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
 
-        // REFINEMENT: Add a "click away" listener to deselect scales when clicking on the background.
         document.addEventListener('click', e => {
-            // Do nothing if no scale is selected
             if (!selectedScale) return;
 
-            // Check if the click was inside an element that should NOT trigger a deselect
             const isClickOnCard = e.target.closest('.scale-card');
             const isClickOnKeyboard = e.target.closest('#global-keyboard-section');
             const isClickOnKeySelector = e.target.closest('#key-selector');
 
-            // If the click is inside any of these interactive containers, do nothing.
             if (isClickOnCard || isClickOnKeyboard || isClickOnKeySelector) {
                 return;
             }
 
-            // If the click was outside, deselect the scale.
             selectedScale = null;
             renderScales();
             updateKeyboardHighlights();
         });
+    }
+
+    // --- Utility Functions ---
+
+    function playNote(noteName) {
+        if (!audioCtx || !pianoSamples[noteName]) {
+            console.warn(`Piano sample for ${noteName} not loaded or AudioContext not ready.`);
+            return;
+        }
+        const source = audioCtx.createBufferSource();
+        source.buffer = pianoSamples[noteName];
+        source.connect(audioCtx.destination);
+        source.start(0);
     }
 
     function transposeScale(notesArray, targetKey) {
@@ -246,5 +273,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // --- Initialize ---
     initializePage();
 });
