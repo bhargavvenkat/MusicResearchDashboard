@@ -254,6 +254,18 @@ body.carnatic-mode .carnatic-notation {
     fill: #0D1117;
 }
 
+/* --- NEW: Hide note labels by default --- */
+.key span {
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+
+/* NEW: Show label only when the key is highlighted */
+.key.is-in-scale span,
+.key.is-root span {
+    opacity: 1;
+}
+
 
 /* --- REFINED Global Keyboard Styles --- */
 .global-keyboard-section {
