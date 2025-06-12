@@ -189,16 +189,17 @@ document.addEventListener('DOMContentLoaded', () => {
             const clickedScale = allScales.find(s => s.no === scaleId);
 
             if (clickedScale) {
-                if (selectedScale && selectedScale.no === scaleId) {
-                    selectedScale = null;
-                } else {
+                // REFINEMENT: A click on a card now selects it. Clicking the same card does nothing.
+                // Deselection is handled by the new global "click away" listener.
+                if (selectedScale?.no !== scaleId) {
                     selectedScale = clickedScale;
+                    renderScales();
+                    updateKeyboardHighlights();
                 }
-                renderScales();
-                updateKeyboardHighlights();
             }
         });
 
+        
         globalKeyboard.addEventListener('click', e => {
             const key = e.target.closest('.key');
             if (key && key.dataset.note) {
@@ -209,6 +210,27 @@ document.addEventListener('DOMContentLoaded', () => {
                 key.classList.add('is-playing');
                 setTimeout(() => key.classList.remove('is-playing'), 200);
             }
+        });
+
+        // REFINEMENT: Add a "click away" listener to deselect scales when clicking on the background.
+        document.addEventListener('click', e => {
+            // Do nothing if no scale is selected
+            if (!selectedScale) return;
+
+            // Check if the click was inside an element that should NOT trigger a deselect
+            const isClickOnCard = e.target.closest('.scale-card');
+            const isClickOnKeyboard = e.target.closest('#global-keyboard-section');
+            const isClickOnKeySelector = e.target.closest('#key-selector');
+
+            // If the click is inside any of these interactive containers, do nothing.
+            if (isClickOnCard || isClickOnKeyboard || isClickOnKeySelector) {
+                return;
+            }
+
+            // If the click was outside, deselect the scale.
+            selectedScale = null;
+            renderScales();
+            updateKeyboardHighlights();
         });
     }
 
