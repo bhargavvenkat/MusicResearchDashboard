@@ -1,0 +1,305 @@
+[
+  {
+    "name": "Major",
+    "symbol": "",
+    "intervals": [0, 4, 7]
+  },
+  {
+    "name": "Minor",
+    "symbol": "m",
+    "intervals": [0, 3, 7]
+  },
+  {
+    "name": "Diminished",
+    "symbol": "dim",
+    "intervals": [0, 3, 6]
+  },
+  {
+    "name": "Augmented",
+    "symbol": "aug",
+    "intervals": [0, 4, 8]
+  },
+  {
+    "name": "Major Seventh",
+    "symbol": "maj7",
+    "intervals": [0, 4, 7, 11]
+  },
+  {
+    "name": "Minor Seventh",
+    "symbol": "m7",
+    "intervals": [0, 3, 7, 10]
+  },
+  {
+    "name": "Dominant Seventh",
+    "symbol": "7",
+    "intervals": [0, 4, 7, 10]
+  },
+  {
+    "name": "Suspended Second",
+    "symbol": "sus2",
+    "intervals": [0, 2, 7]
+  },
+  {
+    "name": "Suspended Fourth",
+    "symbol": "sus4",
+    "intervals": [0, 5, 7]
+  },
+  {
+    "name": "Minor Major Seventh",
+    "symbol": "m(maj7)",
+    "intervals": [0, 3, 7, 11]
+  },
+
+  
+  {
+    "name": "Major Sixth",
+    "symbol": "6",
+    "intervals": [0, 4, 7, 9]
+  },
+  {
+    "name": "Minor Sixth",
+    "symbol": "m6",
+    "intervals": [0, 3, 7, 9]
+  },
+  {
+    "name": "Dominant Ninth",
+    "symbol": "9",
+    "intervals": [0, 4, 7, 10, 14]
+  },
+  {
+    "name": "Major Ninth",
+    "symbol": "maj9",
+    "intervals": [0, 4, 7, 11, 14]
+  },
+  {
+    "name": "Minor Ninth",
+    "symbol": "m9",
+    "intervals": [0, 3, 7, 10, 14]
+  },
+  {
+    "name": "Dominant Eleventh",
+    "symbol": "11",
+    "intervals": [0, 4, 7, 10, 14, 17]
+  },
+  {
+    "name": "Major Eleventh",
+    "symbol": "maj11",
+    "intervals": [0, 4, 7, 11, 14, 17]
+  },
+  {
+    "name": "Minor Eleventh",
+    "symbol": "m11",
+    "intervals": [0, 3, 7, 10, 14, 17]
+  },
+  {
+    "name": "Dominant Thirteenth",
+    "symbol": "13",
+    "intervals": [0, 4, 7, 10, 14, 21]
+  },
+  {
+    "name": "Major Thirteenth",
+    "symbol": "maj13",
+    "intervals": [0, 4, 7, 11, 14, 21]
+  },
+  {
+    "name": "Minor Thirteenth",
+    "symbol": "m13",
+    "intervals": [0, 3, 7, 10, 14, 21]
+  },
+  {
+    "name": "Half-Diminished Seventh",
+    "symbol": "m7b5",
+    "intervals": [0, 3, 6, 10]
+  },
+  {
+    "name": "Diminished Seventh",
+    "symbol": "dim7",
+    "intervals": [0, 3, 6, 9]
+  },
+  {
+    "name": "Augmented Seventh",
+    "symbol": "aug7",
+    "intervals": [0, 4, 8, 10]
+  },
+  {
+    "name": "Augmented Major Seventh",
+    "symbol": "maj7#5",
+    "intervals": [0, 4, 8, 11]
+  },
+  {
+    "name": "Seventh Suspended Fourth",
+    "symbol": "7sus4",
+    "intervals": [0, 5, 7, 10]
+  },
+  {
+    "name": "Seventh Suspended Second",
+    "symbol": "7sus2",
+    "intervals": [0, 2, 7, 10]
+  },
+  {
+    "name": "Add Nine",
+    "symbol": "add9",
+    "intervals": [0, 4, 7, 14]
+  },
+  {
+    "name": "Minor Add Nine",
+    "symbol": "m(add9)",
+    "intervals": [0, 3, 7, 14]
+  },
+  {
+    "name": "Add Eleven",
+    "symbol": "add11",
+    "intervals": [0, 4, 7, 17]
+  },
+  {
+    "name": "Six Nine",
+    "symbol": "6/9",
+    "intervals": [0, 4, 7, 9, 14]
+  },
+  {
+    "name": "Power Chord",
+    "symbol": "5",
+    "intervals": [0, 7]
+  },
+  {
+    "name": "Dominant Seventh Flat Nine",
+    "symbol": "7b9",
+    "intervals": [0, 4, 7, 10, 13]
+  },
+  {
+    "name": "Dominant Seventh Sharp Nine",
+    "symbol": "7#9",
+    "intervals": [0, 4, 7, 10, 15]
+  },
+  {
+    "name": "Dominant Seventh Flat Five",
+    "symbol": "7b5",
+    "intervals": [0, 4, 6, 10]
+  },
+  {
+    "name": "Dominant Seventh Sharp Five",
+    "symbol": "7#5",
+    "intervals": [0, 4, 8, 10]
+  },
+  {
+    "name": "Altered",
+    "symbol": "7alt",
+    "intervals": [0, 4, 6, 10, 13, 15]
+  },
+  {
+    "name": "Minor-Major Seventh",
+    "symbol": "m(maj7)",
+    "intervals": [0, 3, 7, 11]
+  },
+  {
+    "name": "Ninth Suspended Fourth",
+    "symbol": "9sus4",
+    "intervals": [0, 5, 7, 10, 14]
+  },
+  {
+    "name": "Major Seventh Flat Five",
+    "symbol": "maj7b5",
+    "intervals": [0, 4, 6, 11]
+  },
+  {
+    "name": "Major Seventh Sharp Eleven",
+    "symbol": "maj7#11",
+    "intervals": [0, 4, 7, 11, 18]
+  },
+  {
+    "name": "Minor-Major Ninth",
+    "symbol": "m(maj9)",
+    "intervals": [0, 3, 7, 11, 14]
+  },
+  {
+    "name": "Dominant Flat Nine Sharp Eleven",
+    "symbol": "7(b9,#11)",
+    "intervals": [0, 4, 7, 10, 13, 18]
+  },
+  {
+    "name": "Dominant Thirteenth Flat Nine",
+    "symbol": "13(b9)",
+    "intervals": [0, 4, 7, 10, 13, 21]
+  },
+  {
+    "name": "Dominant Seventh Flat Thirteenth",
+    "symbol": "7b13",
+    "intervals": [0, 4, 7, 10, 20]
+  },
+  {
+    "name": "Quartal",
+    "symbol": "(quartal)",
+    "intervals": [0, 5, 10]
+  },
+  {
+    "name": "Minor Seventh Sharp Eleven",
+    "symbol": "m7#11",
+    "intervals": [0, 3, 7, 10, 18]
+  },
+  {
+    "name": "Dreamy",
+    "symbol": "maj7(sus2)",
+    "intervals": [0, 2, 7, 11]
+  },
+  {
+    "name": "Lydian",
+    "symbol": "maj7(#11)",
+    "intervals": [0, 4, 7, 11, 18]
+  },
+  {
+    "name": "Phrygian",
+    "symbol": "sus4(b9)",
+    "intervals": [0, 1, 5, 7]
+  },
+  {
+    "name": "Hendrix Chord",
+    "symbol": "7#9",
+    "intervals": [0, 4, 7, 10, 15]
+  },
+  {
+    "name": "Neapolitan",
+    "symbol": "N",
+    "intervals": [1, 5, 8]
+  },
+  {
+    "name": "Italian Sixth",
+    "symbol": "It+6",
+    "intervals": [0, 6, 10]
+  },
+  {
+    "name": "French Sixth",
+    "symbol": "Fr+6",
+    "intervals": [0, 4, 6, 10]
+  },
+  {
+    "name": "German Sixth",
+    "symbol": "Ger+6",
+    "intervals": [0, 4, 7, 10]
+  },
+  {
+    "name": "Tristan Chord",
+    "symbol": "(Tristan)",
+    "intervals": [0, 3, 6, 10]
+  },
+  {
+    "name": "Petrushka Chord",
+    "symbol": "(Petrushka)",
+    "intervals": [0, 1, 4, 6, 7, 10]
+  },
+  {
+    "name": "Magic Chord",
+    "symbol": "(Magic)",
+    "intervals": [0, 1, 5, 6, 10, 11]
+  },
+  {
+    "name": "Farben Chord",
+    "symbol": "(Farben)",
+    "intervals": [0, 8, 11, 4, 9]
+  },
+  {
+    "name": "Elektra Chord",
+    "symbol": "(Elektra)",
+    "intervals": [0, 7, 11, 4, 9]
+  }
+
+]

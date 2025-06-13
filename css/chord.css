@@ -1,0 +1,349 @@
+/* --- Chord Book Page Styles --- */
+
+/* Aligning items for a clean grid */
+#chord-list-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1.5rem;
+    align-items: stretch; 
+}
+
+.chord-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.chord-button-container {
+    margin-top: auto; 
+    padding-top: 1.5rem; 
+    display: flex;
+    justify-content: center;
+}
+
+/* --- Controls Styling --- */
+.chord-controls-top {
+    display: flex;
+    justify-content: flex-start;
+    padding: 2rem 0;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.search-bar-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 450px;
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    transform: translateY(-50%);
+    color: var(--text-muted);
+    pointer-events: none;
+    transition: color 0.3s ease;
+}
+
+#chord-search {
+    width: 100%;
+    background-color: var(--card-bg-color);
+    border: 1px solid var(--border-color);
+    color: var(--text-color);
+    font-family: var(--font-primary);
+    font-size: 1rem;
+    padding: 0.85rem 1rem 0.85rem 3rem;
+    border-radius: 50px;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+#chord-search:focus { outline: none; }
+
+#chord-search:focus,
+.search-bar-wrapper:hover #chord-search {
+    border-color: var(--accent-secondary);
+    box-shadow: 0 0 25px -8px rgba(125, 211, 252, 0.5);
+}
+
+.search-bar-wrapper:hover .search-icon,
+#chord-search:focus + .search-icon {
+    color: var(--accent-secondary);
+}
+
+.filter-buttons {
+    display: flex;
+    gap: 0.5rem;
+    background-color: var(--card-bg-color);
+    padding: 0.5rem;
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+    box-shadow: 0 4px 15px -5px rgba(0,0,0,0.2);
+}
+
+.filter-btn {
+    background-color: transparent;
+    border: none;
+    color: var(--text-muted);
+    font-family: var(--font-primary);
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.filter-btn:hover:not(.active) {
+    color: var(--text-color);
+    background-color: rgba(139, 148, 158, 0.1);
+    transform: scale(1.05);
+}
+
+.filter-btn.active {
+    background: linear-gradient(45deg, var(--accent-secondary), var(--accent-primary));
+    color: #fff;
+    font-weight: 700;
+    box-shadow: 0 2px 8px -2px var(--accent-primary);
+    transform: scale(1.05);
+}
+
+/* --- Card Styling --- */
+.chord-card {
+    background: var(--card-bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 1.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.chord-card:hover {
+    box-shadow: 0 10px 30px -5px rgba(167, 139, 250, 0.2);
+    transform: translateY(-5px);
+}
+
+.chord-card.active {
+    border-color: var(--accent-primary);
+    box-shadow: 0 0 25px -8px rgba(167, 139, 250, 0.6);
+    transform: scale(1.02);
+}
+
+.card-header {
+    margin-bottom: 1.5rem;
+}
+
+.card-title h2 {
+    color: var(--accent-primary);
+    font-size: 1.8rem;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.card-title .chord-name {
+    font-family: var(--font-mono);
+    color: var(--text-muted);
+    font-size: 1rem;
+}
+
+.chord-info {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.chord-info h3 {
+    margin: 0 0 0.75rem 0;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--text-muted);
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 0.5rem;
+}
+
+.chord-info p {
+    font-family: var(--font-mono);
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin: 0;
+    color: #FFFFFF; 
+    font-weight: 500;
+}
+
+.play-chord-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    background: linear-gradient(90deg, var(--accent-secondary), var(--accent-primary));
+    color: #0D1117;
+    font-weight: 700;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border: none;
+    cursor: pointer;
+    font-family: var(--font-primary);
+    font-size: 1rem;
+}
+
+.play-chord-btn:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 20px -5px rgba(167, 139, 250, 0.5);
+}
+
+.play-chord-btn svg {
+    width: 20px;
+    height: 20px;
+    fill: #0D1117;
+}
+
+/* --- Global Keyboard --- */
+.global-keyboard-section {
+    padding: 2rem;
+    margin-bottom: 3rem;
+    background: var(--card-bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    box-shadow: 0 8px 30px -15px rgba(0,0,0,0.3);
+    margin-left: -2rem;
+    margin-right: -2rem;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.global-keyboard-container {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 90px;
+}
+
+.key {
+    position: relative;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: background-color 0.1s ease, transform 0.1s ease;
+}
+
+.key.white {
+    flex: 1;
+    background-color: #f8f9fa;
+    color: #333;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 8px;
+    font-family: var(--font-primary);
+    font-weight: 500;
+    font-size: 0.9rem;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.key.black {
+    position: absolute;
+    width: calc((100% / 14) * 0.58);
+    height: 60%;
+    background-color: #212529;
+    z-index: 4;
+    transform: translateX(-50%);
+    border-radius: 4px;
+    color: #e9ecef;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.key span {
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.key.is-in-chord span,
+.key.is-root span {
+    opacity: 1;
+}
+
+
+.key[data-note="C#3"] { left: calc((100% / 14) * 1); }
+.key[data-note="D#3"] { left: calc((100% / 14) * 2); }
+.key[data-note="F#3"] { left: calc((100% / 14) * 4); }
+.key[data-note="G#3"] { left: calc((100% / 14) * 5); }
+.key[data-note="A#3"] { left: calc((100% / 14) * 6); }
+.key[data-note="C#4"] { left: calc((100% / 14) * 8); }
+.key[data-note="D#4"] { left: calc((100% / 14) * 9); }
+.key[data-note="F#4"] { left: calc((100% / 14) * 11); }
+.key[data-note="G#4"] { left: calc((100% / 14) * 12); }
+.key[data-note="A#4"] { left: calc((100% / 14) * 13); }
+
+
+.key:hover { background-color: #e9ecef; }
+.key.black:hover { background-color: #343a40; }
+.key:active { transform: scale(0.98); }
+.key.black:active { transform: translateX(-50%) scale(0.98); }
+
+/* Unified styling for all keys in the selected chord */
+.key.white.is-in-chord,
+.key.white.is-root { /* Ensures root white keys get this style */
+    background-color: #d8cffc;
+}
+.key.black.is-in-chord,
+.key.black.is-root { /* Ensures root black keys get this style */
+    background-color: #8b5cf6;
+}
+
+/* Remove special styling from root keys to make them uniform with other chord keys */
+.key.is-root {
+    /* color property removed; will now correctly inherit from .key.white or .key.black */
+    box-shadow: none; /* No special shadow */
+    /* z-index is not set here, allowing .key.black's z-index:4 to apply if it's a black root key,
+       or default 'auto' for white root keys. This removes the previous z-index: 3. */
+}
+.key.is-playing {
+    background-color: var(--accent-secondary) !important;
+    color: #000;
+    transition-duration: 0s;
+}
+
+/* --- Light Mode Overrides --- */
+body.light-mode .global-keyboard-section {
+    background: #1E1B4B; /* Dark Indigo / Dark Purple */
+    border-color: #312E81; /* Lighter Indigo for contrast */
+    box-shadow: 0 8px 30px rgba(30, 27, 75, 0.4); /* Adjusted shadow for dark bg */
+}
+
+body.light-mode .chord-card {
+    background-color: #1E1B4B; /* Dark Indigo */
+    border-color: #312E81; /* Lighter Indigo */
+    box-shadow: 0 6px 20px rgba(30, 27, 75, 0.3);
+}
+body.light-mode .chord-card:hover {
+    box-shadow: 0 8px 30px rgba(30, 27, 75, 0.4);
+}
+body.light-mode .chord-card.active {
+    border-color: var(--accent-primary); /* Keep accent for active state */
+    box-shadow: 0 0 25px -5px rgba(167, 139, 250, 0.5);
+}
+
+body.light-mode .card-title h2 {
+    color: #FFFFFF; /* White text on dark bg */
+}
+body.light-mode .card-title .chord-name {
+    color: rgba(255, 255, 255, 0.6); /* Muted white */
+}
+
+body.light-mode .chord-info h3 {
+    color: rgba(255, 255, 255, 0.7);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+}
+body.light-mode .chord-info p {
+    color: #FFFFFF; /* White text */
+}
+
+body.light-mode .play-chord-btn {
+    /* The gradient background should still work, ensure text/icon has contrast */
+    color: #FFFFFF; /* White text */
+}
+body.light-mode .play-chord-btn svg {
+    fill: #FFFFFF; /* White icon */
+}
