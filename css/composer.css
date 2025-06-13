@@ -31,6 +31,7 @@
     padding: 0.75rem 1rem;
     border-radius: 8px;
     width: 280px;
+    box-sizing: border-box; /* Ensures padding and border are included in the element's total width */
 }
 
 #composer-search:focus {
@@ -317,5 +318,23 @@ body.light-mode .card-placeholder .placeholder-line { background-color: #F3F4F6;
     
     @keyframes shimmer {
         to { left: 150%; }
+    }
+}
+
+/* --- Responsive Adjustments for Filter Controls on Smaller Screens --- */
+@media (max-width: 480px) { /* Adjust breakpoint as needed for portrait mobile */
+    .filter-controls {
+        flex-direction: column;
+        align-items: stretch; /* Makes child items fill the width */
+        gap: 1rem; /* Optionally adjust gap for tighter spacing */
+    }
+
+    #composer-search {
+        width: 100%; /* Make search input take full available width */
+    }
+
+    .filter-buttons {
+        width: 100%; /* Make button group take full available width */
+        justify-content: center; /* Center buttons if they wrap or don't fill the line */
     }
 }
