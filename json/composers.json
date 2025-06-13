@@ -4446,5 +4446,3921 @@
       "Konx-Om-Pax"
     ],
     "youtube_query": "Giacinto Scelsi music"
+  },
+
+  {
+    "name": "Naushad Ali",
+    "categories": ["modern"],
+    "period": "Golden Era",
+    "country": "India",
+    "contribution": "Pioneered the blending of Indian classical music with folk traditions in Hindi film music, revolutionizing film scores.",
+    "works": [
+      "Baiju Bawra",
+      "Mother India",
+      "Mughal-e-Azam"
+    ],
+    "youtube_query": "Naushad Ali songs"
+  },
+  {
+    "name": "Shankar-Jaikishan",
+    "categories": ["modern"],
+    "period": "Golden Era",
+    "country": "India",
+    "contribution": "A dominant duo of the Golden Era, known for their prolific output, catchy melodies, and pioneering use of orchestration.",
+    "works": [
+      "Barsaat",
+      "Awara",
+      "Shree 420"
+    ],
+    "youtube_query": "Shankar-Jaikishan songs"
+  },
+  {
+    "name": "C. Ramchandra",
+    "categories": ["modern"],
+    "period": "Golden Era",
+    "country": "India",
+    "contribution": "Versatile composer and singer, known for introducing rock and roll beats to Hindi cinema and for his patriotic songs.",
+    "works": [
+      "Anarkali",
+      "Albela",
+      "Aye Mere Watan Ke Logo (song)"
+    ],
+    "youtube_query": "C. Ramchandra songs"
+  },
+  {
+    "name": "Madan Mohan",
+    "categories": ["modern"],
+    "period": "Golden Era",
+    "country": "India",
+    "contribution": "Hailed as 'The Ghazal King,' renowned for his intricate, soulful, and classical-based compositions.",
+    "works": [
+      "Woh Kaun Thi?",
+      "Mera Saaya",
+      "Heer Raanjha"
+    ],
+    "youtube_query": "Madan Mohan songs"
+  },
+  {
+    "name": "O. P. Nayyar",
+    "categories": ["modern"],
+    "period": "Golden Era",
+    "country": "India",
+    "contribution": "Known for his rhythmic, peppy, and often folk-inspired tunes, creating a signature sound without using Lata Mangeshkar.",
+    "works": [
+      "Naya Daur",
+      "C.I.D.",
+      "Kashmir Ki Kali"
+    ],
+    "youtube_query": "O. P. Nayyar songs"
+  },
+  {
+    "name": "Laxmikant-Pyarelal",
+    "categories": ["modern"],
+    "period": "Masala Era",
+    "country": "India",
+    "contribution": "One of the most successful duos in Hindi cinema, known for their vast range, from folk to disco, and a staggering number of hit films.",
+    "works": [
+      "Karz",
+      "Amar Akbar Anthony",
+      "Bobby"
+    ],
+    "youtube_query": "Laxmikant-Pyarelal songs"
+  },
+  {
+    "name": "Kalyanji-Anandji",
+    "categories": ["modern"],
+    "period": "Masala Era",
+    "country": "India",
+    "contribution": "A prolific duo known for their catchy tunes, pioneering electronic music in India, and composing iconic themes.",
+    "works": [
+      "Don",
+      "Zanjeer",
+      "Saraswatichandra"
+    ],
+    "youtube_query": "Kalyanji-Anandji songs"
+  },
+  {
+    "name": "Salil Chowdhury",
+    "categories": ["modern"],
+    "period": "Golden Era",
+    "country": "India",
+    "contribution": "A musical genius who drew heavily from Western classical symphonies and Indian folk traditions to create complex, layered compositions.",
+    "works": [
+      "Madhumati",
+      "Anand",
+      "Do Bigha Zamin"
+    ],
+    "youtube_query": "Salil Chowdhury songs"
+  },
+  {
+    "name": "Khayyam",
+    "categories": ["modern"],
+    "period": "Golden Era",
+    "country": "India",
+    "contribution": "Renowned for his soul-stirring ghazals and melodies, characterized by their poetic depth and classical richness.",
+    "works": [
+      "Umrao Jaan",
+      "Kabhi Kabhie",
+      "Razia Sultan"
+    ],
+    "youtube_query": "Khayyam songs"
+  },
+  {
+    "name": "Ravi",
+    "categories": ["modern"],
+    "period": "Golden Era",
+    "country": "India",
+    "contribution": "Known for his simple, melodious, and emotionally resonant compositions, particularly in family dramas and social films.",
+    "works": [
+      "Waqt",
+      "Do Badan",
+      "Chaudhvin Ka Chand"
+    ],
+    "youtube_query": "Ravi music director songs"
+  },
+  {
+    "name": "Chitragupta",
+    "categories": ["modern"],
+    "period": "Golden Era",
+    "country": "India",
+    "contribution": "Composer known for his light-hearted, folk-based, and melodious songs, father of composers Anand-Milind.",
+    "works": [
+      "Bhabhi",
+      "Ganga Ki Lahren",
+      "Main Chup Rahungi"
+    ],
+    "youtube_query": "Chitragupta songs"
+  },
+  {
+    "name": "Roshan",
+    "categories": ["modern"],
+    "period": "Golden Era",
+    "country": "India",
+    "contribution": "Master of qawwali and classical-based melodies, grandfather of actor Hrithik Roshan.",
+    "works": [
+      "Barsaat Ki Raat",
+      "Taj Mahal",
+      "Aarti"
+    ],
+    "youtube_query": "Roshan songs"
+  },
+  {
+    "name": "Hemant Kumar",
+    "categories": ["modern"],
+    "period": "Golden Era",
+    "country": "India",
+    "contribution": "A celebrated singer and composer, known for his haunting melodies and atmospheric, romantic compositions.",
+    "works": [
+      "Nagin",
+      "Bees Saal Baad",
+      "Anupama"
+    ],
+    "youtube_query": "Hemant Kumar songs"
+  },
+  {
+    "name": "Anil Biswas",
+    "categories": ["modern"],
+    "period": "Golden Era",
+    "country": "India",
+    "contribution": "A pioneer who introduced orchestral music and the concept of playback singing to Indian cinema.",
+    "works": [
+      "Kismet",
+      "Roti",
+      "Aaram"
+    ],
+    "youtube_query": "Anil Biswas songs"
+  },
+  {
+    "name": "Vasant Desai",
+    "categories": ["modern"],
+    "period": "Golden Era",
+    "country": "India",
+    "contribution": "Known for his classical-based scores for historical and social films, and the iconic prayer 'Ae Malik Tere Bande Hum'.",
+    "works": [
+      "Jhanak Jhanak Payal Baaje",
+      "Do Aankhen Barah Haath",
+      "Goonj Uthi Shehnai"
+    ],
+    "youtube_query": "Vasant Desai songs"
+  },
+  {
+    "name": "Ghulam Haider",
+    "categories": ["modern"],
+    "period": "Pioneer Era",
+    "country": "India",
+    "contribution": "Revolutionized film music by introducing Punjabi folk rhythms and discovering legendary singer Lata Mangeshkar.",
+    "works": [
+      "Khazanchi",
+      "Shaheed (1948)",
+      "Majboor"
+    ],
+    "youtube_query": "Ghulam Haider songs"
+  },
+  {
+    "name": "N. Dutta",
+    "categories": ["modern"],
+    "period": "Golden Era",
+    "country": "India",
+    "contribution": "Composer known for his patriotic and soulful songs, particularly his collaborations with lyricist Sahir Ludhianvi.",
+    "works": [
+      "Dhool Ka Phool",
+      "Sadhna",
+      "Dharmputra"
+    ],
+    "youtube_query": "N Dutta songs"
+  },
+  {
+    "name": "S. N. Tripathi",
+    "categories": ["modern"],
+    "period": "Golden Era",
+    "country": "India",
+    "contribution": "A prolific composer and director, primarily known for his work in mythological and historical films.",
+    "works": [
+      "Rani Roopmati",
+      "Sangeet Samrat Tansen",
+      "Janam Janam Ke Phere"
+    ],
+    "youtube_query": "S N Tripathi songs"
+  },
+  {
+    "name": "Jaidev",
+    "categories": ["modern"],
+    "period": "Golden Era",
+    "country": "India",
+    "contribution": "A National Award-winning composer known for his unique, complex, and often melancholic compositions.",
+    "works": [
+      "Hum Dono",
+      "Reshma Aur Shera",
+      "Gaman"
+    ],
+    "youtube_query": "Jaidev songs"
+  },
+  {
+    "name": "Usha Khanna",
+    "categories": ["modern"],
+    "period": "Masala Era",
+    "country": "India",
+    "contribution": "One of the few female composers of her era, known for her long and successful career with many hit songs.",
+    "works": [
+      "Souten",
+      "Aap To Aise Na The",
+      "Saajan Bina Suhagan"
+    ],
+    "youtube_query": "Usha Khanna songs"
+  },
+  {
+    "name": "Raichand Boral",
+    "categories": ["modern"],
+    "period": "Pioneer Era",
+    "country": "India",
+    "contribution": "Considered the 'Father of Indian Film Music,' he pioneered the use of playback singing and orchestration with New Theatres.",
+    "works": [
+      "Street Singer",
+      "President",
+      "Vidyapati"
+    ],
+    "youtube_query": "Raichand Boral songs"
+  },
+  {
+    "name": "Pankaj Mullick",
+    "categories": ["modern"],
+    "period": "Pioneer Era",
+    "country": "India",
+    "contribution": "A pioneer of film music, known for his unique blend of Rabindra Sangeet, Indian classical, and Western styles.",
+    "works": [
+      "Mukti",
+      "Doctor",
+      "Piya Milan Ko Jaana (song)"
+    ],
+    "youtube_query": "Pankaj Mullick songs"
+  },
+  {
+    "name": "K. C. Dey",
+    "categories": ["modern"],
+    "period": "Pioneer Era",
+    "country": "India",
+    "contribution": "A blind singer-composer who was an early pioneer of film music and the uncle of legendary singer Manna Dey.",
+    "works": [
+      "Puran Bhagat",
+      "Chandidas",
+      "Dharti Mata"
+    ],
+    "youtube_query": "K C Dey songs"
+  },
+  {
+    "name": "Saraswati Devi",
+    "categories": ["modern"],
+    "period": "Pioneer Era",
+    "country": "India",
+    "contribution": "Considered the first female music composer in Indian cinema, she scored many hits for Bombay Talkies.",
+    "works": [
+      "Achhut Kanya",
+      "Janmabhoomi",
+      "Jeevan Prabhat"
+    ],
+    "youtube_query": "Saraswati Devi composer"
+  },
+  {
+    "name": "Bulo C. Rani",
+    "categories": ["modern"],
+    "period": "Golden Era",
+    "country": "India",
+    "contribution": "A prolific composer of the 1940s and 50s, known for his tragic and romantic melodies.",
+    "works": [
+      "Jogan",
+      "Anjuman",
+      "Bilwamangal"
+    ],
+    "youtube_query": "Bulo C Rani songs"
+  },
+  {
+    "name": "Sajjad Hussain",
+    "categories": ["modern"],
+    "period": "Golden Era",
+    "country": "India",
+    "contribution": "A maverick composer known for his highly complex, intricate, and often Arabic-influenced compositions.",
+    "works": [
+      "Rustam Sohrab",
+      "Sangdil",
+      "Saiyan"
+    ],
+    "youtube_query": "Sajjad Hussain songs"
+  },
+  {
+    "name": "Iqbal Qureshi",
+    "categories": ["modern"],
+    "period": "Golden Era",
+    "country": "India",
+    "contribution": "Composer known for his qawwalis and melodious songs during the 1960s.",
+    "works": [
+      "Love in Simla",
+      "Cha Cha Cha",
+      "Yeh Dil Kisko Doon"
+    ],
+    "youtube_query": "Iqbal Qureshi songs"
+  },
+  {
+    "name": "C. Arjun",
+    "categories": ["modern"],
+    "period": "Golden Era",
+    "country": "India",
+    "contribution": "Known for the blockbuster music of 'Jai Santoshi Maa,' one of the biggest low-budget hits in Indian cinema history.",
+    "works": [
+      "Jai Santoshi Maa",
+      "Punarmilan",
+      "Road No. 303"
+    ],
+    "youtube_query": "C Arjun songs"
+  },
+  {
+    "name": "Ramlal",
+    "categories": ["modern"],
+    "period": "Golden Era",
+    "country": "India",
+    "contribution": "A shehnai player and composer best known for the classic film score of 'Sehra'.",
+    "works": [
+      "Sehra",
+      "Geet Gaaya Pattharon Ne",
+      "Husn Aur Ishq"
+    ],
+    "youtube_query": "Ramlal composer songs"
+  },
+  {
+    "name": "Prem Dhawan",
+    "categories": ["modern"],
+    "period": "Golden Era",
+    "country": "India",
+    "contribution": "A renowned lyricist who also composed music, known for his patriotic and folk-based songs.",
+    "works": [
+      "Shaheed (1965)",
+      "Pavitra Papi",
+      "Raat Ke Andhere Mein"
+    ],
+    "youtube_query": "Prem Dhawan songs"
+  },
+  {
+    "name": "M. S. Viswanathan",
+    "categories": ["modern"],
+    "period": "South Indian Golden Era",
+    "country": "India",
+    "contribution": "A legendary composer in South Indian cinema, known for his prolific work (over 1200 films) and for blending Indian and Western musical elements.",
+    "works": [
+      "Aayirathil Oruvan",
+      "Karnan",
+      "Paasamalar"
+    ],
+    "youtube_query": "M S Viswanathan songs"
+  },
+  {
+    "name": "K. V. Mahadevan",
+    "categories": ["modern"],
+    "period": "South Indian Golden Era",
+    "country": "India",
+    "contribution": "Known as 'Mama,' he was a master of composing folk and devotional songs in South Indian cinema, winning a National Award.",
+    "works": [
+      "Sankarabharanam",
+      "Adimai Penn",
+      "Padikkadha Medhai"
+    ],
+    "youtube_query": "K V Mahadevan songs"
+  },
+  {
+    "name": "G. K. Venkatesh",
+    "categories": ["modern"],
+    "period": "South Indian Golden Era",
+    "country": "India",
+    "contribution": "A prolific composer in Kannada cinema who introduced rock and roll and jazz to the region, and mentored Ilaiyaraaja.",
+    "works": [
+      "Bangaarada Manushya",
+      "Kasturi Nivasa",
+      "Jedara Bale"
+    ],
+    "youtube_query": "G K Venkatesh songs"
+  },
+  {
+    "name": "G. Devarajan",
+    "categories": ["modern"],
+    "period": "Malayalam Golden Era",
+    "country": "India",
+    "contribution": "A master composer in Malayalam cinema, known for his classical-based and highly emotive songs.",
+    "works": [
+      "Chemeen",
+      "Kallichellamma",
+      "Nadi"
+    ],
+    "youtube_query": "G Devarajan master songs"
+  },
+  {
+    "name": "V. Dakshinamoorthy",
+    "categories": ["modern"],
+    "period": "Malayalam Golden Era",
+    "country": "India",
+    "contribution": "A veteran composer in Malayalam cinema, known for his purely Carnatic-based compositions.",
+    "works": [
+      "Kattile Pattu",
+      "Hrudaya Sarassile",
+      "Swapnangal"
+    ],
+    "youtube_query": "V Dakshinamoorthy songs"
+  },
+  {
+    "name": "Johnson",
+    "categories": ["modern"],
+    "period": "Malayalam 80s-90s",
+    "country": "India",
+    "contribution": "Known as 'Johnson Master,' he was celebrated for his soulful melodies and poignant background scores in Malayalam cinema.",
+    "works": [
+      "Namukku Parkkan Munthirithoppukal",
+      "Manichitrathazhu",
+      "Kireedam"
+    ],
+    "youtube_query": "Johnson master songs"
+  },
+  {
+    "name": "Raveendran",
+    "categories": ["modern"],
+    "period": "Malayalam 80s-90s",
+    "country": "India",
+    "contribution": "Known as 'Raveendran Master,' he created a new wave in Malayalam music with his fusion of classical and Western styles.",
+    "works": [
+      "His Highness Abdullah",
+      "Bharatham",
+      "Aaram Thamburan"
+    ],
+    "youtube_query": "Raveendran master songs"
+  },
+  {
+    "name": "Shyam",
+    "categories": ["modern"],
+    "period": "Malayalam 80s",
+    "country": "India",
+    "contribution": "A prominent composer in Malayalam cinema during the 1980s, known for his fast-paced and disco-influenced tracks.",
+    "works": [
+      "Angadi",
+      "Thrishna",
+      "Daisy"
+    ],
+    "youtube_query": "Shyam music director songs"
+  },
+  {
+    "name": "S. P. Kodandapani",
+    "categories": ["modern"],
+    "period": "Telugu Golden Era",
+    "country": "India",
+    "contribution": "A notable composer in Telugu cinema, known for his work with legendary singer S. P. Balasubrahmanyam.",
+    "works": [
+      "Gudachari 116",
+      "Pandanti Kapuram",
+      "Loguttu Perumallakeruka"
+    ],
+    "youtube_query": "S P Kodandapani songs"
+  },
+  {
+    "name": "Ramesh Naidu",
+    "categories": ["modern"],
+    "period": "Telugu 70s-80s",
+    "country": "India",
+    "contribution": "A National Award-winning composer in Telugu cinema, known for his melodious and folk-based compositions.",
+    "works": [
+      "Meghasandesam",
+      "Sivaranjani",
+      "Ananda Bhairavi"
+    ],
+    "youtube_query": "Ramesh Naidu songs"
+  },
+  {
+    "name": "Pendyala Nageswara Rao",
+    "categories": ["modern"],
+    "period": "Telugu Golden Era",
+    "country": "India",
+    "contribution": "A veteran composer for mythological and historical Telugu films, known for his classical prowess.",
+    "works": [
+      "Mayabazar",
+      "Sri Krishna Pandaveeyam",
+      "Mahamantri Timmarusu"
+    ],
+    "youtube_query": "Pendyala songs"
+  },
+  {
+    "name": "Chellapilla Satyam",
+    "categories": ["modern"],
+    "period": "Telugu 70s-80s",
+    "country": "India",
+    "contribution": "Known as 'Satyam,' he was a prolific composer in Telugu and Kannada cinema, famous for his action and drama scores.",
+    "works": [
+      "Khaidi",
+      "Vetagadu",
+      "Yamagola"
+    ],
+    "youtube_query": "Satyam music director songs"
+  },
+  {
+    "name": "Rajan-Nagendra",
+    "categories": ["modern"],
+    "period": "Kannada Golden Era",
+    "country": "India",
+    "contribution": "A successful composer duo in Kannada cinema, known for their romantic melodies and prolific partnership.",
+    "works": [
+      "Naa Ninna Mareyalare",
+      "Eradu Kanasu",
+      "Hosa Neeru"
+    ],
+    "youtube_query": "Rajan-Nagendra songs"
+  },
+  {
+    "name": "Upendra Kumar",
+    "categories": ["modern"],
+    "period": "Kannada Golden Era",
+    "country": "India",
+    "contribution": "A prolific composer in Kannada and Oriya cinema, known for his simple and melodious compositions.",
+    "works": [
+      "Ratha Sapthami",
+      "Jeevana Chaitra",
+      "Anjada Gandu"
+    ],
+    "youtube_query": "Upendra Kumar songs"
+  },
+  {
+    "name": "Chakravarthy",
+    "categories": ["modern"],
+    "period": "Telugu 80s-90s",
+    "country": "India",
+    "contribution": "A highly prolific composer in Telugu cinema, known for his mass-appeal songs and scores for superstar films.",
+    "works": [
+      "Jagadeka Veerudu Atiloka Sundari",
+      "Kondaveeti Donga",
+      "Pasivadi Pranam"
+    ],
+    "youtube_query": "Chakravarthy music director songs"
+  },
+  {
+    "name": "Hamsalekha",
+    "categories": ["modern"],
+    "period": "Kannada 90s",
+    "country": "India",
+    "contribution": "A revolutionary composer and lyricist in Kannada cinema, known for blending folk, classical, and western music.",
+    "works": [
+      "Premaloka",
+      "Ranadheera",
+      "Om"
+    ],
+    "youtube_query": "Hamsalekha songs"
+  },
+  {
+    "name": "Mani Sharma",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "Known as 'Swara Brahma' in Telugu cinema, famous for his chart-topping melodies and powerful background scores.",
+    "works": [
+      "Okkadu",
+      "Pokiri",
+      "Indra"
+    ],
+    "youtube_query": "Mani Sharma songs"
+  },
+  {
+    "name": "Devi Sri Prasad",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "A leading composer in South Indian cinema, known for his high-energy, dance-centric, and hugely popular soundtracks.",
+    "works": [
+      "Pushpa: The Rise",
+      "Rangasthalam",
+      "Arya"
+    ],
+    "youtube_query": "Devi Sri Prasad songs"
+  },
+  {
+    "name": "Yuvan Shankar Raja",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "A versatile and influential composer in Tamil cinema, known for his innovative use of western genres, hip-hop, and electronica.",
+    "works": [
+      "Pudhupettai",
+      "7G Rainbow Colony",
+      "Mankatha"
+    ],
+    "youtube_query": "Yuvan Shankar Raja songs"
+  },
+  {
+    "name": "D. Imman",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "A popular composer in Tamil cinema, known for his folk-based melodies and chart-topping songs for rural-centric films.",
+    "works": [
+      "Viswasam",
+      "Kumki",
+      "Mynaa"
+    ],
+    "youtube_query": "D Imman songs"
+  },
+  {
+    "name": "Thaman S",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "A leading composer in Telugu cinema, known for his powerful, energetic, and commercially successful soundtracks.",
+    "works": [
+      "Ala Vaikunthapurramuloo",
+      "Akhanda",
+      "Dookudu"
+    ],
+    "youtube_query": "Thaman S songs"
+  },
+  {
+    "name": "Ghibran",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "A contemporary Tamil composer known for his experimental, orchestral, and critically acclaimed scores.",
+    "works": [
+      "Ratsasan",
+      "Thunivu",
+      "Papanasam"
+    ],
+    "youtube_query": "Ghibran songs"
+  },
+  {
+    "name": "Justin Prabhakaran",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "A popular composer known for his fresh, melodious, and soul-stirring music in South Indian cinema.",
+    "works": [
+      "Dear Comrade",
+      "Pannaiyarum Padminiyum",
+      "Radhe Shyam"
+    ],
+    "youtube_query": "Justin Prabhakaran songs"
+  },
+  {
+    "name": "Gopi Sunder",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "A prolific composer in Malayalam and Telugu cinema, known for his catchy melodies and modern sound.",
+    "works": [
+      "Ustad Hotel",
+      "Bangalore Days",
+      "Geetha Govindam"
+    ],
+    "youtube_query": "Gopi Sunder songs"
+  },
+  {
+    "name": "Bijibal",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "A National Award-winning composer in Malayalam cinema, known for his minimalist, emotive, and critically acclaimed music.",
+    "works": [
+      "Maheshinte Prathikaaram",
+      "Salt N' Pepper",
+      "Thondimuthalum Driksakshiyum"
+    ],
+    "youtube_query": "Bijibal songs"
+  },
+  {
+    "name": "Deepak Dev",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "A popular composer in Malayalam cinema, known for his stylish, contemporary, and youthful soundtracks.",
+    "works": [
+      "Udayananu Tharam",
+      "Chronic Bachelor",
+      "Lucifer"
+    ],
+    "youtube_query": "Deepak Dev songs"
+  },
+  {
+    "name": "Rahul Raj",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "A Malayalam composer known for his grand, orchestral, and technically proficient scores.",
+    "works": [
+      "Chotta Mumbai",
+      "Ritu",
+      "Bachelor Party"
+    ],
+    "youtube_query": "Rahul Raj songs"
+  },
+  {
+    "name": "M. Jayachandran",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "A multiple award-winning composer in Malayalam cinema, celebrated for his melodious and classical-based songs.",
+    "works": [
+      "Ennu Ninte Moideen",
+      "Celluloid",
+      "Pranayam"
+    ],
+    "youtube_query": "M Jayachandran songs"
+  },
+  {
+    "name": "Ouseppachan",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "A National Award-winning composer and violinist in Malayalam cinema, known for his soulful melodies.",
+    "works": [
+      "His Highness Abdullah (BGM)",
+      "Akashadoothu",
+      "Ore Kadal"
+    ],
+    "youtube_query": "Ouseppachan songs"
+  },
+  {
+    "name": "Vidyadharan",
+    "categories": ["modern"],
+    "period": "Malayalam 80s",
+    "country": "India",
+    "contribution": "Known as Vidyadharan Master, he is celebrated for his timeless and poignant melodies in Malayalam music.",
+    "works": [
+      "Kalpantha Kalatholam",
+      "Nashtapetta Neelambari",
+      "Chandanam Manakkunna"
+    ],
+    "youtube_query": "Vidyadharan master songs"
+  },
+  {
+    "name": "Pritam Chakraborty",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "One of the most successful contemporary Bollywood composers, known for his versatile and chart-topping soundtracks.",
+    "works": [
+      "Barfi!",
+      "Yeh Jawaani Hai Deewani",
+      "Dangal"
+    ],
+    "youtube_query": "Pritam songs"
+  },
+  {
+    "name": "Shankar-Ehsaan-Loy",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "A highly influential trio known for their sophisticated blend of Indian classical, rock, and electronic music.",
+    "works": [
+      "Dil Chahta Hai",
+      "Kal Ho Naa Ho",
+      "Taare Zameen Par"
+    ],
+    "youtube_query": "Shankar Ehsaan Loy songs"
+  },
+  {
+    "name": "Jatin-Lalit",
+    "categories": ["modern"],
+    "period": "90s Bollywood",
+    "country": "India",
+    "contribution": "A popular duo from the 1990s, renowned for their romantic melodies and iconic soundtracks.",
+    "works": [
+      "Dilwale Dulhania Le Jayenge",
+      "Kuch Kuch Hota Hai",
+      "Kabhi Khushi Kabhie Gham"
+    ],
+    "youtube_query": "Jatin Lalit songs"
+  },
+  {
+    "name": "Anu Malik",
+    "categories": ["modern"],
+    "period": "90s Bollywood",
+    "country": "India",
+    "contribution": "A prolific and National Award-winning composer, known for his catchy, high-energy, and commercially successful music.",
+    "works": [
+      "Baazigar",
+      "Border",
+      "Main Hoon Na"
+    ],
+    "youtube_query": "Anu Malik songs"
+  },
+  {
+    "name": "Nadeem-Shravan",
+    "categories": ["modern"],
+    "period": "90s Bollywood",
+    "country": "India",
+    "contribution": "A duo that dominated the 90s with their romantic, melodious, and immensely popular music, reviving the musical film trend.",
+    "works": [
+      "Aashiqui",
+      "Saajan",
+      "Raja Hindustani"
+    ],
+    "youtube_query": "Nadeem Shravan songs"
+  },
+  {
+    "name": "Anand-Milind",
+    "categories": ["modern"],
+    "period": "90s Bollywood",
+    "country": "India",
+    "contribution": "A prolific duo of the 90s, known for their peppy and dance-worthy numbers, sons of composer Chitragupta.",
+    "works": [
+      "Qayamat Se Qayamat Tak",
+      "Dil",
+      "Coolie No. 1"
+    ],
+    "youtube_query": "Anand Milind songs"
+  },
+  {
+    "name": "Vishal-Shekhar",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "A popular duo known for their modern, urban, and high-energy soundtracks that blend rock, disco, and hip-hop.",
+    "works": [
+      "Om Shanti Om",
+      "Bang Bang!",
+      "Pathaan"
+    ],
+    "youtube_query": "Vishal Shekhar songs"
+  },
+  {
+    "name": "Amit Trivedi",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "A critically acclaimed and National Award-winning composer known for his unconventional, experimental, and genre-bending music.",
+    "works": [
+      "Dev.D",
+      "Lootera",
+      "Queen"
+    ],
+    "youtube_query": "Amit Trivedi songs"
+  },
+  {
+    "name": "Salim-Sulaiman",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "A composer duo known for their versatile work in film scores, pop music, and fusion projects.",
+    "works": [
+      "Chak De! India",
+      "Rab Ne Bana Di Jodi",
+      "Kurbaan"
+    ],
+    "youtube_query": "Salim Sulaiman songs"
+  },
+  {
+    "name": "Himesh Reshammiya",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "A composer, singer, and actor known for his unique nasal voice and a string of superhit, catchy songs in the 2000s.",
+    "works": [
+      "Aashiq Banaya Aapne",
+      "Tera Suroor",
+      "Namastey London"
+    ],
+    "youtube_query": "Himesh Reshammiya songs"
+  },
+  {
+    "name": "Bappi Lahiri",
+    "categories": ["modern"],
+    "period": "80s Disco King",
+    "country": "India",
+    "contribution": "Pioneered the use of disco music in Indian cinema, earning him the title 'Disco King of India'.",
+    "works": [
+      "Disco Dancer",
+      "Namak Halaal",
+      "Sharaabi"
+    ],
+    "youtube_query": "Bappi Lahiri songs"
+  },
+  {
+    "name": "Ram-Laxman",
+    "categories": ["modern"],
+    "period": "90s Bollywood",
+    "country": "India",
+    "contribution": "Composer best known for his long and successful collaboration with Rajshri Productions, delivering blockbuster family entertainers.",
+    "works": [
+      "Maine Pyar Kiya",
+      "Hum Aapke Hain Koun..!",
+      "Hum Saath-Saath Hain"
+    ],
+    "youtube_query": "Ram-Laxman songs"
+  },
+  {
+    "name": "Ismail Darbar",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "Known for his grand, opulent, and classical-based scores for Sanjay Leela Bhansali's epic films.",
+    "works": [
+      "Hum Dil De Chuke Sanam",
+      "Devdas"
+    ],
+    "youtube_query": "Ismail Darbar songs"
+  },
+  {
+    "name": "Amaal Mallik",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "A young composer known for his romantic melodies and chart-topping singles.",
+    "works": [
+      "Sooraj Dooba Hain (song)",
+      "Main Hoon Hero Tera (song)",
+      "M.S. Dhoni: The Untold Story"
+    ],
+    "youtube_query": "Amaal Mallik songs"
+  },
+  {
+    "name": "Mithoon",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "Composer and singer known for his soulful, melancholic, and intensely romantic songs.",
+    "works": [
+      "Tum Hi Ho (song)",
+      "Sanam Re",
+      "Kabir Singh"
+    ],
+    "youtube_query": "Mithoon songs"
+  },
+  {
+    "name": "Jeet Gannguli",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "A prolific composer in both Bengali and Hindi cinema, known for his romantic and catchy tunes.",
+    "works": [
+      "Aashiqui 2",
+      "Hamari Adhuri Kahani",
+      "Rustom"
+    ],
+    "youtube_query": "Jeet Gannguli songs"
+  },
+  {
+    "name": "Sachin-Jigar",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "A duo known for their fresh, quirky, and youthful compositions in Hindi and Gujarati cinema.",
+    "works": [
+      "Go Goa Gone",
+      "Stree",
+      "Badlapur"
+    ],
+    "youtube_query": "Sachin Jigar songs"
+  },
+  {
+    "name": "Ajay-Atul",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "A duo known for their epic, orchestral, and folk-infused scores that have revolutionized Marathi and Hindi film music.",
+    "works": [
+      "Sairat",
+      "Agneepath",
+      "Tanhaji"
+    ],
+    "youtube_query": "Ajay Atul songs"
+  },
+  {
+    "name": "Ram Sampath",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "A composer and producer known for his work in advertising and film, with a knack for fusion and edgy sounds.",
+    "works": [
+      "Delhi Belly",
+      "Talaash",
+      "Satyamev Jayate (TV Show)"
+    ],
+    "youtube_query": "Ram Sampath songs"
+  },
+  {
+    "name": "Ankit Tiwari",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "A singer and composer who rose to fame with his romantic and melancholic ballads.",
+    "works": [
+      "Sunn Raha Hai (song)",
+      "Galliyan (song)",
+      "Ek Villain"
+    ],
+    "youtube_query": "Ankit Tiwari songs"
+  },
+  {
+    "name": "Yo Yo Honey Singh",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "A rapper and music producer who revolutionized the Indian pop and film music scene with his catchy Punjabi rap tracks.",
+    "works": [
+      "Lungi Dance (song)",
+      "Angreji Beat (song)",
+      "Blue Eyes (song)"
+    ],
+    "youtube_query": "Yo Yo Honey Singh songs"
+  },
+  {
+    "name": "Badshah",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "A leading rapper and music producer known for his chart-topping party anthems in Hindi and Punjabi.",
+    "works": [
+      "DJ Waley Babu (song)",
+      "Kar Gayi Chull (song)",
+      "Garmi (song)"
+    ],
+    "youtube_query": "Badshah songs"
+  },
+  {
+    "name": "Tyagaraja",
+    "categories": ["classical"],
+    "period": "Carnatic Trinity",
+    "country": "India",
+    "contribution": "One of the greatest composers of Carnatic music, revered for his devotional compositions (kritis) in praise of Lord Rama.",
+    "works": [
+      "Endaro Mahanubhavulu",
+      "Jagadananda Karaka",
+      "Nagumomu"
+    ],
+    "youtube_query": "Tyagaraja kritis"
+  },
+  {
+    "name": "Muthuswami Dikshitar",
+    "categories": ["classical"],
+    "period": "Carnatic Trinity",
+    "country": "India",
+    "contribution": "A poet and composer, part of the Carnatic Trinity, known for his complex and scholarly compositions and for introducing the violin to Carnatic music.",
+    "works": [
+      "Vatapi Ganapatim",
+      "Navagraha Kritis",
+      "Mahaganapathim"
+    ],
+    "youtube_query": "Muthuswami Dikshitar kritis"
+  },
+  {
+    "name": "Syama Sastri",
+    "categories": ["classical"],
+    "period": "Carnatic Trinity",
+    "country": "India",
+    "contribution": "The oldest of the Carnatic Trinity, known for his intricate rhythmic patterns (talas) and compositions in praise of Goddess Kamakshi.",
+    "works": [
+      "Swarajathis",
+      "Kamakshi Anudinamu",
+      "Marivere Gati"
+    ],
+    "youtube_query": "Syama Sastri kritis"
+  },
+  {
+    "name": "Purandara Dasa",
+    "categories": ["classical"],
+    "period": "Pre-Trinity",
+    "country": "India",
+    "contribution": "Hailed as the 'Pitamaha' (father) of Carnatic music, he systematized the method of teaching and composed thousands of devotional songs.",
+    "works": [
+      "Pillari Geetham",
+      "Swaravalis",
+      "Alankaras"
+    ],
+    "youtube_query": "Purandara Dasa compositions"
+  },
+  {
+    "name": "Annamacharya",
+    "categories": ["classical"],
+    "period": "Pre-Trinity",
+    "country": "India",
+    "contribution": "A 15th-century mystic saint and the earliest known Indian musician to compose songs called 'sankirtanas' in praise of Lord Venkateswara.",
+    "works": [
+      "Brahma Kadigina Padamu",
+      "Adivo Alladivo Sriharivasamu",
+      "Narayana Te Namo Namo"
+    ],
+    "youtube_query": "Annamacharya keertanas"
+  },
+  {
+    "name": "Swathi Thirunal Rama Varma",
+    "categories": ["classical"],
+    "period": "Post-Trinity",
+    "country": "India",
+    "contribution": "A Maharaja of Travancore who was a great patron of music and a prolific composer of both Carnatic and Hindustani compositions.",
+    "works": [
+      "Padmanabha Pahi",
+      "Bhogeendra Shayinam",
+      "Thillanas"
+    ],
+    "youtube_query": "Swathi Thirunal compositions"
+  },
+  {
+    "name": "Ravi Shankar",
+    "categories": ["classical", "modern"],
+    "period": "20th Century Maestro",
+    "country": "India",
+    "contribution": "A legendary sitar virtuoso and composer who introduced Indian classical music to the Western world through his collaborations and performances.",
+    "works": [
+      "West Meets East (album with Yehudi Menuhin)",
+      "Concert for Bangladesh",
+      "Passages (album with Philip Glass)"
+    ],
+    "youtube_query": "Ravi Shankar sitar"
+  },
+  {
+    "name": "Zakir Hussain",
+    "categories": ["classical", "modern"],
+    "period": "Contemporary Maestro",
+    "country": "India",
+    "contribution": "A tabla virtuoso, composer, and percussionist who is a leading figure in world music and numerous fusion projects.",
+    "works": [
+      "Shakti (band)",
+      "Making Music (album)",
+      "Planet Drum (album)"
+    ],
+    "youtube_query": "Zakir Hussain tabla"
+  },
+  {
+    "name": "Shivkumar Sharma",
+    "categories": ["classical", "modern"],
+    "period": "20th Century Maestro",
+    "country": "India",
+    "contribution": "A santoor maestro who is credited with adapting the instrument for Indian classical music and elevating it to a popular concert instrument.",
+    "works": [
+      "Call of the Valley (album)",
+      "Silsila (film score with Hariprasad Chaurasia)",
+      "Chandni (film score with Hariprasad Chaurasia)"
+    ],
+    "youtube_query": "Shivkumar Sharma santoor"
+  },
+  {
+    "name": "Hariprasad Chaurasia",
+    "categories": ["classical", "modern"],
+    "period": "20th Century Maestro",
+    "country": "India",
+    "contribution": "A world-renowned master of the bansuri (bamboo flute) who brought the instrument to the forefront of the international stage.",
+    "works": [
+      "Call of the Valley (album)",
+      "Lamhe (film score as Shiv-Hari)",
+      "Darr (film score as Shiv-Hari)"
+    ],
+    "youtube_query": "Hariprasad Chaurasia bansuri"
+  },
+  {
+    "name": "Bismillah Khan",
+    "categories": ["classical"],
+    "period": "20th Century Maestro",
+    "country": "India",
+    "contribution": "An Ustad of the shehnai, credited with popularizing the instrument and elevating its status from a folk instrument to a classical one.",
+    "works": [
+      "Goonj Uthi Shehnai (film)",
+      "Live at Queen Elizabeth Hall",
+      "Red Fort inauguration performance"
+    ],
+    "youtube_query": "Bismillah Khan shehnai"
+  },
+  {
+    "name": "Alla Rakha",
+    "categories": ["classical"],
+    "period": "20th Century Maestro",
+    "country": "India",
+    "contribution": "A legendary tabla maestro, known for his long association with Ravi Shankar and for popularizing the art of tabla playing worldwide.",
+    "works": [
+      "Accompaniments with Ravi Shankar",
+      "Solo Tabla Performances",
+      "Rich à la Rakha (album)"
+    ],
+    "youtube_query": "Alla Rakha tabla"
+  },
+  {
+    "name": "L. Subramaniam",
+    "categories": ["classical", "modern"],
+    "period": "Contemporary Maestro",
+    "country": "India",
+    "contribution": "An acclaimed violinist, composer, and conductor, known for his virtuosity in Carnatic music and his work in orchestral fusion.",
+    "works": [
+      "Violin Concertos",
+      "Global Fusion (album)",
+      "Fantasy on Vedic Chants"
+    ],
+    "youtube_query": "L Subramaniam violin"
+  },
+  {
+    "name": "Bhimsen Joshi",
+    "categories": ["classical"],
+    "period": "20th Century Maestro",
+    "country": "India",
+    "contribution": "A legendary Hindustani classical vocalist, a proponent of the Kirana gharana, and a recipient of the Bharat Ratna.",
+    "works": [
+      "Mile Sur Mera Tumhara (song)",
+      "Abhangs",
+      "Khayals"
+    ],
+    "youtube_query": "Bhimsen Joshi"
+  },
+  {
+    "name": "M. Balamuralikrishna",
+    "categories": ["classical"],
+    "period": "20th Century Maestro",
+    "country": "India",
+    "contribution": "A Carnatic vocalist, multi-instrumentalist, and composer who is credited with creating several new ragas and talas.",
+    "works": [
+      "Oru Naal Podhuma (song)",
+      "Thillanas",
+      "Varnams"
+    ],
+    "youtube_query": "M Balamuralikrishna"
+  },
+  {
+    "name": "Vilayat Khan",
+    "categories": ["classical"],
+    "period": "20th Century Maestro",
+    "country": "India",
+    "contribution": "A legendary sitar maestro known for developing the 'gayaki ang' (vocal style) of sitar playing.",
+    "works": [
+      "Jalsaghar (film music)",
+      "Raga Darbari Kanada",
+      "Raga Bhairavi"
+    ],
+    "youtube_query": "Vilayat Khan sitar"
+  },
+  {
+    "name": "Amjad Ali Khan",
+    "categories": ["classical"],
+    "period": "Contemporary Maestro",
+    "country": "India",
+    "contribution": "A renowned sarod maestro known for his clear and fast 'ekhara taans' and for creating many new ragas.",
+    "works": [
+      "Samaagam (concerto)",
+      "Tribute to a Legend",
+      "Sarod Concertos"
+    ],
+    "youtube_query": "Amjad Ali Khan sarod"
+  },
+  {
+    "name": "Bhupen Hazarika",
+    "categories": ["modern", "folk"],
+    "period": "20th Century Maestro",
+    "country": "India",
+    "contribution": "A legendary singer, composer, and filmmaker from Assam, known as the 'Bard of Brahmaputra' for his poignant folk-based songs.",
+    "works": [
+      "Dil Hoom Hoom Kare (song)",
+      "O Ganga Behti Ho Kyun",
+      "Bistirno Parore"
+    ],
+    "youtube_query": "Bhupen Hazarika songs"
+  },
+
+  {
+    "name": "Jagjit Singh",
+    "categories": ["modern", "ghazal"],
+    "period": "Ghazal King",
+    "country": "India",
+    "contribution": "A legendary ghazal singer and composer who revived and popularized the genre by simplifying its form and giving it a contemporary feel.",
+    "works": [
+      "Arth (film score)",
+      "Saath Saath (film score)",
+      "Hothon Se Chhu Lo Tum (song)"
+    ],
+    "youtube_query": "Jagjit Singh ghazals"
+  },
+  {
+    "name": "Vishal Bhardwaj",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "A critically acclaimed director and composer, known for his dark, rustic, and poetic scores that are integral to his filmmaking.",
+    "works": [
+      "Omkara",
+      "Haider",
+      "Kaminey"
+    ],
+    "youtube_query": "Vishal Bhardwaj songs"
+  },
+  {
+    "name": "Shantanu Moitra",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "Known for his soulful, melodious, and often folk-inspired compositions, particularly for films by Vidhu Vinod Chopra and Pradeep Sarkar.",
+    "works": [
+      "Parineeta",
+      "3 Idiots",
+      "Lage Raho Munna Bhai"
+    ],
+    "youtube_query": "Shantanu Moitra songs"
+  },
+  {
+    "name": "Rajesh Roshan",
+    "categories": ["modern"],
+    "period": "70s-Contemporary",
+    "country": "India",
+    "contribution": "A veteran composer with a long career, known for his melodious and commercially successful music, especially for his brother Rakesh Roshan's films.",
+    "works": [
+      "Kaho Naa... Pyaar Hai",
+      "Koyla",
+      "Julie"
+    ],
+    "youtube_query": "Rajesh Roshan songs"
+  },
+  {
+    "name": "Ravindra Jain",
+    "categories": ["modern", "folk"],
+    "period": "70s-80s",
+    "country": "India",
+    "contribution": "A visually impaired composer and lyricist, renowned for his devotional, folk-based, and simple yet profound melodies.",
+    "works": [
+      "Ram Teri Ganga Maili",
+      "Chitchor",
+      "Ankhiyon Ke Jharokhon Se"
+    ],
+    "youtube_query": "Ravindra Jain songs"
+  },
+  {
+    "name": "Uttam Singh",
+    "categories": ["modern"],
+    "period": "90s Bollywood",
+    "country": "India",
+    "contribution": "A composer and violinist known for his grand, romantic, and Punjabi folk-infused scores for blockbuster films.",
+    "works": [
+      "Dil To Pagal Hai",
+      "Gadar: Ek Prem Katha",
+      "Pinjar"
+    ],
+    "youtube_query": "Uttam Singh songs"
+  },
+  {
+    "name": "Vanraj Bhatia",
+    "categories": ["modern", "classical"],
+    "period": "Parallel Cinema",
+    "country": "India",
+    "contribution": "A pioneering composer for Indian parallel cinema, known for his sophisticated scores that blend Indian and Western classical traditions.",
+    "works": [
+      "Bhumika",
+      "Manthan",
+      "Tamas (TV series)"
+    ],
+    "youtube_query": "Vanraj Bhatia music"
+  },
+  {
+    "name": "Sandesh Shandilya",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "A composer known for his soulful, melodious, and often soft-rock influenced compositions.",
+    "works": [
+      "Kabhi Khushi Kabhie Gham...",
+      "Socha Na Tha",
+      "Jab We Met"
+    ],
+    "youtube_query": "Sandesh Shandilya songs"
+  },
+  {
+    "name": "Lalit Pandit",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "One half of the legendary Jatin-Lalit duo, who has continued to compose, known for hit songs like 'Munni Badnaam Hui'.",
+    "works": [
+      "Dabangg",
+      "Besharam",
+      "Jo Jeeta Wohi Sikandar (as Jatin-Lalit)"
+    ],
+    "youtube_query": "Lalit Pandit songs"
+  },
+  {
+    "name": "Sneha Khanwalkar",
+    "categories": ["modern", "experimental"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "One of the few female composers in modern Bollywood, known for her unconventional, experimental, and 'found sound' approach to music.",
+    "works": [
+      "Gangs of Wasseypur",
+      "Oye Lucky! Lucky Oye!",
+      "Love Sex aur Dhokha"
+    ],
+    "youtube_query": "Sneha Khanwalkar music"
+  },
+  {
+    "name": "Sardar Malik",
+    "categories": ["modern"],
+    "period": "Golden Era",
+    "country": "India",
+    "contribution": "A composer from the 1950s and 60s and the father of composer Anu Malik, known for his classical and folk-based songs.",
+    "works": [
+      "Saranga",
+      "Thokar",
+      "Bachpan"
+    ],
+    "youtube_query": "Sardar Malik songs"
+  },
+  {
+    "name": "Husnlal Bhagatram",
+    "categories": ["modern"],
+    "period": "Pioneer Era",
+    "country": "India",
+    "contribution": "Considered the first successful composer duo in Hindi cinema, known for their poignant, Punjabi-inflected melodies post-partition.",
+    "works": [
+      "Badi Behan",
+      "Afsana",
+      "Mirza Sahiban"
+    ],
+    "youtube_query": "Husnlal Bhagatram songs"
+  },
+  {
+    "name": "Sonik-Omi",
+    "categories": ["modern"],
+    "period": "Masala Era",
+    "country": "India",
+    "contribution": "An uncle-nephew composer duo, known for their work in B-movies and for some memorable hits in the 70s.",
+    "works": [
+      "Dharma",
+      "Umar Qaid",
+      "Sazaa"
+    ],
+    "youtube_query": "Sonik Omi songs"
+  },
+  {
+    "name": "S. Mohinder",
+    "categories": ["modern"],
+    "period": "Golden Era",
+    "country": "India",
+    "contribution": "A veteran composer who won a National Award for his work, known for his music in both Hindi and Punjabi films.",
+    "works": [
+      "Shirin Farhad",
+      "Nanak Naam Jahaz Hai",
+      "Zameen Ke Tare"
+    ],
+    "youtube_query": "S Mohinder songs"
+  },
+  {
+    "name": "Snehal Bhatkar",
+    "categories": ["modern"],
+    "period": "Golden Era",
+    "country": "India",
+    "contribution": "A melodious composer of the 1940s-60s, known for his soulful and memorable compositions for smaller-budget films.",
+    "works": [
+      "Hamari Yaad Aayegi",
+      "Chhabili",
+      "Bindya"
+    ],
+    "youtube_query": "Snehal Bhatkar songs"
+  },
+  {
+    "name": "G. Ramanathan",
+    "categories": ["modern"],
+    "period": "Tamil Golden Era",
+    "country": "India",
+    "contribution": "A pioneer of Tamil film music, known for his powerful, Carnatic-based scores for mythological and historical epics.",
+    "works": [
+      "Haridas",
+      "Veerapandiya Kattabomman",
+      "Ambikapathy"
+    ],
+    "youtube_query": "G Ramanathan songs"
+  },
+  {
+    "name": "S. M. Subbaiah Naidu",
+    "categories": ["modern"],
+    "period": "Tamil Golden Era",
+    "country": "India",
+    "contribution": "A veteran composer and conductor in Tamil cinema who mentored many later musicians and was known for his folk tunes.",
+    "works": [
+      "Malaikkallan",
+      "Thirumanam",
+      "Arunagirinathar"
+    ],
+    "youtube_query": "S M Subbaiah Naidu songs"
+  },
+  {
+    "name": "T. G. Lingappa",
+    "categories": ["modern"],
+    "period": "Kannada Golden Era",
+    "country": "India",
+    "contribution": "A prolific composer in Kannada cinema, known for his classical and folk-based compositions for many landmark films.",
+    "works": [
+      "Bhookailasa",
+      "School Master",
+      "Naandi"
+    ],
+    "youtube_query": "T G Lingappa songs"
+  },
+  {
+    "name": "M. Ranga Rao",
+    "categories": ["modern"],
+    "period": "Kannada Golden Era",
+    "country": "India",
+    "contribution": "Hailed as the 'Melody King' of Kannada cinema, known for his emotionally resonant and highly melodious scores.",
+    "works": [
+      "Bandhana",
+      "Hosa Belaku",
+      "Samayada Gombe"
+    ],
+    "youtube_query": "M Ranga Rao songs"
+  },
+  {
+    "name": "K. Raghavan",
+    "categories": ["modern", "folk"],
+    "period": "Malayalam Golden Era",
+    "country": "India",
+    "contribution": "Known as Raghavan Master, he pioneered a new musical idiom in Malayalam cinema by incorporating folk traditions and moving away from the Hindi-influenced style.",
+    "works": [
+      "Neelakuyil",
+      "Nirmalyam",
+      "Kayalarikathu"
+    ],
+    "youtube_query": "K Raghavan master songs"
+  },
+  {
+    "name": "M. K. Arjunan",
+    "categories": ["modern"],
+    "period": "Malayalam Golden Era",
+    "country": "India",
+    "contribution": "Known as Arjunan Master, he was a prolific composer celebrated for his countless evergreen melodies in Malayalam cinema.",
+    "works": [
+      "Karutha Pournami",
+      "Hello Darling",
+      "Ninamaninja Kalpadukal"
+    ],
+    "youtube_query": "M K Arjunan master songs"
+  },
+  {
+    "name": "A. T. Ummer",
+    "categories": ["modern"],
+    "period": "Malayalam 70s-80s",
+    "country": "India",
+    "contribution": "A prominent composer in Malayalam cinema, known for his romantic and melodious hits throughout the 70s and 80s.",
+    "works": [
+      "Avalude Ravukal",
+      "Thaliritta Kinakkal",
+      "Oru Nimisham Tharoo"
+    ],
+    "youtube_query": "A T Ummer songs"
+  },
+  {
+    "name": "S. P. Venkatesh",
+    "categories": ["modern"],
+    "period": "Malayalam 90s",
+    "country": "India",
+    "contribution": "Dominated Malayalam cinema in the 90s, known as the 'King of Action Scores' for his powerful, synth-heavy background music.",
+    "works": [
+      "Spadikam",
+      "Dhruvam",
+      "Commissioner"
+    ],
+    "youtube_query": "S P Venkatesh bgm"
+  },
+  {
+    "name": "Berny-Ignatius",
+    "categories": ["modern"],
+    "period": "Malayalam 90s",
+    "country": "India",
+    "contribution": "A composer duo in Malayalam cinema, known for their peppy, folk-based, and commercially successful songs.",
+    "works": [
+      "Kottayam Kunjachan",
+      "Thenkasipattanam",
+      "Chandralekha"
+    ],
+    "youtube_query": "Berny-Ignatius songs"
+  },
+  {
+    "name": "Sharreth",
+    "categories": ["modern", "classical"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "A versatile composer in Malayalam cinema, known for his deep knowledge of Carnatic music and his complex, classically-infused compositions.",
+    "works": [
+      "Kshanakathu",
+      "Ivan Megharoopan",
+      "Thirakkatha"
+    ],
+    "youtube_query": "Sharreth songs"
+  },
+  {
+    "name": "Sushin Shyam",
+    "categories": ["modern", "electronic"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "A leading contemporary composer in Malayalam cinema, known for his atmospheric, synth-heavy, and internationally acclaimed scores.",
+    "works": [
+      "Kumbalangi Nights",
+      "Virus",
+      "Manjummel Boys"
+    ],
+    "youtube_query": "Sushin Shyam music"
+  },
+  {
+    "name": "Jakes Bejoy",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "A popular contemporary composer in Malayalam cinema, known for his stylish, energetic, and powerful scores for action and thriller films.",
+    "works": [
+      "Ayyappanum Koshiyum",
+      "Ranam",
+      "Kaduva"
+    ],
+    "youtube_query": "Jakes Bejoy bgm"
+  },
+  {
+    "name": "Rex Vijayan",
+    "categories": ["modern", "fusion", "rock"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "A renowned guitarist (of the band Avial) and composer, known for his unique blend of indie, rock, and folk music in his film scores.",
+    "works": [
+      "Parava",
+      "Mayanadi",
+      "Sudani from Nigeria"
+    ],
+    "youtube_query": "Rex Vijayan songs"
+  },
+  {
+    "name": "Koti",
+    "categories": ["modern"],
+    "period": "Telugu 90s",
+    "country": "India",
+    "contribution": "One half of the successful duo Raj-Koti, who dominated Telugu cinema in the late 80s and 90s with their mass-appeal soundtracks.",
+    "works": [
+      "Hello Brother",
+      "Muta Mesthri",
+      "Govinda Govinda"
+    ],
+    "youtube_query": "Raj-Koti songs"
+  },
+  {
+    "name": "S. V. Krishna Reddy",
+    "categories": ["modern"],
+    "period": "Telugu 90s",
+    "country": "India",
+    "contribution": "A successful director and composer in Telugu cinema, known for his family-friendly films with simple, catchy, and melodious music.",
+    "works": [
+      "Yamaleela",
+      "Shubhalagnam",
+      "Number One"
+    ],
+    "youtube_query": "S V Krishna Reddy songs"
+  },
+  {
+    "name": "Vandemataram Srinivas",
+    "categories": ["modern", "folk"],
+    "period": "Telugu 90s-Contemporary",
+    "country": "India",
+    "contribution": "A composer and singer in Telugu cinema, known for his powerful folk and revolutionary-themed songs.",
+    "works": [
+      "Osey Ramulamma",
+      "Swayamvaram",
+      "Ammayi Kosam"
+    ],
+    "youtube_query": "Vandemataram Srinivas songs"
+  },
+  {
+    "name": "S. A. Rajkumar",
+    "categories": ["modern"],
+    "period": "90s South India",
+    "country": "India",
+    "contribution": "A prolific composer in Tamil and Telugu cinema during the 90s, known as a 'Melody King' for his romantic and family-oriented songs.",
+    "works": [
+      "Thulladha Manamum Thullum",
+      "Suryavamsam",
+      "Pudhu Vasantham"
+    ],
+    "youtube_query": "S A Rajkumar songs"
+  },
+  {
+    "name": "Bharadwaj",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "A popular Tamil composer known for his unique melodic style and successful soundtracks, especially for director Cheran's films.",
+    "works": [
+      "Autograph",
+      "Attahasam",
+      "Gemini"
+    ],
+    "youtube_query": "Bharadwaj songs"
+  },
+  {
+    "name": "Sirpy",
+    "categories": ["modern"],
+    "period": "Tamil 90s",
+    "country": "India",
+    "contribution": "A prominent composer in Tamil cinema during the 1990s, known for his peppy, folk-based, and commercially successful numbers.",
+    "works": [
+      "Ullathai Allitha",
+      "Mettukudi",
+      "Namma Annachi"
+    ],
+    "youtube_query": "Sirpy songs"
+  },
+  {
+    "name": "Vijay Antony",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "A composer-turned-actor in Tamil cinema, known for his simple, catchy, and often viral hit songs.",
+    "works": [
+      "Naaka Mukka (song)",
+      "Pichaikkaran",
+      "Vettaikaaran"
+    ],
+    "youtube_query": "Vijay Antony songs"
+  },
+  {
+    "name": "V. Harikrishna",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "A leading contemporary composer in Kannada cinema, known for his commercially successful scores for superstar films.",
+    "works": [
+      "Raajakumara",
+      "Yajamana",
+      "Gaalipata"
+    ],
+    "youtube_query": "V Harikrishna songs"
+  },
+  {
+    "name": "Arjun Janya",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "A popular contemporary composer in Kannada cinema, known for his mass-appeal and energetic soundtracks.",
+    "works": [
+      "Kempe Gowda",
+      "Victory",
+      "Vajrakaya"
+    ],
+    "youtube_query": "Arjun Janya songs"
+  },
+  {
+    "name": "V. Manohar",
+    "categories": ["modern"],
+    "period": "Kannada 90s",
+    "country": "India",
+    "contribution": "A successful composer, lyricist, and director in Kannada cinema, known for his melodious hits in the 90s.",
+    "works": [
+      "Janumada Jodi",
+      "Gejje Naada",
+      "O Mallige"
+    ],
+    "youtube_query": "V Manohar songs"
+  },
+  {
+    "name": "Satyajit Ray",
+    "categories": ["modern", "classical"],
+    "period": "Auteur Director-Composer",
+    "country": "India",
+    "contribution": "A legendary filmmaker who composed the music for most of his films from 1961 onwards, creating scores that masterfully blended Indian and Western classical elements.",
+    "works": [
+      "Goopy Gyne Bagha Byne",
+      "Jalsaghar (The Music Room)",
+      "Teen Kanya (Three Daughters)"
+    ],
+    "youtube_query": "Satyajit Ray music"
+  },
+  {
+    "name": "Nachiketa Ghosh",
+    "categories": ["modern"],
+    "period": "Bengali Golden Era",
+    "country": "India",
+    "contribution": "A prominent composer of the golden era of Bengali cinema, known for his melodious and popular compositions.",
+    "works": [
+      "Deya Neya",
+      "Sanyasi Raja",
+      "Dhonyi Meye"
+    ],
+    "youtube_query": "Nachiketa Ghosh songs"
+  },
+  {
+    "name": "Sudhin Dasgupta",
+    "categories": ["modern"],
+    "period": "Bengali Golden Era",
+    "country": "India",
+    "contribution": "A versatile and influential composer in Bengali cinema, known for his experiments with jazz and Latin American music.",
+    "works": [
+      "Chhaddabeshi",
+      "Teen Bhubaner Pare",
+      "Prothom Kadam Phool"
+    ],
+    "youtube_query": "Sudhin Dasgupta songs"
+  },
+  {
+    "name": "Kabir Suman",
+    "categories": ["modern", "folk"],
+    "period": "Modern Bengali",
+    "country": "India",
+    "contribution": "A singer-songwriter who pioneered 'Jeebonmukhi Gaan' (songs about life), a new genre of modern Bengali songs with socially conscious lyrics.",
+    "works": [
+      "Tomake Chai (album)",
+      "Jatishwar",
+      "Boshe Anko"
+    ],
+    "youtube_query": "Kabir Suman songs"
+  },
+  {
+    "name": "Anupam Roy",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "A popular contemporary singer-songwriter and composer in Bengali and Hindi cinema, known for his poignant lyrics and melodies.",
+    "works": [
+      "Autograph (Amake Amar Moto)",
+      "Piku",
+      "Hemlock Society"
+    ],
+    "youtube_query": "Anupam Roy songs"
+  },
+  {
+    "name": "Jatinder Shah",
+    "categories": ["modern"],
+    "period": "Contemporary Punjabi",
+    "country": "India",
+    "contribution": "A leading music director in the Punjabi film industry, known for composing scores for many of its biggest hits.",
+    "works": [
+      "Jatt & Juliet",
+      "Angrej",
+      "Love Punjab"
+    ],
+    "youtube_query": "Jatinder Shah songs"
+  },
+  {
+    "name": "Kishori Amonkar",
+    "categories": ["classical"],
+    "period": "20th Century Maestro",
+    "country": "India",
+    "contribution": "A legendary Hindustani classical vocalist of the Jaipur gharana, known for her intellectual and emotional approach to raga interpretation, effectively composing within the tradition.",
+    "works": [
+      "Raga Bhoop",
+      "Raga Jaunpuri",
+      "Thumris and Bhajans"
+    ],
+    "youtube_query": "Kishori Amonkar"
+  },
+  {
+    "name": "Indian Ocean",
+    "categories": ["modern", "fusion", "rock"],
+    "period": "Fusion Band",
+    "country": "India",
+    "contribution": "A pioneering Indian rock band, considered to be the pioneers of the fusion rock genre in India, composing their own unique music.",
+    "works": [
+      "Kandisa (album)",
+      "Bandeh (song)",
+      "Black Friday (film score)"
+    ],
+    "youtube_query": "Indian Ocean band"
+  },
+  {
+    "name": "Raghu Dixit",
+    "categories": ["modern", "fusion", "folk"],
+    "period": "Contemporary Fusion",
+    "country": "India",
+    "contribution": "A singer-songwriter and composer known for his energetic and colorful blend of Indian folk music with rock and pop.",
+    "works": [
+      "The Raghu Dixit Project (album)",
+      "Psycho (film score)",
+      "Mujhse Fraaandship Karoge (film score)"
+    ],
+    "youtube_query": "Raghu Dixit Project"
+  },
+  {
+    "name": "Karsh Kale",
+    "categories": ["modern", "fusion", "electronic"],
+    "period": "Contemporary Fusion",
+    "country": "India",
+    "contribution": "An Indian-American musician, producer, and composer, known for blending Indian classical and folk with electronica, rock, and pop.",
+    "works": [
+      "Realize (album)",
+      "Liberation (album)",
+      "Cinema (album)"
+    ],
+    "youtube_query": "Karsh Kale music"
+  },
+  {
+    "name": "Midival Punditz",
+    "categories": ["modern", "fusion", "electronic"],
+    "period": "Contemporary Fusion",
+    "country": "India",
+    "contribution": "A duo considered to be pioneers of the Indian electronica scene, known for their fusion of Indian classical sounds with electronic music.",
+    "works": [
+      "Midival Punditz (album)",
+      "Let's Enjoy (film song)",
+      "Don (film song remix)"
+    ],
+    "youtube_query": "Midival Punditz"
+  },
+  {
+    "name": "Colonial Cousins",
+    "categories": ["modern", "fusion", "pop"],
+    "period": "90s Fusion Pop",
+    "country": "India",
+    "contribution": "A duo of singer Hariharan and composer-singer Lesle Lewis, who created a unique and popular blend of Indian classical and Western pop music.",
+    "works": [
+      "Colonial Cousins (album)",
+      "Krishna (song)",
+      "Sa Ni Dha Pa (song)"
+    ],
+    "youtube_query": "Colonial Cousins songs"
+  },
+
+  {
+    "name": "Ghulam Mohammed",
+    "categories": ["modern"],
+    "period": "Golden Era",
+    "country": "India",
+    "contribution": "A veteran composer best known for his timeless and magnum opus score for the classic film 'Pakeezah'.",
+    "works": [
+      "Pakeezah",
+      "Mirza Ghalib",
+      "Shama"
+    ],
+    "youtube_query": "Ghulam Mohammed composer"
+  },
+  {
+    "name": "Khemchand Prakash",
+    "categories": ["modern"],
+    "period": "Pioneer Era",
+    "country": "India",
+    "contribution": "A pioneering composer who gave Lata Mangeshkar her breakthrough hit 'Aayega Aanewala' and composed for the classic film 'Mahal'.",
+    "works": [
+      "Mahal",
+      "Tansen",
+      "Ziddi"
+    ],
+    "youtube_query": "Khemchand Prakash songs"
+  },
+  {
+    "name": "Tanishk Bagchi",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "A prominent contemporary composer and producer, known for his chart-topping original songs and controversial but popular remixes.",
+    "works": [
+      "Baar Baar Dekho",
+      "Simmba",
+      "Shershaah"
+    ],
+    "youtube_query": "Tanishk Bagchi songs"
+  },
+  {
+    "name": "Arko Pravo Mukherjee",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "A composer and singer known for his soulful, patriotic, and emotionally charged compositions like 'Teri Mitti'.",
+    "works": [
+      "Teri Mitti (Kesari)",
+      "Nazam Nazam (Bareilly Ki Barfi)",
+      "Jism 2"
+    ],
+    "youtube_query": "Arko Pravo Mukherjee songs"
+  },
+  {
+    "name": "Rochak Kohli",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "A contemporary composer known for his fresh, melodious, and highly popular friendship and love anthems.",
+    "works": [
+      "Pani Da Rang (Vicky Donor)",
+      "Tera Yaar Hoon Main",
+      "Ek Ladki Ko Dekha Toh Aisa Laga"
+    ],
+    "youtube_query": "Rochak Kohli songs"
+  },
+  {
+    "name": "Jasleen Royal",
+    "categories": ["modern", "indie"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "A unique singer-songwriter and composer known for her indie-pop sensibilities and heartfelt, chart-topping film songs.",
+    "works": [
+      "Ranjha (Shershaah)",
+      "Din Shagna Da (Phillauri)",
+      "Love You Zindagi (Dear Zindagi)"
+    ],
+    "youtube_query": "Jasleen Royal songs"
+  },
+  {
+    "name": "Vishal Mishra",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "A popular singer and composer known for his romantic ballads and powerful, emotive film soundtracks.",
+    "works": [
+      "Kabir Singh",
+      "Animal",
+      "Notebook"
+    ],
+    "youtube_query": "Vishal Mishra songs"
+  },
+  {
+    "name": "Sachet–Parampara",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "A dynamic husband-wife duo known for their high-energy, chart-topping, and intensely romantic compositions.",
+    "works": [
+      "Bekhayali (Kabir Singh)",
+      "Maiyya Mainu (Jersey)",
+      "Shiv Tandav Stotram (Phonk)"
+    ],
+    "youtube_query": "Sachet Parampara songs"
+  },
+  {
+    "name": "Sanjeev-Darshan",
+    "categories": ["modern"],
+    "period": "90s/2000s",
+    "country": "India",
+    "contribution": "A duo known for their melodious and popular soundtracks in the late 90s and early 2000s, sons of composer Shravan Rathod.",
+    "works": [
+      "Mann",
+      "Deewane",
+      "Hamara Dil Aapke Paas Hai"
+    ],
+    "youtube_query": "Sanjeev Darshan songs"
+  },
+  {
+    "name": "Gulzar",
+    "categories": ["modern"],
+    "period": "Auteur",
+    "country": "India",
+    "contribution": "A legendary lyricist and director who also composed the critically acclaimed music for films like 'Maachis'.",
+    "works": [
+      "Maachis",
+      "Hu Tu Tu"
+    ],
+    "youtube_query": "Gulzar composer songs"
+  },
+  {
+    "name": "Anvita Dutt",
+    "categories": ["modern"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "A celebrated lyricist and director who also co-composed the music for her critically acclaimed film 'Qala'.",
+    "works": [
+      "Qala"
+    ],
+    "youtube_query": "Anvita Dutt music"
+  },
+  {
+    "name": "Kersi Lord",
+    "categories": ["modern"],
+    "period": "Golden Era Arranger",
+    "country": "India",
+    "contribution": "A pioneering instrumentalist (accordion, synthesizer) and music arranger who shaped the sound of countless hits for composers like R.D. Burman.",
+    "works": [
+      "Sholay (sound design)",
+      "Dum Maro Dum (arrangement)",
+      "Roop Tera Mastana (arrangement)"
+    ],
+    "youtube_query": "Kersi Lord music"
+  },
+  {
+    "name": "Lucky Ali",
+    "categories": ["modern", "indie", "pop"],
+    "period": "90s Indipop",
+    "country": "India",
+    "contribution": "An iconic singer-songwriter of the 90s Indipop era, known for his soulful voice and distinctive melancholic melodies.",
+    "works": [
+      "O Sanam",
+      "Ek Pal Ka Jeena (Kaho Naa... Pyaar Hai)",
+      "Gori Teri Aankhen"
+    ],
+    "youtube_query": "Lucky Ali songs"
+  },
+  {
+    "name": "Palash Sen",
+    "categories": ["modern", "rock", "pop"],
+    "period": "Indipop Band",
+    "country": "India",
+    "contribution": "The frontman and composer for the pioneering Indian rock band 'Euphoria,' known for blending rock with Hindi and folk elements.",
+    "works": [
+      "Maaeri",
+      "Dhoom Pichak Dhoom",
+      "Aana Meri Gully"
+    ],
+    "youtube_query": "Euphoria band songs"
+  },
+  {
+    "name": "Mohit Chauhan",
+    "categories": ["modern", "rock", "pop"],
+    "period": "Indipop Band",
+    "country": "India",
+    "contribution": "Frontman and composer for the band 'Silk Route' before becoming a star playback singer, known for his romantic, hilly folk-infused pop.",
+    "works": [
+      "Dooba Dooba (Silk Route)",
+      "Boodein (Silk Route)",
+      "Pehchan (Silk Route album)"
+    ],
+    "youtube_query": "Silk Route band"
+  },
+  {
+    "name": "Shaan",
+    "categories": ["modern", "pop"],
+    "period": "90s Indipop",
+    "country": "India",
+    "contribution": "A popular singer who also composed his own successful pop albums, known for his romantic and cheerful melodies.",
+    "works": [
+      "Tanha Dil (album)",
+      "Aksar (album)",
+      "Bhool Ja (song)"
+    ],
+    "youtube_query": "Shaan pop songs"
+  },
+  {
+    "name": "Lesle Lewis",
+    "categories": ["modern", "pop", "fusion"],
+    "period": "90s Indipop",
+    "country": "India",
+    "contribution": "A pioneering composer, producer, and one half of 'Colonial Cousins,' who shaped the sound of 90s Indipop.",
+    "works": [
+      "Pari Hoon Main",
+      "Janam Samjha Karo",
+      "Haseena"
+    ],
+    "youtube_query": "Lesle Lewis songs"
+  },
+  {
+    "name": "Alisha Chinai",
+    "categories": ["modern", "pop"],
+    "period": "90s Indipop",
+    "country": "India",
+    "contribution": "The 'Queen of Indipop,' a singer and composer of her own material, best known for the iconic album and song 'Made in India'.",
+    "works": [
+      "Made in India (album)",
+      "Jadoo (album)",
+      "Lover Girl (song)"
+    ],
+    "youtube_query": "Alisha Chinai pop"
+  },
+  {
+    "name": "Sudhir Phadke",
+    "categories": ["modern", "classical"],
+    "period": "Marathi Golden Era",
+    "country": "India",
+    "contribution": "A legendary singer and composer in Marathi music, affectionately known as 'Babuji,' celebrated for his 'Geet Ramayan' and film scores.",
+    "works": [
+      "Geet Ramayan",
+      "Jyoti Kalash Chhalke (song)",
+      "Ha Khel Sawalyancha"
+    ],
+    "youtube_query": "Sudhir Phadke songs"
+  },
+  {
+    "name": "Hridaynath Mangeshkar",
+    "categories": ["modern", "classical"],
+    "period": "Marathi Golden Era",
+    "country": "India",
+    "contribution": "A National Award-winning composer and the younger brother of the Mangeshkar sisters, known for his complex, poetry-driven compositions.",
+    "works": [
+      "Lekin...",
+      "Maya Memsaab",
+      "Jait Re Jait"
+    ],
+    "youtube_query": "Hridaynath Mangeshkar songs"
+  },
+  {
+    "name": "Anandghan",
+    "categories": ["modern"],
+    "period": "Marathi Golden Era",
+    "country": "India",
+    "contribution": "The pseudonym used by the legendary singer Lata Mangeshkar for the handful of Marathi films she composed music for, winning awards for her work.",
+    "works": [
+      "Sadhi Mansa",
+      "Tambadi Mati",
+      "Mohityanchi Manjula"
+    ],
+    "youtube_query": "Anandghan composer"
+  },
+  {
+    "name": "Shridhar Phadke",
+    "categories": ["modern"],
+    "period": "Contemporary Marathi",
+    "country": "India",
+    "contribution": "A contemporary Marathi composer and son of Sudhir Phadke, known for his soulful and melodious compositions.",
+    "works": [
+      "Ruturaj",
+      "Omkar Swarupa",
+      "Lekaru"
+    ],
+    "youtube_query": "Shridhar Phadke songs"
+  },
+  {
+    "name": "Ashok Patki",
+    "categories": ["modern"],
+    "period": "Contemporary Marathi",
+    "country": "India",
+    "contribution": "A veteran Marathi composer, best known for arranging the iconic national integration song 'Mile Sur Mera Tumhara'.",
+    "works": [
+      "Mile Sur Mera Tumhara (arrangement)",
+      "Dhadakebaaz",
+      "Aapli Mansa"
+    ],
+    "youtube_query": "Ashok Patki songs"
+  },
+  {
+    "name": "Kaushal Inamdar",
+    "categories": ["modern", "classical"],
+    "period": "Contemporary Marathi",
+    "country": "India",
+    "contribution": "A contemporary Marathi composer known for his grand, classically-rooted scores for films and his efforts in music preservation.",
+    "works": [
+      "Balgandharva",
+      "Ajintha",
+      "It's Breaking News"
+    ],
+    "youtube_query": "Kaushal Inamdar songs"
+  },
+  {
+    "name": "Indradeep Dasgupta",
+    "categories": ["modern"],
+    "period": "Contemporary Bengali",
+    "country": "India",
+    "contribution": "A leading contemporary composer in Bengali cinema, known for his versatile and critically acclaimed film scores.",
+    "works": [
+      "Chaplin",
+      "Mishawr Rawhoshyo",
+      "Autograph"
+    ],
+    "youtube_query": "Indradeep Dasgupta songs"
+  },
+  {
+    "name": "Akshaya Mohanty",
+    "categories": ["modern", "folk"],
+    "period": "Odia Golden Era",
+    "country": "India",
+    "contribution": "A legendary singer, composer, and writer in Odia music, known for his modern and experimental approach to folk tunes.",
+    "works": [
+      "Ja Ja Re Bhasi Bhasi",
+      "Rakata Talamala",
+      "He Phaguna Tume"
+    ],
+    "youtube_query": "Akshaya Mohanty songs"
+  },
+  {
+    "name": "Prafulla Kar",
+    "categories": ["modern", "classical"],
+    "period": "Odia Golden Era",
+    "country": "India",
+    "contribution": "A celebrated singer and composer in Odia music, known for his classical-based and devotional compositions.",
+    "works": [
+      "Kamala Desha Rajakumara",
+      "Balidaan",
+      "Batighara"
+    ],
+    "youtube_query": "Prafulla Kar songs"
+  },
+  {
+    "name": "Avinash Vyas",
+    "categories": ["modern", "folk"],
+    "period": "Gujarati Golden Era",
+    "country": "India",
+    "contribution": "The most celebrated composer of Gujarati music, who composed thousands of songs and defined the sound of Gujarati folk and film music.",
+    "works": [
+      "Mehndi Te Vavi Malve",
+      "Tari Aankhno Afini",
+      "Maniyaro Te Halu Halu"
+    ],
+    "youtube_query": "Avinash Vyas songs"
+  },
+  {
+    "name": "Gaurang Vyas",
+    "categories": ["modern", "folk"],
+    "period": "Contemporary Gujarati",
+    "country": "India",
+    "contribution": "A composer and son of Avinash Vyas, who has continued his father's legacy in Gujarati music.",
+    "works": [
+      "Nayan Ne Bandh Rakhi Ne",
+      "Dikri To Parki Thapan Kehvay",
+      "Bhavni Bhavai"
+    ],
+    "youtube_query": "Gaurang Vyas songs"
+  },
+  {
+    "name": "Mame Khan",
+    "categories": ["modern", "folk"],
+    "period": "Contemporary Folk",
+    "country": "India",
+    "contribution": "A popular Rajasthani folk singer and composer who has brought the sounds of the Manganiyar community to a global stage.",
+    "works": [
+      "Chaudhary (Coke Studio)",
+      "Laal Peeli Akhiyaan",
+      "Mirzya (film)"
+    ],
+    "youtube_query": "Mame Khan songs"
+  },
+  {
+    "name": "Ghantasala",
+    "categories": ["modern", "classical"],
+    "period": "Telugu Golden Era",
+    "country": "India",
+    "contribution": "A legendary singer and composer in Telugu cinema, revered for his divine voice and his music for many classic films.",
+    "works": [
+      "Lava Kusa",
+      "Rahasyam",
+      "Pelli Chesi Choodu"
+    ],
+    "youtube_query": "Ghantasala composer"
+  },
+  {
+    "name": "M. B. Sreenivasan",
+    "categories": ["modern", "experimental"],
+    "period": "Parallel Cinema",
+    "country": "India",
+    "contribution": "A pioneer of parallel cinema music in South India and the founder of the Madras Youth Choir, known for his innovative scores.",
+    "works": [
+      "Swayamvaram",
+      "Agraharathil Kazhuthai",
+      "Olavum Theeravum"
+    ],
+    "youtube_query": "M B Sreenivasan music"
+  },
+  {
+    "name": "Gangai Amaran",
+    "categories": ["modern", "folk"],
+    "period": "Tamil 80s",
+    "country": "India",
+    "contribution": "A prolific director, lyricist, and composer, and the younger brother of Ilaiyaraaja, known for his rustic and folk-based hits.",
+    "works": [
+      "Karagattakaran",
+      "Kozhi Koovuthu",
+      "Enga Ooru Pattukaran"
+    ],
+    "youtube_query": "Gangai Amaran songs"
+  },
+  {
+    "name": "T. Rajendar",
+    "categories": ["modern"],
+    "period": "Tamil 80s",
+    "country": "India",
+    "contribution": "A multifaceted artist in Tamil cinema, known for his unique, high-pitched singing and composing style in the films he directed and starred in.",
+    "works": [
+      "Mythili Ennai Kaathali",
+      "Oru Thayin Sabatham",
+      "En Thangai Kalyani"
+    ],
+    "youtube_query": "T Rajendar songs"
+  },
+  {
+    "name": "Adithyan",
+    "categories": ["modern", "pop", "rock"],
+    "period": "Tamil 90s",
+    "country": "India",
+    "contribution": "A composer who brought a fresh pop-rock and electronic sound to Tamil cinema in the early 90s.",
+    "works": [
+      "Amaran",
+      "Seevalaperi Pandi",
+      "Lucky Man"
+    ],
+    "youtube_query": "Adithyan songs"
+  },
+  {
+    "name": "S. Dakshinamurthi",
+    "categories": ["modern"],
+    "period": "South Indian Golden Era",
+    "country": "India",
+    "contribution": "A veteran composer in Tamil and Telugu cinema, known for his work in the 1950s and 60s.",
+    "works": [
+      "Annai",
+      "Enga Pappa",
+      "Ilavelpu"
+    ],
+    "youtube_query": "S Dakshinamurthi songs"
+  },
+  {
+    "name": "Jerry Amaldev",
+    "categories": ["modern"],
+    "period": "Malayalam 80s",
+    "country": "India",
+    "contribution": "A composer trained in Western classical music, known for bringing a fresh, orchestral, and chorus-based sound to Malayalam cinema.",
+    "works": [
+      "Manjil Virinja Pookkal",
+      "Ennennum Kannettante",
+      "No.20 Madras Mail"
+    ],
+    "youtube_query": "Jerry Amaldev songs"
+  },
+  {
+    "name": "C. Aswath",
+    "categories": ["modern", "folk"],
+    "period": "Kannada Sugama Sangeetha",
+    "country": "India",
+    "contribution": "A leading figure in Kannada 'Sugama Sangeetha' (light music), known for setting the poetry of great Kannada writers to music.",
+    "works": [
+      "Mysooru Mallige",
+      "Spandana",
+      "Deepavu Ninnade Gaaliyu Ninnade (song)"
+    ],
+    "youtube_query": "C Aswath songs"
+  },
+  {
+    "name": "L. Shankar",
+    "categories": ["modern", "fusion", "classical"],
+    "period": "Contemporary Fusion",
+    "country": "India",
+    "contribution": "A virtuoso violinist, singer, and composer known for his 10-string double violin and his pioneering work in world fusion music with the band Shakti.",
+    "works": [
+      "Shakti (with John McLaughlin)",
+      "The Last Temptation of Christ (score with Peter Gabriel)",
+      "Pancha Nadai Pallavi"
+    ],
+    "youtube_query": "L Shankar violin"
+  },
+  {
+    "name": "U. Srinivas",
+    "categories": ["classical", "fusion"],
+    "period": "Contemporary Maestro",
+    "country": "India",
+    "contribution": "A child prodigy and mandolin virtuoso who adapted the instrument for Carnatic music and composed for his fusion albums.",
+    "works": [
+      "Mandolin Ecstasy",
+      "Rama Sreerama",
+      "Samjanitha"
+    ],
+    "youtube_query": "U Srinivas mandolin"
+  },
+  {
+    "name": "T. H. Vinayakram",
+    "categories": ["classical", "fusion"],
+    "period": "Contemporary Maestro",
+    "country": "India",
+    "contribution": "A Grammy-winning ghatam (clay pot) virtuoso and composer who has performed with many international artists and was a key member of Shakti.",
+    "works": [
+      "Shakti (with John McLaughlin)",
+      "Planet Drum (with Mickey Hart)",
+      "Solo Ghatam Concerts"
+    ],
+    "youtube_query": "T H Vinayakram ghatam"
+  },
+  {
+    "name": "Anoushka Shankar",
+    "categories": ["modern", "fusion", "classical"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "A world-renowned sitarist, composer, and daughter of Ravi Shankar, known for her experimental and contemporary approach to the sitar.",
+    "works": [
+      "Land of Gold (album)",
+      "Traces of You (album)",
+      "Rise (album)"
+    ],
+    "youtube_query": "Anoushka Shankar"
+  },
+  {
+    "name": "Niladri Kumar",
+    "categories": ["modern", "fusion", "classical"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "A sitar virtuoso and composer who invented the 'zitar,' a five-stringed electric sitar, and is known for his energetic fusion and classical performances.",
+    "works": [
+      "Zitar (album)",
+      "Surrender (album)",
+      "Crazy Kiya Re (Dhoom 2 sitar piece)"
+    ],
+    "youtube_query": "Niladri Kumar zitar"
+  },
+  {
+    "name": "Shubha Mudgal",
+    "categories": ["classical", "fusion", "pop"],
+    "period": "Contemporary",
+    "country": "India",
+    "contribution": "A renowned Hindustani classical singer who is also a composer, known for her powerful voice and her work in Indian pop and fusion music.",
+    "works": [
+      "Ab Ke Sawan (album)",
+      "Ali More Angana (album)",
+      "Mann Ke Manjeere (album)"
+    ],
+    "youtube_query": "Shubha Mudgal"
+  },
+  {
+    "name": "Parveen Sultana",
+    "categories": ["classical"],
+    "period": "20th Century Maestro",
+    "country": "India",
+    "contribution": "A Hindustani classical singer of the Patiala gharana, known for her exceptionally wide vocal range and mastery over khayals and thumris.",
+    "works": [
+      "Humein Tumse Pyar Kitna (Kudrat)",
+      "Kaun Gali Gayo Shyam (Pakeezah)",
+      "Raga Hamsadhwani"
+    ],
+    "youtube_query": "Parveen Sultana"
+  },
+  {
+    "name": "Pandit Jasraj",
+    "categories": ["classical"],
+    "period": "20th Century Maestro",
+    "country": "India",
+    "contribution": "An eminent Hindustani classical vocalist and the foremost exponent of the Mewati gharana, known for his spiritual and soulful performances.",
+    "works": [
+      "Haveli Sangeet",
+      "Jasrangi Jugalbandi",
+      "Raga Ahir Bhairav"
+    ],
+    "youtube_query": "Pandit Jasraj"
+  },
+
+  {
+    "name": "Louis Armstrong",
+    "categories": ["jazz", "swing"],
+    "period": "Pioneer/Swing Era",
+    "country": "USA",
+    "contribution": "A foundational figure in jazz, he shifted the focus from collective improvisation to solo performance and was a master trumpeter and vocalist.",
+    "works": [
+      "West End Blues",
+      "Hotter Than That",
+      "What a Wonderful World"
+    ],
+    "youtube_query": "Louis Armstrong Hot Five"
+  },
+  {
+    "name": "Fats Waller",
+    "categories": ["jazz", "swing"],
+    "period": "Stride/Swing Era",
+    "country": "USA",
+    "contribution": "A virtuoso stride pianist, entertainer, and composer whose witty and swinging songs became standards of the jazz repertoire.",
+    "works": [
+      "Ain't Misbehavin'",
+      "Honeysuckle Rose",
+      "The Jitterbug Waltz"
+    ],
+    "youtube_query": "Fats Waller music"
+  },
+  {
+    "name": "Count Basie",
+    "categories": ["jazz", "swing"],
+    "period": "Big Band/Swing Era",
+    "country": "USA",
+    "contribution": "A legendary pianist and bandleader whose orchestra defined the Kansas City swing style with its powerful rhythm section and blues-inflected riffs.",
+    "works": [
+      "One O'Clock Jump",
+      "Jumpin' at the Woodside",
+      "April in Paris"
+    ],
+    "youtube_query": "Count Basie Orchestra"
+  },
+  {
+    "name": "Fletcher Henderson",
+    "categories": ["jazz", "swing"],
+    "period": "Big Band Arranger",
+    "country": "USA",
+    "contribution": "A pioneering bandleader and arranger who created the template for big band music, influencing countless others including Benny Goodman.",
+    "works": [
+      "Down South Camp Meeting",
+      "Wrappin' It Up",
+      "King Porter Stomp (arrangement)"
+    ],
+    "youtube_query": "Fletcher Henderson Orchestra"
+  },
+  {
+    "name": "Benny Carter",
+    "categories": ["jazz", "swing"],
+    "period": "Swing Era",
+    "country": "USA",
+    "contribution": "A master alto saxophonist, trumpeter, and influential arranger whose sophisticated compositions were a cornerstone of the swing era.",
+    "works": [
+      "When Lights Are Low",
+      "Blues in My Heart",
+      "Symphony in Riffs"
+    ],
+    "youtube_query": "Benny Carter music"
+  },
+  {
+    "name": "Sidney Bechet",
+    "categories": ["jazz"],
+    "period": "New Orleans/Pioneer",
+    "country": "USA/France",
+    "contribution": "A virtuoso of the soprano saxophone and clarinet, he was one of the first major jazz soloists, known for his wide, expressive vibrato.",
+    "works": [
+      "Petite Fleur",
+      "Si tu vois ma mère",
+      "Summertime"
+    ],
+    "youtube_query": "Sidney Bechet music"
+  },
+  {
+    "name": "Bix Beiderbecke",
+    "categories": ["jazz"],
+    "period": "1920s Jazz",
+    "country": "USA",
+    "contribution": "An influential cornetist and composer with a lyrical, introspective style that offered a cool alternative to Armstrong's fiery approach.",
+    "works": [
+      "In a Mist",
+      "Davenport Blues",
+      "Singin' the Blues"
+    ],
+    "youtube_query": "Bix Beiderbecke music"
+  },
+  {
+    "name": "Art Tatum",
+    "categories": ["jazz", "swing"],
+    "period": "Stride/Virtuoso",
+    "country": "USA",
+    "contribution": "A piano virtuoso whose technical command and harmonic sophistication set a new standard for jazz piano, influencing generations of musicians.",
+    "works": [
+      "Tea for Two",
+      "Tiger Rag",
+      "Willow Weep for Me"
+    ],
+    "youtube_query": "Art Tatum piano"
+  },
+  {
+    "name": "Charlie Parker",
+    "categories": ["jazz", "bebop"],
+    "period": "Bebop",
+    "country": "USA",
+    "contribution": "A revolutionary alto saxophonist and a principal architect of bebop, known for his advanced harmonic ideas and blistering rhythmic facility.",
+    "works": [
+      "Ornithology",
+      "Yardbird Suite",
+      "Confirmation"
+    ],
+    "youtube_query": "Charlie Parker music"
+  },
+  {
+    "name": "Dizzy Gillespie",
+    "categories": ["jazz", "bebop", "latin"],
+    "period": "Bebop",
+    "country": "USA",
+    "contribution": "A virtuoso trumpeter, bandleader, and composer who was a co-founder of bebop and a pioneer in Afro-Cuban jazz.",
+    "works": [
+      "A Night in Tunisia",
+      "Groovin' High",
+      "Salt Peanuts"
+    ],
+    "youtube_query": "Dizzy Gillespie music"
+  },
+  {
+    "name": "Bud Powell",
+    "categories": ["jazz", "bebop"],
+    "period": "Bebop Piano",
+    "country": "USA",
+    "contribution": "The definitive bebop pianist, he adapted Charlie Parker's language to the piano, using horn-like right-hand lines and sparse left-hand comping.",
+    "works": [
+      "Un Poco Loco",
+      "Bouncing with Bud",
+      "Tempus Fugit"
+    ],
+    "youtube_query": "Bud Powell trio"
+  },
+  {
+    "name": "Horace Silver",
+    "categories": ["jazz", "hard-bop"],
+    "period": "Hard Bop",
+    "country": "USA",
+    "contribution": "A pianist and composer who was a key architect of hard bop, known for his catchy, bluesy, and gospel-inflected compositions.",
+    "works": [
+      "Song for My Father",
+      "The Preacher",
+      "Nica's Dream"
+    ],
+    "youtube_query": "Horace Silver quintet"
+  },
+  {
+    "name": "Sonny Rollins",
+    "categories": ["jazz", "hard-bop"],
+    "period": "Hard Bop",
+    "country": "USA",
+    "contribution": "A titan of the tenor saxophone, known for his commanding tone, thematic improvisation, and compositions that became jazz standards.",
+    "works": [
+      "St. Thomas",
+      "Oleo",
+      "Doxy"
+    ],
+    "youtube_query": "Sonny Rollins music"
+  },
+  {
+    "name": "Clifford Brown",
+    "categories": ["jazz", "hard-bop"],
+    "period": "Hard Bop",
+    "country": "USA",
+    "contribution": "A brilliant trumpeter whose tragically short career left a legacy of lyrical, technically flawless playing and classic hard bop compositions.",
+    "works": [
+      "Joy Spring",
+      "Daahoud",
+      "Sandu"
+    ],
+    "youtube_query": "Clifford Brown Max Roach"
+  },
+  {
+    "name": "Tadd Dameron",
+    "categories": ["jazz", "bebop"],
+    "period": "Bebop Arranger",
+    "country": "USA",
+    "contribution": "One of the foremost arrangers and composers of the bebop era, known for his harmonically rich and lyrical compositions.",
+    "works": [
+      "Hot House",
+      "Lady Bird",
+      "If You Could See Me Now"
+    ],
+    "youtube_query": "Tadd Dameron music"
+  },
+  {
+    "name": "Benny Golson",
+    "categories": ["jazz", "hard-bop"],
+    "period": "Hard Bop",
+    "country": "USA",
+    "contribution": "A distinguished tenor saxophonist and composer who wrote numerous jazz standards that became staples of the hard bop repertoire.",
+    "works": [
+      "I Remember Clifford",
+      "Stablemates",
+      "Killer Joe"
+    ],
+    "youtube_query": "Benny Golson music"
+  },
+  {
+    "name": "Lee Morgan",
+    "categories": ["jazz", "hard-bop"],
+    "period": "Hard Bop",
+    "country": "USA",
+    "contribution": "A fiery trumpeter and composer whose funky, soulful hard bop compositions, like 'The Sidewinder,' achieved commercial success.",
+    "works": [
+      "The Sidewinder",
+      "Ceora",
+      "Cornbread"
+    ],
+    "youtube_query": "Lee Morgan music"
+  },
+  {
+    "name": "Freddie Hubbard",
+    "categories": ["jazz", "hard-bop", "post-bop"],
+    "period": "Post-Bop",
+    "country": "USA",
+    "contribution": "A virtuosic trumpeter whose powerful sound and adventurous compositions pushed the boundaries of hard bop into post-bop and fusion.",
+    "works": [
+      "Red Clay",
+      "Up Jumped Spring",
+      "Straight Life"
+    ],
+    "youtube_query": "Freddie Hubbard music"
+  },
+  {
+    "name": "Art Blakey",
+    "categories": ["jazz", "hard-bop"],
+    "period": "Hard Bop",
+    "country": "USA",
+    "contribution": "A powerful drummer and bandleader whose group, The Jazz Messengers, was a crucial incubator for generations of hard bop talent.",
+    "works": [
+      "Moanin'",
+      "Blues March",
+      "Along Came Betty"
+    ],
+    "youtube_query": "Art Blakey and The Jazz Messengers"
+  },
+  {
+    "name": "Max Roach",
+    "categories": ["jazz", "bebop"],
+    "period": "Bebop/Hard Bop",
+    "country": "USA",
+    "contribution": "A pioneering bebop drummer who elevated the instrument's role to a melodic voice and composed politically charged, innovative works.",
+    "works": [
+      "We Insist! (Freedom Now Suite)",
+      "The Drum Also Waltzes",
+      "For Big Sid"
+    ],
+    "youtube_query": "Max Roach music"
+  },
+  {
+    "name": "Dave Brubeck",
+    "categories": ["jazz", "cool-jazz"],
+    "period": "Cool Jazz",
+    "country": "USA",
+    "contribution": "A pianist and composer who popularized jazz with his experiments in unusual time signatures, most famously on the album 'Time Out'.",
+    "works": [
+      "Take Five",
+      "Blue Rondo à la Turk",
+      "In Your Own Sweet Way"
+    ],
+    "youtube_query": "Dave Brubeck Quartet"
+  },
+  {
+    "name": "Paul Desmond",
+    "categories": ["jazz", "cool-jazz"],
+    "period": "Cool Jazz",
+    "country": "USA",
+    "contribution": "An alto saxophonist with a famously light and airy 'dry martini' tone, who composed the iconic jazz standard 'Take Five'.",
+    "works": [
+      "Take Five (composition)",
+      "Audrey",
+      "Wendy"
+    ],
+    "youtube_query": "Paul Desmond music"
+  },
+  {
+    "name": "Gerry Mulligan",
+    "categories": ["jazz", "cool-jazz"],
+    "period": "Cool Jazz",
+    "country": "USA",
+    "contribution": "The most prominent baritone saxophonist in jazz history, known for his lyrical playing and his innovative pianoless quartets.",
+    "works": [
+      "Walkin' Shoes",
+      "Line for Lyons",
+      "Bernie's Tune"
+    ],
+    "youtube_query": "Gerry Mulligan Quartet"
+  },
+  {
+    "name": "Lennie Tristano",
+    "categories": ["jazz", "cool-jazz"],
+    "period": "Cool Jazz",
+    "country": "USA",
+    "contribution": "A pianist and teacher who developed a complex alternative to bebop, pioneering early forms of free, atonal improvisation.",
+    "works": [
+      "Line Up",
+      "Requiem",
+      "Intuition"
+    ],
+    "youtube_query": "Lennie Tristano music"
+  },
+  {
+    "name": "Oliver Nelson",
+    "categories": ["jazz", "post-bop"],
+    "period": "Post-Bop Arranger",
+    "country": "USA",
+    "contribution": "A saxophonist and influential arranger, best known for his landmark album 'The Blues and the Abstract Truth' and its classic composition 'Stolen Moments'.",
+    "works": [
+      "Stolen Moments",
+      "The Blues and the Abstract Truth (album)",
+      "Hoe-Down"
+    ],
+    "youtube_query": "Oliver Nelson music"
+  },
+  {
+    "name": "Joe Henderson",
+    "categories": ["jazz", "post-bop"],
+    "period": "Post-Bop",
+    "country": "USA",
+    "contribution": "A versatile and influential tenor saxophonist and composer whose sophisticated works bridged hard bop, modal jazz, and the avant-garde.",
+    "works": [
+      "Recorda Me",
+      "Inner Urge",
+      "Black Narcissus"
+    ],
+    "youtube_query": "Joe Henderson music"
+  },
+  {
+    "name": "Ornette Coleman",
+    "categories": ["jazz", "avant-garde"],
+    "period": "Free Jazz",
+    "country": "USA",
+    "contribution": "A major innovator of the free jazz movement, he discarded conventional harmony and structure in favor of melodic freedom ('harmolodics').",
+    "works": [
+      "Lonely Woman",
+      "The Shape of Jazz to Come (album)",
+      "Ramblin'"
+    ],
+    "youtube_query": "Ornette Coleman music"
+  },
+  {
+    "name": "Eric Dolphy",
+    "categories": ["jazz", "avant-garde"],
+    "period": "Avant-Garde",
+    "country": "USA",
+    "contribution": "A virtuoso on alto sax, flute, and bass clarinet, he was a key figure in the avant-garde, known for his wide intervallic leaps and complex compositions.",
+    "works": [
+      "Out to Lunch! (album)",
+      "Hat and Beard",
+      "Gazzelloni"
+    ],
+    "youtube_query": "Eric Dolphy music"
+  },
+  {
+    "name": "Sun Ra",
+    "categories": ["jazz", "avant-garde"],
+    "period": "Avant-Garde",
+    "country": "USA",
+    "contribution": "An eccentric bandleader and composer who blended big band swing with free improvisation, electronics, and a unique 'cosmic philosophy'.",
+    "works": [
+      "Space Is the Place",
+      "Love in Outer Space",
+      "Rocket Number Nine"
+    ],
+    "youtube_query": "Sun Ra Arkestra"
+  },
+  {
+    "name": "Cecil Taylor",
+    "categories": ["jazz", "avant-garde"],
+    "period": "Free Jazz",
+    "country": "USA",
+    "contribution": "A revolutionary pianist who developed a highly percussive and athletic approach to free improvisation, treating the piano as a full orchestra.",
+    "works": [
+      "Conquistador! (album)",
+      "Unit Structures (album)",
+      "Enter Evening"
+    ],
+    "youtube_query": "Cecil Taylor music"
+  },
+  {
+    "name": "Albert Ayler",
+    "categories": ["jazz", "avant-garde"],
+    "period": "Free Jazz",
+    "country": "USA",
+    "contribution": "A tenor saxophonist with a raw, ecstatic, and spiritual sound, he was one of the most uncompromising figures of the free jazz movement.",
+    "works": [
+      "Ghosts",
+      "Spiritual Unity (album)",
+      "Truth Is Marching In"
+    ],
+    "youtube_query": "Albert Ayler music"
+  },
+  {
+    "name": "Anthony Braxton",
+    "categories": ["jazz", "avant-garde"],
+    "period": "Avant-Garde",
+    "country": "USA",
+    "contribution": "A prolific multi-instrumentalist and composer whose vast, systematic body of work explores the intersections of jazz, classical, and experimental music.",
+    "works": [
+      "Composition No. 69",
+      "For Alto (album)",
+      "3 Compositions of New Jazz (album)"
+    ],
+    "youtube_query": "Anthony Braxton music"
+  },
+  {
+    "name": "John McLaughlin",
+    "categories": ["jazz", "fusion"],
+    "period": "Fusion",
+    "country": "UK",
+    "contribution": "A virtuosic guitarist who pioneered jazz-rock fusion with his band The Mahavishnu Orchestra, blending high-speed rock with complex Indian rhythms.",
+    "works": [
+      "The Inner Mounting Flame (album)",
+      "Birds of Fire (album)",
+      "Meeting of the Spirits"
+    ],
+    "youtube_query": "Mahavishnu Orchestra"
+  },
+  {
+    "name": "Joe Zawinul",
+    "categories": ["jazz", "fusion"],
+    "period": "Fusion",
+    "country": "Austria/USA",
+    "contribution": "A keyboardist and composer who co-founded the influential fusion band Weather Report and composed the iconic standard 'Birdland'.",
+    "works": [
+      "Birdland",
+      "Mercy, Mercy, Mercy",
+      "In a Silent Way"
+    ],
+    "youtube_query": "Weather Report music"
+  },
+  {
+    "name": "Jaco Pastorius",
+    "categories": ["jazz", "fusion"],
+    "period": "Fusion",
+    "country": "USA",
+    "contribution": "A revolutionary fretless electric bassist who redefined the instrument's role with his virtuosic technique, lyrical melodies, and funk-infused grooves.",
+    "works": [
+      "Portrait of Tracy",
+      "The Chicken",
+      "Continuum"
+    ],
+    "youtube_query": "Jaco Pastorius music"
+  },
+  {
+    "name": "Tony Williams",
+    "categories": ["jazz", "fusion"],
+    "period": "Fusion",
+    "country": "USA",
+    "contribution": "A prodigy drummer who redefined jazz drumming with Miles Davis, he later pioneered jazz-rock fusion with his band The Tony Williams Lifetime.",
+    "works": [
+      "Emergency! (album)",
+      "Proto-Cosmos",
+      "There Comes a Time"
+    ],
+    "youtube_query": "Tony Williams Lifetime"
+  },
+  {
+    "name": "Billy Cobham",
+    "categories": ["jazz", "fusion"],
+    "period": "Fusion",
+    "country": "Panama/USA",
+    "contribution": "A powerhouse drummer known for his work with Mahavishnu Orchestra, whose solo album 'Spectrum' is a landmark of the fusion genre.",
+    "works": [
+      "Spectrum (album)",
+      "Stratus",
+      "Red Baron"
+    ],
+    "youtube_query": "Billy Cobham music"
+  },
+  {
+    "name": "Antônio Carlos Jobim",
+    "categories": ["jazz", "latin"],
+    "period": "Bossa Nova",
+    "country": "Brazil",
+    "contribution": "The primary composer of the bossa nova style, he fused Brazilian samba rhythms with cool jazz harmonies to create timeless, sophisticated songs.",
+    "works": [
+      "The Girl from Ipanema",
+      "Desafinado",
+      "Corcovado (Quiet Nights of Quiet Stars)"
+    ],
+    "youtube_query": "Antonio Carlos Jobim music"
+  },
+  {
+    "name": "Django Reinhardt",
+    "categories": ["jazz", "swing"],
+    "period": "Gypsy Jazz",
+    "country": "Belgium/France",
+    "contribution": "A Romani-French guitarist who pioneered the 'gypsy jazz' style, becoming one of the first major European jazz talents despite a severe hand injury.",
+    "works": [
+      "Minor Swing",
+      "Nuages",
+      "Djangology"
+    ],
+    "youtube_query": "Django Reinhardt music"
+  },
+  {
+    "name": "Stéphane Grappelli",
+    "categories": ["jazz", "swing"],
+    "period": "Gypsy Jazz",
+    "country": "France",
+    "contribution": "A virtuoso jazz violinist and co-founder of the Quintette du Hot Club de France, known for his lyrical and swinging improvisations.",
+    "works": [
+      "Minor Swing",
+      "Daphne",
+      "Tears"
+    ],
+    "youtube_query": "Stéphane Grappelli music"
+  },
+  {
+    "name": "Tito Puente",
+    "categories": ["jazz", "latin"],
+    "period": "Latin Jazz",
+    "country": "USA",
+    "contribution": "Known as 'The King of Latin Music,' he was a timbales virtuoso and bandleader who fused mambo and salsa with big band jazz.",
+    "works": [
+      "Oye Como Va",
+      "Ran Kan Kan",
+      "Mambo Gozón"
+    ],
+    "youtube_query": "Tito Puente music"
+  },
+  {
+    "name": "Chucho Valdés",
+    "categories": ["jazz", "latin"],
+    "period": "Afro-Cuban Jazz",
+    "country": "Cuba",
+    "contribution": "A virtuosic pianist and bandleader who, with his group Irakere, created a powerful and influential blend of Afro-Cuban folk music, rock, and jazz.",
+    "works": [
+      "Mambo Influenciado",
+      "Irakere (band)",
+      "Chucho's Steps"
+    ],
+    "youtube_query": "Chucho Valdés music"
+  },
+  {
+    "name": "Jan Garbarek",
+    "categories": ["jazz", "world"],
+    "period": "Nordic Jazz",
+    "country": "Norway",
+    "contribution": "A saxophonist with a keening, ethereal tone, he is a central figure in the development of the atmospheric 'Nordic' or 'ECM' jazz sound.",
+    "works": [
+      "Dis (album)",
+      "Officium (album with Hilliard Ensemble)",
+      "It's OK to Listen to the Gray Voice"
+    ],
+    "youtube_query": "Jan Garbarek music"
+  },
+  {
+    "name": "Esbjörn Svensson",
+    "categories": ["jazz"],
+    "period": "Contemporary Piano Trio",
+    "country": "Sweden",
+    "contribution": "A pianist who, with his trio (E.S.T.), redefined the modern piano trio by incorporating elements of pop, rock, and electronic music.",
+    "works": [
+      "From Gagarin's Point of View",
+      "Viaticum (album)",
+      "Seven Days of Falling"
+    ],
+    "youtube_query": "Esbjörn Svensson Trio"
+  },
+  {
+    "name": "Pat Metheny",
+    "categories": ["jazz", "fusion"],
+    "period": "Contemporary Fusion",
+    "country": "USA",
+    "contribution": "A highly influential guitarist and composer known for his lyrical style, sophisticated harmonies, and pioneering use of guitar synthesizer.",
+    "works": [
+      "Bright Size Life",
+      "Last Train Home",
+      "Are You Going with Me?"
+    ],
+    "youtube_query": "Pat Metheny Group"
+  },
+  {
+    "name": "Wynton Marsalis",
+    "categories": ["jazz"],
+    "period": "Neo-Bop",
+    "country": "USA",
+    "contribution": "A trumpeter and composer who became a leading advocate for acoustic, traditional jazz, and the first jazz musician to win the Pulitzer Prize for Music.",
+    "works": [
+      "Blood on the Fields (oratorio)",
+      "Black Codes (From the Underground)",
+      "Delfeayo's Dilemma"
+    ],
+    "youtube_query": "Wynton Marsalis music"
+  },
+  {
+    "name": "Carla Bley",
+    "categories": ["jazz", "avant-garde"],
+    "period": "Avant-Garde Big Band",
+    "country": "USA",
+    "contribution": "A highly original composer, pianist, and bandleader in the free jazz and avant-garde movements, known for her complex and often humorous works.",
+    "works": [
+      "Escalator over the Hill (album)",
+      "Ida Lupino",
+      "The Law of the Heart"
+    ],
+    "youtube_query": "Carla Bley music"
+  },
+  {
+    "name": "Maria Schneider",
+    "categories": ["jazz"],
+    "period": "Contemporary Big Band",
+    "country": "USA",
+    "contribution": "A celebrated composer and arranger who expanded the language of the modern jazz orchestra with her lush, intricate, and impressionistic compositions.",
+    "works": [
+      "The Thompson Fields (album)",
+      "Concert in the Garden (album)",
+      "Hang Gliding"
+    ],
+    "youtube_query": "Maria Schneider Orchestra"
+  },
+  {
+    "name": "Brad Mehldau",
+    "categories": ["jazz"],
+    "period": "Contemporary Piano Trio",
+    "country": "USA",
+    "contribution": "An influential pianist who brought a new level of harmonic and rhythmic complexity to the piano trio, famously reinterpreting modern pop and rock songs.",
+    "works": [
+      "Largo (album)",
+      "The Art of the Trio (series)",
+      "Exit Music (For a Film)"
+    ],
+    "youtube_query": "Brad Mehldau Trio"
+  },
+  {
+    "name": "Kamasi Washington",
+    "categories": ["jazz"],
+    "period": "Contemporary Spiritual Jazz",
+    "country": "USA",
+    "contribution": "A tenor saxophonist and composer who has revitalized spiritual jazz for a new generation with his epic, sprawling, and genre-blending albums.",
+    "works": [
+      "The Epic (album)",
+      "Truth",
+      "Fists of Fury"
+    ],
+    "youtube_query": "Kamasi Washington music"
+  },
+
+  {
+    "name": "Frank Zappa",
+    "categories": ["fusion", "rock", "experimental"],
+    "period": "Prog-Rock/Jazz-Fusion",
+    "country": "USA",
+    "contribution": "Iconoclastic composer who blended rock, jazz, and classical music with satirical and complex compositions.",
+    "works": [
+      "Peaches en Regalia",
+      "The Grand Wazoo (album)",
+      "Hot Rats (album)"
+    ],
+    "youtube_query": "Frank Zappa jazz fusion"
+  },
+  {
+    "name": "Jeff Beck",
+    "categories": ["fusion", "rock"],
+    "period": "Jazz-Rock Guitar",
+    "country": "UK",
+    "contribution": "A pioneering guitarist who seamlessly blended hard rock with jazz harmony and funk rhythms, creating landmark fusion albums.",
+    "works": [
+      "Blow by Blow (album)",
+      "Wired (album)",
+      "Cause We've Ended as Lovers"
+    ],
+    "youtube_query": "Jeff Beck fusion"
+  },
+  {
+    "name": "Stanley Clarke",
+    "categories": ["fusion", "jazz", "funk"],
+    "period": "Fusion Bass Pioneer",
+    "country": "USA",
+    "contribution": "A revolutionary electric bassist and co-founder of Return to Forever, who elevated the bass to a lead, melodic instrument.",
+    "works": [
+      "School Days (album)",
+      "Lopsy Lu",
+      "The Clarke / Duke Project"
+    ],
+    "youtube_query": "Stanley Clarke band"
+  },
+  {
+    "name": "Al Di Meola",
+    "categories": ["fusion", "jazz", "latin"],
+    "period": "Fusion Guitar Virtuoso",
+    "country": "USA",
+    "contribution": "A technically prodigious guitarist known for his blistering speed, complex rhythms, and integration of Latin and flamenco influences.",
+    "works": [
+      "Elegant Gypsy (album)",
+      "Casino (album)",
+      "Friday Night in San Francisco (album)"
+    ],
+    "youtube_query": "Al Di Meola music"
+  },
+  {
+    "name": "Jan Hammer",
+    "categories": ["fusion", "jazz", "electronic"],
+    "period": "Fusion Keyboardist",
+    "country": "Czech Republic/USA",
+    "contribution": "A keyboard pioneer with Mahavishnu Orchestra, known for his innovative use of the Minimoog synthesizer, creating guitar-like pitch bends and tones.",
+    "works": [
+      "Miami Vice Theme",
+      "The First Seven Days (album)",
+      "Crockett's Theme"
+    ],
+    "youtube_query": "Jan Hammer Group"
+  },
+  {
+    "name": "Bill Bruford",
+    "categories": ["fusion", "rock", "prog"],
+    "period": "Prog/Fusion Drummer",
+    "country": "UK",
+    "contribution": "A highly influential drummer (Yes, King Crimson) and composer, known for his polyrhythmic precision and leading his own acclaimed fusion band, Bruford.",
+    "works": [
+      "Feels Good to Me (album)",
+      "One of a Kind (album)",
+      "Hell's Bells"
+    ],
+    "youtube_query": "Bruford band"
+  },
+  {
+    "name": "Allan Holdsworth",
+    "categories": ["fusion", "jazz", "prog"],
+    "period": "Fusion Guitar Innovator",
+    "country": "UK",
+    "contribution": "A legendary guitarist with a unique legato technique and advanced harmonic vocabulary, creating a fluid, horn-like sound.",
+    "works": [
+      "Metal Fatigue (album)",
+      "I.O.U. (album)",
+      "The Sixteen Men of Tain"
+    ],
+    "youtube_query": "Allan Holdsworth music"
+  },
+  {
+    "name": "Lenny White",
+    "categories": ["fusion", "jazz", "funk"],
+    "period": "Fusion Drummer",
+    "country": "USA",
+    "contribution": "A powerhouse drummer from Return to Forever, known for his complex, funky, and powerful playing that defined the fusion era.",
+    "works": [
+      "Venusian Summer (album)",
+      "Big City (album)",
+      "Captain Marvel"
+    ],
+    "youtube_query": "Lenny White music"
+  },
+  {
+    "name": "Jean-Luc Ponty",
+    "categories": ["fusion", "jazz"],
+    "period": "Jazz Violin Pioneer",
+    "country": "France",
+    "contribution": "A pioneering jazz violinist who was among the first to use the electric violin in a fusion context, blending jazz with rock, funk, and prog.",
+    "works": [
+      "Enigmatic Ocean (album)",
+      "Cosmic Messenger (album)",
+      "Mirage"
+    ],
+    "youtube_query": "Jean-Luc Ponty music"
+  },
+  {
+    "name": "The Crusaders",
+    "categories": ["fusion", "jazz", "funk"],
+    "period": "Jazz-Funk",
+    "country": "USA",
+    "contribution": "A band (led by Joe Sample & Wilton Felder) that evolved from hard bop to a smooth, soulful, and highly influential jazz-funk sound.",
+    "works": [
+      "Street Life",
+      "Put It Where You Want It",
+      "Scratch (album)"
+    ],
+    "youtube_query": "The Crusaders music"
+  },
+  {
+    "name": "George Duke",
+    "categories": ["fusion", "jazz", "funk", "r&b"],
+    "period": "Jazz-Funk Keyboardist",
+    "country": "USA",
+    "contribution": "A versatile keyboardist and composer who seamlessly moved between jazz fusion, funk, and R&B, known for his work with Frank Zappa and his own hit records.",
+    "works": [
+      "Reach for It",
+      "Dukey Stick",
+      "Sweet Baby"
+    ],
+    "youtube_query": "George Duke music"
+  },
+  {
+    "name": "Grover Washington Jr.",
+    "categories": ["fusion", "jazz", "soul"],
+    "period": "Smooth Jazz/Soul-Jazz",
+    "country": "USA",
+    "contribution": "A saxophonist who was a key figure in the development of smooth jazz, blending jazz with soul and R&B to create a commercially successful sound.",
+    "works": [
+      "Mister Magic",
+      "Just the Two of Us",
+      "Winelight (album)"
+    ],
+    "youtube_query": "Grover Washington Jr music"
+  },
+  {
+    "name": "Roy Ayers",
+    "categories": ["fusion", "jazz", "funk", "soul"],
+    "period": "Acid Jazz/Funk",
+    "country": "USA",
+    "contribution": "A vibraphonist and composer whose blend of jazz, funk, and soul made him a foundational figure of the Acid Jazz movement.",
+    "works": [
+      "Everybody Loves the Sunshine",
+      "Searching",
+      "We Live in Brooklyn, Baby"
+    ],
+    "youtube_query": "Roy Ayers Ubiquity"
+  },
+  {
+    "name": "Donald Byrd",
+    "categories": ["fusion", "jazz", "funk"],
+    "period": "Jazz-Funk",
+    "country": "USA",
+    "contribution": "A hard bop trumpeter who embraced funk and R&B in the 1970s, creating landmark jazz-funk albums with The Mizell Brothers.",
+    "works": [
+      "Black Byrd (album)",
+      "Places and Spaces (album)",
+      "(Fallin' Like) Dominoes"
+    ],
+    "youtube_query": "Donald Byrd funk"
+  },
+  {
+    "name": "Ramsey Lewis",
+    "categories": ["fusion", "jazz", "soul"],
+    "period": "Soul-Jazz/Funk",
+    "country": "USA",
+    "contribution": "A pianist who achieved crossover success with his soulful, gospel-tinged trio, later embracing funk and R&B in the 70s.",
+    "works": [
+      "Sun Goddess (album)",
+      "The 'In' Crowd",
+      "Wade in the Water"
+    ],
+    "youtube_query": "Ramsey Lewis Sun Goddess"
+  },
+  {
+    "name": "The Brecker Brothers",
+    "categories": ["fusion", "jazz", "funk"],
+    "period": "Jazz-Funk",
+    "country": "USA",
+    "contribution": "A duo of Michael (sax) and Randy (trumpet) Brecker, known for their virtuosic playing and tight, funky, and horn-driven compositions.",
+    "works": [
+      "Some Skunk Funk",
+      "Heavy Metal Be-Bop (album)",
+      "Sneakin' Up Behind You"
+    ],
+    "youtube_query": "The Brecker Brothers"
+  },
+  {
+    "name": "David Sanborn",
+    "categories": ["fusion", "jazz", "pop"],
+    "period": "Smooth Jazz/Pop-Jazz",
+    "country": "USA",
+    "contribution": "One of the most influential saxophonists of his generation, known for his passionate, blues-inflected sound that crossed over into pop and R&B.",
+    "works": [
+      "Chicago Song",
+      "The Dream",
+      "Maputo"
+    ],
+    "youtube_query": "David Sanborn music"
+  },
+  {
+    "name": "Bob James",
+    "categories": ["fusion", "jazz"],
+    "period": "Smooth Jazz",
+    "country": "USA",
+    "contribution": "A pianist, arranger, and a pioneer of smooth jazz, known for his melodic compositions and as a founding member of the supergroup Fourplay.",
+    "works": [
+      "Nautilus",
+      "Angela (Theme from Taxi)",
+      "Take Me to the Mardi Gras"
+    ],
+    "youtube_query": "Bob James music"
+  },
+  {
+    "name": "George Benson",
+    "categories": ["fusion", "jazz", "soul"],
+    "period": "Soul-Jazz/Pop",
+    "country": "USA",
+    "contribution": "A virtuosic jazz guitarist who achieved massive crossover success as a pop and soul singer-songwriter, while retaining his jazz roots.",
+    "works": [
+      "Breezin' (album)",
+      "This Masquerade",
+      "On Broadway"
+    ],
+    "youtube_query": "George Benson instrumental"
+  },
+  {
+    "name": "Fela Kuti",
+    "categories": ["fusion", "afrobeat", "funk"],
+    "period": "Afrobeat",
+    "country": "Nigeria",
+    "contribution": "The pioneer of Afrobeat, he blended traditional Yoruba music with funk and jazz in long, politically charged compositions with his band Africa '70.",
+    "works": [
+      "Zombie",
+      "Water No Get Enemy",
+      "Shakara"
+    ],
+    "youtube_query": "Fela Kuti music"
+  },
+  {
+    "name": "Manu Dibango",
+    "categories": ["fusion", "afrobeat", "funk"],
+    "period": "Afro-Funk",
+    "country": "Cameroon",
+    "contribution": "A saxophonist and vibraphonist whose 1972 hit 'Soul Makossa' was a key record in blending African music with funk and jazz for a global audience.",
+    "works": [
+      "Soul Makossa",
+      "Big Blow",
+      "New Bell"
+    ],
+    "youtube_query": "Manu Dibango music"
+  },
+  {
+    "name": "Hugh Masekela",
+    "categories": ["fusion", "jazz", "world"],
+    "period": "South African Jazz",
+    "country": "South Africa",
+    "contribution": "A trumpeter, singer, and anti-apartheid activist whose music powerfully blended South African township styles with jazz and funk.",
+    "works": [
+      "Grazing in the Grass",
+      "Soweto Blues",
+      "Stimela (Coal Train)"
+    ],
+    "youtube_query": "Hugh Masekela music"
+  },
+  {
+    "name": "Egberto Gismonti",
+    "categories": ["fusion", "jazz", "classical", "world"],
+    "period": "Brazilian Fusion",
+    "country": "Brazil",
+    "contribution": "A multi-instrumentalist and composer who creates a unique fusion of Brazilian folk music, classical composition, and jazz improvisation.",
+    "works": [
+      "Dança das Cabeças (album)",
+      "Sol do Meio Dia (album)",
+      "Lôro"
+    ],
+    "youtube_query": "Egberto Gismonti music"
+  },
+  {
+    "name": "Hermeto Pascoal",
+    "categories": ["fusion", "jazz", "experimental"],
+    "period": "Brazilian Experimental",
+    "country": "Brazil",
+    "contribution": "A highly eccentric and brilliant composer and multi-instrumentalist, known for his complex compositions and use of unconventional objects as instruments.",
+    "works": [
+      "Slaves Mass (album)",
+      "Bebê",
+      "Música da Lagoa"
+    ],
+    "youtube_query": "Hermeto Pascoal music"
+  },
+  {
+    "name": "Airto Moreira",
+    "categories": ["fusion", "jazz", "latin"],
+    "period": "Brazilian Fusion",
+    "country": "Brazil",
+    "contribution": "A master percussionist who revolutionized the role of percussion in fusion jazz with Miles Davis and Weather Report, and led his own influential bands.",
+    "works": [
+      "Fingers (album)",
+      "Tombo in 7/4",
+      "Parana"
+    ],
+    "youtube_query": "Airto Moreira music"
+  },
+  {
+    "name": "Flora Purim",
+    "categories": ["fusion", "jazz", "latin"],
+    "period": "Brazilian Fusion",
+    "country": "Brazil",
+    "contribution": "A pioneering jazz singer with a unique six-octave range, known for her work with Return to Forever and her own influential world fusion albums.",
+    "works": [
+      "500 Miles High",
+      "Open Your Eyes, You Can Fly",
+      "Light as a Feather"
+    ],
+    "youtube_query": "Flora Purim music"
+  },
+  {
+    "name": "Paquito D'Rivera",
+    "categories": ["fusion", "jazz", "latin"],
+    "period": "Afro-Cuban Jazz",
+    "country": "Cuba/USA",
+    "contribution": "A virtuoso saxophonist and clarinetist, and a founding member of Irakere, who has continued to be a leading voice in Latin and Afro-Cuban jazz.",
+    "works": [
+      "A Night in Englewood",
+      "Portraits of Cuba (album)",
+      "Tico Tico"
+    ],
+    "youtube_query": "Paquito D'Rivera music"
+  },
+  {
+    "name": "Anouar Brahem",
+    "categories": ["fusion", "jazz", "world"],
+    "period": "Arabic Oud/Jazz",
+    "country": "Tunisia",
+    "contribution": "An oud master who creates a contemplative and atmospheric fusion of traditional Arabic music, folk, and chamber jazz.",
+    "works": [
+      "Le Pas du Chat Noir (album)",
+      "Astrakan Café (album)",
+      "The Astounding Eyes of Rita (album)"
+    ],
+    "youtube_query": "Anouar Brahem music"
+  },
+  {
+    "name": "Rabih Abou-Khalil",
+    "categories": ["fusion", "jazz", "world"],
+    "period": "Lebanese Oud/Jazz",
+    "country": "Lebanon/Germany",
+    "contribution": "An oud virtuoso and composer who blends traditional Arabic music with jazz, rock, and classical elements in complex and energetic compositions.",
+    "works": [
+      "Blue Camel (album)",
+      "The Cactus of Knowledge (album)",
+      "Nafas (album)"
+    ],
+    "youtube_query": "Rabih Abou-Khalil music"
+  },
+  {
+    "name": "Dhafer Youssef",
+    "categories": ["fusion", "jazz", "world"],
+    "period": "Oud/Vocal/Jazz",
+    "country": "Tunisia",
+    "contribution": "An oud player and vocalist known for his mystical fusion of Sufi traditions, Arabic lyricism, and contemporary jazz.",
+    "works": [
+      "Birds Requiem (album)",
+      "Abu Nawas Rhapsody (album)",
+      "Electric Sufi (album)"
+    ],
+    "youtube_query": "Dhafer Youssef music"
+  },
+  {
+    "name": "Snarky Puppy",
+    "categories": ["fusion", "jazz", "funk"],
+    "period": "Contemporary Fusion",
+    "country": "USA",
+    "contribution": "A large instrumental ensemble led by bassist Michael League, known for their Grammy-winning, high-energy blend of jazz, funk, and world music.",
+    "works": [
+      "Lingus",
+      "Culcha Vulcha (album)",
+      "We Like It Here (album)"
+    ],
+    "youtube_query": "Snarky Puppy music"
+  },
+  {
+    "name": "Robert Glasper",
+    "categories": ["fusion", "jazz", "hip-hop", "r&b"],
+    "period": "Jazz/Hip-Hop",
+    "country": "USA",
+    "contribution": "A pianist and composer at the forefront of blending jazz with hip-hop, R&B, and neo-soul, creating the Grammy-winning 'Black Radio' albums.",
+    "works": [
+      "Black Radio (album)",
+      "Ah Yeah",
+      "Calls"
+    ],
+    "youtube_query": "Robert Glasper Experiment"
+  },
+  {
+    "name": "Thundercat",
+    "categories": ["fusion", "funk", "r&b"],
+    "period": "Contemporary Funk/Fusion",
+    "country": "USA",
+    "contribution": "A virtuosic bassist, singer, and composer with a unique style that blends jazz fusion, funk, R&B, and psychedelic soul.",
+    "works": [
+      "Them Changes",
+      "Drunk (album)",
+      "Dragonball Durag"
+    ],
+    "youtube_query": "Thundercat music"
+  },
+  {
+    "name": "Flying Lotus",
+    "categories": ["fusion", "electronic", "hip-hop"],
+    "period": "Experimental/Electronic",
+    "country": "USA",
+    "contribution": "An influential producer and composer who merges abstract hip-hop beats with electronic music and spiritual jazz, grand-nephew of John and Alice Coltrane.",
+    "works": [
+      "You're Dead! (album)",
+      "Cosmogramma (album)",
+      "Never Catch Me"
+    ],
+    "youtube_query": "Flying Lotus music"
+  },
+  {
+    "name": "Esperanza Spalding",
+    "categories": ["fusion", "jazz", "soul"],
+    "period": "Contemporary Jazz",
+    "country": "USA",
+    "contribution": "A bassist, singer, and composer who blends jazz with soul, pop, and Brazilian music, famously winning the Grammy for Best New Artist.",
+    "works": [
+      "Chamber Music Society (album)",
+      "Radio Music Society (album)",
+      "12 Little Spells (album)"
+    ],
+    "youtube_query": "Esperanza Spalding music"
+  },
+  {
+    "name": "Tigran Hamasyan",
+    "categories": ["fusion", "jazz", "folk"],
+    "period": "Armenian Folk/Jazz",
+    "country": "Armenia",
+    "contribution": "A virtuosic pianist who creates a powerful fusion of Armenian folk music, jazz improvisation, and progressive rock.",
+    "works": [
+      "The Call Within (album)",
+      "Mockroot (album)",
+      "An Ancient Observer (album)"
+    ],
+    "youtube_query": "Tigran Hamasyan music"
+  },
+  {
+    "name": "Avishai Cohen",
+    "categories": ["fusion", "jazz", "world"],
+    "period": "Israeli Jazz",
+    "country": "Israel",
+    "contribution": "An acclaimed bassist and composer who blends Middle Eastern, Eastern European, and Afro-Cuban influences with post-bop jazz.",
+    "works": [
+      "Gently Disturbed (album)",
+      "Continuo (album)",
+      "Seven Seas"
+    ],
+    "youtube_query": "Avishai Cohen Trio"
+  },
+  {
+    "name": "Hiromi Uehara",
+    "categories": ["fusion", "jazz"],
+    "period": "Contemporary Piano",
+    "country": "Japan",
+    "contribution": "A virtuosic and energetic pianist and composer known for her dazzling technique and eclectic blend of jazz, classical, and rock.",
+    "works": [
+      "The Tom and Jerry Show",
+      "Alive (album)",
+      "Voice (album)"
+    ],
+    "youtube_query": "Hiromi Uehara music"
+  },
+  {
+    "name": "GoGo Penguin",
+    "categories": ["fusion", "jazz", "electronic"],
+    "period": "Acoustic Electronica",
+    "country": "UK",
+    "contribution": "An acoustic trio that creates 'acoustic electronica,' blending piano-led jazz with minimalist, electronic, and trip-hop influences.",
+    "works": [
+      "Hopopono",
+      "A Humdrum Star (album)",
+      "v2.0 (album)"
+    ],
+    "youtube_query": "GoGo Penguin music"
+  },
+  {
+    "name": "The Cinematic Orchestra",
+    "categories": ["fusion", "jazz", "electronic"],
+    "period": "Nu Jazz",
+    "country": "UK",
+    "contribution": "A group led by Jason Swinscoe that fuses jazz improvisation with electronic music, turntablism, and film score aesthetics.",
+    "works": [
+      "To Build a Home",
+      "Every Day (album)",
+      "Man with a Movie Camera (album)"
+    ],
+    "youtube_query": "The Cinematic Orchestra"
+  },
+  {
+    "name": "John Scofield",
+    "categories": ["fusion", "jazz", "funk"],
+    "period": "Post-Bop/Funk",
+    "country": "USA",
+    "contribution": "A highly influential and versatile guitarist known for his distinctive, bluesy tone and his work in post-bop, jazz-funk, and jam band scenes.",
+    "works": [
+      "A Go Go (album)",
+      "Still Warm (album)",
+      "Überjam (album)"
+    ],
+    "youtube_query": "John Scofield music"
+  },
+  {
+    "name": "Mike Stern",
+    "categories": ["fusion", "jazz", "rock"],
+    "period": "Fusion Guitar",
+    "country": "USA",
+    "contribution": "A high-energy guitarist known for his tenure with Miles Davis and his own powerful blend of rock-style soloing with sophisticated bebop harmony.",
+    "works": [
+      "Upside Downside (album)",
+      "Chromazone",
+      "Time in Place (album)"
+    ],
+    "youtube_query": "Mike Stern band"
+  },
+  {
+    "name": "Bill Frisell",
+    "categories": ["fusion", "jazz", "americana"],
+    "period": "Americana/Jazz",
+    "country": "USA",
+    "contribution": "A unique guitarist and composer who blends jazz with Americana, country, and folk music, known for his atmospheric and textural approach.",
+    "works": [
+      "Have a Little Faith (album)",
+      "Good Dog, Happy Man (album)",
+      "Gone, Just Like a Train (album)"
+    ],
+    "youtube_query": "Bill Frisell music"
+  },
+  {
+    "name": "Marcus Miller",
+    "categories": ["fusion", "jazz", "funk"],
+    "period": "Jazz-Funk Bass",
+    "country": "USA",
+    "contribution": "A legendary bassist, composer, and producer known for his slapping technique, his work with Miles Davis, and his own Grammy-winning funk-fusion albums.",
+    "works": [
+      "Tutu (as producer/composer)",
+      "M² (album)",
+      "Run for Cover"
+    ],
+    "youtube_query": "Marcus Miller music"
+  },
+  {
+    "name": "Victor Wooten",
+    "categories": ["fusion", "jazz", "funk"],
+    "period": "Fusion Bass",
+    "country": "USA",
+    "contribution": "A revolutionary bassist for Béla Fleck and the Flecktones, known for his virtuosic two-handed tapping, slapping, and funk-infused compositions.",
+    "works": [
+      "A Show of Hands (album)",
+      "U Can't Hold No Groove...",
+      "The Classical Thump"
+    ],
+    "youtube_query": "Victor Wooten music"
+  },
+  {
+    "name": "Richard Bona",
+    "categories": ["fusion", "jazz", "world"],
+    "period": "African/Jazz Fusion",
+    "country": "Cameroon",
+    "contribution": "A virtuosic bassist and vocalist who creates a fluid and joyful fusion of African music, jazz, and funk.",
+    "works": [
+      "Scenes from My Life (album)",
+      "Reverence (album)",
+      "O Sen Sen Sen"
+    ],
+    "youtube_query": "Richard Bona music"
+  },
+  {
+    "name": "Scott Henderson",
+    "categories": ["fusion", "jazz", "blues"],
+    "period": "Fusion Guitar",
+    "country": "USA",
+    "contribution": "A guitarist who co-founded the band Tribal Tech, known for his fiery blend of blues, rock, and bebop-influenced fusion.",
+    "works": [
+      "Tribal Tech (album)",
+      "Dog Party (album)",
+      "Well to the Bone"
+    ],
+    "youtube_query": "Scott Henderson music"
+  },
+  {
+    "name": "Yellowjackets",
+    "categories": ["fusion", "jazz"],
+    "period": "Contemporary Fusion",
+    "country": "USA",
+    "contribution": "A long-running fusion quartet (led by Russell Ferrante) known for their sophisticated arrangements, tight interplay, and blend of R&B, funk, and jazz.",
+    "works": [
+      "Four Corners (album)",
+      "Greenhouse",
+      "Revelation"
+    ],
+    "youtube_query": "Yellowjackets music"
+  },
+  {
+    "name": "Pat Martino",
+    "categories": ["jazz", "post-bop", "soul-jazz"],
+    "period": "Hard Bop/Soul-Jazz",
+    "country": "USA",
+    "contribution": "A virtuosic guitarist known for his clean, rapid-fire lines and advanced harmonic knowledge, who famously relearned his instrument after a brain aneurysm.",
+    "works": [
+      "El Hombre (album)",
+      "Footprints",
+      "Live at Yoshi's (album)"
+    ],
+    "youtube_query": "Pat Martino music"
+  },
+  {
+    "name": "Larry Coryell",
+    "categories": ["fusion", "jazz", "rock"],
+    "period": "Jazz-Rock Pioneer",
+    "country": "USA",
+    "contribution": "Known as the 'Godfather of Fusion,' he was one of the first guitarists to blend jazz with rock and blues in the 1960s, paving the way for the genre.",
+    "works": [
+      "Spaces (album)",
+      "The Eleventh House (album)",
+      "Barefoot Boy (album)"
+    ],
+    "youtube_query": "Larry Coryell music"
+  },
+
+  {
+    "name": "Andrew Lloyd Webber",
+    "categories": ["modern", "stage"],
+    "period": "Musical Theatre",
+    "country": "UK",
+    "contribution": "A composer of blockbuster musical theatre, known for his sweeping romantic melodies and globally successful shows.",
+    "works": [
+      "The Phantom of the Opera",
+      "Cats",
+      "Jesus Christ Superstar"
+    ],
+    "youtube_query": "Andrew Lloyd Webber music"
+  },
+  {
+    "name": "Stephen Sondheim",
+    "categories": ["modern", "stage"],
+    "period": "Musical Theatre",
+    "country": "USA",
+    "contribution": "A titan of American musical theatre, celebrated for his complex, witty, and emotionally profound compositions and lyrics.",
+    "works": [
+      "Sweeney Todd: The Demon Barber of Fleet Street",
+      "Into the Woods",
+      "West Side Story (as lyricist)"
+    ],
+    "youtube_query": "Stephen Sondheim music"
+  },
+  {
+    "name": "Wendy Carlos",
+    "categories": ["modern", "electronic"],
+    "period": "Electronic Pioneer",
+    "country": "USA",
+    "contribution": "A pioneer of electronic music, known for her groundbreaking album 'Switched-On Bach' and her innovative film scores using the Moog synthesizer.",
+    "works": [
+      "Switched-On Bach (album)",
+      "A Clockwork Orange (film score)",
+      "The Shining (film score)"
+    ],
+    "youtube_query": "Wendy Carlos music"
+  },
+  {
+    "name": "Yoko Kanno",
+    "categories": ["modern", "fusion", "anime"],
+    "period": "Anime/Game Composer",
+    "country": "Japan",
+    "contribution": "A highly versatile and acclaimed composer, known for her genre-blending soundtracks for iconic anime series and video games.",
+    "works": [
+      "Cowboy Bebop (anime score)",
+      "Ghost in the Shell: Stand Alone Complex (anime score)",
+      "Macross Plus (anime score)"
+    ],
+    "youtube_query": "Yoko Kanno music"
+  },
+  {
+    "name": "Jeremy Soule",
+    "categories": ["modern", "videogame"],
+    "period": "Video Game Composer",
+    "country": "USA",
+    "contribution": "An acclaimed composer for video games, known for his grand, ambient, and orchestral scores for epic role-playing games.",
+    "works": [
+      "The Elder Scrolls V: Skyrim",
+      "Guild Wars 2",
+      "Star Wars: Knights of the Old Republic"
+    ],
+    "youtube_query": "Jeremy Soule music"
   }
+
 ]
