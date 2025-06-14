@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interactive Audio Signal Flow</title>
+  <link rel="stylesheet" href="../css/signal-flow.css" />
+  <script src="../js/signal-flow.js" defer></script>
+</head>
+<body>
+  <main class="main-container">
+    <header>
+      <h1>🎛️ Understanding Audio Signal Flow</h1>
+      <p class="subtitle">A Visual Guide to Studio Routing</p>
+    </header>
+
+    <div class="studio-console">
+      <!-- ... (existing patch-bay code remains unchanged) ... -->
+      <div id="visualizer-wrapper">
+        <section id="patch-bay">
+          <div class="patch-bay-section">
+            <h2>Input</h2>
+            <div class="jack" id="micIn"><div class="jack-socket"></div><label>Microphone</label></div>
+            <div class="jack" id="instrumentIn"><div class="jack-socket"></div><label>Instrument</label></div>
+            <div class="jack" id="dawIn"><div class="jack-socket"></div><label>Digital Audio</label></div>
+          </div>
+          <div class="flow-arrow">→</div>
+          <div class="patch-bay-section">
+            <h2>Processing</h2>
+            <div class="jack" id="preamp"><div class="jack-socket"></div><label>Preamp</label></div>
+            <div class="jack" id="eq"><div class="jack-socket"></div><label>EQ</label></div>
+            <div class="jack" id="compressor"><div class="jack-socket"></div><label>Compressor</label></div>
+            <div class="jack" id="reverb"><div class="jack-socket"></div><label>Reverb</label></div>
+          </div>
+          <div class="flow-arrow">→</div>
+          <div class="patch-bay-section">
+            <h2>Output</h2>
+            <div class="jack" id="speakersOut"><div class="jack-socket"></div><label>Speakers</label></div>
+            <div class="jack" id="recorderOut"><div class="jack-socket"></div><label>Recorder</label></div>
+            <div class="jack" id="headphonesOut"><div class="jack-socket"></div><label>Headphones</label></div>
+          </div>
+        </section>
+        <div id="cable-container"><svg width="100%" height="100%"></svg></div>
+      </div>
+
+      <section id="controls">
+        <h2>Scenarios</h2>
+        <button data-scenario="basicRecording">Basic Recording</button>
+        <button data-scenario="mixingVocals">Mixing (DAW)</button>
+        <button data-scenario="directInstrument">Direct Instrument</button>
+        <button id="reset-button">Reset</button>
+      </section>
+
+      <article id="info-display">
+        <h3 id="info-title">Select a Scenario</h3>
+        <p id="info-description">Click a button above to visualize a signal path.</p>
+        <div id="info-modules"></div>
+      </article>
+    </div>
+
+    <!-- === NEW CHANNEL STRIP SECTION === -->
+    <section id="channel-strip-section">
+      <header>
+        <h2>Deep Dive: The Channel Strip</h2>
+        <p class="subtitle">From modular routing to an all-in-one professional tool. Scroll to see how it works.</p>
+      </header>
+
+      <div class="strip-container">
+        <div class="strip-visual-wrapper">
+          <div class="strip-visual">
+            <!-- Input Module -->
+            <div class="strip-module module-input" data-highlight-target="input-module">
+              <div class="knob-group">
+                <div class="knob-stack">
+                  <div class="knob knob-white" data-highlight-target="input-gain"></div><label>GAIN</label>
+                </div>
+                <div class="button-stack">
+                    <div class="button-rect" data-highlight-target="input-switches">LINE</div>
+                    <div class="button-rect active" data-highlight-target="input-switches">Ø</div>
+                </div>
+              </div>
+            </div>
+            <!-- Filter Module -->
+            <div class="strip-module module-filters" data-highlight-target="filter-module">
+              <!-- REFINEMENT: Controls are now stacked vertically -->
+              <div class="module-title">FILTERS</div>
+              <div class="knob-stack">
+                <div class="knob knob-white" data-highlight-target="hpf"></div><label>HPF</label>
+              </div>
+              <div class="knob-stack">
+                <div class="knob knob-white" data-highlight-target="lpf"></div><label>LPF</label>
+              </div>
+            </div>
+             <!-- Dynamics Module -->
+            <div class="strip-module module-dynamics" data-highlight-target="dynamics-module">
+                <!-- REFINEMENT: Controls are now stacked vertically -->
+                <div class="module-title">DYNAMICS</div>
+                <div class="button-rect active" data-highlight-target="dyn-in">DYN IN</div>
+                <div class="knob-stack">
+                    <div class="knob knob-red" data-highlight-target="comp-thresh"></div><label>THRESH</label>
+                </div>
+                <div class="knob-stack">
+                    <div class="knob knob-red" data-highlight-target="comp-release"></div><label>RELEASE</label>
+                </div>
+                <div class="knob-stack">
+                    <div class="knob knob-red" data-highlight-target="comp-ratio"></div><label>RATIO</label>
+                </div>
+            </div>
+            <!-- EQ Module -->
+            <div class="strip-module module-eq" data-highlight-target="eq-module">
+              <!-- REFINEMENT: Bands are horizontal, but knobs within each band are stacked vertically -->
+              <div class="module-title">EQUALISER</div>
+              <div class="button-rect active" data-highlight-target="eq-in">EQ IN</div>
+              <div class="eq-bands-container">
+                <!-- HF -->
+                <div class="eq-band" data-highlight-target="eq-hf">
+                  <div class="knob knob-blue"></div>
+                  <div class="knob knob-blue"></div>
+                  <label>HF</label>
+                </div>
+                <!-- HMF -->
+                <div class="eq-band" data-highlight-target="eq-hmf">
+                  <div class="knob knob-green"></div>
+                  <div class="knob knob-green"></div>
+                  <div class="knob knob-green"></div>
+                  <label>HMF</label>
+                </div>
+                <!-- LMF -->
+                <div class="eq-band" data-highlight-target="eq-lmf">
+                  <div class="knob knob-black"></div>
+                  <div class="knob knob-black"></div>
+                  <div class="knob knob-black"></div>
+                  <label>LMF</label>
+                </div>
+                <!-- LF -->
+                <div class="eq-band" data-highlight-target="eq-lf">
+                  <div class="knob knob-blue"></div>
+                  <div class="knob knob-blue"></div>
+                  <label>LF</label>
+                </div>
+              </div>
+            </div>
+            <!-- Fader Module -->
+            <div class="strip-module module-fader" data-highlight-target="fader-module">
+              <div class="knob-group">
+                <div class="knob-stack">
+                  <div class="knob knob-pan" data-highlight-target="pan"></div><label>PAN</label>
+                </div>
+                <div class="button-stack-fader">
+                  <div class="button-round button-red" data-highlight-target="solo-mute">S</div>
+                  <div class="button-round button-grey" data-highlight-target="solo-mute">C</div>
+                </div>
+              </div>
+              <div class="fader-track" data-highlight-target="fader">
+                <div class="fader-handle"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="strip-explanations">
+          <div class="explanation-block" data-highlight-trigger="input-module">
+            <h3>Input Section</h3>
+            <p>This is the first stop for your audio. Its job is to amplify the incoming signal to a healthy level for processing, a process called 'gain staging'.</p>
+          </div>
+          <div class="explanation-block" data-highlight-trigger="input-gain">
+            <h4>Gain Knob</h4>
+            <p>Controls the amount of amplification applied by the preamp. For a quiet source like a microphone, you'll turn this up. For a loud source, you'll turn it down to avoid distortion (clipping).</p>
+          </div>
+          <div class="explanation-block" data-highlight-trigger="input-switches">
+            <h4>Line / Ø (Phase) Buttons</h4>
+            <p><strong>LINE</strong> switches from the microphone input to a 'line level' input, used for keyboards or external gear. The <strong>Ø (Phase)</strong> button inverts the polarity of the signal, which is critical for fixing phase cancellation issues when using multiple microphones.</p>
+          </div>
+          <div class="explanation-block" data-highlight-trigger="filter-module">
+            <h3>Filter Section</h3>
+            <p>Filters are your first line of defense for cleaning up a sound. They remove unwanted frequencies at the extreme ends of the spectrum *before* the signal hits the main processors.</p>
+          </div>
+          <div class="explanation-block" data-highlight-trigger="hpf">
+            <h4>High-Pass Filter (HPF)</h4>
+            <p>Also called a Low-Cut. This knob sets a frequency, and everything <strong>below</strong> that frequency is cut out. It's essential for removing useless low-end rumble from vocals, guitars, and cymbals.</p>
+          </div>
+          <div class="explanation-block" data-highlight-trigger="lpf">
+            <h4>Low-Pass Filter (LPF)</h4>
+            <p>Also called a High-Cut. This knob sets a frequency, and everything <strong>above</strong> that frequency is cut out. It's useful for removing hiss from a noisy source or making a sound feel darker and more distant.</p>
+          </div>
+          <div class="explanation-block" data-highlight-trigger="dynamics-module">
+            <h3>Dynamics Section (Compressor)</h3>
+            <p>This section controls the dynamic range of the signal—the difference between the loudest and quietest parts. The compressor makes volume more consistent.</p>
+          </div>
+           <div class="explanation-block" data-highlight-trigger="dyn-in">
+            <h4>DYN IN Button</h4>
+            <p>This is the bypass button for the entire dynamics section. When lit, the compressor is active. When off, the signal passes through unaffected, allowing you to compare the compressed vs. uncompressed sound.</p>
+          </div>
+          <div class="explanation-block" data-highlight-trigger="comp-thresh">
+            <h4>Threshold Knob</h4>
+            <p>Sets the volume level at which the compressor starts working. Any part of the signal that is <strong>louder</strong> than the threshold will be turned down.</p>
+          </div>
+           <div class="explanation-block" data-highlight-trigger="comp-ratio">
+            <h4>Ratio Knob</h4>
+            <p>Determines <strong>how much</strong> the signal is turned down. A 4:1 ratio means that for every 4 decibels (dB) the signal goes over the threshold, the output will only increase by 1dB. Higher ratios mean more aggressive compression.</p>
+          </div>
+          <div class="explanation-block" data-highlight-trigger="comp-release">
+            <h4>Release Knob</h4>
+            <p>Controls how quickly the compressor <strong>stops</strong> working after the signal drops back below the threshold. A fast release can sound punchy, while a slow release sounds smoother and more natural.</p>
+          </div>
+          <div class="explanation-block" data-highlight-trigger="eq-module">
+            <h3>Equaliser (EQ) Section</h3>
+            <p>The EQ is your primary tool for shaping the tone of a sound. It allows you to boost or cut specific frequency ranges to make an instrument brighter, fuller, less muddy, or less harsh.</p>
+          </div>
+          <div class="explanation-block" data-highlight-trigger="eq-in">
+            <h4>EQ IN Button</h4>
+            <p>Just like the DYN IN button, this engages or bypasses the entire EQ section. It's crucial for A/B testing your changes to ensure you're actually improving the sound.</p>
+          </div>
+          <div class="explanation-block" data-highlight-trigger="eq-hf">
+            <h4>HF (High Frequency) Band</h4>
+            <p>A 'shelving' EQ. It boosts or cuts all frequencies <strong>above</strong> its set frequency point. Perfect for adding 'air' and sparkle or taming harshness in cymbals and vocals.</p>
+          </div>
+           <div class="explanation-block" data-highlight-trigger="eq-hmf">
+            <h4>HMF (High-Mid Frequency) Band</h4>
+            <p>A 'parametric' or 'bell' EQ. You can select a center frequency, boost or cut it, and adjust the 'Q' (bandwidth) to affect a narrow or wide range of nearby frequencies. Used to add presence or remove nasal tones.</p>
+          </div>
+           <div class="explanation-block" data-highlight-trigger="eq-lmf">
+            <h4>LMF (Low-Mid Frequency) Band</h4>
+            <p>Another parametric EQ. This is the 'body' and 'mud' region. You can boost here to add warmth and fullness to a sound, or cut here to remove boxy or muddy characteristics.</p>
+          </div>
+           <div class="explanation-block" data-highlight-trigger="eq-lf">
+            <h4>LF (Low Frequency) Band</h4>
+            <p>A shelving EQ for the low end. It boosts or cuts all frequencies <strong>below</strong> its set frequency point. Used to add weight and punch to kick drums and bass, or to reduce excessive boominess.</p>
+          </div>
+           <div class="explanation-block" data-highlight-trigger="fader-module">
+            <h3>Output/Fader Section</h3>
+            <p>This is the final stage. After all the processing, this section controls the final volume and stereo placement of the channel's signal before it's sent to the main mix.</p>
+          </div>
+          <div class="explanation-block" data-highlight-trigger="pan">
+            <h4>Pan Knob</h4>
+            <p>The Pan (Panorama) control positions the signal in the stereo field, from hard left, through the center, to hard right. This is how you create a wide and immersive mix.</p>
+          </div>
+          <div class="explanation-block" data-highlight-trigger="solo-mute">
+            <h4>Solo / Mute Buttons</h4>
+            <p><strong>S (Solo)</strong> isolates the channel, muting all other channels so you can hear this one in isolation. <strong>C (Cut/Mute)</strong> silences this channel in the main mix.</p>
+          </div>
+          <div class="explanation-block" data-highlight-trigger="fader">
+            <h4>The Fader</h4>
+            <p>The most important level control. The fader determines the channel's volume in the overall mix. All the art of mixing—balancing instruments, vocals, and effects—happens with the faders.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="tooltip-popup"></div>
+</body>
+</html>
