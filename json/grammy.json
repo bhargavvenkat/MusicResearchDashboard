@@ -1,0 +1,605 @@
+[
+  {
+    "id": 1,
+    "year": 1959,
+    "artist": "Domenico Modugno",
+    "songName": "Nel Blu Dipinto Di Blu (Volare)",
+    "description": "An iconic Italian classic about the joyful dream of flying through a blue sky.",
+    "decade": "1950s",
+    "youtubeLink": "https://www.youtube.com/watch?v=8VGy6OLz0WI"
+  },
+  {
+    "id": 2,
+    "year": 1960,
+    "artist": "Johnny Horton",
+    "songName": "The Battle Of New Orleans",
+    "description": "A humorous, folksy retelling of the 1815 Battle of New Orleans from a soldier's perspective.",
+    "decade": "1960s",
+    "youtubeLink": "https://www.youtube.com/watch?v=__uFnEMJqjg"
+  },
+  {
+    "id": 3,
+    "year": 1961,
+    "artist": "Ernest Gold",
+    "songName": "Theme From Exodus",
+    "description": "A powerful, sweeping instrumental theme for the epic film about the founding of Israel.",
+    "decade": "1960s",
+    "youtubeLink": "https://www.youtube.com/watch?v=itHwEye_Hvc"
+  },
+  {
+    "id": 4,
+    "year": 1962,
+    "artist": "Henry Mancini",
+    "songName": "Moon River",
+    "description": "A wistful and iconic ballad about longing for adventure and following one's dreams.",
+    "decade": "1960s",
+    "youtubeLink": "https://www.youtube.com/watch?v=Ozg3P3LrJs8"
+  },
+  {
+    "id": 5,
+    "year": 1963,
+    "artist": "Anthony Newley",
+    "songName": "What Kind Of Fool Am I",
+    "description": "A dramatic, theatrical ballad of self-doubt and regret over unspoken love.",
+    "decade": "1960s",
+    "youtubeLink": "https://www.youtube.com/watch?v=tJN7TEC0UYM"
+  },
+  {
+    "id": 6,
+    "year": 1964,
+    "artist": "Henry Mancini",
+    "songName": "Days Of Wine And Roses",
+    "description": "A melancholic reflection on a faded romance and the fleeting nature of happy times.",
+    "decade": "1960s",
+    "youtubeLink": "https://www.youtube.com/watch?v=BLwnJY_a83k"
+  },
+  {
+    "id": 7,
+    "year": 1965,
+    "artist": "Louis Armstrong",
+    "songName": "Hello, Dolly",
+    "description": "A jubilant, show-stopping welcome to a beloved character's triumphant return.",
+    "decade": "1960s",
+    "youtubeLink": "https://www.youtube.com/watch?v=elJb_Inyazk"
+  },
+  {
+    "id": 8,
+    "year": 1966,
+    "artist": "Tony Bennett",
+    "songName": "The Shadow Of Your Smile (Love Theme From The Sandpiper)",
+    "description": "A hauntingly beautiful love theme about remembering a lost partner's smile.",
+    "decade": "1960s",
+    "youtubeLink": "https://www.youtube.com/watch?v=mP2ZaQ7Wq24"
+  },
+  {
+    "id": 9,
+    "year": 1967,
+    "artist": "The Beatles",
+    "songName": "Michelle",
+    "description": "A gentle, bilingual love song from The Beatles featuring a memorable French chorus.",
+    "decade": "1960s",
+    "youtubeLink": "https://www.youtube.com/watch?v=7N_iious2po"
+  },
+  {
+    "id": 10,
+    "year": 1968,
+    "artist": "The 5th Dimension",
+    "songName": "Up, Up And Away",
+    "description": "An optimistic and whimsical tune celebrating the carefree joy of a hot-air balloon ride.",
+    "decade": "1960s",
+    "youtubeLink": "https://www.youtube.com/watch?v=FVhX-Sh2110"
+  },
+  {
+    "id": 11,
+    "year": 1969,
+    "artist": "Roger Miller / O.C. Smith",
+    "songName": "Little Green Apples",
+    "description": "A tender song about a man's realization of his wife's deep love through simple observations.",
+    "decade": "1960s",
+    "youtubeLink": "https://www.youtube.com/watch?v=HnhrBGzcN3Q"
+  },
+  {
+    "id": 12,
+    "year": 1970,
+    "artist": "Joe South",
+    "songName": "Games People Play",
+    "description": "A socially conscious track criticizing hypocrisy and the psychological games people inflict on each other.",
+    "decade": "1970s",
+    "youtubeLink": "https://www.youtube.com/watch?v=hIBlCac8_wk"
+  },
+  {
+    "id": 13,
+    "year": 1971,
+    "artist": "Simon & Garfunkel",
+    "songName": "Bridge Over Troubled Water",
+    "description": "A powerful and legendary anthem of unwavering friendship and support during difficult times.",
+    "decade": "1970s",
+    "youtubeLink": "https://www.youtube.com/watch?v=4G-YQA_bsOU"
+  },
+  {
+    "id": 14,
+    "year": 1972,
+    "artist": "Carole King",
+    "songName": "You've Got A Friend",
+    "description": "A simple, heartfelt promise to be there for a friend in need, no matter the circumstances.",
+    "decade": "1970s",
+    "youtubeLink": "https://www.youtube.com/watch?v=eAR_Ff5A8Rk"
+  },
+  {
+    "id": 15,
+    "year": 1973,
+    "artist": "Roberta Flack",
+    "songName": "The First Time Ever I Saw Your Face",
+    "description": "A slow-burning, intensely intimate ballad describing the transformative power of seeing a lover's face.",
+    "decade": "1970s",
+    "youtubeLink": "https://www.youtube.com/watch?v=VqW-eO3jTVU"
+  },
+  {
+    "id": 16,
+    "year": 1974,
+    "artist": "Roberta Flack",
+    "songName": "Killing Me Softly With His Song",
+    "description": "A narrative ballad about being deeply moved by a singer whose song reveals her private life story.",
+    "decade": "1970s",
+    "youtubeLink": "https://www.youtube.com/watch?v=DEbi_YjpA-Y"
+  },
+  {
+    "id": 17,
+    "year": 1975,
+    "artist": "Barbra Streisand",
+    "songName": "The Way We Were",
+    "description": "A nostalgic and bittersweet ballad about remembering a past relationship and the people we used to be.",
+    "decade": "1970s",
+    "youtubeLink": "https://www.youtube.com/watch?v=ifWOSnoCS0M"
+  },
+  {
+    "id": 18,
+    "year": 1976,
+    "artist": "Judy Collins",
+    "songName": "Send In The Clowns",
+    "description": "A theatrical and regretful song about missed opportunities and foolish romantic timing.",
+    "decade": "1970s",
+    "youtubeLink": "https://www.youtube.com/watch?v=iNR5HIJhIjI"
+  },
+  {
+    "id": 19,
+    "year": 1977,
+    "artist": "Barry Manilow",
+    "songName": "I Write The Songs",
+    "description": "A grand tribute to the spirit of music itself, claiming music comes from an eternal source.",
+    "decade": "1970s",
+    "youtubeLink": "https://www.youtube.com/watch?v=6U6JlAsYv0Y"
+  },
+  {
+    "id": 20,
+    "year": 1978,
+    "artist": "Debby Boone",
+    "songName": "You Light Up My Life",
+    "description": "A soaring inspirational ballad about finding hope and purpose through another person.",
+    "decade": "1970s",
+    "youtubeLink": "https://www.youtube.com/watch?v=OVZLSIScQIw"
+  },
+  {
+    "id": 21,
+    "year": 1979,
+    "artist": "Billy Joel",
+    "songName": "Just The Way You Are",
+    "description": "A smooth and sincere ode to unconditional love and accepting a partner without changes.",
+    "decade": "1970s",
+    "youtubeLink": "https://www.youtube.com/watch?v=HaA3YZ6QdJU"
+  },
+  {
+    "id": 22,
+    "year": 1980,
+    "artist": "The Doobie Brothers",
+    "songName": "What A Fool Believes",
+    "description": "A complex story of a man who clings to a mistaken memory of a past romance.",
+    "decade": "1980s",
+    "youtubeLink": "https://www.youtube.com/watch?v=ZK4_G4ZhvbA"
+  },
+  {
+    "id": 23,
+    "year": 1981,
+    "artist": "Christopher Cross",
+    "songName": "Sailing",
+    "description": "A smooth rock classic that captures the feeling of escapism and tranquility found on the water.",
+    "decade": "1980s",
+    "youtubeLink": "https://www.youtube.com/watch?v=MEO6gYCFbr0"
+  },
+  {
+    "id": 24,
+    "year": 1982,
+    "artist": "Kim Carnes",
+    "songName": "Bette Davis Eyes",
+    "description": "A raspy, synth-driven hit describing a femme fatale who is both alluring and cunning.",
+    "decade": "1980s",
+    "youtubeLink": "https://www.youtube.com/watch?v=EPOIS5taqA8"
+  },
+  {
+    "id": 25,
+    "year": 1983,
+    "artist": "Willie Nelson",
+    "songName": "Always On My Mind",
+    "description": "A classic country ballad of regret, expressing remorse for not showing enough affection.",
+    "decade": "1980s",
+    "youtubeLink": "https://www.youtube.com/watch?v=9ULH8_CF0os"
+  },
+  {
+    "id": 26,
+    "year": 1984,
+    "artist": "The Police",
+    "songName": "Every Breath You Take",
+    "description": "A famously misunderstood song that masks obsessive stalking within a beautiful pop melody.",
+    "decade": "1980s",
+    "youtubeLink": "https://www.youtube.com/watch?v=OMOGaugKpzs"
+  },
+  {
+    "id": 27,
+    "year": 1985,
+    "artist": "Tina Turner",
+    "songName": "What's Love Got To Do With It",
+    "description": "A cynical yet powerful anthem dismissing love as a \"second-hand emotion\" in relationships.",
+    "decade": "1980s",
+    "youtubeLink": "https://www.youtube.com/watch?v=1avX1lX7gSs"
+  },
+  {
+    "id": 28,
+    "year": 1986,
+    "artist": "USA for Africa",
+    "songName": "We Are The World",
+    "description": "A historic charity anthem uniting music superstars to raise awareness and funds for famine in Africa.",
+    "decade": "1980s",
+    "youtubeLink": "https://www.youtube.com/watch?v=mIqhl0rH0Wc"
+  },
+  {
+    "id": 29,
+    "year": 1987,
+    "artist": "Dionne Warwick & Friends",
+    "songName": "That's What Friends Are For",
+    "description": "An iconic anthem of friendship that also served as a major charity single for AIDS research.",
+    "decade": "1980s",
+    "youtubeLink": "https://www.youtube.com/watch?v=6yjzyESrtK0"
+  },
+  {
+    "id": 30,
+    "year": 1988,
+    "artist": "Linda Ronstadt & James Ingram",
+    "songName": "Somewhere Out There",
+    "description": "A hopeful animated film ballad about two loved ones connected by the same moon and stars.",
+    "decade": "1980s",
+    "youtubeLink": "https://www.youtube.com/watch?v=5jl8mzCaCr0"
+  },
+  {
+    "id": 31,
+    "year": 1989,
+    "artist": "Bobby McFerrin",
+    "songName": "Don't Worry Be Happy",
+    "description": "A simple, optimistic a cappella tune promoting a carefree attitude in the face of life's troubles.",
+    "decade": "1980s",
+    "youtubeLink": "https://www.youtube.com/watch?v=d-diB65scQU"
+  },
+  {
+    "id": 32,
+    "year": 1990,
+    "artist": "Bette Midler",
+    "songName": "Wind Beneath My Wings",
+    "description": "An emotional tribute to an unsung hero who provides quiet support and inspiration.",
+    "decade": "1990s",
+    "youtubeLink": "https://www.youtube.com/watch?v=jorJh8DTMVM"
+  },
+  {
+    "id": 33,
+    "year": 1991,
+    "artist": "Bette Midler",
+    "songName": "From A Distance",
+    "description": "A ballad about viewing the world from afar, seeing harmony and hope despite its problems.",
+    "decade": "1990s",
+    "youtubeLink": "https://www.youtube.com/watch?v=lN4AcFzxtdE"
+  },
+  {
+    "id": 34,
+    "year": 1992,
+    "artist": "Natalie Cole with Nat King Cole",
+    "songName": "Unforgettable",
+    "description": "A groundbreaking virtual duet where Natalie Cole sings alongside her late father, Nat King Cole.",
+    "decade": "1990s",
+    "youtubeLink": "https://www.youtube.com/watch?v=vo6D_tp3DeE"
+  },
+  {
+    "id": 35,
+    "year": 1993,
+    "artist": "Eric Clapton",
+    "songName": "Tears In Heaven",
+    "description": "A heartbreakingly personal acoustic ballad written about the tragic loss of Clapton's young son.",
+    "decade": "1990s",
+    "youtubeLink": "https://www.youtube.com/watch?v=JxPj3GAYYZ0"
+  },
+  {
+    "id": 36,
+    "year": 1994,
+    "artist": "Peabo Bryson & Regina Belle",
+    "songName": "A Whole New World (Aladdin's Theme)",
+    "description": "A magical Disney duet about discovering a new, wondrous world through love.",
+    "decade": "1990s",
+    "youtubeLink": "https://www.youtube.com/watch?v=4UM55ZuZdNo"
+  },
+  {
+    "id": 37,
+    "year": 1995,
+    "artist": "Bruce Springsteen",
+    "songName": "Streets Of Philadelphia",
+    "description": "A somber and haunting theme about isolation and fading away during the AIDS crisis.",
+    "decade": "1990s",
+    "youtubeLink": "https://www.youtube.com/watch?v=4z2DtNW79sQ"
+  },
+  {
+    "id": 38,
+    "year": 1996,
+    "artist": "Seal",
+    "songName": "Kiss From A Rose",
+    "description": "An enigmatic and soaring ballad using poetic metaphors to describe love's powerful effect.",
+    "decade": "1990s",
+    "youtubeLink": "https://www.youtube.com/watch?v=AMD2TwRvuoU"
+  },
+  {
+    "id": 39,
+    "year": 1997,
+    "artist": "Eric Clapton",
+    "songName": "Change The World",
+    "description": "A gentle acoustic pop song expressing the simple desire to be loved by one special person.",
+    "decade": "1990s",
+    "youtubeLink": "https://www.youtube.com/watch?v=kntzQiaFzOQ"
+  },
+  {
+    "id": 40,
+    "year": 1998,
+    "artist": "Shawn Colvin",
+    "songName": "Sunny Came Home",
+    "description": "A folk-rock story-song about a woman seeking revenge by burning down her past.",
+    "decade": "1990s",
+    "youtubeLink": "https://www.youtube.com/watch?v=qfKKBDFCiIA"
+  },
+  {
+    "id": 41,
+    "year": 1999,
+    "artist": "Celine Dion",
+    "songName": "My Heart Will Go On (Love Theme From Titanic)",
+    "description": "The epic, soaring love theme from \"Titanic,\" vowing that love transcends distance and death.",
+    "decade": "1990s",
+    "youtubeLink": "https://www.youtube.com/watch?v=9bFHsd3o1w0"
+  },
+  {
+    "id": 42,
+    "year": 2000,
+    "artist": "Santana ft. Rob Thomas",
+    "songName": "Smooth",
+    "description": "A Latin-rock megahit driven by a smooth guitar riff, describing a dangerously beautiful woman.",
+    "decade": "2000s",
+    "youtubeLink": "https://www.youtube.com/watch?v=6Whgn_iE5uc"
+  },
+  {
+    "id": 43,
+    "year": 2001,
+    "artist": "U2",
+    "songName": "Beautiful Day",
+    "description": "An optimistic rock anthem about finding joy in the simple things, even when all seems lost.",
+    "decade": "2000s",
+    "youtubeLink": "https://www.youtube.com/watch?v=co6WMzDOh1o"
+  },
+  {
+    "id": 44,
+    "year": 2002,
+    "artist": "Alicia Keys",
+    "songName": "Fallin'",
+    "description": "A powerful, piano-driven R&B debut about the complex and conflicting emotions of being in love.",
+    "decade": "2000s",
+    "youtubeLink": "https://www.youtube.com/watch?v=Urdlvw0SSEc"
+  },
+  {
+    "id": 45,
+    "year": 2003,
+    "artist": "Norah Jones",
+    "songName": "Don't Know Why",
+    "description": "A mellow, jazzy-pop hit about lingering regret and indecision in a past relationship.",
+    "decade": "2000s",
+    "youtubeLink": "https://www.youtube.com/watch?v=tO4dxvguQDk"
+  },
+  {
+    "id": 46,
+    "year": 2004,
+    "artist": "Luther Vandross",
+    "songName": "Dance With My Father",
+    "description": "A deeply personal and emotional ballad about wishing for one more dance with a deceased parent.",
+    "decade": "2000s",
+    "youtubeLink": "https://www.youtube.com/watch?v=wmDxJrggie8"
+  },
+  {
+    "id": 47,
+    "year": 2005,
+    "artist": "John Mayer",
+    "songName": "Daughters",
+    "description": "An acoustic plea for parents to be good to their daughters to ensure they can love in the future.",
+    "decade": "2000s",
+    "youtubeLink": "https://www.youtube.com/watch?v=rZLbUIa7exE"
+  },
+  {
+    "id": 48,
+    "year": 2006,
+    "artist": "U2",
+    "songName": "Sometimes You Can't Make It On Your Own",
+    "description": "A powerful rock eulogy from Bono to his late father, acknowledging their complex relationship.",
+    "decade": "2000s",
+    "youtubeLink": "https://www.youtube.com/watch?v=i6nPXae05LA"
+  },
+  {
+    "id": 49,
+    "year": 2007,
+    "artist": "Dixie Chicks",
+    "songName": "Not Ready To Make Nice",
+    "description": "A defiant country-rock anthem of non-apology following political backlash and criticism.",
+    "decade": "2000s",
+    "youtubeLink": "https://www.youtube.com/watch?v=pojL_35QlSI"
+  },
+  {
+    "id": 50,
+    "year": 2008,
+    "artist": "Amy Winehouse",
+    "songName": "Rehab",
+    "description": "A defiant, retro-soul track autobiographically recounting the singer's refusal to go to rehab.",
+    "decade": "2000s",
+    "youtubeLink": "https://www.youtube.com/watch?v=KUmZp8pR1uc"
+  },
+  {
+    "id": 51,
+    "year": 2009,
+    "artist": "Coldplay",
+    "songName": "Viva La Vida",
+    "description": "A baroque pop anthem telling the story of a deposed king reflecting on his lost power.",
+    "decade": "2000s",
+    "youtubeLink": "https://www.youtube.com/watch?v=dvgZkm1xWPE"
+  },
+  {
+    "id": 52,
+    "year": 2010,
+    "artist": "Beyoncé",
+    "songName": "Single Ladies (Put A Ring On It)",
+    "description": "An empowering dance-pop anthem for independent women demanding commitment.",
+    "decade": "2010s",
+    "youtubeLink": "https://www.youtube.com/watch?v=4m1EFMoRFvY"
+  },
+  {
+    "id": 53,
+    "year": 2011,
+    "artist": "Lady A (as Lady Antebellum)",
+    "songName": "Need You Now",
+    "description": "A massive country-pop crossover hit about a late-night, whiskey-fueled call to an ex.",
+    "decade": "2010s",
+    "youtubeLink": "https://www.youtube.com/watch?v=fbq7ZM0du-c"
+  },
+  {
+    "id": 54,
+    "year": 2012,
+    "artist": "Adele",
+    "songName": "Rolling In The Deep",
+    "description": "A fiery, gospel-tinged soul anthem of a scorned lover seeking revenge on an ex.",
+    "decade": "2010s",
+    "youtubeLink": "https://www.youtube.com/watch?v=rYEDA3JcQqw"
+  },
+  {
+    "id": 55,
+    "year": 2013,
+    "artist": "Fun. ft. Janelle Monáe",
+    "songName": "We Are Young",
+    "description": "An epic indie-pop anthem celebrating a moment of reckless, youthful invincibility.",
+    "decade": "2010s",
+    "youtubeLink": "https://www.youtube.com/watch?v=Sv6dMFF_yts"
+  },
+  {
+    "id": 56,
+    "year": 2014,
+    "artist": "Lorde",
+    "songName": "Royals",
+    "description": "A minimalist pop critique of the lavish lifestyles and luxury glorified in modern pop music.",
+    "decade": "2010s",
+    "youtubeLink": "https://www.youtube.com/watch?v=nlcIKh6sBtc"
+  },
+  {
+    "id": 57,
+    "year": 2015,
+    "artist": "Sam Smith",
+    "songName": "Stay With Me (Darkchild Version)",
+    "description": "A soulful, gospel-influenced plea for a one-night stand to stay for emotional connection.",
+    "decade": "2010s",
+    "youtubeLink": "https://www.youtube.com/watch?v=pB-5XG-DbAA"
+  },
+  {
+    "id": 58,
+    "year": 2016,
+    "artist": "Ed Sheeran",
+    "songName": "Thinking Out Loud",
+    "description": "A modern wedding-dance classic about loving someone through old age.",
+    "decade": "2010s",
+    "youtubeLink": "https://www.youtube.com/watch?v=lp-EO5I60KA"
+  },
+  {
+    "id": 59,
+    "year": 2017,
+    "artist": "Adele",
+    "songName": "Hello",
+    "description": "A powerhouse piano ballad about regret and trying to apologize for a past heartbreak.",
+    "decade": "2010s",
+    "youtubeLink": "https://www.youtube.com/watch?v=YQHsXMglC9A"
+  },
+  {
+    "id": 60,
+    "year": 2018,
+    "artist": "Bruno Mars",
+    "songName": "That's What I Like",
+    "description": "A fun, upbeat R&B track listing all the luxurious things the singer wants to lavish on his partner.",
+    "decade": "2010s",
+    "youtubeLink": "https://www.youtube.com/watch?v=PMivT7MJ41M"
+  },
+  {
+    "id": 61,
+    "year": 2019,
+    "artist": "Childish Gambino",
+    "songName": "This Is America",
+    "description": "A jarring social commentary contrasting joyful melodies with stark depictions of gun violence in America.",
+    "decade": "2010s",
+    "youtubeLink": "https://www.youtube.com/watch?v=VYOjWnS4cMY"
+  },
+  {
+    "id": 62,
+    "year": 2020,
+    "artist": "Billie Eilish",
+    "songName": "Bad Guy",
+    "description": "A minimalist, bass-driven track that subverts pop tropes with a deadpan, villainous persona.",
+    "decade": "2020s",
+    "youtubeLink": "https://www.youtube.com/watch?v=DyDfgMOUjCI"
+  },
+  {
+    "id": 63,
+    "year": 2021,
+    "artist": "H.E.R.",
+    "songName": "I Can't Breathe",
+    "description": "A powerful and direct protest song responding to police brutality and systemic racial injustice.",
+    "decade": "2020s",
+    "youtubeLink": "https://www.youtube.com/watch?v=IRZWiqBHYaY"
+  },
+  {
+    "id": 64,
+    "year": 2022,
+    "artist": "Silk Sonic",
+    "songName": "Leave The Door Open",
+    "description": "A smooth, '70s-inspired slow jam making a seductive invitation to a lover.",
+    "decade": "2020s",
+    "youtubeLink": "https://www.youtube.com/watch?v=adLGHcj_fmA"
+  },
+  {
+    "id": 65,
+    "year": 2023,
+    "artist": "Bonnie Raitt",
+    "songName": "Just Like That",
+    "description": "A narrative folk song telling a profound story of loss, grief, and a surprising act of grace.",
+    "decade": "2020s",
+    "youtubeLink": "https://www.youtube.com/watch?v=Skd0XR3twCA"
+  },
+  {
+    "id": 66,
+    "year": 2024,
+    "artist": "Billie Eilish",
+    "songName": "What Was I Made For?",
+    "description": "A soft, existential ballad from the \"Barbie\" movie questioning one's purpose and identity.",
+    "decade": "2020s",
+    "youtubeLink": "https://www.youtube.com/watch?v=dpnTd9Dx2OM"
+  },
+  {
+    "id": 67,
+    "year": 2025,
+    "artist": "Kendrick Lamar",
+    "songName": "Not Like Us",
+    "description": "A high-energy West Coast anthem and diss track celebrating cultural identity and unity.",
+    "decade": "2020s",
+    "youtubeLink": "https://www.youtube.com/watch?v=H58vbez_m4E"
+  }
+]

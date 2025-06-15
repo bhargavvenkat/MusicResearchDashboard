@@ -327,6 +327,15 @@ body.light-mode .back-link:hover {
     box-shadow: 0 5px 20px -5px rgba(0, 0, 0, 0.1);
 }
 
+body.light-mode .slider .moon-icon {
+    stroke: #fff; /* White moon icon in light mode */
+}
+
+/* Change slider background to purple in light mode for the default (moon/dark content) state */
+body.light-mode input:not(:checked) + .slider {
+    background-color: var(--accent-primary); /* Deep purple */
+}
+
 @keyframes sparkleSwipe {
   0% { left: -100%; }
   50% { left: 100%; }

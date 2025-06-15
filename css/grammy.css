@@ -1,0 +1,338 @@
+/* --- Global Variables & Theme Setup --- */
+:root {
+    /* Color Palette (Dark Mode Default) */
+    --bg-color: #0D1117;
+    --card-bg-color: #161B22;
+    --border-color: #30363D;
+    --text-color: #E6EDF3;
+    --text-muted: #8B949E;
+    --accent-primary: #A78BFA;   /* A nice violet */
+    --accent-secondary: #7DD3FC; /* A sky blue */
+
+    /* Typography */
+    --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    --font-mono: 'JetBrains Mono', 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: var(--font-primary);
+    margin: 0;
+    padding: 2rem 1rem;
+}
+
+/* Remove default underlines from links */
+a {
+    text-decoration: none;
+    color: inherit; /* Makes links inherit text color from parent */
+}
+
+/* --- Page Header --- */
+.page-header {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 3rem auto;
+}
+.page-header h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin: 0 0 0.25rem 0;
+    background: linear-gradient(90deg, var(--accent-primary), var(--accent-secondary));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.page-header h2 {
+    font-size: 1.25rem;
+    color: var(--text-muted);
+    margin: 0;
+    font-weight: 500;
+}
+.page-header .year-range {
+    font-family: var(--font-mono);
+}
+.page-header .intro-text {
+    margin-top: 1rem;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--text-muted);
+}
+
+/* --- Utility --- */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+/* --- Filter Controls --- */
+.filter-controls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+    opacity: 0; /* Animation entry */
+}
+
+#song-search {
+    background-color: var(--card-bg-color);
+    border: 1px solid var(--border-color);
+    color: var(--text-color);
+    font-family: var(--font-primary);
+    font-size: 1rem;
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    width: 320px;
+    box-sizing: border-box;
+}
+
+#song-search:focus {
+    outline: none;
+    border-color: var(--accent-secondary);
+}
+
+.filter-buttons {
+    display: flex;
+    gap: 0.5rem;
+    background-color: var(--card-bg-color);
+    padding: 0.5rem;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+}
+
+.filter-btn {
+    background-color: transparent;
+    border: none;
+    color: var(--text-muted);
+    font-family: var(--font-primary);
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 0.9rem;
+}
+
+.filter-btn:hover {
+    color: var(--text-color);
+    background-color: rgba(139, 148, 158, 0.1);
+}
+
+.filter-btn.active {
+    background-color: var(--accent-secondary);
+    color: #0D1117;
+    font-weight: 700;
+}
+
+/* --- Grammy Grid & Cards --- */
+.grammy-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.grammy-card {
+    background: var(--card-bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    opacity: 0; /* For animation */
+}
+
+.grammy-card::before { /* For the hover glow */
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    border-radius: 12px;
+    border: 1px solid transparent;
+    background: linear-gradient(120deg, var(--accent-primary), var(--accent-secondary)) border-box;
+    -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: destination-out;
+    mask-composite: exclude;
+    z-index: -1;
+    opacity: 0;
+}
+
+.grammy-card h2 {
+    color: var(--accent-primary);
+    margin: 0 0 0.5rem 0;
+    font-size: 1.5rem;
+}
+
+.grammy-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font-mono);
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.grammy-description p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin: 0;
+    color: var(--text-color);
+}
+
+/* --- UX Enhancements: Skeleton Loader --- */
+.card-placeholder {
+    background: var(--card-bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 1.5rem;
+}
+.card-placeholder .placeholder-line {
+    background: var(--border-color);
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    height: 1em;
+}
+.card-placeholder .placeholder-line.title { width: 60%; height: 1.5em; margin-bottom: 1.5rem; }
+.card-placeholder .placeholder-line.meta { width: 90%; height: 0.9em; padding-bottom: 1rem; border-bottom: 1px solid var(--border-color); }
+.card-placeholder .placeholder-line.short { width: 80%; }
+.card-placeholder .placeholder-line.shorter { width: 40%; }
+
+
+/* --- Light Mode Overrides --- */
+body.light-mode {
+    --bg-color: #F9FAFB;
+    --text-color: #11182C;
+    --text-muted: #4B5563;
+    --border-color: #E5E7EB;
+    /* Note: --card-bg-color is handled differently for the special theme */
+}
+body.light-mode #song-search {
+    background-color: #fff;
+    color: #11182C;
+    border-color: #E5E7EB;
+}
+body.light-mode .filter-buttons {
+    background-color: #fff;
+    border-color: #E5E7EB;
+}
+body.light-mode .filter-btn { color: #4B5563; }
+body.light-mode .filter-btn:hover {
+    color: #11182C;
+    background-color: #F3F4F6;
+}
+body.light-mode .filter-btn.active {
+    background-color: var(--accent-primary);
+    color: #fff;
+}
+/* This preserves the special "purple card" theme from your original inspiration */
+body.light-mode .grammy-card {
+    background-color: #2A1A4E;
+    border-color: #4C1D95;
+}
+body.light-mode .grammy-card h2 { color: #fff; }
+body.light-mode .grammy-card .grammy-meta {
+    color: rgba(255, 255, 255, 0.6);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+}
+body.light-mode .grammy-card .grammy-description p { color: rgba(255, 255, 255, 0.9); }
+
+body.light-mode .card-placeholder {
+    background-color: #fff;
+    border-color: #E5E7EB;
+}
+body.light-mode .card-placeholder .placeholder-line { background-color: #F3F4F6; }
+
+
+/* --- UX Enhancements: Animations & Transitions --- */
+@media (prefers-reduced-motion: no-preference) {
+    #song-search { transition: all 0.3s ease; }
+    .filter-btn { transition: all 0.3s ease; }
+    .filter-btn:active { transform: scale(0.96); }
+
+    .grammy-card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.4s ease, transform 0.4s ease;
+        animation: card-fade-in 0.5s ease forwards;
+    }
+    
+    /* Staggered load-in animation */
+    .grammy-card:nth-child(1) { animation-delay: 0.05s; }
+    .grammy-card:nth-child(2) { animation-delay: 0.1s; }
+    .grammy-card:nth-child(3) { animation-delay: 0.15s; }
+    .grammy-card:nth-child(4) { animation-delay: 0.2s; }
+    .grammy-card:nth-child(5) { animation-delay: 0.25s; }
+    .grammy-card:nth-child(6) { animation-delay: 0.3s; }
+
+    /* Class for graceful filtering */
+    .grammy-card.is-hidden {
+        opacity: 0 !important;
+        transform: scale(0.95);
+        pointer-events: none;
+        height: 0;
+        padding: 0;
+        margin: 0;
+        border: 0;
+    }
+
+    .grammy-card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 0 35px -10px rgba(125, 211, 252, 0.2);
+    }
+
+    .grammy-card::before { transition: opacity 0.3s ease; }
+    .grammy-card:hover::before { opacity: 1; }
+    
+    body.light-mode .grammy-card { box-shadow: 0 6px 20px rgba(42, 26, 78, 0.4); }
+    body.light-mode .grammy-card:hover { box-shadow: 0 8px 30px rgba(42, 26, 78, 0.6); }
+
+    .filter-controls { animation: card-fade-in 0.6s 0.5s ease-out forwards; }
+    
+    .card-placeholder { overflow: hidden; position: relative; }
+    .card-placeholder::after {
+        content: '';
+        position: absolute;
+        top: 0; left: -150%; width: 150%; height: 100%;
+        background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.05), transparent);
+        animation: shimmer 1.5s infinite;
+    }
+    body.light-mode .card-placeholder::after {
+        background: linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.04), transparent);
+    }
+
+    @keyframes card-fade-in {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+    
+    @keyframes shimmer {
+        to { left: 150%; }
+    }
+}
+
+/* --- Responsive Adjustments --- */
+@media (max-width: 768px) {
+    body { padding: 1rem; }
+    .page-header h1 { font-size: 2rem; }
+    .page-header h2 { font-size: 1.1rem; }
+}
+
+@media (max-width: 480px) {
+    .filter-controls {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 1rem;
+    }
+    #song-search { width: 100%; }
+    .filter-buttons { width: 100%; justify-content: center; }
+    .filter-btn { flex-grow: 1; text-align: center; } /* Makes buttons distribute space */
+}

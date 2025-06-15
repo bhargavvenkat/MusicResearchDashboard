@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grammy Awards: Song of the Year Archive</title>
+    <link rel="stylesheet" href="../css/grammy.css">
+</head>
+<body>
+
+    <main>
+        <header class="page-header">
+            <h1>Grammy Awards</h1>
+            <h2>Song of the Year Archive <span class="year-range">(1959 - 2025)</span></h2>
+        
+        </header>
+
+        <div class="filter-controls">
+            <label for="song-search" class="visually-hidden">Search songs</label>
+            <input 
+                type="search" 
+                id="song-search" 
+                placeholder="Search by song, artist, or year..."
+                aria-label="Search by song title, artist name, or year"
+            >
+            <div class="filter-buttons" id="decade-filters"></div>
+        </div>
+
+        <div class="grammy-grid" id="grammy-grid"></div>
+    </main>
+
+    <script src="../js/grammy.js" defer></script>
+</body>
+</html>
